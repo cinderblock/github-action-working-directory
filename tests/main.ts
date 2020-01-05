@@ -1,4 +1,4 @@
-import { wait } from '../src/wait';
+import { wait } from '../src/utils/wait';
 import process from 'process';
 import cp from 'child_process';
 import path from 'path';
