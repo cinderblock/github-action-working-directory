@@ -4,12 +4,12 @@
     "name" : "working-directory",
     "children" : [ {
       "name" : "throws invalid number",
-      "uid" : "42fc08b2efb01290",
+      "uid" : "542ee1cafcf051e1",
       "parentUid" : "3b2e1f415ef65ca765eca6d2b7d6f9fb",
       "status" : "passed",
       "time" : {
-        "start" : 1578225195435,
-        "stop" : 1578225195439,
+        "start" : 1578227423216,
+        "stop" : 1578227423220,
         "duration" : 4
       },
       "flaky" : false,
@@ -17,12 +17,12 @@
       "parameters" : [ ]
     }, {
       "name" : "wait 500 ms",
-      "uid" : "7637bee227b080c0",
+      "uid" : "1cd926e11ba76701",
       "parentUid" : "3b2e1f415ef65ca765eca6d2b7d6f9fb",
       "status" : "passed",
       "time" : {
-        "start" : 1578225195439,
-        "stop" : 1578225195941,
+        "start" : 1578227423220,
+        "stop" : 1578227423722,
         "duration" : 502
       },
       "flaky" : false,
@@ -30,13 +30,13 @@
       "parameters" : [ ]
     }, {
       "name" : "test runs",
-      "uid" : "cb1e69acb5ec813e",
+      "uid" : "bfeb8f15436233aa",
       "parentUid" : "3b2e1f415ef65ca765eca6d2b7d6f9fb",
       "status" : "failed",
       "time" : {
-        "start" : 1578225195941,
-        "stop" : 1578225195984,
-        "duration" : 43
+        "start" : 1578227423722,
+        "stop" : 1578227423762,
+        "duration" : 40
       },
       "flaky" : false,
       "newFailed" : false,

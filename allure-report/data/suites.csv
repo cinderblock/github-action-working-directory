@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sun Jan 05 11:53:15 UTC 2020","Sun Jan 05 11:53:15 UTC 2020","43","","working-directory","","working-directory","test runs","test runs",""
-"passed","Sun Jan 05 11:53:15 UTC 2020","Sun Jan 05 11:53:15 UTC 2020","4","","working-directory","","working-directory","throws invalid number","throws invalid number",""
-"passed","Sun Jan 05 11:53:15 UTC 2020","Sun Jan 05 11:53:15 UTC 2020","502","","working-directory","","working-directory","wait 500 ms","wait 500 ms",""
+"passed","Sun Jan 05 12:30:23 UTC 2020","Sun Jan 05 12:30:23 UTC 2020","4","","working-directory","","working-directory","throws invalid number","throws invalid number",""
+"passed","Sun Jan 05 12:30:23 UTC 2020","Sun Jan 05 12:30:23 UTC 2020","502","","working-directory","","working-directory","wait 500 ms","wait 500 ms",""
+"failed","Sun Jan 05 12:30:23 UTC 2020","Sun Jan 05 12:30:23 UTC 2020","40","","working-directory","","working-directory","test runs","test runs",""

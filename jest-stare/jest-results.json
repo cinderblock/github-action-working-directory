@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578225192416,
+  "startTime": 1578227420392,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578225196003,
-        "start": 1578225192464
+        "end": 1578227423781,
+        "start": 1578227420435
       },
       "snapshot": {
         "added": 0,
@@ -78,7 +78,7 @@
           "ancestorTitles": [
             "working-directory"
           ],
-          "duration": 43,
+          "duration": 40,
           "failureMessages": [
             "Error: Command failed: node /home/runner/work/github-action-working-directory/github-action-working-directory/lib/main.js\ninternal/modules/cjs/loader.js:800\n    throw err;\n    ^\n\nError: Cannot find module '/home/runner/work/github-action-working-directory/github-action-working-directory/lib/main.js'\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:690:27)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10)\n    at internal/main/run_main_module.js:17:11 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\n    at checkExecSyncError (child_process.js:621:11)\n    at Object.execSync (child_process.js:657:15)\n    at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/main.ts:28:20)\n    at Object.asyncJestTest (/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-jasmine2/build/queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-jasmine2/build/queueRunner.js:73:41"
           ],
