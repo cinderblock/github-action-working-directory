@@ -4,10 +4,10 @@
     "uid" : "b6f4ae50d1a4312d5e98878cc87436ee",
     "name" : "working-directory",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 3
     }

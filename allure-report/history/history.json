@@ -9,31 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2b8377a8be5ab379",
+      "uid" : "42fc08b2efb01290",
       "status" : "passed",
       "time" : {
-        "start" : 1578223256099,
-        "stop" : 1578223256105,
-        "duration" : 6
+        "start" : 1578225195435,
+        "stop" : 1578225195439,
+        "duration" : 4
       }
     } ]
   },
   "bd088edb760bd1dc23364f1db82971b2" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4397c02c2154e0b5",
-      "status" : "passed",
+      "uid" : "cb1e69acb5ec813e",
+      "status" : "failed",
+      "statusDetails" : "Error: Command failed: node /home/runner/work/github-action-working-directory/github-action-working-directory/lib/main.js\n                internal/modules/cjs/loader.js:800\n                    throw err;\n                    ^\n                \n                Error: Cannot find module '/home/runner/work/github-action-working-directory/github-action-working-directory/lib/main.js'\n                    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)\n                    at Function.Module._load (internal/modules/cjs/loader.js:690:27)\n                    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10)\n                    at internal/main/run_main_module.js:17:11 {\n                  code: 'MODULE_NOT_FOUND',\n                  requireStack: []\n                }\n                ",
       "time" : {
-        "start" : 1578223256608,
-        "stop" : 1578223256678,
-        "duration" : 70
+        "start" : 1578225195941,
+        "stop" : 1578225195984,
+        "duration" : 43
       }
     } ]
   },
@@ -47,11 +48,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1e4a9578719d4786",
+      "uid" : "7637bee227b080c0",
       "status" : "passed",
       "time" : {
-        "start" : 1578223256105,
-        "stop" : 1578223256607,
+        "start" : 1578225195439,
+        "stop" : 1578225195941,
         "duration" : 502
       }
     } ]

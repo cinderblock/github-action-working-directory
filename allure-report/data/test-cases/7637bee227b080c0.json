@@ -1,12 +1,12 @@
 {
-  "uid" : "4397c02c2154e0b5",
-  "name" : "test runs",
-  "fullName" : "working-directory.test runs",
-  "historyId" : "bd088edb760bd1dc23364f1db82971b2",
+  "uid" : "7637bee227b080c0",
+  "name" : "wait 500 ms",
+  "fullName" : "working-directory.wait 500 ms",
+  "historyId" : "28b9e27b63d3e7dde860ad43e83c88d3",
   "time" : {
-    "start" : 1578223256608,
-    "stop" : 1578223256678,
-    "duration" : 70
+    "start" : 1578225195439,
+    "stop" : 1578225195941,
+    "duration" : 502
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,7 +23,7 @@
     "value" : "working-directory"
   }, {
     "name" : "testMethod",
-    "value" : "test runs"
+    "value" : "wait 500 ms"
   }, {
     "name" : "package",
     "value" : "working-directory"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4397c02c2154e0b5.json",
+  "source" : "7637bee227b080c0.json",
   "parameterValues" : [ ]
 }
