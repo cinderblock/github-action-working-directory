@@ -29,7 +29,8 @@
     "url": "git+https://github.com/cinderblock/github-action-working-directory.git"
   },
   "dependencies": {
-    "@actions/core": "^1.2.0"
+    "@actions/core": "^1.2.0",
+    "@actions/io": "^1.0.1"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",

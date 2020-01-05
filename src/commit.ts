@@ -1,16 +1,19 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 // Other packages https://github.com/actions/toolkit/blob/master/README.md#packages
 import core from '@actions/core';
 
-import { wait } from './utils/wait';
-
 async function run(): Promise<void> {
   try {
-    const ms: string = core.getInput('milliseconds');
-    core.debug(`Waiting ${ms} milliseconds ...`);
+    core.debug('Reading inputs');
 
-    core.debug(new Date().toTimeString());
-    await wait(parseInt(ms, 10));
-    core.debug(new Date().toTimeString());
+    const branch = core.getInput('branch', { required: true });
+    const repo = core.getInput('repo', { required: true });
+    const dir = core.getInput('working-directory', { required: true });
+    const message = core.getInput('commit-message', { required: true });
+    const name = core.getInput('commit-name', { required: true });
+    const email = core.getInput('commit-email', { required: true });
+    const unchanged = core.getInput('commit-unchanged', { required: true });
 
     core.setOutput('time', new Date().toTimeString());
   } catch (error) {
