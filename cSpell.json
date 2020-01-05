@@ -1,0 +1,28 @@
+{
+  "version": "0.1",
+  "language": "en",
+  "ignorePaths": [
+    ".git",
+    "node_modules",
+    "coverage",
+    "dist",
+    "lib",
+    "public",
+    "allure-results",
+    "package-lock.json"
+  ],
+  "words": [
+    "camelcase",
+    "cinderblock",
+    "commandline",
+    "editorconfig",
+    "esbenp",
+    "gitignore",
+    "Interop",
+    "peaceiris",
+    "streetsidesoftware",
+    "Tacklind",
+    "useremail"
+  ],
+  "flagWords": []
+}

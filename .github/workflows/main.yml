@@ -1,0 +1,143 @@
+name: Main
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  check-format:
+    name: Check - Format
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v1
+
+      - name: Make npm colorful
+        run: echo "color = always" >> .npmrc
+
+      - name: Build
+        run: npm install
+
+      - name: Prettier
+        run: npm run format-check -- --color
+
+  check-lint:
+    name: Check - ESLint
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v1
+
+      - name: Make npm colorful
+        run: echo "color = always" >> .npmrc
+
+      - name: Build
+        run: npm install
+
+      - name: Prettier
+        run: npm run lint -- --color
+
+  check-spelling:
+    name: Check - Spelling
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v1
+
+      - name: Make npm colorful
+        run: echo "color = always" >> .npmrc
+
+      - name: Build
+        run: npm install
+
+      - name: Spelling
+        run: npm run spellcheck -- --color
+
+  self-test-and-use: # make sure the action works on a clean machine without building
+    name: Test Coverage and Generate Reports
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v1
+
+      - name: Make npm colorful
+        run: echo "color = always" >> .npmrc
+
+      - name: Install Dependencies and Build
+        run: npm install
+
+        # Test with self
+      - uses: ./
+        # This step will copy coverage reports (and others) to the specified historical branch
+        # and use it to generate some pretty charts
+        with:
+          branch: allure-results/${{ github.ref }}
+          working-directory: allure-results
+
+        # Run Tests
+      - name: Run Tests
+        run: npm test -- --color
+
+        # DEBUG
+      - name: 'Debug: List files'
+        run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print
+
+      - name: Tell GitHub to not use Jekyll
+        working-directory: public
+        run: touch .nojekyll
+
+      - name: Generate Allure Report
+        run: npm run allure
+
+      # Publish to gh-pages
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          # PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: public
+        with:
+          emptyCommits: false
+          username: 'GitHub Action Static Build'
+          #useremail: "actions@github.com"
+
+  publish:
+    if: github.event_name == 'push' && github.ref == 'refs/tags/*'
+    needs: [self-test-and-use, check-format, check-lint, check-spelling]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disable WIP Publish Script
+        run: 'false' # WIP
+
+      - name: Checkout latest code
+        uses: actions/checkout@v1
+
+      - name: Make npm colorful
+        run: echo "color = always" >> .npmrc
+
+      - name: Install Dependencies and Build
+        run: npm install
+
+      - name: Remove Development (and Build) Dependencies
+        run: npm prune --production
+
+      - name: Don't ignore node_modules for GitHub publish
+        run: rm .gitignore
+
+      - name: Commit built node_modules so that action is standalone
+        run: git add node_modules
+
+      - name: Create new commit with Production Dependencies
+        run: 'git commit -m "Production: Include Dependencies"'
+
+      - name: Push latest release to GitHub
+        run: git push origin releases/v1 #TODO: use tag
+      # https://github.com/actions/toolkit/blob/master/docs/action-versioning.md

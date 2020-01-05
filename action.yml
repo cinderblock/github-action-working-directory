@@ -1,10 +1,36 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+# https://help.github.com/en/articles/metadata-syntax-for-github-actions
+
+name: Working Directory
+description: Clone a repo into a working directory, modify it, and automatically commit the changes back to the repository
+author: Cameron Tacklind <cameron@tacklind.com>
 inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+  branch:
+    required: true
+    description: Which branch to work with
+  repo:
+    required: false
+    description: Which repository to work with
+    default: '' # Current
+  working-directory:
+    required: true
+    description: Which folder to work in
+  commit-message:
+    required: false
+    description: Commit message to use at the end
+    default: GitHub Actions
+  commit-name:
+    required: false
+    description: '"user.name" to use for the commit'
+    default: GitHub Actions
+  commit-email:
+    required: false
+    description: '"user.email" to use for the commit'
+    default: actions@github.com
+  commit-unchanged:
+    required: false
+    description: Should we create a new commit if the files are unchanged
+    default: ''
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'lib/main.js'
+  post: 'lib/commit.js'

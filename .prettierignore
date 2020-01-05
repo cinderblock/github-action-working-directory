@@ -1,3 +1,11 @@
 dist/
 lib/
 node_modules/
+
+allure-results/
+public/
+
+# No Parser
+.gitignore
+.editorconfig
+.prettierignore
