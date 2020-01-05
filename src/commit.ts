@@ -33,7 +33,7 @@ async function run(): Promise<void> {
 
     core.debug('index add all');
     const indexAddRes = await index.addAll(
-      ref,
+      branch,
       undefined,
       (path: string, patternMatch: string) => {
         core.debug(`index add:${{ path, patternMatch }.toString()}`);
@@ -51,12 +51,12 @@ async function run(): Promise<void> {
     core.debug('index write tree');
     const tree = await index.writeTree();
 
-    const branch = await repository.getBranch(ref);
+    const workingBranch = await repository.getBranch(branch);
 
-    const parents = [branch.target()];
+    const parents = [workingBranch.target()];
 
     const commit = await repository.createCommit(
-      ref,
+      branch,
       author,
       committer,
       message,
@@ -68,7 +68,7 @@ async function run(): Promise<void> {
 
     const remote = await repository.getRemote('origin');
 
-    await remote.push([ref]);
+    await remote.push([branch]);
 
     core.setOutput('time', new Date().toTimeString());
   } catch (error) {
