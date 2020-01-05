@@ -1,14 +1,13 @@
 // Other packages https://github.com/actions/toolkit/blob/master/README.md#packages
 import * as core from '@actions/core';
 import NodeGit from 'nodegit';
+import { readInputs } from './utils/inputs';
 
 async function run(): Promise<void> {
   try {
     core.debug('Reading inputs');
 
-    const branch = core.getInput('branch', { required: true });
-    const repo = core.getInput('repo');
-    const dir = core.getInput('working-directory', { required: true });
+    const { branch, repo, dir } = readInputs();
 
     const repoUrl = repo;
 
