@@ -8,13 +8,13 @@ async function run(): Promise<void> {
   try {
     core.debug('Reading inputs');
 
-    const ref = core.getInput('branch', { required: true });
-    const repo = core.getInput('repo', { required: true });
+    const branch = core.getInput('branch', { required: true });
+    const repo = core.getInput('repo');
     const dir = core.getInput('working-directory', { required: true });
-    const message = core.getInput('commit-message', { required: true });
-    const name = core.getInput('commit-name', { required: true });
-    const email = core.getInput('commit-email', { required: true });
-    const unchanged = core.getInput('commit-unchanged', { required: true });
+    const message = core.getInput('commit-message');
+    const name = core.getInput('commit-name');
+    const email = core.getInput('commit-email');
+    const unchanged = core.getInput('commit-unchanged');
 
     core.debug('open repo');
     const repository = await NodeGit.Repository.open(`${dir}/.git`);

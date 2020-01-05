@@ -7,7 +7,7 @@ async function run(): Promise<void> {
     core.debug('Reading inputs');
 
     const branch = core.getInput('branch', { required: true });
-    const repo = core.getInput('repo', { required: true });
+    const repo = core.getInput('repo');
     const dir = core.getInput('working-directory', { required: true });
 
     const repoUrl = repo;
