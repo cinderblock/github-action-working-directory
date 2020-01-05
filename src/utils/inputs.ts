@@ -14,11 +14,19 @@ export function readInputs(): Inputs {
   core.debug('Reading inputs');
 
   const branch = core.getInput('branch', { required: true });
-  const repo = core.getInput('repo');
+
+  const repo =
+    core.getInput('repo') ||
+    `https://github.com/${process.env.GITHUB_REPOSITORY}`;
+
   const dir = core.getInput('working-directory', { required: true });
+
   const message = core.getInput('commit-message');
+
   const name = core.getInput('commit-name');
+
   const email = core.getInput('commit-email');
+
   const unchanged = core.getInput('commit-unchanged');
 
   const inputs: Inputs = {
