@@ -73,7 +73,8 @@ jobs:
         run: npm install
 
         # Test with self
-      - uses: ./
+      - name: Use self as action to test
+        uses: ./
         # This step will copy coverage reports (and others) to the specified historical branch
         # and use it to generate some pretty charts
         with:
