@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 // Other packages https://github.com/actions/toolkit/blob/master/README.md#packages
-import core from '@actions/core';
+import * as core from '@actions/core';
 import NodeGit from 'nodegit';
 
 async function run(): Promise<void> {
