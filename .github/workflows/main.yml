@@ -83,7 +83,7 @@ jobs:
 
         # Run Tests
       - name: Run Tests
-        run: npm test -- --color
+        run: 'npm test -- --color | :'
 
         # DEBUG
       - name: 'Debug: List files'
