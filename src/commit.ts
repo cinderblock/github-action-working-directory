@@ -46,7 +46,7 @@ async function run(): Promise<void> {
     core.debug(`index add result: ${indexAddRes}`);
 
     core.debug('index write');
-    await index.write();
+    index.write();
 
     core.debug('index write tree');
     const tree = await index.writeTree();
