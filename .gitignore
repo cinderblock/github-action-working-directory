@@ -95,6 +95,6 @@ typings/
 Thumbs.db
 
 # Ignore built ts files
-lib/
-public/
-allure-results/
+/lib/
+/public/
+/allure-results/

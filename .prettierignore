@@ -1,9 +1,7 @@
-dist/
-lib/
-node_modules/
-
-allure-results/
-public/
+/lib/
+/public/
+/node_modules/
+/allure-results/
 
 # No Parser
 .gitignore
