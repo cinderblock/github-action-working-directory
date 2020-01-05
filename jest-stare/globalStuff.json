@@ -1,0 +1,75 @@
+{
+  "bail": 0,
+  "changedFilesWithAncestor": false,
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**/*.ts"
+  ],
+  "coverageDirectory": "/home/runner/work/github-action-working-directory/github-action-working-directory/public/coverage",
+  "coverageReporters": [
+    "json",
+    "text",
+    "lcov",
+    "clover"
+  ],
+  "coverageThreshold": null,
+  "detectLeaks": false,
+  "detectOpenHandles": false,
+  "errorOnDeprecated": false,
+  "expand": false,
+  "filter": null,
+  "globalSetup": null,
+  "globalTeardown": null,
+  "json": false,
+  "listTests": false,
+  "maxConcurrency": 5,
+  "maxWorkers": 1,
+  "noStackTrace": false,
+  "nonFlagArgs": [],
+  "notify": false,
+  "notifyMode": "failure-change",
+  "passWithNoTests": false,
+  "projects": null,
+  "reporters": [
+    [
+      "default",
+      {}
+    ],
+    [
+      "/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-github-reporter/dist/index.js",
+      {}
+    ],
+    [
+      "/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-stare/lib/index.js",
+      {
+        "resultDir": "public/jest-stare/",
+        "reportTitle": "jest-stare!",
+        "coverageLink": "../coverage/lcov-report/index.html",
+        "jestStareConfigJson": "jest-stare.json",
+        "jestGlobalConfigJson": "globalStuff.json",
+        "additionalResultsProcessors": [],
+        "resultHtml": "index.html",
+        "resultJson": "jest-results.json"
+      }
+    ],
+    [
+      "/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-html-reporters/index.js",
+      {
+        "filename": "public/jest-html-reporters.html",
+        "expand": true
+      }
+    ]
+  ],
+  "rootDir": "/home/runner/work/github-action-working-directory/github-action-working-directory",
+  "runTestsByPath": false,
+  "skipFilter": false,
+  "testFailureExitCode": 1,
+  "testPathPattern": "",
+  "testResultsProcessor": null,
+  "testSequencer": "/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/@jest/test-sequencer/build/index.js",
+  "updateSnapshot": "new",
+  "useStderr": false,
+  "verbose": true,
+  "watch": false,
+  "watchman": true
+}

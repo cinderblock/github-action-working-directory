@@ -1,0 +1,46 @@
+{
+  "uid" : "6464e2e890a6797b",
+  "name" : "wait 500 ms",
+  "fullName" : "working-directory.wait 500 ms",
+  "historyId" : "28b9e27b63d3e7dde860ad43e83c88d3",
+  "time" : {
+    "start" : 1578223051232,
+    "stop" : 1578223051733,
+    "duration" : 501
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "working-directory"
+  }, {
+    "name" : "testClass",
+    "value" : "working-directory"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait 500 ms"
+  }, {
+    "name" : "package",
+    "value" : "working-directory"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6464e2e890a6797b.json",
+  "parameterValues" : [ ]
+}

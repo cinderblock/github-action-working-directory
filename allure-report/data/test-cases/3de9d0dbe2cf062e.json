@@ -1,0 +1,46 @@
+{
+  "uid" : "3de9d0dbe2cf062e",
+  "name" : "test runs",
+  "fullName" : "working-directory.test runs",
+  "historyId" : "bd088edb760bd1dc23364f1db82971b2",
+  "time" : {
+    "start" : 1578223051733,
+    "stop" : 1578223051807,
+    "duration" : 74
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "working-directory"
+  }, {
+    "name" : "testClass",
+    "value" : "working-directory"
+  }, {
+    "name" : "testMethod",
+    "value" : "test runs"
+  }, {
+    "name" : "package",
+    "value" : "working-directory"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3de9d0dbe2cf062e.json",
+  "parameterValues" : [ ]
+}

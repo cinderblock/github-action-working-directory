@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 05 11:17:31 UTC 2020","Sun Jan 05 11:17:31 UTC 2020","4","","working-directory","","working-directory","throws invalid number","throws invalid number",""
+"passed","Sun Jan 05 11:17:31 UTC 2020","Sun Jan 05 11:17:31 UTC 2020","74","","working-directory","","working-directory","test runs","test runs",""
+"passed","Sun Jan 05 11:17:31 UTC 2020","Sun Jan 05 11:17:31 UTC 2020","501","","working-directory","","working-directory","wait 500 ms","wait 500 ms",""
