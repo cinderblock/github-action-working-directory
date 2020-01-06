@@ -98,7 +98,6 @@ jobs:
         # Run Tests
       - name: Run Tests
         run: npm test -- --color
-        continue-on-error: true
 
       - name: ---- Files after coverage test
         uses: cinderblock/github-action-debug-list-files@v1
