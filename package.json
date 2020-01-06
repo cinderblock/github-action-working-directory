@@ -16,9 +16,8 @@
     "cache",
     "push"
   ],
-  "main": "src/main.ts",
   "scripts": {
-    "build": "ncc build && cp src/action.yml dist/",
+    "build": "ncc build src/clone.ts -o dist/clone && ncc build src/commit.ts -o dist/commit && cp src/action.yml dist/",
     "lint": "eslint \"**/*\"",
     "format": "prettier \"**/*\"",
     "spellcheck": "cspell \"**/*\"",
