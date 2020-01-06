@@ -1,22 +1,16 @@
 // Other packages https://github.com/actions/toolkit/blob/master/README.md#packages
 import * as core from '@actions/core';
-import NodeGit from 'nodegit';
 import { readInputs } from './utils/inputs';
+import { clone } from './utils/clone';
 
 async function run(): Promise<void> {
   try {
-    core.debug('Reading inputs');
+    const { branch, repo: repoUrl, dir } = readInputs();
+    const { debug } = core;
 
-    const { branch, repo, dir } = readInputs();
+    const ref = clone({ branch, repoUrl, dir, debug });
 
-    const repoUrl = repo;
-
-    core.debug('clone repo');
-    const repository = await NodeGit.Clone.clone(repoUrl, dir);
-
-    const ref = await repository.checkoutBranch(branch);
-
-    core.setOutput('Cloned', ref.toString());
+    core.debug(`Cloned: ${ref.toString()}`);
   } catch (error) {
     core.setFailed(error.message);
   }
