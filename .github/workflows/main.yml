@@ -17,7 +17,6 @@ jobs:
       - name: Configure Npm
         run: |
           echo "color = always" >> .npmrc
-          echo "loglevel = silent" >> .npmrc
 
       - name: Build
         run: npm install
@@ -37,7 +36,6 @@ jobs:
       - name: Configure Npm
         run: |
           echo "color = always" >> .npmrc
-          echo "loglevel = silent" >> .npmrc
 
       - name: Build
         run: npm install
@@ -57,7 +55,6 @@ jobs:
       - name: Configure Npm
         run: |
           echo "color = always" >> .npmrc
-          echo "loglevel = silent" >> .npmrc
 
       - name: Build
         run: npm install
@@ -75,7 +72,6 @@ jobs:
       - name: Configure Npm
         run: |
           echo "color = always" >> .npmrc
-          echo "loglevel = silent" >> .npmrc
 
       - name: Install Dependencies and Build
         run: npm install
@@ -134,7 +130,6 @@ jobs:
       - name: Configure Npm
         run: |
           echo "color = always" >> .npmrc
-          echo "loglevel = silent" >> .npmrc
 
       - name: Install Dependencies and Build
         run: npm install
