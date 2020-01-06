@@ -1,40 +1,53 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "throws invalid number",
-    "uid" : "542ee1cafcf051e1",
+    "name" : "action.yml exists",
+    "uid" : "55398c9b3f6ae208",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578227423216,
-      "stop" : 1578227423220,
-      "duration" : 4
+      "start" : 1578281255409,
+      "stop" : 1578281255412,
+      "duration" : 3
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "wait 500 ms",
-    "uid" : "1cd926e11ba76701",
+    "name" : "readInputs is a function",
+    "uid" : "8d224e01b9f92cc7",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578227423220,
-      "stop" : 1578227423722,
-      "duration" : 502
+      "start" : 1578281257455,
+      "stop" : 1578281257456,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "test runs",
-    "uid" : "bfeb8f15436233aa",
+    "name" : "readInputs is a function",
+    "uid" : "acc537a2d09a252a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1578227423722,
-      "stop" : 1578227423762,
-      "duration" : 40
+      "start" : 1578281257157,
+      "stop" : 1578281257158,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "action.yml exists",
+    "uid" : "68fb9d1daa0a2094",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578281255697,
+      "stop" : 1578281255697,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,

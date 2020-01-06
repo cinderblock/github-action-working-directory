@@ -1,14 +1,14 @@
 {
-  "numFailedTestSuites": 1,
-  "numFailedTests": 1,
-  "numPassedTestSuites": 0,
-  "numPassedTests": 2,
+  "numFailedTestSuites": 4,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 4,
+  "numPassedTests": 4,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
-  "numRuntimeErrorTestSuites": 0,
+  "numRuntimeErrorTestSuites": 4,
   "numTodoTests": 0,
-  "numTotalTestSuites": 1,
-  "numTotalTests": 3,
+  "numTotalTestSuites": 8,
+  "numTotalTests": 4,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,18 +26,55 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578227420392,
+  "startTime": 1578281252623,
   "success": false,
   "testResults": [
     {
-      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mworking-directory › test runs\u001b[39m\u001b[22m\n\n    Command failed: node /home/runner/work/github-action-working-directory/github-action-working-directory/lib/main.js\n    internal/modules/cjs/loader.js:800\n        throw err;\n        ^\n\n    Error: Cannot find module '/home/runner/work/github-action-working-directory/github-action-working-directory/lib/main.js'\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 26 | \u001b[39m    }\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 27 | \u001b[39m    \u001b[90m// eslint-disable-next-line no-console\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 28 | \u001b[39m    console\u001b[33m.\u001b[39mlog(cp\u001b[33m.\u001b[39mexecSync(\u001b[32m`node ${ip}`\u001b[39m\u001b[33m,\u001b[39m options)\u001b[33m.\u001b[39mtoString())\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                   \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 29 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 30 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 31 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2minternal/main/run_main_module.js\u001b[2m:17:11 {\u001b[2m\u001b[22m\n\u001b[2m        code: 'MODULE_NOT_FOUND',\u001b[22m\n\u001b[2m        requireStack: []\u001b[22m\n\u001b[2m      }\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mtests/main.ts\u001b[39m\u001b[0m\u001b[2m:28:20)\u001b[2m\u001b[22m\n",
-      "numFailingTests": 1,
-      "numPassingTests": 2,
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578227423781,
-        "start": 1578227420435
+        "end": 1578281255418,
+        "start": 1578281252671
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/allure-results/tests/main.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "GitHub Actions Format"
+          ],
+          "duration": 3,
+          "failureMessages": [],
+          "fullName": "GitHub Actions Format action.yml exists",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "action.yml exists"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578281255699,
+        "start": 1578281255443
       },
       "snapshot": {
         "added": 0,
@@ -52,45 +89,209 @@
       "testResults": [
         {
           "ancestorTitles": [
-            "working-directory"
+            "GitHub Actions Format"
           ],
-          "duration": 4,
+          "duration": 0,
           "failureMessages": [],
-          "fullName": "working-directory throws invalid number",
+          "fullName": "GitHub Actions Format action.yml exists",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "throws invalid number"
-        },
-        {
-          "ancestorTitles": [
-            "working-directory"
-          ],
-          "duration": 502,
-          "failureMessages": [],
-          "fullName": "working-directory wait 500 ms",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "wait 500 ms"
-        },
-        {
-          "ancestorTitles": [
-            "working-directory"
-          ],
-          "duration": 40,
-          "failureMessages": [
-            "Error: Command failed: node /home/runner/work/github-action-working-directory/github-action-working-directory/lib/main.js\ninternal/modules/cjs/loader.js:800\n    throw err;\n    ^\n\nError: Cannot find module '/home/runner/work/github-action-working-directory/github-action-working-directory/lib/main.js'\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:690:27)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10)\n    at internal/main/run_main_module.js:17:11 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\n    at checkExecSyncError (child_process.js:621:11)\n    at Object.execSync (child_process.js:657:15)\n    at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/main.ts:28:20)\n    at Object.asyncJestTest (/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-jasmine2/build/queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-jasmine2/build/queueRunner.js:73:41"
-          ],
-          "fullName": "working-directory test runs",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "test runs"
+          "title": "action.yml exists"
         }
       ],
       "skipped": false,
       "leaks": false
+    },
+    {
+      "displayName": "",
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module '../package' from 'nodegit.js'\n\n    However, Jest was able to find:\n    \t'../package.json'\n\n    You might want to include a file extension in your import, or update your 'moduleFileExtensions', which is currently ['ts', 'js'].\n\n    See https://jestjs.io/docs/en/configuration#modulefileextensions-array-string\n\n    However, Jest was able to find:\n    \t'../src/utils/commitAndPush.ts'\n\n    You might want to include a file extension in your import, or update your 'moduleFileExtensions', which is currently ['ts', 'js'].\n\n    See https://jestjs.io/docs/en/configuration#modulefileextensions-array-string\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules/jest-resolve/build/index.js\u001b[2m:259:17)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22mnode_modules/nodegit/dist/nodegit.js\u001b[2m:1302:19)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {
+        "code": "MODULE_NOT_FOUND"
+      },
+      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/allure-results/tests/utils.commitAndPush.ts",
+      "testResults": []
+    },
+    {
+      "displayName": "",
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module '../package' from 'nodegit.js'\n\n    However, Jest was able to find:\n    \t'../package.json'\n\n    You might want to include a file extension in your import, or update your 'moduleFileExtensions', which is currently ['ts', 'js'].\n\n    See https://jestjs.io/docs/en/configuration#modulefileextensions-array-string\n\n    However, Jest was able to find:\n    \t'../src/utils/commitAndPush.ts'\n\n    You might want to include a file extension in your import, or update your 'moduleFileExtensions', which is currently ['ts', 'js'].\n\n    See https://jestjs.io/docs/en/configuration#modulefileextensions-array-string\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules/jest-resolve/build/index.js\u001b[2m:259:17)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22mnode_modules/nodegit/dist/nodegit.js\u001b[2m:1302:19)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {
+        "code": "MODULE_NOT_FOUND"
+      },
+      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/tests/utils.commitAndPush.ts",
+      "testResults": []
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578281257159,
+        "start": 1578281256940
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/allure-results/tests/utils.inputs.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "utils/inputs"
+          ],
+          "duration": 1,
+          "failureMessages": [],
+          "fullName": "utils/inputs readInputs is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "readInputs is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578281257458,
+        "start": 1578281257180
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/tests/utils.inputs.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "utils/inputs"
+          ],
+          "duration": 1,
+          "failureMessages": [],
+          "fullName": "utils/inputs readInputs is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "readInputs is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "displayName": "",
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module '../package' from 'nodegit.js'\n\n    However, Jest was able to find:\n    \t'../package.json'\n\n    You might want to include a file extension in your import, or update your 'moduleFileExtensions', which is currently ['ts', 'js'].\n\n    See https://jestjs.io/docs/en/configuration#modulefileextensions-array-string\n\n    However, Jest was able to find:\n    \t'../src/utils/clone.ts'\n\n    You might want to include a file extension in your import, or update your 'moduleFileExtensions', which is currently ['ts', 'js'].\n\n    See https://jestjs.io/docs/en/configuration#modulefileextensions-array-string\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules/jest-resolve/build/index.js\u001b[2m:259:17)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22mnode_modules/nodegit/dist/nodegit.js\u001b[2m:1302:19)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {
+        "code": "MODULE_NOT_FOUND"
+      },
+      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/allure-results/tests/utils.clone.ts",
+      "testResults": []
+    },
+    {
+      "displayName": "",
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module '../package' from 'nodegit.js'\n\n    However, Jest was able to find:\n    \t'../package.json'\n\n    You might want to include a file extension in your import, or update your 'moduleFileExtensions', which is currently ['ts', 'js'].\n\n    See https://jestjs.io/docs/en/configuration#modulefileextensions-array-string\n\n    However, Jest was able to find:\n    \t'../src/utils/clone.ts'\n\n    You might want to include a file extension in your import, or update your 'moduleFileExtensions', which is currently ['ts', 'js'].\n\n    See https://jestjs.io/docs/en/configuration#modulefileextensions-array-string\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules/jest-resolve/build/index.js\u001b[2m:259:17)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22mnode_modules/nodegit/dist/nodegit.js\u001b[2m:1302:19)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {
+        "code": "MODULE_NOT_FOUND"
+      },
+      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/tests/utils.clone.ts",
+      "testResults": []
     }
   ],
   "wasInterrupted": false

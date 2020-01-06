@@ -1,4 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Jan 05 12:30:23 UTC 2020","Sun Jan 05 12:30:23 UTC 2020","4","","working-directory","","working-directory","throws invalid number","throws invalid number",""
-"passed","Sun Jan 05 12:30:23 UTC 2020","Sun Jan 05 12:30:23 UTC 2020","502","","working-directory","","working-directory","wait 500 ms","wait 500 ms",""
-"failed","Sun Jan 05 12:30:23 UTC 2020","Sun Jan 05 12:30:23 UTC 2020","40","","working-directory","","working-directory","test runs","test runs",""
+"passed","Mon Jan 06 03:27:37 UTC 2020","Mon Jan 06 03:27:37 UTC 2020","1","","utils/inputs","","utils/inputs","readInputs is a function","readInputs is a function",""
+"passed","Mon Jan 06 03:27:35 UTC 2020","Mon Jan 06 03:27:35 UTC 2020","0","","GitHub Actions Format","","GitHub Actions Format","action.yml exists","action.yml exists",""

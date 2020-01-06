@@ -1,15 +1,26 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "b6f4ae50d1a4312d5e98878cc87436ee",
-    "name" : "working-directory",
+    "uid" : "3859159f0ff3b61bb54dfba215335645",
+    "name" : "GitHub Actions Format",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 3
+      "total" : 1
+    }
+  }, {
+    "uid" : "e7422081bfa960c832ef2d8e6a328912",
+    "name" : "utils/inputs",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

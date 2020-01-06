@@ -1,0 +1,54 @@
+{
+  "uid" : "8d224e01b9f92cc7",
+  "name" : "readInputs is a function",
+  "fullName" : "utils/inputs.readInputs is a function",
+  "historyId" : "6ea38ec0e372ec011bb604e4f1940dbf",
+  "time" : {
+    "start" : 1578281257455,
+    "stop" : 1578281257456,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "utils/inputs"
+  }, {
+    "name" : "testClass",
+    "value" : "utils/inputs"
+  }, {
+    "name" : "testMethod",
+    "value" : "readInputs is a function"
+  }, {
+    "name" : "package",
+    "value" : "utils/inputs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "acc537a2d09a252a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578281257157,
+        "stop" : 1578281257158,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d224e01b9f92cc7.json",
+  "parameterValues" : [ ]
+}
