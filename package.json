@@ -36,6 +36,7 @@
   "dependencies": {
     "@actions/core": "^1.2.0",
     "@actions/io": "^1.0.1",
+    "@types/js-yaml": "^3.12.1",
     "nodegit": "^0.26.3"
   },
   "devDependencies": {

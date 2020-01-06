@@ -9,6 +9,7 @@ module.exports = {
   testRegex: '(/tests/[^/]+)\\.ts$',
   verbose: true,
   setupFilesAfterEnv: ['jest-allure/dist/setup'],
+  watchPathIgnorePatterns: ['^public'],
   reporters: [
     'default',
     'jest-github-reporter',
