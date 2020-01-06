@@ -14,8 +14,10 @@ jobs:
       - name: Checkout latest code
         uses: actions/checkout@v1
 
-      - name: Make npm colorful
-        run: echo "color = always" >> .npmrc
+      - name: Configure Npm
+        run: |
+          echo "color = always" >> .npmrc
+          echo "loglevel = silent" >> .npmrc
 
       - name: Build
         run: npm install
@@ -24,7 +26,7 @@ jobs:
         run: npm run format-check -- --color
 
   check-lint:
-    name: Check - ESLint
+    name: Check - Lint
 
     runs-on: ubuntu-latest
 
@@ -32,8 +34,10 @@ jobs:
       - name: Checkout latest code
         uses: actions/checkout@v1
 
-      - name: Make npm colorful
-        run: echo "color = always" >> .npmrc
+      - name: Configure Npm
+        run: |
+          echo "color = always" >> .npmrc
+          echo "loglevel = silent" >> .npmrc
 
       - name: Build
         run: npm install
@@ -50,8 +54,10 @@ jobs:
       - name: Checkout latest code
         uses: actions/checkout@v1
 
-      - name: Make npm colorful
-        run: echo "color = always" >> .npmrc
+      - name: Configure Npm
+        run: |
+          echo "color = always" >> .npmrc
+          echo "loglevel = silent" >> .npmrc
 
       - name: Build
         run: npm install
@@ -66,8 +72,10 @@ jobs:
       - name: Checkout latest code
         uses: actions/checkout@v1
 
-      - name: Make npm colorful
-        run: echo "color = always" >> .npmrc
+      - name: Configure Npm
+        run: |
+          echo "color = always" >> .npmrc
+          echo "loglevel = silent" >> .npmrc
 
       - name: Install Dependencies and Build
         run: npm install
