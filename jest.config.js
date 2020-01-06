@@ -1,6 +1,6 @@
 module.exports = {
   clearMocks: true,
-  moduleFileExtensions: ['ts', 'js'],
+  moduleFileExtensions: ['ts', 'js', 'node', 'json'],
   testEnvironment: 'node',
   // testRunner: 'jest-circus/runner', // Not compatible with jest-allure
   transform: { '^.+\\.ts$': 'ts-jest' },
