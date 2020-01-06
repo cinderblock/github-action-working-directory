@@ -48,16 +48,10 @@ Multiple concurrent working directories are supported.
 
 ## Development
 
-Install the dependencies
+Setup everything
 
 ```bash
-npm install
-```
-
-Build the typescript (automatic with `npm install`)
-
-```bash
-npm run build
+npm run all
 ```
 
 Run the tests :heavy_check_mark:
