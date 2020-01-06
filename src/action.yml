@@ -31,6 +31,6 @@ inputs:
     description: Should we create a new commit if the files are unchanged
     default: ''
 runs:
-  using: 'node12'
-  main: 'lib/clone.js'
-  post: 'lib/commit.js'
+  using: node12
+  main: clone.js
+  post: commit.js
