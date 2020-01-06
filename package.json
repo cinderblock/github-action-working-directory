@@ -17,7 +17,7 @@
     "push"
   ],
   "scripts": {
-    "build": "ncc build src/clone.ts -o dist/clone && ncc build src/commit.ts -o dist/commit && cp src/action.yml dist/ && cd dist && rm -rf build && mv clone{/index,}.js && mv commit{/index,}.js && mv clone/build ./ && rm -rf clone commit",
+    "build": "ncc build src/clone.ts -o dist/clone && ncc build src/commit.ts -o dist/commit && cp src/action.yml dist/ && cd dist && rm -rf build && mv clone/index.js clone.js && mv commit/index.js commit.js && mv clone/build ./ && rm -rf clone commit",
     "lint": "eslint \"**/*\"",
     "format": "prettier \"**/*\"",
     "spellcheck": "cspell \"**/*\"",
