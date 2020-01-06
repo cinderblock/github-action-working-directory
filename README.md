@@ -19,6 +19,11 @@ GitHub Actions `action.yml` has an under-documented feature of `post` runs.
 This is run at the end of all other steps automatically.
 We can use that post step to commit any changes back to the original repo that we checkout.
 
+### Limitation
+
+Currently only works on linux because of built node native module dependency.
+We welcome pull requests that would let us publish native bindings for all platforms.
+
 ## Usage
 
 In your GitHub Actions, add a config like this:
