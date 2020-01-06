@@ -38,7 +38,7 @@ jobs:
       - name: Build
         run: npm install
 
-      - name: Prettier
+      - name: ESLint
         run: npm run lint -- --color
 
   check-spelling:
@@ -56,7 +56,7 @@ jobs:
       - name: Build
         run: npm install
 
-      - name: Spelling
+      - name: cSpell
         run: npm run spellcheck -- --color
 
   self-test-and-use: # make sure the action works on a clean machine without building
