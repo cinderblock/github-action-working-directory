@@ -32,5 +32,5 @@ inputs:
     default: ''
 runs:
   using: node12
-  main: main.js
-  post: main.js
+  main: clone.js
+  post: commit.js
