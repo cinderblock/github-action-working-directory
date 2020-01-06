@@ -8,7 +8,13 @@
   "keywords": [
     "actions",
     "node",
-    "setup"
+    "git",
+    "clone",
+    "commit",
+    "persistent",
+    "storage",
+    "cache",
+    "push"
   ],
   "main": "lib/main.js",
   "scripts": {
