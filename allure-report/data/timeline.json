@@ -2,12 +2,12 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
     "name" : "action.yml exists",
-    "uid" : "55398c9b3f6ae208",
+    "uid" : "57d1b660e1266891",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578281255409,
-      "stop" : 1578281255412,
+      "start" : 1578308761813,
+      "stop" : 1578308761816,
       "duration" : 3
     },
     "flaky" : false,
@@ -15,25 +15,12 @@
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "8d224e01b9f92cc7",
+    "uid" : "642bd268406f0a6f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578281257455,
-      "stop" : 1578281257456,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "readInputs is a function",
-    "uid" : "acc537a2d09a252a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578281257157,
-      "stop" : 1578281257158,
+      "start" : 1578308764511,
+      "stop" : 1578308764512,
       "duration" : 1
     },
     "flaky" : false,
@@ -41,13 +28,26 @@
     "parameters" : [ ]
   }, {
     "name" : "action.yml exists",
-    "uid" : "68fb9d1daa0a2094",
+    "uid" : "902a1f67bee4a5dd",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578281255697,
-      "stop" : 1578281255697,
-      "duration" : 0
+      "start" : 1578308762200,
+      "stop" : 1578308762201,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "readInputs is a function",
+    "uid" : "8e5adf4a898e602e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578308764232,
+      "stop" : 1578308764234,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,

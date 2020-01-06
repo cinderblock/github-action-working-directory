@@ -4,13 +4,13 @@
     "name" : "GitHub Actions Format",
     "children" : [ {
       "name" : "action.yml exists",
-      "uid" : "68fb9d1daa0a2094",
+      "uid" : "902a1f67bee4a5dd",
       "parentUid" : "3859159f0ff3b61bb54dfba215335645",
       "status" : "passed",
       "time" : {
-        "start" : 1578281255697,
-        "stop" : 1578281255697,
-        "duration" : 0
+        "start" : 1578308762200,
+        "stop" : 1578308762201,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,12 +21,12 @@
     "name" : "utils/inputs",
     "children" : [ {
       "name" : "readInputs is a function",
-      "uid" : "8d224e01b9f92cc7",
+      "uid" : "642bd268406f0a6f",
       "parentUid" : "e7422081bfa960c832ef2d8e6a328912",
       "status" : "passed",
       "time" : {
-        "start" : 1578281257455,
-        "stop" : 1578281257456,
+        "start" : 1578308764511,
+        "stop" : 1578308764512,
         "duration" : 1
       },
       "flaky" : false,

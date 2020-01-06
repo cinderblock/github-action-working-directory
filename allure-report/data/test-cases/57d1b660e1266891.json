@@ -1,0 +1,44 @@
+{
+  "uid" : "57d1b660e1266891",
+  "name" : "action.yml exists",
+  "fullName" : "GitHub Actions Format.action.yml exists",
+  "historyId" : "f9eb496e7dd3b7fe3f6aa929edbed5b1",
+  "time" : {
+    "start" : 1578308761813,
+    "stop" : 1578308761816,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GitHub Actions Format"
+  }, {
+    "name" : "testClass",
+    "value" : "GitHub Actions Format"
+  }, {
+    "name" : "testMethod",
+    "value" : "action.yml exists"
+  }, {
+    "name" : "package",
+    "value" : "GitHub Actions Format"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57d1b660e1266891.json",
+  "parameterValues" : [ ]
+}

@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Jan 06 03:27:37 UTC 2020","Mon Jan 06 03:27:37 UTC 2020","1","","utils/inputs","","utils/inputs","readInputs is a function","readInputs is a function",""
-"passed","Mon Jan 06 03:27:35 UTC 2020","Mon Jan 06 03:27:35 UTC 2020","0","","GitHub Actions Format","","GitHub Actions Format","action.yml exists","action.yml exists",""
+"passed","Mon Jan 06 11:06:04 UTC 2020","Mon Jan 06 11:06:04 UTC 2020","1","","utils/inputs","","utils/inputs","readInputs is a function","readInputs is a function",""
+"passed","Mon Jan 06 11:06:02 UTC 2020","Mon Jan 06 11:06:02 UTC 2020","1","","GitHub Actions Format","","GitHub Actions Format","action.yml exists","action.yml exists",""

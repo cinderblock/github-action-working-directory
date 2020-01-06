@@ -1,12 +1,12 @@
 {
-  "uid" : "68fb9d1daa0a2094",
-  "name" : "action.yml exists",
-  "fullName" : "GitHub Actions Format.action.yml exists",
-  "historyId" : "f9eb496e7dd3b7fe3f6aa929edbed5b1",
+  "uid" : "642bd268406f0a6f",
+  "name" : "readInputs is a function",
+  "fullName" : "utils/inputs.readInputs is a function",
+  "historyId" : "6ea38ec0e372ec011bb604e4f1940dbf",
   "time" : {
-    "start" : 1578281255697,
-    "stop" : 1578281255697,
-    "duration" : 0
+    "start" : 1578308764511,
+    "stop" : 1578308764512,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/inputs"
   }, {
     "name" : "testClass",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/inputs"
   }, {
     "name" : "testMethod",
-    "value" : "action.yml exists"
+    "value" : "readInputs is a function"
   }, {
     "name" : "package",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/inputs"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -38,17 +38,17 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "55398c9b3f6ae208",
+      "uid" : "8e5adf4a898e602e",
       "status" : "passed",
       "time" : {
-        "start" : 1578281255409,
-        "stop" : 1578281255412,
-        "duration" : 3
+        "start" : 1578308764232,
+        "stop" : 1578308764234,
+        "duration" : 2
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "68fb9d1daa0a2094.json",
+  "source" : "642bd268406f0a6f.json",
   "parameterValues" : [ ]
 }
