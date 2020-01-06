@@ -1,4 +1,13 @@
+# Never lint
 /lib/
 /node_modules/
 /public/
 /allure-results/
+package-lock.json
+
+# No linters configured
+jest.config.js
+*.md
+*.yml
+*.json
+LICENSE

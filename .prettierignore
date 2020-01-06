@@ -3,7 +3,11 @@
 /node_modules/
 /allure-results/
 
+package-lock.json
+
 # No Parser
-.gitignore
+LICENSE
+.*ignore
+.gitattributes
 .editorconfig
 .prettierignore
