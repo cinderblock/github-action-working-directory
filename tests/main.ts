@@ -90,18 +90,22 @@ describe('GitHub Actions Test', () => {
 
     test(`can run runs.${which}`, async () => {
       try {
-        const exec = fork(await execFilename.promise);
-
         let messages = '';
+
+        const exec = fork(await execFilename.promise, [], { silent: true });
+
+        exec.stdout?.on('data', m => (messages += `stdout > ${m}`));
+        exec.stderr?.on('data', m => (messages += `stderr > ${m}`));
 
         exec.on('error', executionResult.reject);
 
         exec.on('exit', exitCode => {
           if (exitCode === 0) executionResult.resolve(messages);
-          else executionResult.reject(new Error(`Exit code: ${exitCode}`));
+          else
+            executionResult.reject(
+              new Error(`Exit code: ${exitCode}\n${messages}`),
+            );
         });
-
-        exec.on('message', m => (messages += m));
 
         await executionResult.promise.catch(() => {});
       } catch (e) {
