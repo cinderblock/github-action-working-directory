@@ -1,6 +1,6 @@
-import { readInputs } from '../src/utils/inputs';
+import { readInputs } from '../src/utils/readInputs';
 
-describe('utils/inputs', () => {
+describe('utils/readInputs', () => {
   test('readInputs is a function', () => {
     expect(typeof readInputs).toBe('function');
   });

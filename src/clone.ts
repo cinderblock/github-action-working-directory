@@ -1,6 +1,6 @@
 // Other packages https://github.com/actions/toolkit/blob/master/README.md#packages
 import * as core from '@actions/core';
-import { readInputs } from './utils/inputs';
+import { readInputs } from './utils/readInputs';
 import { clone } from './utils/clone';
 
 async function run(): Promise<void> {
