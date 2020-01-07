@@ -12,7 +12,7 @@ module.exports = {
   watchPathIgnorePatterns: ['^public'],
   reporters: [
     'default',
-    'jest-github-reporter',
+    // 'jest-github-reporter',
     [
       'jest-stare',
       {
