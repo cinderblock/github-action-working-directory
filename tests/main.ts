@@ -55,75 +55,77 @@ describe('GitHub Actions Test', () => {
 
   const mainDone = SharedPromise();
 
-  describe.each([['main'], ['post']])(
-    'Test script execution [runs.%s]',
-    which => {
-      const execFilename = SharedPromise<string>();
+  const list = [
+    ['main'],
+    // ['post'],
+  ];
 
-      if (which === 'main') execFilename.promise.catch(mainDone.reject);
+  describe.each(list)('Test script execution [runs.%s]', which => {
+    const execFilename = SharedPromise<string>();
 
-      test(`action.yml has runs.${which}`, async () => {
-        try {
-          if (which === 'post') await mainDone.promise;
+    if (which === 'main') execFilename.promise.catch(mainDone.reject);
 
-          const contents = await action.promise;
+    test(`action.yml has runs.${which}`, async () => {
+      try {
+        if (which === 'post') await mainDone.promise;
 
-          const val = contents.runs[which];
+        const contents = await action.promise;
 
-          expect(typeof val).toBe('string');
+        const val = contents.runs[which];
 
-          execFilename.resolve(join(distDir, val));
-        } catch (e) {
-          execFilename.reject(e);
-          throw e;
-        }
-      });
+        expect(typeof val).toBe('string');
 
-      test(`runs.${which} exists`, async () => {
-        expect(existsSync(await execFilename.promise)).toBe(true);
-      });
+        execFilename.resolve(join(distDir, val));
+      } catch (e) {
+        execFilename.reject(e);
+        throw e;
+      }
+    });
 
-      const executionResult = SharedPromise<string>();
+    test(`runs.${which} exists`, async () => {
+      expect(existsSync(await execFilename.promise)).toBe(true);
+    });
 
-      test(`can run runs.${which}`, async () => {
-        try {
-          const exec = fork(await execFilename.promise);
+    const executionResult = SharedPromise<string>();
 
-          let messages = '';
+    test(`can run runs.${which}`, async () => {
+      try {
+        const exec = fork(await execFilename.promise);
 
-          exec.on('error', executionResult.reject);
+        let messages = '';
 
-          exec.on('exit', exitCode => {
-            if (exitCode === 0) executionResult.resolve(messages);
-            else executionResult.reject(new Error(`Exit code: ${exitCode}`));
-          });
+        exec.on('error', executionResult.reject);
 
-          exec.on('message', m => (messages += m));
+        exec.on('exit', exitCode => {
+          if (exitCode === 0) executionResult.resolve(messages);
+          else executionResult.reject(new Error(`Exit code: ${exitCode}`));
+        });
 
-          await executionResult.promise.catch(() => {});
-        } catch (e) {
-          executionResult.reject(e);
-          throw e;
-        }
-      });
+        exec.on('message', m => (messages += m));
 
-      test(`runs.${which} runs without error`, async () => {
-        await executionResult.promise;
-      });
+        await executionResult.promise.catch(() => {});
+      } catch (e) {
+        executionResult.reject(e);
+        throw e;
+      }
+    });
 
-      test(`runs.${which} has expected output`, async () => {
-        try {
-          const output = await executionResult.promise;
+    test(`runs.${which} runs without error`, async () => {
+      await executionResult.promise;
+    });
 
-          expect(output).toBe('1');
+    test(`runs.${which} has expected output`, async () => {
+      try {
+        const output = await executionResult.promise;
 
-          if (which === 'main') mainDone.resolve();
-        } catch (e) {
-          if (which === 'main') mainDone.reject();
-        }
-      });
-    },
-  );
+        expect(output).toBe('asdf');
+
+        if (which === 'main') mainDone.resolve();
+      } catch (e) {
+        if (which === 'main') mainDone.reject();
+      }
+    });
+  });
 
   // TODO: Read action.yml and run main/post on dummy repo/dir
 });
