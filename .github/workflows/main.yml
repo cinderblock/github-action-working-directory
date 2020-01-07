@@ -62,6 +62,22 @@ jobs:
       - name: cSpell
         run: npm run spellcheck -- --color
 
+  check-tests:
+    name: Check - Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v1
+
+      - name: Configure Npm
+        run: |
+          echo "color = always" >> .npmrc
+
+      - name: Install Dependencies and Build
+        run: npm install --ignore-scripts
+
+      - name: npm test -- --no-coverage
+
   bootstrap-coverage-reports:
     name: Self Test - Generate Coverage
     runs-on: ubuntu-latest
@@ -121,8 +137,7 @@ jobs:
   publish-v1:
     name: Publish - GitHub Action v1
     if: github.event_name == 'push' && github.ref == 'refs/heads/release'
-    needs:
-      [check-format, check-lint, check-spelling, bootstrap-coverage-reports]
+    needs: [check-format, check-lint, check-spelling, check-tests]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest code
