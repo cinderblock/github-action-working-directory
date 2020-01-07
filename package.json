@@ -17,7 +17,7 @@
     "push"
   ],
   "scripts": {
-    "build": "ncc build src/clone.ts -o dist/clone && ncc build src/commit.ts -o dist/commit && cp src/action.yml dist/",
+    "build": "ncc build src/clone.ts --source-map --out dist/clone && ncc build src/commit.ts --source-map --out dist/commit && cp src/action.yml dist/",
     "lint": "eslint \"**/*\"",
     "format": "prettier \"**/*\"",
     "spellcheck": "cspell \"**/*\"",
