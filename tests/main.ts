@@ -18,23 +18,33 @@ describe('GitHub Actions Test', () => {
   const actionYmlFileContents = SharedPromise<string>();
 
   test('can read action.yml', async () => {
-    const contents = (await readFile(actionYmlFilename)).toString();
-    actionYmlFileContents.resolve(contents);
+    try {
+      const contents = (await readFile(actionYmlFilename)).toString();
+      actionYmlFileContents.resolve(contents);
 
-    expect(typeof contents).toBe('string');
+      expect(typeof contents).toBe('string');
 
-    expect(contents.length).toBeGreaterThan(0);
+      expect(contents.length).toBeGreaterThan(0);
+    } catch (e) {
+      actionYmlFileContents.reject(e);
+      throw e;
+    }
   });
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const action = SharedPromise<any>();
 
   test('action.yml has valid yaml', async () => {
-    const contents = load(await actionYmlFileContents.promise);
+    try {
+      const contents = load(await actionYmlFileContents.promise);
 
-    action.resolve(contents);
+      action.resolve(contents);
 
-    expect(typeof contents).toBe('object');
+      expect(typeof contents).toBe('object');
+    } catch (e) {
+      action.reject(e);
+      throw e;
+    }
   });
 
   test('action.yml has correct runs.using', async () => {
@@ -43,63 +53,77 @@ describe('GitHub Actions Test', () => {
     expect((contents.runs.using as string).substr(0, 4)).toBe('node');
   });
 
-  const runs = { main: SharedPromise<string>(), post: SharedPromise<string>() };
+  const mainDone = SharedPromise();
 
-  test('action.yml has runs.main and runs.post', async () => {
-    const contents = await action.promise;
+  describe.each([['main'], ['post']])(
+    'Test script execution [runs.%s]',
+    which => {
+      const execFilename = SharedPromise<string>();
 
-    expect(typeof contents.runs.main).toBe('string');
-    expect(typeof contents.runs.post).toBe('string');
+      if (which === 'main') execFilename.promise.catch(mainDone.reject);
 
-    runs.main.resolve(join(distDir, contents.runs.main));
-    runs.post.resolve(join(distDir, contents.runs.post));
-  });
+      test(`action.yml has runs.${which}`, async () => {
+        try {
+          if (which === 'post') await mainDone.promise;
 
-  test('runs.main exists', async () => {
-    expect(existsSync(await runs.main.promise)).toBe(true);
-  });
+          const contents = await action.promise;
 
-  test('runs.post exists', async () => {
-    expect(existsSync(await runs.post.promise)).toBe(true);
-  });
+          const val = contents.runs[which];
 
-  const main = SharedPromise();
+          expect(typeof val).toBe('string');
 
-  test('can run runs.main', async () => {
-    const exec = fork(await runs.main.promise);
+          execFilename.resolve(join(distDir, val));
+        } catch (e) {
+          execFilename.reject(e);
+          throw e;
+        }
+      });
 
-    exec.on('error', main.reject);
+      test(`runs.${which} exists`, async () => {
+        expect(existsSync(await execFilename.promise)).toBe(true);
+      });
 
-    exec.on('exit', exitCode => {
-      if (exitCode) main.reject();
-      main.resolve();
-    });
+      const executionResult = SharedPromise<string>();
 
-    exec.on('message', console.log.bind(0));
+      test(`can run runs.${which}`, async () => {
+        try {
+          const exec = fork(await execFilename.promise);
 
-    await main.promise;
+          let messages = '';
 
-    expect(main.promise).resolves.toEqual(undefined);
-  });
+          exec.on('error', executionResult.reject);
 
-  const post = SharedPromise();
+          exec.on('exit', exitCode => {
+            if (exitCode === 0) executionResult.resolve(messages);
+            else executionResult.reject(new Error(`Exit code: ${exitCode}`));
+          });
 
-  test('can run runs.post', async () => {
-    expect(main.promise).resolves.toEqual(undefined);
+          exec.on('message', m => (messages += m));
 
-    await main.promise;
+          await executionResult.promise.catch(() => {});
+        } catch (e) {
+          executionResult.reject(e);
+          throw e;
+        }
+      });
 
-    const exec = fork(await runs.post.promise);
+      test(`runs.${which} runs without error`, async () => {
+        await executionResult.promise;
+      });
 
-    exec.on('error', post.reject);
+      test(`runs.${which} has expected output`, async () => {
+        try {
+          const output = await executionResult.promise;
 
-    exec.on('exit', exitCode => {
-      if (exitCode) post.reject();
-      post.resolve();
-    });
+          expect(output).toBe('1');
 
-    expect(post.promise).resolves.toEqual(undefined);
-  });
+          if (which === 'main') mainDone.resolve();
+        } catch (e) {
+          if (which === 'main') mainDone.reject();
+        }
+      });
+    },
+  );
 
   // TODO: Read action.yml and run main/post on dummy repo/dir
 });
