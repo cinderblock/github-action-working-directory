@@ -74,7 +74,7 @@ jobs:
           echo "color = always" >> .npmrc
 
       - name: Install Dependencies and Build
-        run: npm install --ignore-scripts
+        run: npm install
 
       - name: Run Tests
         run: npm test -- --no-coverage
