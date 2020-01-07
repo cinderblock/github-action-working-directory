@@ -96,9 +96,9 @@ jobs:
       - name: Run dist/clone.js Manually
         run: node dist/clone.js
         env:
-          INPUT_branch: master
-          INPUT_working-directory: /tmp/fake-clone
-          INPUT_repo: '.'
+          INPUT_BRANCH: master
+          INPUT_WORKING-DIRECTORY: /tmp/fake-clone
+          INPUT_REPO: '.'
 
   bootstrap-coverage-reports:
     name: Self Test - Generate Coverage
