@@ -12,7 +12,7 @@ inputs:
     description: Which repository to work with
     default: '' # Current
   working-directory:
-    required: true
+    required: false
     description: Which folder to work in
   commit-message:
     required: false

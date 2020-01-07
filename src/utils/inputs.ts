@@ -19,7 +19,7 @@ export function readInputs(): Inputs {
     core.getInput('repo') ||
     `https://github.com/${process.env.GITHUB_REPOSITORY}`;
 
-  const dir = core.getInput('working-directory', { required: true });
+  const dir = core.getInput('working-directory');
 
   const message = core.getInput('commit-message');
 
