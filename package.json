@@ -43,6 +43,7 @@
     "@types/jest": "^24.0.25",
     "@types/node": "^13.1.4",
     "@types/nodegit": "^0.26.0",
+    "@types/rmfr": "^2.0.0",
     "@typescript-eslint/parser": "^2.14.0",
     "@zeit/ncc": "^0.21.0",
     "allure-commandline": "^2.13.0",
@@ -58,6 +59,7 @@
     "jest-stare": "^1.26.0",
     "js-yaml": "^3.13.1",
     "prettier": "^1.19.1",
+    "rmfr": "^2.0.0",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.4"
   }
