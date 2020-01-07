@@ -62,8 +62,8 @@ jobs:
       - name: cSpell
         run: npm run spellcheck -- --color
 
-  self-test-and-use: # make sure the action works on a clean machine without building
-    name: Test Coverage and Generate Reports
+  bootstrap-coverage-reports:
+    name: Self Test - Generate Coverage
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest code
@@ -121,7 +121,8 @@ jobs:
   publish-v1:
     name: Publish - GitHub Action v1
     if: github.event_name == 'push' && github.ref == 'refs/heads/release'
-    needs: [check-format, check-lint, check-spelling, self-test-and-use]
+    needs:
+      [check-format, check-lint, check-spelling, bootstrap-coverage-reports]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest code
