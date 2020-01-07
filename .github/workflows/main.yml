@@ -79,6 +79,27 @@ jobs:
       - name: Run Tests
         run: npm test -- --no-coverage
 
+  check-direct-execute:
+    name: Check - Direct Execute
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v1
+
+      - name: Configure Npm
+        run: |
+          echo "color = always" >> .npmrc
+
+      - name: Install Dependencies and Build
+        run: npm install
+
+      - name: Run dist/clone.js Manually
+        run: node dist/clone.js
+        env:
+          INPUT_branch: master
+          INPUT_working-directory: /tmp/fake-clone
+          INPUT_repo: '.'
+
   bootstrap-coverage-reports:
     name: Self Test - Generate Coverage
     runs-on: ubuntu-latest
