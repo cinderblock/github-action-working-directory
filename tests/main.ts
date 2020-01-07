@@ -122,6 +122,7 @@ describe('GitHub Actions Test', () => {
         if (which === 'main') mainDone.resolve();
       } catch (e) {
         if (which === 'main') mainDone.reject();
+        throw e;
       }
     });
   });
