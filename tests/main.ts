@@ -110,9 +110,8 @@ describe('GitHub Actions Test', () => {
       }
     });
 
-    test(`runs.${which} runs without error`, async () => {
-      await executionResult.promise;
-    });
+    // eslint-disable-next-line @typescript-eslint/promise-function-async
+    test(`runs.${which} runs without error`, () => executionResult.promise);
 
     test(`runs.${which} has expected output`, async () => {
       try {
