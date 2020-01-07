@@ -16,7 +16,7 @@ describe('utils/clone', () => {
   // eslint-disable-next-line @typescript-eslint/unbound-method
   process.stdout.write = jest.fn();
 
-  test('clone can be called', async () => {
+  test.skip('clone can be called', async () => {
     await rmfr(dir);
     return clone({ repoUrl, branch, dir });
   });
