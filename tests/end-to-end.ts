@@ -127,7 +127,7 @@ describe('GitHub Actions Test', () => {
       try {
         const output = await executionResult.promise;
 
-        expect(output).toBe('asdf');
+        expect(output).toBe('foobar');
 
         if (which === 'main') mainDone.resolve();
       } catch (e) {
