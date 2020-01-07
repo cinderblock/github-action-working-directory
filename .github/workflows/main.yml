@@ -93,8 +93,8 @@ jobs:
       - name: Install Dependencies and Build
         run: npm install
 
-      - name: Run dist/clone.js Manually
-        run: node dist/clone.js
+      - name: Run dist/clone Manually
+        run: node dist/clone
         env:
           INPUT_BRANCH: master
           INPUT_WORKING-DIRECTORY: /tmp/fake-clone
