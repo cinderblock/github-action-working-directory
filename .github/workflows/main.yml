@@ -116,6 +116,8 @@ jobs:
 
       - name: ---- Files after build
         uses: cinderblock/github-action-debug-list-files@v1
+        with:
+          filter: (.git|node_modules)/**
 
         # Test with self
       - name: Use self as action to test and store historic coverage reports
@@ -128,6 +130,8 @@ jobs:
 
       - name: ---- Files after loading allure results
         uses: cinderblock/github-action-debug-list-files@v1
+        with:
+          filter: (.git|node_modules)/**
 
         # Run Tests
       - name: Run Tests
@@ -135,12 +139,16 @@ jobs:
 
       - name: ---- Files after coverage test
         uses: cinderblock/github-action-debug-list-files@v1
+        with:
+          filter: (.git|node_modules)/**
 
       - name: Generate Allure Report
         run: npm run finalize-coverage-reports
 
       - name: ---- Files after Allure gen
         uses: cinderblock/github-action-debug-list-files@v1
+        with:
+          filter: (.git|node_modules)/**
 
       # Publish to gh-pages
       - name: Publish to gh-pages
