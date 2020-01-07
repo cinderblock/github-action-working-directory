@@ -92,7 +92,13 @@ describe('GitHub Actions Test', () => {
       try {
         let messages = '';
 
-        const exec = fork(await execFilename.promise, [], { silent: true });
+        const exec = fork(await execFilename.promise, [], {
+          env: {
+            INPUT_BRANCH: 'test-dummy',
+            'INPUT_working-directory': 'test-dummy',
+          },
+          silent: true,
+        });
 
         exec.stdout?.on('data', m => (messages += `stdout > ${m}`));
         exec.stderr?.on('data', m => (messages += `stderr > ${m}`));
