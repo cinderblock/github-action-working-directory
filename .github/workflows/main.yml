@@ -88,14 +88,6 @@ jobs:
         run: npm test -- --reporters default --no-coverage --color tests/utils.commitAndPush.ts
         if: always() # Always run individual test
 
-      - name: Run - Test - Clone
-        run: npm test -- --reporters default --no-coverage --color tests/clone.ts
-        if: always() # Always run individual test
-
-      # - name: Run - Test - Commit
-      #   run: npm test -- --reporters default --no-coverage --color tests/commit.ts
-      #   if: always() # Always run individual test
-
       - name: Run - Test - End to End
         run: npm test -- --reporters default --no-coverage --color tests/end-to-end.ts
         if: always() # Always run individual test
