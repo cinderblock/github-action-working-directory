@@ -88,8 +88,12 @@ jobs:
         run: npm test -- --reporters default --no-coverage --color tests/utils.commitAndPush.ts
         if: always() # Always run individual test
 
-      - name: Run - Test - End to End
-        run: npm test -- --reporters default --no-coverage --color tests/end-to-end.ts
+      - name: Run - Test - End to End - Node
+        run: npm test -- --reporters default --no-coverage --color tests/end-to-end.node.ts
+        if: always() # Always run individual test
+
+      - name: Run - Test - End to End - GitHub Action Simulation
+        run: npm test -- --reporters default --no-coverage --color tests/end-to-end.github-action.ts
         if: always() # Always run individual test
 
       - name: Run - All Tests
