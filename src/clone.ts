@@ -6,7 +6,8 @@ import { clone } from './utils/clone';
 async function run(): Promise<void> {
   try {
     const { branch, repo: repoUrl, dir } = readInputs();
-    const { debug } = core;
+
+    const debug = console.log.bind(0);
 
     const ref = clone({ branch, repoUrl, dir, debug });
 
