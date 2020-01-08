@@ -17,8 +17,8 @@ describe('utils/clone', () => {
   afterAll(async () => rmfr(dir));
 
   test('clone can be called', async () => {
-    // // eslint-disable-next-line @typescript-eslint/no-require-imports
-    // require('../src/clone');
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    require('../src/clone');
 
     return new Promise(resolve => setTimeout(resolve, 500));
   });
