@@ -64,9 +64,13 @@ describe('GitHub Actions Test', () => {
     const action = load(contents.toString());
 
     const mainFile = action?.runs?.main;
+    const postFile = action?.runs?.main;
+
     expect(typeof mainFile).toBe('string');
+    expect(typeof postFile).toBe('string');
 
     const mainFileFullPath = `${runtimePath}${mainFile}`;
+    const postFileFullPath = `${runtimePath}${postFile}`;
 
     await new Promise((resolve, reject) => {
       let messages = '';
@@ -95,7 +99,7 @@ describe('GitHub Actions Test', () => {
     await new Promise((resolve, reject) => {
       let messages = '';
 
-      const exec = fork(action.runs.post, [], {
+      const exec = fork(postFileFullPath, [], {
         env: {
           INPUT_BRANCH: 'test-dummy',
           'INPUT_working-directory': 'test-dummy',
