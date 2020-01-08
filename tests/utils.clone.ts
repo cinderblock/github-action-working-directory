@@ -29,7 +29,7 @@ describe('utils/clone', () => {
       dir,
     });
 
-    expect(result?.isValid()).toBe(true);
+    if (result !== null) expect(result?.isValid()).toBe(true);
   });
 
   test('clone can be called for existing branch', async () => {
@@ -37,6 +37,6 @@ describe('utils/clone', () => {
 
     const result = await clone({ repoUrl, branch: 'master', dir });
 
-    expect(result?.isValid()).toBe(true);
+    if (result !== null) expect(result?.isValid()).toBe(true);
   });
 });
