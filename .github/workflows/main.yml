@@ -76,7 +76,31 @@ jobs:
       - name: Install Dependencies and Build
         run: npm install
 
-      - name: Run Tests
+      - name: Run - Test - utils/inputs.ts
+        run: npm test -- --no-coverage --color tests/utils.inputs.ts
+        if: always() # Always run individual test
+
+      - name: Run - Test - utils/clone.ts
+        run: npm test -- --no-coverage --color tests/utils.clone.ts
+        if: always() # Always run individual test
+
+      - name: Run - Test - utils/commitAndPush.ts
+        run: npm test -- --no-coverage --color tests/utils.commitAndPush.ts
+        if: always() # Always run individual test
+
+      - name: Run - Test - Clone
+        run: npm test -- --no-coverage --color tests/clone.ts
+        if: always() # Always run individual test
+
+      # - name: Run - Test - Commit
+      #   run: npm test -- --no-coverage --color tests/commit.ts
+      #   if: always() # Always run individual test
+
+      - name: Run - Test - End to End
+        run: npm test -- --no-coverage --color tests/end-to-end.ts
+        if: always() # Always run individual test
+
+      - name: Run - All Tests
         run: npm test -- --no-coverage --color
 
   check-direct-execute:
