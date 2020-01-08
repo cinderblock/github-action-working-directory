@@ -1,7 +1,6 @@
 import { promises, existsSync } from 'fs';
 import { posix } from 'path';
 import { load } from 'js-yaml';
-import { SharedPromise } from './utils/SharedPromise';
 import { fork } from 'child_process';
 
 const { readFile } = promises;
@@ -15,127 +14,104 @@ describe('GitHub Actions Test', () => {
     expect(existsSync(actionYmlFilename)).toBe(true);
   });
 
-  const actionYmlFileContents = SharedPromise<string>();
-
   test('can read action.yml', async () => {
-    try {
-      const contents = (await readFile(actionYmlFilename)).toString();
-      actionYmlFileContents.resolve(contents);
+    const contents = (await readFile(actionYmlFilename)).toString();
 
-      expect(typeof contents).toBe('string');
+    expect(typeof contents).toBe('string');
 
-      expect(contents.length).toBeGreaterThan(0);
-    } catch (e) {
-      actionYmlFileContents.reject(e);
-      throw e;
-    }
+    expect(contents.length).toBeGreaterThan(0);
   });
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const action = SharedPromise<any>();
-
   test('action.yml has valid yaml', async () => {
-    try {
-      const contents = load(await actionYmlFileContents.promise);
+    const contents = await readFile(actionYmlFilename);
 
-      action.resolve(contents);
+    const action = load(contents.toString());
 
-      expect(typeof contents).toBe('object');
-    } catch (e) {
-      action.reject(e);
-      throw e;
-    }
+    expect(typeof action).toBe('object');
   });
 
   test('action.yml has correct runs.using', async () => {
-    const contents = await action.promise;
+    const contents = await readFile(actionYmlFilename);
 
-    expect((contents.runs.using as string).substr(0, 4)).toBe('node');
+    const action = load(contents.toString());
+
+    expect((action.runs.using as string).substr(0, 4)).toBe('node');
   });
 
-  const mainDone = SharedPromise();
+  test(`action.yml has runs.main and runs.post`, async () => {
+    const contents = await readFile(actionYmlFilename);
 
-  const list = [
-    ['main'],
-    // ['post'],
-  ];
+    const action = load(contents.toString());
 
-  describe.each(list)('Test script execution [runs.%s]', which => {
-    const execFilename = SharedPromise<string>();
-
-    if (which === 'main') execFilename.promise.catch(mainDone.reject);
-
-    test(`action.yml has runs.${which}`, async () => {
-      try {
-        if (which === 'post') await mainDone.promise;
-
-        const contents = await action.promise;
-
-        const val = contents.runs[which];
-
-        expect(typeof val).toBe('string');
-
-        execFilename.resolve(join(distDir, val));
-      } catch (e) {
-        execFilename.reject(e);
-        throw e;
-      }
-    });
-
-    test(`runs.${which} exists`, async () => {
-      expect(existsSync(await execFilename.promise)).toBe(true);
-    });
-
-    const executionResult = SharedPromise<string>();
-
-    test(`can run runs.${which}`, async () => {
-      try {
-        let messages = '';
-
-        const exec = fork(await execFilename.promise, [], {
-          env: {
-            INPUT_BRANCH: 'test-dummy',
-            'INPUT_working-directory': 'test-dummy',
-          },
-          silent: true,
-        });
-
-        exec.stdout?.on('data', m => (messages += `stdout > ${m}`));
-        exec.stderr?.on('data', m => (messages += `stderr > ${m}`));
-
-        exec.on('error', executionResult.reject);
-
-        exec.on('exit', exitCode => {
-          if (exitCode === 0) executionResult.resolve(messages);
-          else
-            executionResult.reject(
-              new Error(`Exit code: ${exitCode}\n${messages}`),
-            );
-        });
-
-        await executionResult.promise.catch(() => {});
-      } catch (e) {
-        executionResult.reject(e);
-        throw e;
-      }
-    });
-
-    // eslint-disable-next-line @typescript-eslint/promise-function-async
-    test(`runs.${which} runs without error`, () => executionResult.promise);
-
-    test(`runs.${which} has expected output`, async () => {
-      try {
-        const output = await executionResult.promise;
-
-        expect(output).toBe('foobar');
-
-        if (which === 'main') mainDone.resolve();
-      } catch (e) {
-        if (which === 'main') mainDone.reject();
-        throw e;
-      }
-    });
+    expect(typeof action?.runs?.main).toBe('string');
+    expect(typeof action?.runs?.post).toBe('string');
   });
 
-  // TODO: Read action.yml and run main/post on dummy repo/dir
+  const runtimePath = 'dist/';
+
+  test(`runs.main and runs.post files exist`, async () => {
+    const contents = await readFile(actionYmlFilename);
+
+    const action = load(contents.toString());
+
+    expect(existsSync(`${runtimePath}${action?.runs?.main}`)).toBe(true);
+    expect(existsSync(`${runtimePath}${action?.runs?.post}`)).toBe(true);
+  });
+
+  test(`can run runs.main and runs.post end-to-end`, async () => {
+    const contents = await readFile(actionYmlFilename);
+
+    const action = load(contents.toString());
+
+    const mainFile = action?.runs?.main;
+    expect(typeof mainFile).toBe('string');
+
+    const mainFileFullPath = `${runtimePath}${mainFile}`;
+
+    await new Promise((resolve, reject) => {
+      let messages = '';
+
+      const exec = fork(mainFileFullPath, [], {
+        env: {
+          INPUT_BRANCH: 'test-dummy',
+          'INPUT_working-directory': 'test-dummy',
+        },
+        silent: true,
+      });
+
+      exec.stdout?.on('data', m => (messages += `stdout > ${m}`));
+      exec.stderr?.on('data', m => (messages += `stderr > ${m}`));
+
+      exec.on('error', reject);
+
+      exec.on('exit', exitCode => {
+        if (exitCode === 0) resolve(messages);
+        else reject(new Error(`Exit code: ${exitCode}\n${messages}`));
+      });
+    });
+
+    // TODO: Make some changes?
+
+    await new Promise((resolve, reject) => {
+      let messages = '';
+
+      const exec = fork(action.runs.post, [], {
+        env: {
+          INPUT_BRANCH: 'test-dummy',
+          'INPUT_working-directory': 'test-dummy',
+        },
+        silent: true,
+      });
+
+      exec.stdout?.on('data', m => (messages += `stdout > ${m}`));
+      exec.stderr?.on('data', m => (messages += `stderr > ${m}`));
+
+      exec.on('error', reject);
+
+      exec.on('exit', exitCode => {
+        if (exitCode === 0) resolve(messages);
+        else reject(new Error(`Exit code: ${exitCode}\n${messages}`));
+      });
+    });
+  });
 });
