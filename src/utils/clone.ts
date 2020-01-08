@@ -1,4 +1,4 @@
-import NodeGit from 'nodegit';
+import { Clone, Reference } from 'nodegit';
 import * as core from '@actions/core';
 
 type Options = {
@@ -13,7 +13,7 @@ export async function clone({
   dir,
   branch,
   debug,
-}: Options): Promise<NodeGit.Reference> {
+}: Options): Promise<Reference | null> {
   if (debug === undefined) {
     debug = core.debug;
   }
@@ -22,15 +22,24 @@ export async function clone({
 
   // TODO: Handle empty repoUrl. Find main remote of current repo
 
-  const repository = await NodeGit.Clone.clone(repoUrl, dir);
+  const repository = await Clone.clone(repoUrl, dir);
 
   debug(`Checking out branch(${branch})`);
 
-  const ret = await repository.checkoutBranch(branch);
+  try {
+    const ret = await repository.checkoutBranch(branch);
 
-  // TODO: Handle missing branch (initial commit)
+    // TODO: Handle missing branch (initial commit)
 
-  debug(`Branch checked out`);
+    debug(`Branch checked out`);
 
-  return ret;
+    return ret;
+  } catch (e) {
+    if (typeof e !== 'string') throw e;
+    if (e !== `no reference found for shorthand '${branch}'`) throw e;
+
+    debug(`Branch does not exist. Creating a new one.`);
+
+    return null;
+  }
 }
