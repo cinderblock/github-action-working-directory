@@ -1,0 +1,46 @@
+{
+  "uid" : "2e46b7ba2b71b10",
+  "name" : "runs.main runs without error",
+  "fullName" : "GitHub Actions Test Test script execution [runs.main].runs.main runs without error",
+  "historyId" : "4b13429cf525107364f801183ccf42a9",
+  "time" : {
+    "start" : 1578466340221,
+    "stop" : 1578466340221,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GitHub Actions Test Test script execution [runs.main]"
+  }, {
+    "name" : "testClass",
+    "value" : "GitHub Actions Test Test script execution [runs.main]"
+  }, {
+    "name" : "testMethod",
+    "value" : "runs.main runs without error"
+  }, {
+    "name" : "package",
+    "value" : "GitHub Actions Test Test script execution [runs.main]"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e46b7ba2b71b10.json",
+  "parameterValues" : [ ]
+}

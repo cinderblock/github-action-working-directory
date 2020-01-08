@@ -80,7 +80,7 @@
                 <canvas id="test-suites-canvas" width="100" height="100"></canvas>
                 <h2>Test Suites</h2>
                 <div class="list-group">
-                    <p id="test-suites-results" class="list-group-item list-group-item-action">4 passed, 8 total</p>
+                    <p id="test-suites-results" class="list-group-item list-group-item-action">3 passed, 5 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -88,7 +88,7 @@
                 <canvas id="tests-canvas" width="100" height="100"></canvas>
                 <h2>Tests</h2>
                 <div class="list-group">
-                    <p id="tests-results" class="list-group-item list-group-item-action">4 passed, 4 total</p>
+                    <p id="tests-results" class="list-group-item list-group-item-action">12 passed, 15 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -119,16 +119,16 @@
   &quot;resultJson&quot;: &quot;jest-results.json&quot;
 }</div>
         <div class="d-none" id="test-results">{
-  &quot;numFailedTestSuites&quot;: 4,
-  &quot;numFailedTests&quot;: 0,
-  &quot;numPassedTestSuites&quot;: 4,
-  &quot;numPassedTests&quot;: 4,
+  &quot;numFailedTestSuites&quot;: 2,
+  &quot;numFailedTests&quot;: 3,
+  &quot;numPassedTestSuites&quot;: 3,
+  &quot;numPassedTests&quot;: 12,
   &quot;numPendingTestSuites&quot;: 0,
   &quot;numPendingTests&quot;: 0,
-  &quot;numRuntimeErrorTestSuites&quot;: 4,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
   &quot;numTodoTests&quot;: 0,
-  &quot;numTotalTestSuites&quot;: 8,
-  &quot;numTotalTests&quot;: 4,
+  &quot;numTotalTestSuites&quot;: 5,
+  &quot;numTotalTests&quot;: 15,
   &quot;openHandles&quot;: [],
   &quot;snapshot&quot;: {
     &quot;added&quot;: 0,
@@ -146,18 +146,18 @@
     &quot;unmatched&quot;: 0,
     &quot;updated&quot;: 0
   },
-  &quot;startTime&quot;: 1578308758215,
+  &quot;startTime&quot;: 1578466336580,
   &quot;success&quot;: false,
   &quot;testResults&quot;: [
     {
-      &quot;failureMessage&quot;: null,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 1,
+      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mGitHub Actions Test › Test script execution [runs.main] › runs.main has expected output\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    \u001b[32m- Expected\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[32m- foobar\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::Reading inputs\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir()\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::Cloned: [object Promise]\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3017) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:24:1\u001b[39m\n    \u001b[31m+     at tryCallTwo (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:45:1)\u001b[39m\n    \u001b[31m+     at doResolve (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:173:1)\u001b[39m\n    \u001b[31m+     at new Promise (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:65:1)\u001b[39m\n    \u001b[31m+     at Function.clone (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:19:1)\u001b[39m\n    \u001b[31m+     at Object.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:28:1)\u001b[39m\n    \u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:8:1\u001b[39m\n    \u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at module.exports.335.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:4:1)\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3017) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3017) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n    \u001b[31m+ \u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 128 | \u001b[39m        \u001b[36mconst\u001b[39m output \u001b[33m&#x3D;\u001b[39m await executionResult\u001b[33m.\u001b[39mpromise\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 129 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 130 | \u001b[39m        expect(output)\u001b[33m.\u001b[39mtoBe(\u001b[32m&#39;foobar&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 131 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 132 | \u001b[39m        \u001b[36mif\u001b[39m (which \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[32m&#39;main&#39;\u001b[39m) mainDone\u001b[33m.\u001b[39mresolve()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 133 | \u001b[39m      } \u001b[36mcatch\u001b[39m (e) {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:130:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n&quot;,
+      &quot;numFailingTests&quot;: 1,
+      &quot;numPassingTests&quot;: 8,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578308761822,
-        &quot;start&quot;: 1578308758262
+        &quot;end&quot;: 1578466340271,
+        &quot;start&quot;: 1578466336645
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -168,128 +168,136 @@
         &quot;updated&quot;: 0,
         &quot;uncheckedKeys&quot;: []
       },
-      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;allure-results&#x2F;tests&#x2F;main.ts&quot;,
+      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts&quot;,
       &quot;testResults&quot;: [
         {
           &quot;ancestorTitles&quot;: [
-            &quot;GitHub Actions Format&quot;
+            &quot;GitHub Actions Test&quot;
           ],
           &quot;duration&quot;: 3,
           &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;GitHub Actions Format action.yml exists&quot;,
+          &quot;fullName&quot;: &quot;GitHub Actions Test action.yml exists&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
           &quot;status&quot;: &quot;passed&quot;,
           &quot;title&quot;: &quot;action.yml exists&quot;
-        }
-      ],
-      &quot;skipped&quot;: false,
-      &quot;leaks&quot;: false
-    },
-    {
-      &quot;failureMessage&quot;: null,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 1,
-      &quot;numPendingTests&quot;: 0,
-      &quot;numTodoTests&quot;: 0,
-      &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578308762202,
-        &quot;start&quot;: 1578308761854
-      },
-      &quot;snapshot&quot;: {
-        &quot;added&quot;: 0,
-        &quot;fileDeleted&quot;: false,
-        &quot;matched&quot;: 0,
-        &quot;unchecked&quot;: 0,
-        &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0,
-        &quot;uncheckedKeys&quot;: []
-      },
-      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;main.ts&quot;,
-      &quot;testResults&quot;: [
+        },
         {
           &quot;ancestorTitles&quot;: [
-            &quot;GitHub Actions Format&quot;
+            &quot;GitHub Actions Test&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;GitHub Actions Test can read action.yml&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;can read action.yml&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;GitHub Actions Test&quot;
+          ],
+          &quot;duration&quot;: 5,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;GitHub Actions Test action.yml has valid yaml&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;action.yml has valid yaml&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;GitHub Actions Test&quot;
           ],
           &quot;duration&quot;: 1,
           &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;GitHub Actions Format action.yml exists&quot;,
+          &quot;fullName&quot;: &quot;GitHub Actions Test action.yml has correct runs.using&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
           &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;action.yml exists&quot;
+          &quot;title&quot;: &quot;action.yml has correct runs.using&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;GitHub Actions Test&quot;,
+            &quot;Test script execution [runs.main]&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] action.yml has runs.main&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;action.yml has runs.main&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;GitHub Actions Test&quot;,
+            &quot;Test script execution [runs.main]&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] runs.main exists&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;runs.main exists&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;GitHub Actions Test&quot;,
+            &quot;Test script execution [runs.main]&quot;
+          ],
+          &quot;duration&quot;: 186,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] can run runs.main&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;can run runs.main&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;GitHub Actions Test&quot;,
+            &quot;Test script execution [runs.main]&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] runs.main runs without error&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;runs.main runs without error&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;GitHub Actions Test&quot;,
+            &quot;Test script execution [runs.main]&quot;
+          ],
+          &quot;duration&quot;: 18,
+          &quot;failureMessages&quot;: [
+            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n\u001b[32m- Expected\u001b[39m\n\u001b[31m+ Received\u001b[39m\n\n\u001b[32m- foobar\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::Reading inputs\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir()\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::Cloned: [object Promise]\u001b[39m\n\u001b[31m+ stderr &gt; (node:3017) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:24:1\u001b[39m\n\u001b[31m+     at tryCallTwo (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:45:1)\u001b[39m\n\u001b[31m+     at doResolve (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:173:1)\u001b[39m\n\u001b[31m+     at new Promise (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:65:1)\u001b[39m\n\u001b[31m+     at Function.clone (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:19:1)\u001b[39m\n\u001b[31m+     at Object.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:28:1)\u001b[39m\n\u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:8:1\u001b[39m\n\u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at module.exports.335.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:4:1)\u001b[39m\n\u001b[31m+ stderr &gt; (node:3017) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n\u001b[31m+ stderr &gt; (node:3017) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n\u001b[31m+ \u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts:130:24\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] runs.main has expected output&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;runs.main has expected output&quot;
         }
       ],
       &quot;skipped&quot;: false,
       &quot;leaks&quot;: false
     },
     {
-      &quot;displayName&quot;: &quot;&quot;,
-      &quot;failureMessage&quot;: &quot;  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module &#39;..&#x2F;package&#39; from &#39;nodegit.js&#39;\n\n    However, Jest was able to find:\n    \t&#39;..&#x2F;package.json&#39;\n\n    You might want to include a file extension in your import, or update your &#39;moduleFileExtensions&#39;, which is currently [&#39;ts&#39;, &#39;js&#39;].\n\n    See https:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;en&#x2F;configuration#modulefileextensions-array-string\n\n    However, Jest was able to find:\n    \t&#39;..&#x2F;src&#x2F;utils&#x2F;commitAndPush.ts&#39;\n\n    You might want to include a file extension in your import, or update your &#39;moduleFileExtensions&#39;, which is currently [&#39;ts&#39;, &#39;js&#39;].\n\n    See https:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;en&#x2F;configuration#modulefileextensions-array-string\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules&#x2F;jest-resolve&#x2F;build&#x2F;index.js\u001b[2m:259:17)\u001b[22m\n      \u001b[2mat Object.&lt;anonymous&gt; (\u001b[22mnode_modules&#x2F;nodegit&#x2F;dist&#x2F;nodegit.js\u001b[2m:1302:19)\u001b[22m\n&quot;,
-      &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 0,
-      &quot;numPendingTests&quot;: 0,
-      &quot;numTodoTests&quot;: 0,
-      &quot;openHandles&quot;: [],
-      &quot;perfStats&quot;: {
-        &quot;end&quot;: 0,
-        &quot;start&quot;: 0
-      },
-      &quot;skipped&quot;: false,
-      &quot;snapshot&quot;: {
-        &quot;added&quot;: 0,
-        &quot;fileDeleted&quot;: false,
-        &quot;matched&quot;: 0,
-        &quot;unchecked&quot;: 0,
-        &quot;uncheckedKeys&quot;: [],
-        &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0
-      },
-      &quot;testExecError&quot;: {
-        &quot;code&quot;: &quot;MODULE_NOT_FOUND&quot;
-      },
-      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;allure-results&#x2F;tests&#x2F;utils.commitAndPush.ts&quot;,
-      &quot;testResults&quot;: []
-    },
-    {
-      &quot;displayName&quot;: &quot;&quot;,
-      &quot;failureMessage&quot;: &quot;  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module &#39;..&#x2F;package&#39; from &#39;nodegit.js&#39;\n\n    However, Jest was able to find:\n    \t&#39;..&#x2F;package.json&#39;\n\n    You might want to include a file extension in your import, or update your &#39;moduleFileExtensions&#39;, which is currently [&#39;ts&#39;, &#39;js&#39;].\n\n    See https:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;en&#x2F;configuration#modulefileextensions-array-string\n\n    However, Jest was able to find:\n    \t&#39;..&#x2F;src&#x2F;utils&#x2F;commitAndPush.ts&#39;\n\n    You might want to include a file extension in your import, or update your &#39;moduleFileExtensions&#39;, which is currently [&#39;ts&#39;, &#39;js&#39;].\n\n    See https:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;en&#x2F;configuration#modulefileextensions-array-string\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules&#x2F;jest-resolve&#x2F;build&#x2F;index.js\u001b[2m:259:17)\u001b[22m\n      \u001b[2mat Object.&lt;anonymous&gt; (\u001b[22mnode_modules&#x2F;nodegit&#x2F;dist&#x2F;nodegit.js\u001b[2m:1302:19)\u001b[22m\n&quot;,
-      &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 0,
-      &quot;numPendingTests&quot;: 0,
-      &quot;numTodoTests&quot;: 0,
-      &quot;openHandles&quot;: [],
-      &quot;perfStats&quot;: {
-        &quot;end&quot;: 0,
-        &quot;start&quot;: 0
-      },
-      &quot;skipped&quot;: false,
-      &quot;snapshot&quot;: {
-        &quot;added&quot;: 0,
-        &quot;fileDeleted&quot;: false,
-        &quot;matched&quot;: 0,
-        &quot;unchecked&quot;: 0,
-        &quot;uncheckedKeys&quot;: [],
-        &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0
-      },
-      &quot;testExecError&quot;: {
-        &quot;code&quot;: &quot;MODULE_NOT_FOUND&quot;
-      },
-      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;utils.commitAndPush.ts&quot;,
-      &quot;testResults&quot;: []
-    },
-    {
-      &quot;failureMessage&quot;: null,
-      &quot;numFailingTests&quot;: 0,
+      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › clone can be called for non-existent branch\u001b[39m\u001b[22m\n\n    no reference found for shorthand &#39;this-branch-will-never-exist&#39;\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › clone can be called for existing branch\u001b[39m\u001b[22m\n\n    no reference found for shorthand &#39;master&#39;\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n&quot;,
+      &quot;numFailingTests&quot;: 2,
       &quot;numPassingTests&quot;: 1,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578308764235,
-        &quot;start&quot;: 1578308764018
+        &quot;end&quot;: 1578466341314,
+        &quot;start&quot;: 1578466340322
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -300,19 +308,47 @@
         &quot;updated&quot;: 0,
         &quot;uncheckedKeys&quot;: []
       },
-      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;allure-results&#x2F;tests&#x2F;utils.inputs.ts&quot;,
+      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;utils.clone.ts&quot;,
       &quot;testResults&quot;: [
         {
           &quot;ancestorTitles&quot;: [
-            &quot;utils&#x2F;inputs&quot;
+            &quot;utils&#x2F;clone&quot;
           ],
-          &quot;duration&quot;: 2,
+          &quot;duration&quot;: 1,
           &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;utils&#x2F;inputs readInputs is a function&quot;,
+          &quot;fullName&quot;: &quot;utils&#x2F;clone clone is a function&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
           &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;readInputs is a function&quot;
+          &quot;title&quot;: &quot;clone is a function&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;clone&quot;
+          ],
+          &quot;duration&quot;: 11,
+          &quot;failureMessages&quot;: [
+            &quot;Error: no reference found for shorthand &#39;this-branch-will-never-exist&#39;&quot;
+          ],
+          &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called for non-existent branch&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;clone can be called for non-existent branch&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;clone&quot;
+          ],
+          &quot;duration&quot;: 11,
+          &quot;failureMessages&quot;: [
+            &quot;Error: no reference found for shorthand &#39;master&#39;&quot;
+          ],
+          &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called for existing branch&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;clone can be called for existing branch&quot;
         }
       ],
       &quot;skipped&quot;: false,
@@ -325,8 +361,82 @@
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578308764514,
-        &quot;start&quot;: 1578308764256
+        &quot;end&quot;: 1578466342131,
+        &quot;start&quot;: 1578466341341
+      },
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;clone.ts&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;clone&quot;
+          ],
+          &quot;duration&quot;: 502,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;clone can be called&quot;
+        }
+      ],
+      &quot;skipped&quot;: false,
+      &quot;leaks&quot;: false
+    },
+    {
+      &quot;failureMessage&quot;: null,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 1,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1578466342673,
+        &quot;start&quot;: 1578466342154
+      },
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;utils.commitAndPush.ts&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;commitAndPush&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;utils&#x2F;commitAndPush commitAndPush is a function&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;commitAndPush is a function&quot;
+        }
+      ],
+      &quot;skipped&quot;: false,
+      &quot;leaks&quot;: false
+    },
+    {
+      &quot;failureMessage&quot;: null,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 1,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1578466342971,
+        &quot;start&quot;: 1578466342698
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -341,11 +451,11 @@
       &quot;testResults&quot;: [
         {
           &quot;ancestorTitles&quot;: [
-            &quot;utils&#x2F;inputs&quot;
+            &quot;utils&#x2F;readInputs&quot;
           ],
           &quot;duration&quot;: 1,
           &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;utils&#x2F;inputs readInputs is a function&quot;,
+          &quot;fullName&quot;: &quot;utils&#x2F;readInputs readInputs is a function&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
           &quot;status&quot;: &quot;passed&quot;,
@@ -354,70 +464,12 @@
       ],
       &quot;skipped&quot;: false,
       &quot;leaks&quot;: false
-    },
-    {
-      &quot;displayName&quot;: &quot;&quot;,
-      &quot;failureMessage&quot;: &quot;  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module &#39;..&#x2F;package&#39; from &#39;nodegit.js&#39;\n\n    However, Jest was able to find:\n    \t&#39;..&#x2F;package.json&#39;\n\n    You might want to include a file extension in your import, or update your &#39;moduleFileExtensions&#39;, which is currently [&#39;ts&#39;, &#39;js&#39;].\n\n    See https:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;en&#x2F;configuration#modulefileextensions-array-string\n\n    However, Jest was able to find:\n    \t&#39;..&#x2F;src&#x2F;utils&#x2F;clone.ts&#39;\n\n    You might want to include a file extension in your import, or update your &#39;moduleFileExtensions&#39;, which is currently [&#39;ts&#39;, &#39;js&#39;].\n\n    See https:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;en&#x2F;configuration#modulefileextensions-array-string\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules&#x2F;jest-resolve&#x2F;build&#x2F;index.js\u001b[2m:259:17)\u001b[22m\n      \u001b[2mat Object.&lt;anonymous&gt; (\u001b[22mnode_modules&#x2F;nodegit&#x2F;dist&#x2F;nodegit.js\u001b[2m:1302:19)\u001b[22m\n&quot;,
-      &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 0,
-      &quot;numPendingTests&quot;: 0,
-      &quot;numTodoTests&quot;: 0,
-      &quot;openHandles&quot;: [],
-      &quot;perfStats&quot;: {
-        &quot;end&quot;: 0,
-        &quot;start&quot;: 0
-      },
-      &quot;skipped&quot;: false,
-      &quot;snapshot&quot;: {
-        &quot;added&quot;: 0,
-        &quot;fileDeleted&quot;: false,
-        &quot;matched&quot;: 0,
-        &quot;unchecked&quot;: 0,
-        &quot;uncheckedKeys&quot;: [],
-        &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0
-      },
-      &quot;testExecError&quot;: {
-        &quot;code&quot;: &quot;MODULE_NOT_FOUND&quot;
-      },
-      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;allure-results&#x2F;tests&#x2F;utils.clone.ts&quot;,
-      &quot;testResults&quot;: []
-    },
-    {
-      &quot;displayName&quot;: &quot;&quot;,
-      &quot;failureMessage&quot;: &quot;  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module &#39;..&#x2F;package&#39; from &#39;nodegit.js&#39;\n\n    However, Jest was able to find:\n    \t&#39;..&#x2F;package.json&#39;\n\n    You might want to include a file extension in your import, or update your &#39;moduleFileExtensions&#39;, which is currently [&#39;ts&#39;, &#39;js&#39;].\n\n    See https:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;en&#x2F;configuration#modulefileextensions-array-string\n\n    However, Jest was able to find:\n    \t&#39;..&#x2F;src&#x2F;utils&#x2F;clone.ts&#39;\n\n    You might want to include a file extension in your import, or update your &#39;moduleFileExtensions&#39;, which is currently [&#39;ts&#39;, &#39;js&#39;].\n\n    See https:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;en&#x2F;configuration#modulefileextensions-array-string\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules&#x2F;jest-resolve&#x2F;build&#x2F;index.js\u001b[2m:259:17)\u001b[22m\n      \u001b[2mat Object.&lt;anonymous&gt; (\u001b[22mnode_modules&#x2F;nodegit&#x2F;dist&#x2F;nodegit.js\u001b[2m:1302:19)\u001b[22m\n&quot;,
-      &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 0,
-      &quot;numPendingTests&quot;: 0,
-      &quot;numTodoTests&quot;: 0,
-      &quot;openHandles&quot;: [],
-      &quot;perfStats&quot;: {
-        &quot;end&quot;: 0,
-        &quot;start&quot;: 0
-      },
-      &quot;skipped&quot;: false,
-      &quot;snapshot&quot;: {
-        &quot;added&quot;: 0,
-        &quot;fileDeleted&quot;: false,
-        &quot;matched&quot;: 0,
-        &quot;unchecked&quot;: 0,
-        &quot;uncheckedKeys&quot;: [],
-        &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0
-      },
-      &quot;testExecError&quot;: {
-        &quot;code&quot;: &quot;MODULE_NOT_FOUND&quot;
-      },
-      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;utils.clone.ts&quot;,
-      &quot;testResults&quot;: []
     }
   ],
   &quot;wasInterrupted&quot;: false,
   &quot;coverageMap&quot;: {
-    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;inputs.ts&quot;: {
-      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;inputs.ts&quot;,
+    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;clone.ts&quot;: {
+      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;clone.ts&quot;,
       &quot;statementMap&quot;: {
         &quot;0&quot;: {
           &quot;start&quot;: {
@@ -426,141 +478,201 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 1,
-            &quot;column&quot;: 38
+            &quot;column&quot;: 43
           }
         },
         &quot;1&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 14,
-            &quot;column&quot;: 2
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 0
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 14,
-            &quot;column&quot;: 31
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 38
           }
         },
         &quot;2&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 16,
-            &quot;column&quot;: 17
+            &quot;line&quot;: 17,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 16,
-            &quot;column&quot;: 60
+            &quot;line&quot;: 19,
+            &quot;column&quot;: null
           }
         },
         &quot;3&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 19,
+            &quot;line&quot;: 18,
             &quot;column&quot;: 4
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 20,
-            &quot;column&quot;: 57
+            &quot;line&quot;: 18,
+            &quot;column&quot;: 23
           }
         },
         &quot;4&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 22,
-            &quot;column&quot;: 14
+            &quot;line&quot;: 21,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 22,
-            &quot;column&quot;: 68
+            &quot;line&quot;: 21,
+            &quot;column&quot;: 53
           }
         },
         &quot;5&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 24,
-            &quot;column&quot;: 18
+            &quot;line&quot;: 25,
+            &quot;column&quot;: 21
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 24,
-            &quot;column&quot;: 49
+            &quot;line&quot;: 25,
+            &quot;column&quot;: 52
           }
         },
         &quot;6&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 26,
-            &quot;column&quot;: 15
+            &quot;line&quot;: 27,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 26,
-            &quot;column&quot;: 43
+            &quot;line&quot;: 27,
+            &quot;column&quot;: 42
           }
         },
         &quot;7&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 28,
-            &quot;column&quot;: 16
+            &quot;line&quot;: 29,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 28,
-            &quot;column&quot;: 45
+            &quot;line&quot;: 44,
+            &quot;column&quot;: null
           }
         },
         &quot;8&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 30,
-            &quot;column&quot;: 20
+            &quot;column&quot;: 16
           },
           &quot;end&quot;: {
             &quot;line&quot;: 30,
-            &quot;column&quot;: 53
+            &quot;column&quot;: 55
           }
         },
         &quot;9&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 32,
-            &quot;column&quot;: 25
+            &quot;line&quot;: 34,
+            &quot;column&quot;: 4
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 40,
-            &quot;column&quot;: 4
+            &quot;line&quot;: 34,
+            &quot;column&quot;: 32
           }
         },
         &quot;10&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 42,
-            &quot;column&quot;: 2
+            &quot;line&quot;: 36,
+            &quot;column&quot;: 4
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 42,
-            &quot;column&quot;: 16
+            &quot;line&quot;: 36,
+            &quot;column&quot;: 15
           }
         },
         &quot;11&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 13,
+            &quot;line&quot;: 38,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 38,
+            &quot;column&quot;: 39
+          }
+        },
+        &quot;12&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 38,
+            &quot;column&quot;: 31
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 38,
+            &quot;column&quot;: 39
+          }
+        },
+        &quot;13&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 39,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 39,
+            &quot;column&quot;: 70
+          }
+        },
+        &quot;14&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 39,
+            &quot;column&quot;: 62
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 39,
+            &quot;column&quot;: 70
+          }
+        },
+        &quot;15&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 41,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 41,
+            &quot;column&quot;: 56
+          }
+        },
+        &quot;16&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 43,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 43,
+            &quot;column&quot;: 16
+          }
+        },
+        &quot;17&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 11,
             &quot;column&quot;: 0
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 13,
-            &quot;column&quot;: 16
+            &quot;line&quot;: 11,
+            &quot;column&quot;: 22
           }
         }
       },
       &quot;fnMap&quot;: {
         &quot;0&quot;: {
-          &quot;name&quot;: &quot;readInputs&quot;,
+          &quot;name&quot;: &quot;clone&quot;,
           &quot;decl&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 13,
-              &quot;column&quot;: 16
+              &quot;line&quot;: 11,
+              &quot;column&quot;: 22
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 13,
-              &quot;column&quot;: 26
+              &quot;line&quot;: 11,
+              &quot;column&quot;: 27
             }
           },
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 13,
-              &quot;column&quot;: 26
+              &quot;line&quot;: 16,
+              &quot;column&quot;: 10
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 43,
-              &quot;column&quot;: 1
+              &quot;line&quot;: 45,
+              &quot;column&quot;: null
             }
           }
         }
@@ -569,34 +681,104 @@
         &quot;0&quot;: {
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 19,
-              &quot;column&quot;: 4
+              &quot;line&quot;: 17,
+              &quot;column&quot;: 2
             },
             &quot;end&quot;: {
               &quot;line&quot;: 19,
-              &quot;column&quot;: 25
+              &quot;column&quot;: null
             }
           },
-          &quot;type&quot;: &quot;binary-expr&quot;,
+          &quot;type&quot;: &quot;if&quot;,
           &quot;locations&quot;: [
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 19,
-                &quot;column&quot;: 4
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 2
               },
               &quot;end&quot;: {
                 &quot;line&quot;: 19,
-                &quot;column&quot;: 25
+                &quot;column&quot;: null
               }
             },
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 20,
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 2
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 19,
+                &quot;column&quot;: null
+              }
+            }
+          ]
+        },
+        &quot;1&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 38,
+              &quot;column&quot;: 4
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 38,
+              &quot;column&quot;: 39
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 38,
                 &quot;column&quot;: 4
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 20,
-                &quot;column&quot;: 57
+                &quot;line&quot;: 38,
+                &quot;column&quot;: 39
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 38,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 38,
+                &quot;column&quot;: 39
+              }
+            }
+          ]
+        },
+        &quot;2&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 39,
+              &quot;column&quot;: 4
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 39,
+              &quot;column&quot;: 70
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 39,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 39,
+                &quot;column&quot;: 70
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 39,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 39,
+                &quot;column&quot;: 70
               }
             }
           ]
@@ -604,310 +786,41 @@
       },
       &quot;s&quot;: {
         &quot;0&quot;: 1,
-        &quot;1&quot;: 0,
-        &quot;2&quot;: 0,
-        &quot;3&quot;: 0,
-        &quot;4&quot;: 0,
-        &quot;5&quot;: 0,
-        &quot;6&quot;: 0,
-        &quot;7&quot;: 0,
-        &quot;8&quot;: 0,
+        &quot;1&quot;: 1,
+        &quot;2&quot;: 2,
+        &quot;3&quot;: 2,
+        &quot;4&quot;: 2,
+        &quot;5&quot;: 2,
+        &quot;6&quot;: 2,
+        &quot;7&quot;: 2,
+        &quot;8&quot;: 2,
         &quot;9&quot;: 0,
         &quot;10&quot;: 0,
-        &quot;11&quot;: 1
+        &quot;11&quot;: 2,
+        &quot;12&quot;: 2,
+        &quot;13&quot;: 0,
+        &quot;14&quot;: 0,
+        &quot;15&quot;: 0,
+        &quot;16&quot;: 0,
+        &quot;17&quot;: 1
       },
       &quot;f&quot;: {
-        &quot;0&quot;: 0
+        &quot;0&quot;: 2
       },
       &quot;b&quot;: {
         &quot;0&quot;: [
+          2,
+          0
+        ],
+        &quot;1&quot;: [
+          2,
+          0
+        ],
+        &quot;2&quot;: [
           0,
           0
         ]
       }
-    },
-    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;commit.ts&quot;: {
-      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;commit.ts&quot;,
-      &quot;statementMap&quot;: {
-        &quot;0&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 2,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 2,
-            &quot;column&quot;: 38
-          }
-        },
-        &quot;1&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 3,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 3,
-            &quot;column&quot;: 44
-          }
-        },
-        &quot;2&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 54
-          }
-        },
-        &quot;3&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 7,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 14,
-            &quot;column&quot;: null
-          }
-        },
-        &quot;4&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 8,
-            &quot;column&quot;: 50
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 8,
-            &quot;column&quot;: 62
-          }
-        },
-        &quot;5&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 22
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 26
-          }
-        },
-        &quot;6&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 64
-          }
-        },
-        &quot;7&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 13,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 13,
-            &quot;column&quot;: 34
-          }
-        },
-        &quot;8&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 17,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 17,
-            &quot;column&quot;: 6
-          }
-        }
-      },
-      &quot;fnMap&quot;: {
-        &quot;0&quot;: {
-          &quot;name&quot;: &quot;run&quot;,
-          &quot;decl&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 6,
-              &quot;column&quot;: 15
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 6,
-              &quot;column&quot;: 18
-            }
-          },
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 6,
-              &quot;column&quot;: 18
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 15,
-              &quot;column&quot;: null
-            }
-          }
-        }
-      },
-      &quot;branchMap&quot;: {},
-      &quot;s&quot;: {
-        &quot;0&quot;: 0,
-        &quot;1&quot;: 0,
-        &quot;2&quot;: 0,
-        &quot;3&quot;: 0,
-        &quot;4&quot;: 0,
-        &quot;5&quot;: 0,
-        &quot;6&quot;: 0,
-        &quot;7&quot;: 0,
-        &quot;8&quot;: 0
-      },
-      &quot;f&quot;: {
-        &quot;0&quot;: 0
-      },
-      &quot;b&quot;: {}
-    },
-    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;clone.ts&quot;: {
-      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;clone.ts&quot;,
-      &quot;statementMap&quot;: {
-        &quot;0&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 2,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 2,
-            &quot;column&quot;: 38
-          }
-        },
-        &quot;1&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 3,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 3,
-            &quot;column&quot;: 44
-          }
-        },
-        &quot;2&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 38
-          }
-        },
-        &quot;3&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 7,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 16,
-            &quot;column&quot;: null
-          }
-        },
-        &quot;4&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 8,
-            &quot;column&quot;: 43
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 8,
-            &quot;column&quot;: 55
-          }
-        },
-        &quot;5&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 22
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 26
-          }
-        },
-        &quot;6&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 16
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 54
-          }
-        },
-        &quot;7&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 13,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 13,
-            &quot;column&quot;: 44
-          }
-        },
-        &quot;8&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 15,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 15,
-            &quot;column&quot;: 34
-          }
-        },
-        &quot;9&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 19,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 19,
-            &quot;column&quot;: 6
-          }
-        }
-      },
-      &quot;fnMap&quot;: {
-        &quot;0&quot;: {
-          &quot;name&quot;: &quot;run&quot;,
-          &quot;decl&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 6,
-              &quot;column&quot;: 15
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 6,
-              &quot;column&quot;: 18
-            }
-          },
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 6,
-              &quot;column&quot;: 18
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 17,
-              &quot;column&quot;: null
-            }
-          }
-        }
-      },
-      &quot;branchMap&quot;: {},
-      &quot;s&quot;: {
-        &quot;0&quot;: 0,
-        &quot;1&quot;: 0,
-        &quot;2&quot;: 0,
-        &quot;3&quot;: 0,
-        &quot;4&quot;: 0,
-        &quot;5&quot;: 0,
-        &quot;6&quot;: 0,
-        &quot;7&quot;: 0,
-        &quot;8&quot;: 0,
-        &quot;9&quot;: 0
-      },
-      &quot;f&quot;: {
-        &quot;0&quot;: 0
-      },
-      &quot;b&quot;: {}
     },
     &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;commitAndPush.ts&quot;: {
       &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;commitAndPush.ts&quot;,
@@ -1299,8 +1212,8 @@
         }
       },
       &quot;s&quot;: {
-        &quot;0&quot;: 0,
-        &quot;1&quot;: 0,
+        &quot;0&quot;: 1,
+        &quot;1&quot;: 1,
         &quot;2&quot;: 0,
         &quot;3&quot;: 0,
         &quot;4&quot;: 0,
@@ -1328,7 +1241,7 @@
         &quot;26&quot;: 0,
         &quot;27&quot;: 0,
         &quot;28&quot;: 0,
-        &quot;29&quot;: 0
+        &quot;29&quot;: 1
       },
       &quot;f&quot;: {
         &quot;0&quot;: 0,
@@ -1341,8 +1254,8 @@
         ]
       }
     },
-    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;clone.ts&quot;: {
-      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;clone.ts&quot;,
+    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;readInputs.ts&quot;: {
+      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;readInputs.ts&quot;,
       &quot;statementMap&quot;: {
         &quot;0&quot;: {
           &quot;start&quot;: {
@@ -1351,131 +1264,141 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 1,
-            &quot;column&quot;: 30
+            &quot;column&quot;: 38
           }
         },
         &quot;1&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 2,
-            &quot;column&quot;: 0
+            &quot;line&quot;: 14,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 2,
-            &quot;column&quot;: 38
+            &quot;line&quot;: 14,
+            &quot;column&quot;: 31
           }
         },
         &quot;2&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 17,
-            &quot;column&quot;: 2
+            &quot;line&quot;: 16,
+            &quot;column&quot;: 17
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 19,
-            &quot;column&quot;: null
+            &quot;line&quot;: 16,
+            &quot;column&quot;: 60
           }
         },
         &quot;3&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 18,
+            &quot;line&quot;: 19,
             &quot;column&quot;: 4
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 18,
-            &quot;column&quot;: 23
+            &quot;line&quot;: 20,
+            &quot;column&quot;: 57
           }
         },
         &quot;4&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 21,
-            &quot;column&quot;: 2
+            &quot;line&quot;: 22,
+            &quot;column&quot;: 14
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 21,
-            &quot;column&quot;: 53
+            &quot;line&quot;: 22,
+            &quot;column&quot;: 48
           }
         },
         &quot;5&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 25,
-            &quot;column&quot;: 21
+            &quot;line&quot;: 24,
+            &quot;column&quot;: 18
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 25,
-            &quot;column&quot;: 60
+            &quot;line&quot;: 24,
+            &quot;column&quot;: 49
           }
         },
         &quot;6&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 27,
-            &quot;column&quot;: 2
+            &quot;line&quot;: 26,
+            &quot;column&quot;: 15
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 27,
-            &quot;column&quot;: 42
+            &quot;line&quot;: 26,
+            &quot;column&quot;: 43
           }
         },
         &quot;7&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 29,
-            &quot;column&quot;: 14
+            &quot;line&quot;: 28,
+            &quot;column&quot;: 16
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 29,
-            &quot;column&quot;: 53
+            &quot;line&quot;: 28,
+            &quot;column&quot;: 45
           }
         },
         &quot;8&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 33,
-            &quot;column&quot;: 2
+            &quot;line&quot;: 30,
+            &quot;column&quot;: 20
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 33,
-            &quot;column&quot;: 30
+            &quot;line&quot;: 30,
+            &quot;column&quot;: 53
           }
         },
         &quot;9&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 35,
-            &quot;column&quot;: 2
+            &quot;line&quot;: 32,
+            &quot;column&quot;: 25
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 35,
-            &quot;column&quot;: 13
+            &quot;line&quot;: 40,
+            &quot;column&quot;: 4
           }
         },
         &quot;10&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 11,
+            &quot;line&quot;: 42,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 42,
+            &quot;column&quot;: 16
+          }
+        },
+        &quot;11&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 13,
             &quot;column&quot;: 0
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 22
+            &quot;line&quot;: 13,
+            &quot;column&quot;: 16
           }
         }
       },
       &quot;fnMap&quot;: {
         &quot;0&quot;: {
-          &quot;name&quot;: &quot;clone&quot;,
+          &quot;name&quot;: &quot;readInputs&quot;,
           &quot;decl&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 11,
-              &quot;column&quot;: 22
+              &quot;line&quot;: 13,
+              &quot;column&quot;: 16
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 11,
-              &quot;column&quot;: 27
+              &quot;line&quot;: 13,
+              &quot;column&quot;: 26
             }
           },
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 16,
-              &quot;column&quot;: 10
+              &quot;line&quot;: 13,
+              &quot;column&quot;: 26
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 36,
-              &quot;column&quot;: null
+              &quot;line&quot;: 43,
+              &quot;column&quot;: 1
             }
           }
         }
@@ -1484,41 +1407,41 @@
         &quot;0&quot;: {
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 17,
-              &quot;column&quot;: 2
+              &quot;line&quot;: 19,
+              &quot;column&quot;: 4
             },
             &quot;end&quot;: {
               &quot;line&quot;: 19,
-              &quot;column&quot;: null
+              &quot;column&quot;: 25
             }
           },
-          &quot;type&quot;: &quot;if&quot;,
+          &quot;type&quot;: &quot;binary-expr&quot;,
           &quot;locations&quot;: [
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 2
+                &quot;line&quot;: 19,
+                &quot;column&quot;: 4
               },
               &quot;end&quot;: {
                 &quot;line&quot;: 19,
-                &quot;column&quot;: null
+                &quot;column&quot;: 25
               }
             },
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 2
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 4
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 19,
-                &quot;column&quot;: null
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 57
               }
             }
           ]
         }
       },
       &quot;s&quot;: {
-        &quot;0&quot;: 0,
+        &quot;0&quot;: 1,
         &quot;1&quot;: 0,
         &quot;2&quot;: 0,
         &quot;3&quot;: 0,
@@ -1528,7 +1451,8 @@
         &quot;7&quot;: 0,
         &quot;8&quot;: 0,
         &quot;9&quot;: 0,
-        &quot;10&quot;: 0
+        &quot;10&quot;: 0,
+        &quot;11&quot;: 1
       },
       &quot;f&quot;: {
         &quot;0&quot;: 0
@@ -1539,6 +1463,289 @@
           0
         ]
       }
+    },
+    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;commit.ts&quot;: {
+      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;commit.ts&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 38
+          }
+        },
+        &quot;1&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 3,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 3,
+            &quot;column&quot;: 48
+          }
+        },
+        &quot;2&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 4,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 4,
+            &quot;column&quot;: 54
+          }
+        },
+        &quot;3&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 7,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 14,
+            &quot;column&quot;: null
+          }
+        },
+        &quot;4&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 50
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 62
+          }
+        },
+        &quot;5&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 9,
+            &quot;column&quot;: 22
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 9,
+            &quot;column&quot;: 26
+          }
+        },
+        &quot;6&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 11,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 11,
+            &quot;column&quot;: 64
+          }
+        },
+        &quot;7&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 13,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 13,
+            &quot;column&quot;: 34
+          }
+        },
+        &quot;8&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 17,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 17,
+            &quot;column&quot;: 6
+          }
+        }
+      },
+      &quot;fnMap&quot;: {
+        &quot;0&quot;: {
+          &quot;name&quot;: &quot;run&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 6,
+              &quot;column&quot;: 15
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 6,
+              &quot;column&quot;: 18
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 6,
+              &quot;column&quot;: 18
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 15,
+              &quot;column&quot;: null
+            }
+          }
+        }
+      },
+      &quot;branchMap&quot;: {},
+      &quot;s&quot;: {
+        &quot;0&quot;: 0,
+        &quot;1&quot;: 0,
+        &quot;2&quot;: 0,
+        &quot;3&quot;: 0,
+        &quot;4&quot;: 0,
+        &quot;5&quot;: 0,
+        &quot;6&quot;: 0,
+        &quot;7&quot;: 0,
+        &quot;8&quot;: 0
+      },
+      &quot;f&quot;: {
+        &quot;0&quot;: 0
+      },
+      &quot;b&quot;: {}
+    },
+    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;clone.ts&quot;: {
+      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;clone.ts&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 38
+          }
+        },
+        &quot;1&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 3,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 3,
+            &quot;column&quot;: 48
+          }
+        },
+        &quot;2&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 4,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 4,
+            &quot;column&quot;: 38
+          }
+        },
+        &quot;3&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 7,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 16,
+            &quot;column&quot;: null
+          }
+        },
+        &quot;4&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 43
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 55
+          }
+        },
+        &quot;5&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 9,
+            &quot;column&quot;: 22
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 9,
+            &quot;column&quot;: 26
+          }
+        },
+        &quot;6&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 11,
+            &quot;column&quot;: 16
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 11,
+            &quot;column&quot;: 54
+          }
+        },
+        &quot;7&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 13,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 13,
+            &quot;column&quot;: 44
+          }
+        },
+        &quot;8&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 15,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 15,
+            &quot;column&quot;: 34
+          }
+        },
+        &quot;9&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 19,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 19,
+            &quot;column&quot;: 6
+          }
+        }
+      },
+      &quot;fnMap&quot;: {
+        &quot;0&quot;: {
+          &quot;name&quot;: &quot;run&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 6,
+              &quot;column&quot;: 15
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 6,
+              &quot;column&quot;: 18
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 6,
+              &quot;column&quot;: 18
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 17,
+              &quot;column&quot;: null
+            }
+          }
+        }
+      },
+      &quot;branchMap&quot;: {},
+      &quot;s&quot;: {
+        &quot;0&quot;: 0,
+        &quot;1&quot;: 0,
+        &quot;2&quot;: 0,
+        &quot;3&quot;: 0,
+        &quot;4&quot;: 0,
+        &quot;5&quot;: 0,
+        &quot;6&quot;: 0,
+        &quot;7&quot;: 0,
+        &quot;8&quot;: 0,
+        &quot;9&quot;: 0
+      },
+      &quot;f&quot;: {
+        &quot;0&quot;: 0
+      },
+      &quot;b&quot;: {}
     },
     &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;wait.ts&quot;: {
       &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;wait.ts&quot;,
@@ -1769,10 +1976,6 @@
   &quot;reporters&quot;: [
     [
       &quot;default&quot;,
-      {}
-    ],
-    [
-      &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;node_modules&#x2F;jest-github-reporter&#x2F;dist&#x2F;index.js&quot;,
       {}
     ],
     [

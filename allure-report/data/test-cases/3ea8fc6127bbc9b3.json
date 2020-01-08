@@ -1,11 +1,11 @@
 {
-  "uid" : "642bd268406f0a6f",
+  "uid" : "3ea8fc6127bbc9b3",
   "name" : "readInputs is a function",
-  "fullName" : "utils/inputs.readInputs is a function",
-  "historyId" : "6ea38ec0e372ec011bb604e4f1940dbf",
+  "fullName" : "utils/readInputs.readInputs is a function",
+  "historyId" : "2eddb652dd3e32bd1f498303a4f7bc42",
   "time" : {
-    "start" : 1578308764511,
-    "stop" : 1578308764512,
+    "start" : 1578466342969,
+    "stop" : 1578466342970,
     "duration" : 1
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/inputs"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testClass",
-    "value" : "utils/inputs"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testMethod",
     "value" : "readInputs is a function"
   }, {
     "name" : "package",
-    "value" : "utils/inputs"
+    "value" : "utils/readInputs"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -37,18 +37,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "8e5adf4a898e602e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1578308764232,
-        "stop" : 1578308764234,
-        "duration" : 2
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "642bd268406f0a6f.json",
+  "source" : "3ea8fc6127bbc9b3.json",
   "parameterValues" : [ ]
 }

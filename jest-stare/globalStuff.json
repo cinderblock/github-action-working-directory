@@ -36,10 +36,6 @@
       {}
     ],
     [
-      "/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-github-reporter/dist/index.js",
-      {}
-    ],
-    [
       "/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/jest-stare/lib/index.js",
       {
         "resultDir": "public/jest-stare/",

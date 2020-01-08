@@ -1,12 +1,12 @@
 {
-  "uid" : "57d1b660e1266891",
-  "name" : "action.yml exists",
-  "fullName" : "GitHub Actions Format.action.yml exists",
-  "historyId" : "f9eb496e7dd3b7fe3f6aa929edbed5b1",
+  "uid" : "518b536b818147c0",
+  "name" : "clone is a function",
+  "fullName" : "utils/clone.clone is a function",
+  "historyId" : "5b02bd65b5fb82a918ecb9e05487e5dc",
   "time" : {
-    "start" : 1578308761813,
-    "stop" : 1578308761816,
-    "duration" : 3
+    "start" : 1578466341281,
+    "stop" : 1578466341282,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,28 +17,30 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/clone"
   }, {
     "name" : "testClass",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/clone"
   }, {
     "name" : "testMethod",
-    "value" : "action.yml exists"
+    "value" : "clone is a function"
   }, {
     "name" : "package",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/clone"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "57d1b660e1266891.json",
+  "source" : "518b536b818147c0.json",
   "parameterValues" : [ ]
 }

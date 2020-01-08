@@ -1,0 +1,52 @@
+{
+  "uid" : "ac1633149aa06871",
+  "name" : "clone can be called for existing branch",
+  "fullName" : "utils/clone.clone can be called for existing branch",
+  "historyId" : "4d75ecf2373db3c697197d257e5b9a68",
+  "time" : {
+    "start" : 1578466341293,
+    "stop" : 1578466341304,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: no reference found for shorthand 'master'",
+  "statusTrace" : "Error: no reference found for shorthand 'master'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "utils/clone"
+  }, {
+    "name" : "testClass",
+    "value" : "utils/clone"
+  }, {
+    "name" : "testMethod",
+    "value" : "clone can be called for existing branch"
+  }, {
+    "name" : "package",
+    "value" : "utils/clone"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ac1633149aa06871.json",
+  "parameterValues" : [ ]
+}
