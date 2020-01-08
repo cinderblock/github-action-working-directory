@@ -33,9 +33,7 @@ export async function clone({
 
     return ret;
   } catch (e) {
-    if (typeof e !== 'string') throw e;
-    if (e !== `no reference found for shorthand '${branch}'`) throw e;
-
+    if (e?.message !== `no reference found for shorthand '${branch}'`) throw e;
     return null;
   }
 }
