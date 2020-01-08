@@ -1,12 +1,12 @@
 {
-  "uid" : "518b536b818147c0",
-  "name" : "clone is a function",
-  "fullName" : "utils/clone.clone is a function",
-  "historyId" : "5b02bd65b5fb82a918ecb9e05487e5dc",
+  "uid" : "b1f92671e786d1bf",
+  "name" : "action.yml exists",
+  "fullName" : "GitHub Actions Test.action.yml exists",
+  "historyId" : "6ef67f031739a1e28838bcac52e719",
   "time" : {
-    "start" : 1578466341281,
-    "stop" : 1578466341282,
-    "duration" : 1
+    "start" : 1578466855572,
+    "stop" : 1578466855575,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/clone"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "testClass",
-    "value" : "utils/clone"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "testMethod",
-    "value" : "clone is a function"
+    "value" : "action.yml exists"
   }, {
     "name" : "package",
-    "value" : "utils/clone"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "518b536b818147c0.json",
+  "source" : "b1f92671e786d1bf.json",
   "parameterValues" : [ ]
 }

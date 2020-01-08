@@ -1,0 +1,52 @@
+{
+  "uid" : "e1fa75f4be2d46f6",
+  "name" : "runs.main has expected output",
+  "fullName" : "GitHub Actions Test Test script execution [runs.main].runs.main has expected output",
+  "historyId" : "69852e76d4207efeaad3dc26b23eb4ae",
+  "time" : {
+    "start" : 1578466855743,
+    "stop" : 1578466855753,
+    "duration" : 10
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected\n                + Received\n                \n                - foobar\n                + stdout > ::debug::Reading inputs\n                + stdout > cloning repo(https://github.com/undefined) into dir()\n                + stdout > ::debug::Cloned: [object Promise]\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:24:1\n                +     at tryCallTwo (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:45:1)\n                +     at doResolve (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:173:1)\n                +     at new Promise (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:65:1)\n                +     at Function.clone (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:19:1)\n                +     at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:28:1)\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.335.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:4:1)\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                + ",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected\n                + Received\n                \n                - foobar\n                + stdout > ::debug::Reading inputs\n                + stdout > cloning repo(https://github.com/undefined) into dir()\n                + stdout > ::debug::Cloned: [object Promise]\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:24:1\n                +     at tryCallTwo (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:45:1)\n                +     at doResolve (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:173:1)\n                +     at new Promise (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:65:1)\n                +     at Function.clone (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:19:1)\n                +     at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:28:1)\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.335.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:4:1)\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                + \n                    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.ts:130:24\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GitHub Actions Test Test script execution [runs.main]"
+  }, {
+    "name" : "testClass",
+    "value" : "GitHub Actions Test Test script execution [runs.main]"
+  }, {
+    "name" : "testMethod",
+    "value" : "runs.main has expected output"
+  }, {
+    "name" : "package",
+    "value" : "GitHub Actions Test Test script execution [runs.main]"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e1fa75f4be2d46f6.json",
+  "parameterValues" : [ ]
+}

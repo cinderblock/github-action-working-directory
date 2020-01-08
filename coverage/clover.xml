@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1578466343626" clover="3.2.0">
-  <project timestamp="1578466343626" name="All files">
+<coverage generated="1578466860115" clover="3.2.0">
+  <project timestamp="1578466860115" name="All files">
     <metrics statements="82" coveredstatements="16" conditionals="12" coveredconditionals="2" methods="9" coveredmethods="1" elements="103" coveredelements="19" complexity="0" loc="82" ncloc="82" packages="2" files="6" classes="6"/>
     <package name="src">
       <metrics statements="19" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -11,11 +11,11 @@
         <line num="4" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
       </file>
       <file name="commit.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/commit.ts">
         <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>

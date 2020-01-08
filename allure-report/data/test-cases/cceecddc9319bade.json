@@ -1,12 +1,12 @@
 {
-  "uid" : "897159733f8c3c80",
-  "name" : "runs.main exists",
-  "fullName" : "GitHub Actions Test Test script execution [runs.main].runs.main exists",
-  "historyId" : "9935498d9adefa2cf37b529e275f3652",
+  "uid" : "cceecddc9319bade",
+  "name" : "can read action.yml",
+  "fullName" : "GitHub Actions Test.can read action.yml",
+  "historyId" : "282a460dc76a6cb16289bdd5fe31407d",
   "time" : {
-    "start" : 1578466340034,
-    "stop" : 1578466340035,
-    "duration" : 1
+    "start" : 1578466855575,
+    "stop" : 1578466855578,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "GitHub Actions Test Test script execution [runs.main]"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "testClass",
-    "value" : "GitHub Actions Test Test script execution [runs.main]"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "testMethod",
-    "value" : "runs.main exists"
+    "value" : "can read action.yml"
   }, {
     "name" : "package",
-    "value" : "GitHub Actions Test Test script execution [runs.main]"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "897159733f8c3c80.json",
+  "source" : "cceecddc9319bade.json",
   "parameterValues" : [ ]
 }

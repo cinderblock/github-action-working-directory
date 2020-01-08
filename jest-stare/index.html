@@ -146,18 +146,18 @@
     &quot;unmatched&quot;: 0,
     &quot;updated&quot;: 0
   },
-  &quot;startTime&quot;: 1578466336580,
+  &quot;startTime&quot;: 1578466852740,
   &quot;success&quot;: false,
   &quot;testResults&quot;: [
     {
-      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mGitHub Actions Test › Test script execution [runs.main] › runs.main has expected output\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    \u001b[32m- Expected\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[32m- foobar\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::Reading inputs\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir()\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::Cloned: [object Promise]\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3017) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:24:1\u001b[39m\n    \u001b[31m+     at tryCallTwo (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:45:1)\u001b[39m\n    \u001b[31m+     at doResolve (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:173:1)\u001b[39m\n    \u001b[31m+     at new Promise (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:65:1)\u001b[39m\n    \u001b[31m+     at Function.clone (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:19:1)\u001b[39m\n    \u001b[31m+     at Object.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:28:1)\u001b[39m\n    \u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:8:1\u001b[39m\n    \u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at module.exports.335.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:4:1)\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3017) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3017) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n    \u001b[31m+ \u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 128 | \u001b[39m        \u001b[36mconst\u001b[39m output \u001b[33m&#x3D;\u001b[39m await executionResult\u001b[33m.\u001b[39mpromise\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 129 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 130 | \u001b[39m        expect(output)\u001b[33m.\u001b[39mtoBe(\u001b[32m&#39;foobar&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 131 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 132 | \u001b[39m        \u001b[36mif\u001b[39m (which \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[32m&#39;main&#39;\u001b[39m) mainDone\u001b[33m.\u001b[39mresolve()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 133 | \u001b[39m      } \u001b[36mcatch\u001b[39m (e) {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:130:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n&quot;,
+      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mGitHub Actions Test › Test script execution [runs.main] › runs.main has expected output\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    \u001b[32m- Expected\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[32m- foobar\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::Reading inputs\u001b[39m\n    \u001b[31m+ stdout &gt; cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir()\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::Cloned: [object Promise]\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:24:1\u001b[39m\n    \u001b[31m+     at tryCallTwo (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:45:1)\u001b[39m\n    \u001b[31m+     at doResolve (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:173:1)\u001b[39m\n    \u001b[31m+     at new Promise (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:65:1)\u001b[39m\n    \u001b[31m+     at Function.clone (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:19:1)\u001b[39m\n    \u001b[31m+     at Object.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:28:1)\u001b[39m\n    \u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:8:1\u001b[39m\n    \u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at module.exports.335.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:4:1)\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n    \u001b[31m+ (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n    \u001b[31m+ \u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 128 | \u001b[39m        \u001b[36mconst\u001b[39m output \u001b[33m&#x3D;\u001b[39m await executionResult\u001b[33m.\u001b[39mpromise\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 129 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 130 | \u001b[39m        expect(output)\u001b[33m.\u001b[39mtoBe(\u001b[32m&#39;foobar&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 131 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 132 | \u001b[39m        \u001b[36mif\u001b[39m (which \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[32m&#39;main&#39;\u001b[39m) mainDone\u001b[33m.\u001b[39mresolve()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 133 | \u001b[39m      } \u001b[36mcatch\u001b[39m (e) {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:130:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n&quot;,
       &quot;numFailingTests&quot;: 1,
       &quot;numPassingTests&quot;: 8,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466340271,
-        &quot;start&quot;: 1578466336645
+        &quot;end&quot;: 1578466855786,
+        &quot;start&quot;: 1578466852787
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -186,7 +186,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 4,
+          &quot;duration&quot;: 3,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test can read action.yml&quot;,
           &quot;location&quot;: null,
@@ -198,7 +198,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 5,
+          &quot;duration&quot;: 4,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test action.yml has valid yaml&quot;,
           &quot;location&quot;: null,
@@ -249,7 +249,7 @@
             &quot;GitHub Actions Test&quot;,
             &quot;Test script execution [runs.main]&quot;
           ],
-          &quot;duration&quot;: 186,
+          &quot;duration&quot;: 158,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] can run runs.main&quot;,
           &quot;location&quot;: null,
@@ -262,7 +262,7 @@
             &quot;GitHub Actions Test&quot;,
             &quot;Test script execution [runs.main]&quot;
           ],
-          &quot;duration&quot;: 0,
+          &quot;duration&quot;: 1,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] runs.main runs without error&quot;,
           &quot;location&quot;: null,
@@ -275,9 +275,9 @@
             &quot;GitHub Actions Test&quot;,
             &quot;Test script execution [runs.main]&quot;
           ],
-          &quot;duration&quot;: 18,
+          &quot;duration&quot;: 9,
           &quot;failureMessages&quot;: [
-            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n\u001b[32m- Expected\u001b[39m\n\u001b[31m+ Received\u001b[39m\n\n\u001b[32m- foobar\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::Reading inputs\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir()\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::Cloned: [object Promise]\u001b[39m\n\u001b[31m+ stderr &gt; (node:3017) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:24:1\u001b[39m\n\u001b[31m+     at tryCallTwo (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:45:1)\u001b[39m\n\u001b[31m+     at doResolve (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:173:1)\u001b[39m\n\u001b[31m+     at new Promise (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:65:1)\u001b[39m\n\u001b[31m+     at Function.clone (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:19:1)\u001b[39m\n\u001b[31m+     at Object.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:28:1)\u001b[39m\n\u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:8:1\u001b[39m\n\u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at module.exports.335.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:4:1)\u001b[39m\n\u001b[31m+ stderr &gt; (node:3017) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n\u001b[31m+ stderr &gt; (node:3017) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n\u001b[31m+ \u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts:130:24\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
+            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n\u001b[32m- Expected\u001b[39m\n\u001b[31m+ Received\u001b[39m\n\n\u001b[32m- foobar\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::Reading inputs\u001b[39m\n\u001b[31m+ stdout &gt; cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir()\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::Cloned: [object Promise]\u001b[39m\n\u001b[31m+ stderr &gt; (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:24:1\u001b[39m\n\u001b[31m+     at tryCallTwo (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:45:1)\u001b[39m\n\u001b[31m+     at doResolve (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:173:1)\u001b[39m\n\u001b[31m+     at new Promise (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:65:1)\u001b[39m\n\u001b[31m+     at Function.clone (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:19:1)\u001b[39m\n\u001b[31m+     at Object.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:28:1)\u001b[39m\n\u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:8:1\u001b[39m\n\u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at module.exports.335.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:4:1)\u001b[39m\n\u001b[31m+ stderr &gt; (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n\u001b[31m+ (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n\u001b[31m+ \u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts:130:24\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
           ],
           &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] runs.main has expected output&quot;,
           &quot;location&quot;: null,
@@ -296,8 +296,8 @@
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466341314,
-        &quot;start&quot;: 1578466340322
+        &quot;end&quot;: 1578466856706,
+        &quot;start&quot;: 1578466855813
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -314,7 +314,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;clone&quot;
           ],
-          &quot;duration&quot;: 1,
+          &quot;duration&quot;: 0,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;utils&#x2F;clone clone is a function&quot;,
           &quot;location&quot;: null,
@@ -326,7 +326,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;clone&quot;
           ],
-          &quot;duration&quot;: 11,
+          &quot;duration&quot;: 13,
           &quot;failureMessages&quot;: [
             &quot;Error: no reference found for shorthand &#39;this-branch-will-never-exist&#39;&quot;
           ],
@@ -340,7 +340,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;clone&quot;
           ],
-          &quot;duration&quot;: 11,
+          &quot;duration&quot;: 9,
           &quot;failureMessages&quot;: [
             &quot;Error: no reference found for shorthand &#39;master&#39;&quot;
           ],
@@ -361,8 +361,8 @@
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466342131,
-        &quot;start&quot;: 1578466341341
+        &quot;end&quot;: 1578466857460,
+        &quot;start&quot;: 1578466856731
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -379,7 +379,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;clone&quot;
           ],
-          &quot;duration&quot;: 502,
+          &quot;duration&quot;: 501,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called&quot;,
           &quot;location&quot;: null,
@@ -398,8 +398,8 @@
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466342673,
-        &quot;start&quot;: 1578466342154
+        &quot;end&quot;: 1578466859082,
+        &quot;start&quot;: 1578466857481
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -416,7 +416,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;commitAndPush&quot;
           ],
-          &quot;duration&quot;: 1,
+          &quot;duration&quot;: 0,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;utils&#x2F;commitAndPush commitAndPush is a function&quot;,
           &quot;location&quot;: null,
@@ -435,8 +435,8 @@
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466342971,
-        &quot;start&quot;: 1578466342698
+        &quot;end&quot;: 1578466859420,
+        &quot;start&quot;: 1578466859185
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -1639,7 +1639,7 @@
             &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 16,
+            &quot;line&quot;: 17,
             &quot;column&quot;: null
           }
         },
@@ -1655,51 +1655,51 @@
         },
         &quot;5&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 22
+            &quot;line&quot;: 10,
+            &quot;column&quot;: 18
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 26
+            &quot;line&quot;: 10,
+            &quot;column&quot;: 37
           }
         },
         &quot;6&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 11,
+            &quot;line&quot;: 12,
             &quot;column&quot;: 16
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 11,
+            &quot;line&quot;: 12,
             &quot;column&quot;: 54
           }
         },
         &quot;7&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 13,
+            &quot;line&quot;: 14,
             &quot;column&quot;: 4
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 13,
+            &quot;line&quot;: 14,
             &quot;column&quot;: 44
           }
         },
         &quot;8&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 15,
+            &quot;line&quot;: 16,
             &quot;column&quot;: 4
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 15,
+            &quot;line&quot;: 16,
             &quot;column&quot;: 34
           }
         },
         &quot;9&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 19,
+            &quot;line&quot;: 20,
             &quot;column&quot;: 0
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 19,
+            &quot;line&quot;: 20,
             &quot;column&quot;: 6
           }
         }
@@ -1723,7 +1723,7 @@
               &quot;column&quot;: 18
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 17,
+              &quot;line&quot;: 18,
               &quot;column&quot;: null
             }
           }

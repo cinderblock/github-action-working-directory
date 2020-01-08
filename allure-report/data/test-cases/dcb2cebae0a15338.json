@@ -1,12 +1,12 @@
 {
-  "uid" : "4b8dc88dda3dd47f",
-  "name" : "can run runs.main",
-  "fullName" : "GitHub Actions Test Test script execution [runs.main].can run runs.main",
-  "historyId" : "22d12611c229dd204a128296dccce0bd",
+  "uid" : "dcb2cebae0a15338",
+  "name" : "clone can be called",
+  "fullName" : "utils/clone.clone can be called",
+  "historyId" : "4c69074a785e3b85f198084ec8a58522",
   "time" : {
-    "start" : 1578466340035,
-    "stop" : 1578466340221,
-    "duration" : 186
+    "start" : 1578466856957,
+    "stop" : 1578466857458,
+    "duration" : 501
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "GitHub Actions Test Test script execution [runs.main]"
+    "value" : "utils/clone"
   }, {
     "name" : "testClass",
-    "value" : "GitHub Actions Test Test script execution [runs.main]"
+    "value" : "utils/clone"
   }, {
     "name" : "testMethod",
-    "value" : "can run runs.main"
+    "value" : "clone can be called"
   }, {
     "name" : "package",
-    "value" : "GitHub Actions Test Test script execution [runs.main]"
+    "value" : "utils/clone"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4b8dc88dda3dd47f.json",
+  "source" : "dcb2cebae0a15338.json",
   "parameterValues" : [ ]
 }

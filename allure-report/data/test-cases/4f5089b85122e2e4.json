@@ -1,12 +1,12 @@
 {
-  "uid" : "af50453457634064",
-  "name" : "clone can be called",
-  "fullName" : "utils/clone.clone can be called",
-  "historyId" : "4c69074a785e3b85f198084ec8a58522",
+  "uid" : "4f5089b85122e2e4",
+  "name" : "clone is a function",
+  "fullName" : "utils/clone.clone is a function",
+  "historyId" : "5b02bd65b5fb82a918ecb9e05487e5dc",
   "time" : {
-    "start" : 1578466341626,
-    "stop" : 1578466342128,
-    "duration" : 502
+    "start" : 1578466856674,
+    "stop" : 1578466856674,
+    "duration" : 0
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,7 +23,7 @@
     "value" : "utils/clone"
   }, {
     "name" : "testMethod",
-    "value" : "clone can be called"
+    "value" : "clone is a function"
   }, {
     "name" : "package",
     "value" : "utils/clone"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "af50453457634064.json",
+  "source" : "4f5089b85122e2e4.json",
   "parameterValues" : [ ]
 }

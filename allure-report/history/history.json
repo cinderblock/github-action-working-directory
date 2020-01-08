@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9b76f6d82088f483",
+      "uid" : "f3cafe4c22b13696",
       "status" : "passed",
       "time" : {
-        "start" : 1578466342671,
-        "stop" : 1578466342672,
-        "duration" : 1
+        "start" : 1578466859080,
+        "stop" : 1578466859080,
+        "duration" : 0
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9cc2231400d6d9a6",
+      "uid" : "e1fa75f4be2d46f6",
       "status" : "failed",
-      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected\n                + Received\n                \n                - foobar\n                + stdout > ::debug::Reading inputs\n                + stdout > ::debug::cloning repo(https://github.com/undefined) into dir()\n                + stdout > ::debug::Cloned: [object Promise]\n                + stderr > (node:3017) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:24:1\n                +     at tryCallTwo (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:45:1)\n                +     at doResolve (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:173:1)\n                +     at new Promise (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:65:1)\n                +     at Function.clone (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:19:1)\n                +     at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:28:1)\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.335.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:4:1)\n                + stderr > (node:3017) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + stderr > (node:3017) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                + ",
+      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected\n                + Received\n                \n                - foobar\n                + stdout > ::debug::Reading inputs\n                + stdout > cloning repo(https://github.com/undefined) into dir()\n                + stdout > ::debug::Cloned: [object Promise]\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:24:1\n                +     at tryCallTwo (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:45:1)\n                +     at doResolve (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:173:1)\n                +     at new Promise (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:65:1)\n                +     at Function.clone (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:19:1)\n                +     at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:28:1)\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.335.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:4:1)\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                + ",
       "time" : {
-        "start" : 1578466340221,
-        "stop" : 1578466340239,
-        "duration" : 18
+        "start" : 1578466855743,
+        "stop" : 1578466855753,
+        "duration" : 10
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4faa26946580c8db",
+      "uid" : "cceecddc9319bade",
       "status" : "passed",
       "time" : {
-        "start" : 1578466340024,
-        "stop" : 1578466340028,
-        "duration" : 4
+        "start" : 1578466855575,
+        "stop" : 1578466855578,
+        "duration" : 3
       }
     } ]
   },
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af50453457634064",
+      "uid" : "dcb2cebae0a15338",
       "status" : "passed",
       "time" : {
-        "start" : 1578466341626,
-        "stop" : 1578466342128,
-        "duration" : 502
+        "start" : 1578466856957,
+        "stop" : 1578466857458,
+        "duration" : 501
       }
     } ]
   },
@@ -86,11 +86,30 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2d64cb79c3e8e7d4",
+      "uid" : "bca2a4bc14b4cd0c",
       "status" : "passed",
       "time" : {
-        "start" : 1578466340033,
-        "stop" : 1578466340034,
+        "start" : 1578466855582,
+        "stop" : 1578466855583,
+        "duration" : 1
+      }
+    } ]
+  },
+  "4b13429cf525107364f801183ccf42a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95b64745e1febd6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578466855742,
+        "stop" : 1578466855743,
         "duration" : 1
       }
     } ]
@@ -105,31 +124,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "78aeb593aab19dbb",
+      "uid" : "13feeb4f508d9f1",
       "status" : "passed",
       "time" : {
-        "start" : 1578466340028,
-        "stop" : 1578466340033,
-        "duration" : 5
-      }
-    } ]
-  },
-  "4b13429cf525107364f801183ccf42a9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2e46b7ba2b71b10",
-      "status" : "passed",
-      "time" : {
-        "start" : 1578466340221,
-        "stop" : 1578466340221,
-        "duration" : 0
+        "start" : 1578466855578,
+        "stop" : 1578466855582,
+        "duration" : 4
       }
     } ]
   },
@@ -143,11 +143,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a49ace25639bf935",
+      "uid" : "b1f92671e786d1bf",
       "status" : "passed",
       "time" : {
-        "start" : 1578466340021,
-        "stop" : 1578466340024,
+        "start" : 1578466855572,
+        "stop" : 1578466855575,
         "duration" : 3
       }
     } ]
@@ -162,13 +162,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ac1633149aa06871",
+      "uid" : "9005fd5a2e7659d1",
       "status" : "failed",
       "statusDetails" : "Error: no reference found for shorthand 'master'",
       "time" : {
-        "start" : 1578466341293,
-        "stop" : 1578466341304,
-        "duration" : 11
+        "start" : 1578466856687,
+        "stop" : 1578466856696,
+        "duration" : 9
       }
     } ]
   },
@@ -182,13 +182,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a25c834c796bd7b1",
+      "uid" : "8997def15cf7532f",
       "status" : "failed",
       "statusDetails" : "Error: no reference found for shorthand 'this-branch-will-never-exist'",
       "time" : {
-        "start" : 1578466341282,
-        "stop" : 1578466341293,
-        "duration" : 11
+        "start" : 1578466856674,
+        "stop" : 1578466856687,
+        "duration" : 13
       }
     } ]
   },
@@ -202,11 +202,30 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "518b536b818147c0",
+      "uid" : "4f5089b85122e2e4",
       "status" : "passed",
       "time" : {
-        "start" : 1578466341281,
-        "stop" : 1578466341282,
+        "start" : 1578466856674,
+        "stop" : 1578466856674,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2eddb652dd3e32bd1f498303a4f7bc42" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a234fdaec03fd413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578466859418,
+        "stop" : 1578466859419,
         "duration" : 1
       }
     } ]
@@ -221,30 +240,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "897159733f8c3c80",
+      "uid" : "3a3457c7df43c8cf",
       "status" : "passed",
       "time" : {
-        "start" : 1578466340034,
-        "stop" : 1578466340035,
-        "duration" : 1
-      }
-    } ]
-  },
-  "2eddb652dd3e32bd1f498303a4f7bc42" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3ea8fc6127bbc9b3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1578466342969,
-        "stop" : 1578466342970,
+        "start" : 1578466855583,
+        "stop" : 1578466855584,
         "duration" : 1
       }
     } ]
@@ -259,12 +259,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4b8dc88dda3dd47f",
+      "uid" : "cbc3c0a2d39cd0ea",
       "status" : "passed",
       "time" : {
-        "start" : 1578466340035,
-        "stop" : 1578466340221,
-        "duration" : 186
+        "start" : 1578466855584,
+        "stop" : 1578466855742,
+        "duration" : 158
       }
     } ]
   },
@@ -278,11 +278,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e2697f321401b9e",
+      "uid" : "586c2e74b4861b3c",
       "status" : "passed",
       "time" : {
-        "start" : 1578466340034,
-        "stop" : 1578466340034,
+        "start" : 1578466855583,
+        "stop" : 1578466855583,
         "duration" : 0
       }
     } ]
