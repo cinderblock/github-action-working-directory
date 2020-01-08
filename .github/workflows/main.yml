@@ -114,7 +114,14 @@ jobs:
         run: npm install
 
       - name: Run dist/clone Manually
-        run: node dist/clone
+        run: node dist/clone/index.js
+        env:
+          INPUT_BRANCH: master
+          INPUT_WORKING-DIRECTORY: /tmp/fake-clone
+          INPUT_REPO: '.'
+
+      - name: Run dist/commit Manually
+        run: node dist/commit/index.js
         env:
           INPUT_BRANCH: master
           INPUT_WORKING-DIRECTORY: /tmp/fake-clone
