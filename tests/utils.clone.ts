@@ -7,7 +7,7 @@ describe('utils/clone', () => {
     expect(typeof clone).toBe('function');
   });
 
-  const repoUrl = '.git';
+  const repoUrl = '.';
   const parentDir = testTempDir(__filename);
 
   // TODO: figure out why this is hitting the timeout
@@ -29,7 +29,7 @@ describe('utils/clone', () => {
       dir,
     });
 
-    if (result !== null) expect(result?.isValid()).toBe(true);
+    expect(result).toBe(null);
   });
 
   test('clone can be called for existing branch', async () => {
@@ -37,6 +37,13 @@ describe('utils/clone', () => {
 
     const result = await clone({ repoUrl, branch: 'master', dir });
 
-    if (result !== null) expect(result?.isValid()).toBe(true);
+    expect(result).not.toBe(null);
+    if (result === null) throw new Error('unreachable');
+
+    const head = await result.head();
+
+    expect(head.isValid()).toBe(true);
+
+    expect(!!head.isBranch()).toBe(true);
   });
 });
