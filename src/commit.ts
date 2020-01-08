@@ -8,7 +8,7 @@ async function run(): Promise<void> {
     const { dir, branch, message, name, email } = readInputs();
     const { debug } = core;
 
-    commitAndPush({ dir, branch, message, name, email, debug });
+    await commitAndPush({ dir, branch, message, name, email, debug });
   } catch (error) {
     core.setFailed(error.message);
   }
