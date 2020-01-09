@@ -20,9 +20,11 @@ export async function clone({
 
   // TODO: Handle empty repoUrl. Find main remote of current repo
 
-  const repository = await Clone.clone(repoUrl, dir, {
+  const promise = Clone.clone(repoUrl, dir, {
     checkoutBranch: branch,
-  }).catch(e => {
+  });
+
+  const handleMissing = promise.catch(e => {
     if (e?.message !== `reference 'refs/remotes/origin/${branch}' not found`) {
       dbg(`Throwing unrecognized error: ${e?.message}`);
       throw e;
@@ -33,7 +35,7 @@ export async function clone({
     return null;
   });
 
-  // TODO: Handle missing branch (initial commit ?)
+  const repository = await handleMissing;
 
   dbg(`Branch checked out`);
 
