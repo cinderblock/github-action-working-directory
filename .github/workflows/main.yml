@@ -114,18 +114,20 @@ jobs:
         run: npm install
 
       - name: Run dist/clone Manually
-        run: node dist/clone/index.js
+        working-directory: dist
+        run: node clone/index.js
         env:
           INPUT_BRANCH: master
           INPUT_WORKING-DIRECTORY: /tmp/fake-clone
-          INPUT_REPO: '.'
+          INPUT_REPO: '..'
 
       - name: Run dist/commit Manually
-        run: node dist/commit/index.js
+        working-directory: dist
+        run: node commit/index.js
         env:
           INPUT_BRANCH: master
           INPUT_WORKING-DIRECTORY: /tmp/fake-clone
-          INPUT_REPO: '.'
+          INPUT_REPO: '..'
 
   bootstrap-coverage-reports:
     name: Self Test - Generate Coverage
