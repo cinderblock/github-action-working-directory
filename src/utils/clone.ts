@@ -26,6 +26,9 @@ export async function clone({
     if (e?.message !== `reference 'refs/remotes/origin/${branch}' not found`) {
       throw e;
     }
+
+    dbg(`Branch not found`);
+
     return null;
   });
 
