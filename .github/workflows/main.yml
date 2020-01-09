@@ -75,9 +75,9 @@ jobs:
 
       - name: ---- Print Versions
         run: |
-          echo -e "\e[1mnode -v  :\e[0m" $(node -v)
-          echo -e "\e[1mnpm -v   :\e[0m" $(npm -v # (or yarn -v))
-          echo -e "\e[1mplatform :\e[0m" $(node -e "console.log(process.platform, process.arch, require('os').release())")
+          echo -e "\e[1mnode -v  :\e[0m $(node -v)"
+          echo -e "\e[1mnpm -v   :\e[0m $(npm -v)"
+          echo -e "\e[1mplatform :\e[0m $(node -e "console.log(process.platform, process.arch, require('os').release())")"
 
       - name: Install Dependencies and Build
         run: npm install
@@ -118,9 +118,9 @@ jobs:
 
       - name: ---- Print Versions
         run: |
-          echo -e "\e[1mnode -v  :\e[0m" $(node -v)
-          echo -e "\e[1mnpm -v   :\e[0m" $(npm -v # (or yarn -v))
-          echo -e "\e[1mplatform :\e[0m" $(node -e "console.log(process.platform, process.arch, require('os').release())")
+          echo -e "\e[1mnode -v  :\e[0m $(node -v)"
+          echo -e "\e[1mnpm -v   :\e[0m $(npm -v)"
+          echo -e "\e[1mplatform :\e[0m $(node -e "console.log(process.platform, process.arch, require('os').release())")"
 
       - name: Install Dependencies and Build
         run: npm install
@@ -154,9 +154,9 @@ jobs:
 
       - name: ---- Print Versions
         run: |
-          echo -e "\e[1mnode -v  :\e[0m" $(node -v)
-          echo -e "\e[1mnpm -v   :\e[0m" $(npm -v # (or yarn -v))
-          echo -e "\e[1mplatform :\e[0m" $(node -e "console.log(process.platform, process.arch, require('os').release())")
+          echo -e "\e[1mnode -v  :\e[0m $(node -v)"
+          echo -e "\e[1mnpm -v   :\e[0m $(npm -v)"
+          echo -e "\e[1mplatform :\e[0m $(node -e "console.log(process.platform, process.arch, require('os').release())")"
 
       - name: Install Dependencies and Build
         run: npm install
