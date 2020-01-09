@@ -16,7 +16,7 @@ export async function clone({
 }: Options): Promise<Repository | null> {
   const dbg = debug ?? core.debug;
 
-  dbg(`cloning repo(${repoUrl}) into dir(${dir})`);
+  dbg(`cloning repo(${repoUrl}) into dir(${dir}). branch(${branch})`);
 
   // TODO: Handle empty repoUrl. Find main remote of current repo
 
