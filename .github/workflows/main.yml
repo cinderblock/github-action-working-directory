@@ -73,6 +73,12 @@ jobs:
         run: |
           echo "color = always" >> .npmrc
 
+      - name: Versions
+        run: |
+          node -v
+          npm -v # (or yarn -v)
+          node -e "console.log(process.platform, process.arch, require('os').release())"
+
       - name: Install Dependencies and Build
         run: npm install
 
