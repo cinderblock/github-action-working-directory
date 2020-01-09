@@ -9,16 +9,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f3cafe4c22b13696",
+      "uid" : "9733f16235296922",
       "status" : "passed",
       "time" : {
-        "start" : 1578466859080,
-        "stop" : 1578466859080,
-        "duration" : 0
+        "start" : 1578538799565,
+        "stop" : 1578538799566,
+        "duration" : 1
       }
     } ]
   },
-  "69852e76d4207efeaad3dc26b23eb4ae" : {
+  "99475aea3405f15070fbd456aafc0a83" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e1fa75f4be2d46f6",
+      "uid" : "27de11ef24c9de77",
       "status" : "failed",
-      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected\n                + Received\n                \n                - foobar\n                + stdout > ::debug::Reading inputs\n                + stdout > cloning repo(https://github.com/undefined) into dir()\n                + stdout > ::debug::Cloned: [object Promise]\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:24:1\n                +     at tryCallTwo (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:45:1)\n                +     at doResolve (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:173:1)\n                +     at new Promise (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:65:1)\n                +     at Function.clone (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:19:1)\n                +     at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:28:1)\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.335.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:4:1)\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                + ",
+      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"flushed out\"\n                Received: \"this test\"",
       "time" : {
-        "start" : 1578466855743,
-        "stop" : 1578466855753,
+        "start" : 1578538798604,
+        "stop" : 1578538798614,
         "duration" : 10
       }
     } ]
@@ -48,31 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cceecddc9319bade",
+      "uid" : "7fd50113061b53d7",
       "status" : "passed",
       "time" : {
-        "start" : 1578466855575,
-        "stop" : 1578466855578,
-        "duration" : 3
+        "start" : 1578538796409,
+        "stop" : 1578538796413,
+        "duration" : 4
       }
     } ]
   },
-  "4c69074a785e3b85f198084ec8a58522" : {
+  "aab39a24d41767fdf2f98931deb32f7" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dcb2cebae0a15338",
-      "status" : "passed",
+      "uid" : "33e86bd179f10ff2",
+      "status" : "failed",
+      "statusDetails" : "Error: Exit code: 1\n                stdout > ::debug::Reading inputs\n                stdout > cloning repo(https://github.com/undefined) into dir(). branch(test-dummy)\n                stdout > Throwing unrecognized error: cannot pick working directory for non-bare repository that isn't a '.git' directory\n                stdout > ::error::cannot pick working directory for non-bare repository that isn't a '.git' directory\n                ",
       "time" : {
-        "start" : 1578466856957,
-        "stop" : 1578466857458,
-        "duration" : 501
+        "start" : 1578538796423,
+        "stop" : 1578538796550,
+        "duration" : 127
       }
     } ]
   },
@@ -86,30 +87,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bca2a4bc14b4cd0c",
+      "uid" : "aef8c36f7f152890",
       "status" : "passed",
       "time" : {
-        "start" : 1578466855582,
-        "stop" : 1578466855583,
-        "duration" : 1
-      }
-    } ]
-  },
-  "4b13429cf525107364f801183ccf42a9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "95b64745e1febd6e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1578466855742,
-        "stop" : 1578466855743,
+        "start" : 1578538796418,
+        "stop" : 1578538796419,
         "duration" : 1
       }
     } ]
@@ -124,12 +106,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "13feeb4f508d9f1",
+      "uid" : "461f1e5a54e9af9d",
       "status" : "passed",
       "time" : {
-        "start" : 1578466855578,
-        "stop" : 1578466855582,
-        "duration" : 4
+        "start" : 1578538796413,
+        "stop" : 1578538796418,
+        "duration" : 5
+      }
+    } ]
+  },
+  "660c72a1c3df0d5eeb4d9f081fef05eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "838762f2ee53411d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578538796419,
+        "stop" : 1578538796421,
+        "duration" : 2
       }
     } ]
   },
@@ -143,11 +144,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1f92671e786d1bf",
+      "uid" : "8f46ee9750e6d8f4",
       "status" : "passed",
       "time" : {
-        "start" : 1578466855572,
-        "stop" : 1578466855575,
+        "start" : 1578538796406,
+        "stop" : 1578538796409,
         "duration" : 3
       }
     } ]
@@ -162,17 +163,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9005fd5a2e7659d1",
+      "uid" : "66e6a0d617d3b272",
       "status" : "failed",
-      "statusDetails" : "Error: no reference found for shorthand 'master'",
+      "statusDetails" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not null",
       "time" : {
-        "start" : 1578466856687,
-        "stop" : 1578466856696,
-        "duration" : 9
+        "start" : 1578538799033,
+        "stop" : 1578538799044,
+        "duration" : 11
       }
     } ]
   },
-  "1e4ce0ccabc41d0bbea39f0f89ec8311" : {
+  "41a0c4778c2632bcf53d762dcb9190f1" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -182,13 +183,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8997def15cf7532f",
+      "uid" : "1c782f9e38579a16",
       "status" : "failed",
-      "statusDetails" : "Error: no reference found for shorthand 'this-branch-will-never-exist'",
+      "statusDetails" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not null",
       "time" : {
-        "start" : 1578466856674,
-        "stop" : 1578466856687,
-        "duration" : 13
+        "start" : 1578538798614,
+        "stop" : 1578538798621,
+        "duration" : 7
+      }
+    } ]
+  },
+  "1e4ce0ccabc41d0bbea39f0f89ec8311" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e320a1a5e11f301",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578538799024,
+        "stop" : 1578538799033,
+        "duration" : 9
       }
     } ]
   },
@@ -202,11 +222,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4f5089b85122e2e4",
+      "uid" : "75a7dde0209a4c45",
       "status" : "passed",
       "time" : {
-        "start" : 1578466856674,
-        "stop" : 1578466856674,
+        "start" : 1578538799024,
+        "stop" : 1578538799024,
         "duration" : 0
       }
     } ]
@@ -221,16 +241,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a234fdaec03fd413",
+      "uid" : "9c445fba864aaa50",
       "status" : "passed",
       "time" : {
-        "start" : 1578466859418,
-        "stop" : 1578466859419,
+        "start" : 1578538799855,
+        "stop" : 1578538799856,
         "duration" : 1
       }
     } ]
   },
-  "9935498d9adefa2cf37b529e275f3652" : {
+  "5a5ac828fae90e9ed476215879d908e5" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -240,50 +260,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a3457c7df43c8cf",
+      "uid" : "9842024d163e0daf",
       "status" : "passed",
       "time" : {
-        "start" : 1578466855583,
-        "stop" : 1578466855584,
-        "duration" : 1
-      }
-    } ]
-  },
-  "22d12611c229dd204a128296dccce0bd" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cbc3c0a2d39cd0ea",
-      "status" : "passed",
-      "time" : {
-        "start" : 1578466855584,
-        "stop" : 1578466855742,
-        "duration" : 158
-      }
-    } ]
-  },
-  "2a65a94096d19e90dab6b5774147baeb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "586c2e74b4861b3c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1578466855583,
-        "stop" : 1578466855583,
-        "duration" : 0
+        "start" : 1578538796421,
+        "stop" : 1578538796423,
+        "duration" : 2
       }
     } ]
   }

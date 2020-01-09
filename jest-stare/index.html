@@ -80,7 +80,7 @@
                 <canvas id="test-suites-canvas" width="100" height="100"></canvas>
                 <h2>Test Suites</h2>
                 <div class="list-group">
-                    <p id="test-suites-results" class="list-group-item list-group-item-action">3 passed, 5 total</p>
+                    <p id="test-suites-results" class="list-group-item list-group-item-action">2 passed, 5 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -88,7 +88,7 @@
                 <canvas id="tests-canvas" width="100" height="100"></canvas>
                 <h2>Tests</h2>
                 <div class="list-group">
-                    <p id="tests-results" class="list-group-item list-group-item-action">12 passed, 15 total</p>
+                    <p id="tests-results" class="list-group-item list-group-item-action">11 passed, 15 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -119,10 +119,10 @@
   &quot;resultJson&quot;: &quot;jest-results.json&quot;
 }</div>
         <div class="d-none" id="test-results">{
-  &quot;numFailedTestSuites&quot;: 2,
-  &quot;numFailedTests&quot;: 3,
-  &quot;numPassedTestSuites&quot;: 3,
-  &quot;numPassedTests&quot;: 12,
+  &quot;numFailedTestSuites&quot;: 3,
+  &quot;numFailedTests&quot;: 4,
+  &quot;numPassedTestSuites&quot;: 2,
+  &quot;numPassedTests&quot;: 11,
   &quot;numPendingTestSuites&quot;: 0,
   &quot;numPendingTests&quot;: 0,
   &quot;numRuntimeErrorTestSuites&quot;: 0,
@@ -146,18 +146,18 @@
     &quot;unmatched&quot;: 0,
     &quot;updated&quot;: 0
   },
-  &quot;startTime&quot;: 1578466852740,
+  &quot;startTime&quot;: 1578538793175,
   &quot;success&quot;: false,
   &quot;testResults&quot;: [
     {
-      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mGitHub Actions Test › Test script execution [runs.main] › runs.main has expected output\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    \u001b[32m- Expected\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[32m- foobar\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::Reading inputs\u001b[39m\n    \u001b[31m+ stdout &gt; cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir()\u001b[39m\n    \u001b[31m+ stdout &gt; ::debug::Cloned: [object Promise]\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:24:1\u001b[39m\n    \u001b[31m+     at tryCallTwo (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:45:1)\u001b[39m\n    \u001b[31m+     at doResolve (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:173:1)\u001b[39m\n    \u001b[31m+     at new Promise (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:65:1)\u001b[39m\n    \u001b[31m+     at Function.clone (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:19:1)\u001b[39m\n    \u001b[31m+     at Object.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:28:1)\u001b[39m\n    \u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:8:1\u001b[39m\n    \u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at module.exports.335.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:4:1)\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n    \u001b[31m+ (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n    \u001b[31m+ \u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 128 | \u001b[39m        \u001b[36mconst\u001b[39m output \u001b[33m&#x3D;\u001b[39m await executionResult\u001b[33m.\u001b[39mpromise\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 129 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 130 | \u001b[39m        expect(output)\u001b[33m.\u001b[39mtoBe(\u001b[32m&#39;foobar&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 131 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 132 | \u001b[39m        \u001b[36mif\u001b[39m (which \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[32m&#39;main&#39;\u001b[39m) mainDone\u001b[33m.\u001b[39mresolve()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 133 | \u001b[39m      } \u001b[36mcatch\u001b[39m (e) {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:130:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n&quot;,
+      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mGitHub Actions Test › can run runs.main and runs.post end-to-end\u001b[39m\u001b[22m\n\n    Exit code: 1\n    stdout &gt; ::debug::Reading inputs\n    stdout &gt; cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir(). branch(test-dummy)\n    stdout &gt; Throwing unrecognized error: cannot pick working directory for non-bare repository that isn&#39;t a &#39;.git&#39; directory\n    stdout &gt; ::error::cannot pick working directory for non-bare repository that isn&#39;t a &#39;.git&#39; directory\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 91 | \u001b[39m      exec\u001b[33m.\u001b[39mon(\u001b[32m&#39;exit&#39;\u001b[39m\u001b[33m,\u001b[39m exitCode \u001b[33m&#x3D;&gt;\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 92 | \u001b[39m        \u001b[36mif\u001b[39m (exitCode \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[35m0\u001b[39m) resolve(messages)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 93 | \u001b[39m        \u001b[36melse\u001b[39m reject(\u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m&#x60;Exit code: ${exitCode}\\n${messages}&#x60;\u001b[39m))\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                    \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 94 | \u001b[39m      })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 95 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 96 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ChildProcess.&lt;anonymous&gt; (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:93:21)\u001b[2m\u001b[22m\n&quot;,
       &quot;numFailingTests&quot;: 1,
-      &quot;numPassingTests&quot;: 8,
+      &quot;numPassingTests&quot;: 6,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466855786,
-        &quot;start&quot;: 1578466852787
+        &quot;end&quot;: 1578538796578,
+        &quot;start&quot;: 1578538793232
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -168,7 +168,7 @@
         &quot;updated&quot;: 0,
         &quot;uncheckedKeys&quot;: []
       },
-      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts&quot;,
+      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.github-action.ts&quot;,
       &quot;testResults&quot;: [
         {
           &quot;ancestorTitles&quot;: [
@@ -186,7 +186,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 3,
+          &quot;duration&quot;: 4,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test can read action.yml&quot;,
           &quot;location&quot;: null,
@@ -198,7 +198,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 4,
+          &quot;duration&quot;: 5,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test action.yml has valid yaml&quot;,
           &quot;location&quot;: null,
@@ -220,84 +220,120 @@
         },
         {
           &quot;ancestorTitles&quot;: [
-            &quot;GitHub Actions Test&quot;,
-            &quot;Test script execution [runs.main]&quot;
+            &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 0,
+          &quot;duration&quot;: 2,
           &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] action.yml has runs.main&quot;,
+          &quot;fullName&quot;: &quot;GitHub Actions Test action.yml has runs.main and runs.post&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
           &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;action.yml has runs.main&quot;
+          &quot;title&quot;: &quot;action.yml has runs.main and runs.post&quot;
         },
         {
           &quot;ancestorTitles&quot;: [
-            &quot;GitHub Actions Test&quot;,
-            &quot;Test script execution [runs.main]&quot;
+            &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 1,
+          &quot;duration&quot;: 2,
           &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] runs.main exists&quot;,
+          &quot;fullName&quot;: &quot;GitHub Actions Test runs.main and runs.post files exist&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
           &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;runs.main exists&quot;
+          &quot;title&quot;: &quot;runs.main and runs.post files exist&quot;
         },
         {
           &quot;ancestorTitles&quot;: [
-            &quot;GitHub Actions Test&quot;,
-            &quot;Test script execution [runs.main]&quot;
+            &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 158,
-          &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] can run runs.main&quot;,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;can run runs.main&quot;
-        },
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;GitHub Actions Test&quot;,
-            &quot;Test script execution [runs.main]&quot;
-          ],
-          &quot;duration&quot;: 1,
-          &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] runs.main runs without error&quot;,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;runs.main runs without error&quot;
-        },
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;GitHub Actions Test&quot;,
-            &quot;Test script execution [runs.main]&quot;
-          ],
-          &quot;duration&quot;: 9,
+          &quot;duration&quot;: 126,
           &quot;failureMessages&quot;: [
-            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n\u001b[32m- Expected\u001b[39m\n\u001b[31m+ Received\u001b[39m\n\n\u001b[32m- foobar\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::Reading inputs\u001b[39m\n\u001b[31m+ stdout &gt; cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir()\u001b[39m\n\u001b[31m+ stdout &gt; ::debug::Cloned: [object Promise]\u001b[39m\n\u001b[31m+ stderr &gt; (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:24:1\u001b[39m\n\u001b[31m+     at tryCallTwo (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:45:1)\u001b[39m\n\u001b[31m+     at doResolve (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:173:1)\u001b[39m\n\u001b[31m+     at new Promise (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;core.js:65:1)\u001b[39m\n\u001b[31m+     at Function.clone (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;node_modules&#x2F;nodegit-promise&#x2F;lib&#x2F;node-extensions.js:19:1)\u001b[39m\n\u001b[31m+     at Object.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:28:1)\u001b[39m\n\u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:8:1\u001b[39m\n\u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at module.exports.335.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;utils&#x2F;clone.ts:4:1)\u001b[39m\n\u001b[31m+ stderr &gt; (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n\u001b[31m+ (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n\u001b[31m+ \u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts:130:24\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
+            &quot;Error: Exit code: 1\nstdout &gt; ::debug::Reading inputs\nstdout &gt; cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir(). branch(test-dummy)\nstdout &gt; Throwing unrecognized error: cannot pick working directory for non-bare repository that isn&#39;t a &#39;.git&#39; directory\nstdout &gt; ::error::cannot pick working directory for non-bare repository that isn&#39;t a &#39;.git&#39; directory\n\n    at ChildProcess.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.github-action.ts:93:21)\n    at ChildProcess.emit (events.js:210:5)\n    at Process.ChildProcess._handle.onexit (internal&#x2F;child_process.js:272:12)&quot;
           ],
-          &quot;fullName&quot;: &quot;GitHub Actions Test Test script execution [runs.main] runs.main has expected output&quot;,
+          &quot;fullName&quot;: &quot;GitHub Actions Test can run runs.main and runs.post end-to-end&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
           &quot;status&quot;: &quot;failed&quot;,
-          &quot;title&quot;: &quot;runs.main has expected output&quot;
+          &quot;title&quot;: &quot;can run runs.main and runs.post end-to-end&quot;
         }
       ],
       &quot;skipped&quot;: false,
       &quot;leaks&quot;: false
     },
     {
-      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › clone can be called for non-existent branch\u001b[39m\u001b[22m\n\n    no reference found for shorthand &#39;this-branch-will-never-exist&#39;\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › clone can be called for existing branch\u001b[39m\u001b[22m\n\n    no reference found for shorthand &#39;master&#39;\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n&quot;,
+      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › works with non-existent branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\&quot;\u001b[7mflushed ou\u001b[27mt\&quot;\u001b[39m\n    Received: \u001b[31m\&quot;\u001b[7mthis tes\u001b[27mt\&quot;\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 | \u001b[39m    expect(result)\u001b[33m.\u001b[39mtoBe(\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 33 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 34 | \u001b[39m    expect(\u001b[32m&#39;this test&#39;\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[32m&#39;flushed out&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                        \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 35 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 37 | \u001b[39m  test(\u001b[32m&#39;works with existing branch&#39;\u001b[39m\u001b[33m,\u001b[39m async () \u001b[33m&#x3D;&gt;\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:34:25\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › works with existing branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: not \u001b[32mnull\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 40 | \u001b[39m    \u001b[36mconst\u001b[39m result \u001b[33m&#x3D;\u001b[39m await clone({ repoUrl\u001b[33m,\u001b[39m branch\u001b[33m:\u001b[39m \u001b[32m&#39;master&#39;\u001b[39m\u001b[33m,\u001b[39m dir })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 42 | \u001b[39m    expect(result)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 | \u001b[39m    \u001b[36mif\u001b[39m (result \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[36mnull\u001b[39m) \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m&#39;unreachable&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 44 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 45 | \u001b[39m    \u001b[36mconst\u001b[39m head \u001b[33m&#x3D;\u001b[39m await result\u001b[33m.\u001b[39mhead()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:42:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n&quot;,
       &quot;numFailingTests&quot;: 2,
       &quot;numPassingTests&quot;: 1,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466856706,
-        &quot;start&quot;: 1578466855813
+        &quot;end&quot;: 1578538798630,
+        &quot;start&quot;: 1578538796714
+      },
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;clone&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;utils&#x2F;clone clone is a function&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;clone is a function&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;clone&quot;
+          ],
+          &quot;duration&quot;: 10,
+          &quot;failureMessages&quot;: [
+            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: \u001b[32m\&quot;\u001b[7mflushed ou\u001b[27mt\&quot;\u001b[39m\nReceived: \u001b[31m\&quot;\u001b[7mthis tes\u001b[27mt\&quot;\u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:34:25\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;utils&#x2F;clone works with non-existent branch&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;works with non-existent branch&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;clone&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureMessages&quot;: [
+            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: not \u001b[32mnull\u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:42:24\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;utils&#x2F;clone works with existing branch&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;works with existing branch&quot;
+        }
+      ],
+      &quot;skipped&quot;: false,
+      &quot;leaks&quot;: false
+    },
+    {
+      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › clone can be called for existing branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: not \u001b[32mnull\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 38 | \u001b[39m    \u001b[36mconst\u001b[39m result \u001b[33m&#x3D;\u001b[39m await clone({ repoUrl\u001b[33m,\u001b[39m branch\u001b[33m:\u001b[39m \u001b[32m&#39;master&#39;\u001b[39m\u001b[33m,\u001b[39m dir })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 40 | \u001b[39m    expect(result)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 | \u001b[39m    \u001b[36mif\u001b[39m (result \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[36mnull\u001b[39m) \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m&#39;unreachable&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 | \u001b[39m    \u001b[36mconst\u001b[39m head \u001b[33m&#x3D;\u001b[39m await result\u001b[33m.\u001b[39mhead()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;utils.clone.ts\u001b[39m\u001b[0m\u001b[2m:40:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;utils.clone.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n&quot;,
+      &quot;numFailingTests&quot;: 1,
+      &quot;numPassingTests&quot;: 2,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1578538799049,
+        &quot;start&quot;: 1578538798657
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -326,23 +362,21 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;clone&quot;
           ],
-          &quot;duration&quot;: 13,
-          &quot;failureMessages&quot;: [
-            &quot;Error: no reference found for shorthand &#39;this-branch-will-never-exist&#39;&quot;
-          ],
+          &quot;duration&quot;: 9,
+          &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called for non-existent branch&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;failed&quot;,
+          &quot;status&quot;: &quot;passed&quot;,
           &quot;title&quot;: &quot;clone can be called for non-existent branch&quot;
         },
         {
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;clone&quot;
           ],
-          &quot;duration&quot;: 9,
+          &quot;duration&quot;: 11,
           &quot;failureMessages&quot;: [
-            &quot;Error: no reference found for shorthand &#39;master&#39;&quot;
+            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: not \u001b[32mnull\u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;utils.clone.ts:40:24\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;utils.clone.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
           ],
           &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called for existing branch&quot;,
           &quot;location&quot;: null,
@@ -361,45 +395,8 @@
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466857460,
-        &quot;start&quot;: 1578466856731
-      },
-      &quot;snapshot&quot;: {
-        &quot;added&quot;: 0,
-        &quot;fileDeleted&quot;: false,
-        &quot;matched&quot;: 0,
-        &quot;unchecked&quot;: 0,
-        &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0,
-        &quot;uncheckedKeys&quot;: []
-      },
-      &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;clone.ts&quot;,
-      &quot;testResults&quot;: [
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;utils&#x2F;clone&quot;
-          ],
-          &quot;duration&quot;: 501,
-          &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called&quot;,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;clone can be called&quot;
-        }
-      ],
-      &quot;skipped&quot;: false,
-      &quot;leaks&quot;: false
-    },
-    {
-      &quot;failureMessage&quot;: null,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 1,
-      &quot;numPendingTests&quot;: 0,
-      &quot;numTodoTests&quot;: 0,
-      &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466859082,
-        &quot;start&quot;: 1578466857481
+        &quot;end&quot;: 1578538799568,
+        &quot;start&quot;: 1578538799085
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -416,7 +413,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;commitAndPush&quot;
           ],
-          &quot;duration&quot;: 0,
+          &quot;duration&quot;: 1,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;utils&#x2F;commitAndPush commitAndPush is a function&quot;,
           &quot;location&quot;: null,
@@ -435,8 +432,8 @@
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1578466859420,
-        &quot;start&quot;: 1578466859185
+        &quot;end&quot;: 1578538799858,
+        &quot;start&quot;: 1578538799594
       },
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
@@ -478,7 +475,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 1,
-            &quot;column&quot;: 43
+            &quot;column&quot;: 58
           }
         },
         &quot;1&quot;: {
@@ -494,154 +491,144 @@
         &quot;2&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 17,
-            &quot;column&quot;: 2
+            &quot;column&quot;: 14
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 19,
-            &quot;column&quot;: null
+            &quot;line&quot;: 17,
+            &quot;column&quot;: 33
           }
         },
         &quot;3&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 18,
-            &quot;column&quot;: 4
+            &quot;line&quot;: 19,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 18,
-            &quot;column&quot;: 23
+            &quot;line&quot;: 19,
+            &quot;column&quot;: 70
           }
         },
         &quot;4&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 21,
-            &quot;column&quot;: 2
+            &quot;line&quot;: 23,
+            &quot;column&quot;: 18
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 21,
-            &quot;column&quot;: 53
+            &quot;line&quot;: 23,
+            &quot;column&quot;: 36
           }
         },
         &quot;5&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 25,
-            &quot;column&quot;: 21
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
             &quot;line&quot;: 25,
-            &quot;column&quot;: 52
+            &quot;column&quot;: 34
           }
         },
         &quot;6&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 27,
-            &quot;column&quot;: 2
+            &quot;column&quot;: 18
           },
           &quot;end&quot;: {
             &quot;line&quot;: 27,
-            &quot;column&quot;: 42
+            &quot;column&quot;: 52
           }
         },
         &quot;7&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 29,
-            &quot;column&quot;: 2
+            &quot;column&quot;: 24
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 44,
-            &quot;column&quot;: null
+            &quot;line&quot;: 38,
+            &quot;column&quot;: 4
           }
         },
         &quot;8&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 30,
-            &quot;column&quot;: 16
+            &quot;column&quot;: 4
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 30,
-            &quot;column&quot;: 55
+            &quot;line&quot;: 33,
+            &quot;column&quot;: null
           }
         },
         &quot;9&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 34,
-            &quot;column&quot;: 4
+            &quot;line&quot;: 31,
+            &quot;column&quot;: 6
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 34,
-            &quot;column&quot;: 32
+            &quot;line&quot;: 31,
+            &quot;column&quot;: 56
           }
         },
         &quot;10&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 36,
-            &quot;column&quot;: 4
+            &quot;line&quot;: 32,
+            &quot;column&quot;: 6
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 36,
-            &quot;column&quot;: 15
+            &quot;line&quot;: 32,
+            &quot;column&quot;: 14
           }
         },
         &quot;11&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 38,
+            &quot;line&quot;: 35,
             &quot;column&quot;: 4
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 38,
-            &quot;column&quot;: 39
+            &quot;line&quot;: 35,
+            &quot;column&quot;: 28
           }
         },
         &quot;12&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 38,
-            &quot;column&quot;: 31
+            &quot;line&quot;: 37,
+            &quot;column&quot;: 4
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 38,
-            &quot;column&quot;: 39
+            &quot;line&quot;: 37,
+            &quot;column&quot;: 16
           }
         },
         &quot;13&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 39,
-            &quot;column&quot;: 4
+            &quot;line&quot;: 40,
+            &quot;column&quot;: 21
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 39,
-            &quot;column&quot;: 70
+            &quot;line&quot;: 40,
+            &quot;column&quot;: 40
           }
         },
         &quot;14&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 39,
-            &quot;column&quot;: 62
+            &quot;line&quot;: 42,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 39,
-            &quot;column&quot;: 70
+            &quot;line&quot;: 42,
+            &quot;column&quot;: 28
           }
         },
         &quot;15&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 41,
-            &quot;column&quot;: 4
+            &quot;line&quot;: 44,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 41,
-            &quot;column&quot;: 56
+            &quot;line&quot;: 44,
+            &quot;column&quot;: 20
           }
         },
         &quot;16&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 43,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 43,
-            &quot;column&quot;: 16
-          }
-        },
-        &quot;17&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 11,
             &quot;column&quot;: 0
@@ -675,6 +662,29 @@
               &quot;column&quot;: null
             }
           }
+        },
+        &quot;1&quot;: {
+          &quot;name&quot;: &quot;(anonymous_10)&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 29,
+              &quot;column&quot;: 38
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 29,
+              &quot;column&quot;: 39
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 29,
+              &quot;column&quot;: 42
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 38,
+              &quot;column&quot;: 3
+            }
+          }
         }
       },
       &quot;branchMap&quot;: {
@@ -682,33 +692,33 @@
           &quot;loc&quot;: {
             &quot;start&quot;: {
               &quot;line&quot;: 17,
-              &quot;column&quot;: 2
+              &quot;column&quot;: 14
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 19,
-              &quot;column&quot;: null
+              &quot;line&quot;: 17,
+              &quot;column&quot;: 19
             }
           },
-          &quot;type&quot;: &quot;if&quot;,
+          &quot;type&quot;: &quot;cond-expr&quot;,
           &quot;locations&quot;: [
             {
               &quot;start&quot;: {
                 &quot;line&quot;: 17,
-                &quot;column&quot;: 2
+                &quot;column&quot;: 14
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 19,
-                &quot;column&quot;: null
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 19
               }
             },
             {
               &quot;start&quot;: {
                 &quot;line&quot;: 17,
-                &quot;column&quot;: 2
+                &quot;column&quot;: 23
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 19,
-                &quot;column&quot;: null
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 33
               }
             }
           ]
@@ -716,34 +726,34 @@
         &quot;1&quot;: {
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 38,
-              &quot;column&quot;: 4
+              &quot;line&quot;: 17,
+              &quot;column&quot;: 14
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 38,
-              &quot;column&quot;: 39
+              &quot;line&quot;: 17,
+              &quot;column&quot;: 23
             }
           },
-          &quot;type&quot;: &quot;if&quot;,
+          &quot;type&quot;: &quot;binary-expr&quot;,
           &quot;locations&quot;: [
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 38,
-                &quot;column&quot;: 4
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 14
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 38,
-                &quot;column&quot;: 39
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 23
               }
             },
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 38,
-                &quot;column&quot;: 4
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 14
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 38,
-                &quot;column&quot;: 39
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 23
               }
             }
           ]
@@ -751,72 +761,228 @@
         &quot;2&quot;: {
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 39,
+              &quot;line&quot;: 30,
               &quot;column&quot;: 4
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 39,
-              &quot;column&quot;: 70
+              &quot;line&quot;: 33,
+              &quot;column&quot;: null
             }
           },
           &quot;type&quot;: &quot;if&quot;,
           &quot;locations&quot;: [
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 39,
+                &quot;line&quot;: 30,
                 &quot;column&quot;: 4
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 39,
-                &quot;column&quot;: 70
+                &quot;line&quot;: 33,
+                &quot;column&quot;: null
               }
             },
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 39,
+                &quot;line&quot;: 30,
                 &quot;column&quot;: 4
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 39,
-                &quot;column&quot;: 70
+                &quot;line&quot;: 33,
+                &quot;column&quot;: null
+              }
+            }
+          ]
+        },
+        &quot;3&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 30,
+              &quot;column&quot;: 9
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 30,
+              &quot;column&quot;: 11
+            }
+          },
+          &quot;type&quot;: &quot;cond-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 9
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 11
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 9
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 18
+              }
+            }
+          ]
+        },
+        &quot;4&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 30,
+              &quot;column&quot;: 8
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 30,
+              &quot;column&quot;: 11
+            }
+          },
+          &quot;type&quot;: &quot;binary-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 8
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 11
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 9
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 11
+              }
+            }
+          ]
+        },
+        &quot;5&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 31,
+              &quot;column&quot;: 43
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 31,
+              &quot;column&quot;: 45
+            }
+          },
+          &quot;type&quot;: &quot;cond-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 31,
+                &quot;column&quot;: 43
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 31,
+                &quot;column&quot;: 45
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 31,
+                &quot;column&quot;: 43
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 31,
+                &quot;column&quot;: 52
+              }
+            }
+          ]
+        },
+        &quot;6&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 31,
+              &quot;column&quot;: 42
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 31,
+              &quot;column&quot;: 45
+            }
+          },
+          &quot;type&quot;: &quot;binary-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 31,
+                &quot;column&quot;: 42
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 31,
+                &quot;column&quot;: 45
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 31,
+                &quot;column&quot;: 43
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 31,
+                &quot;column&quot;: 45
               }
             }
           ]
         }
       },
       &quot;s&quot;: {
-        &quot;0&quot;: 1,
-        &quot;1&quot;: 1,
-        &quot;2&quot;: 2,
-        &quot;3&quot;: 2,
-        &quot;4&quot;: 2,
-        &quot;5&quot;: 2,
-        &quot;6&quot;: 2,
-        &quot;7&quot;: 2,
-        &quot;8&quot;: 2,
+        &quot;0&quot;: 2,
+        &quot;1&quot;: 2,
+        &quot;2&quot;: 4,
+        &quot;3&quot;: 4,
+        &quot;4&quot;: 4,
+        &quot;5&quot;: 4,
+        &quot;6&quot;: 4,
+        &quot;7&quot;: 4,
+        &quot;8&quot;: 4,
         &quot;9&quot;: 0,
         &quot;10&quot;: 0,
-        &quot;11&quot;: 2,
-        &quot;12&quot;: 2,
-        &quot;13&quot;: 0,
-        &quot;14&quot;: 0,
-        &quot;15&quot;: 0,
-        &quot;16&quot;: 0,
-        &quot;17&quot;: 1
+        &quot;11&quot;: 4,
+        &quot;12&quot;: 4,
+        &quot;13&quot;: 4,
+        &quot;14&quot;: 4,
+        &quot;15&quot;: 4,
+        &quot;16&quot;: 2
       },
       &quot;f&quot;: {
-        &quot;0&quot;: 2
+        &quot;0&quot;: 4,
+        &quot;1&quot;: 4
       },
       &quot;b&quot;: {
         &quot;0&quot;: [
-          2,
-          0
+          0,
+          4
         ],
         &quot;1&quot;: [
-          2,
-          0
+          4,
+          4
         ],
         &quot;2&quot;: [
+          0,
+          4
+        ],
+        &quot;3&quot;: [
+          0,
+          4
+        ],
+        &quot;4&quot;: [
+          4,
+          4
+        ],
+        &quot;5&quot;: [
+          0,
+          0
+        ],
+        &quot;6&quot;: [
           0,
           0
         ]
@@ -1534,7 +1700,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 11,
-            &quot;column&quot;: 64
+            &quot;column&quot;: 70
           }
         },
         &quot;7&quot;: {
@@ -1670,7 +1836,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 12,
-            &quot;column&quot;: 54
+            &quot;column&quot;: 60
           }
         },
         &quot;7&quot;: {
@@ -1680,7 +1846,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 14,
-            &quot;column&quot;: 44
+            &quot;column&quot;: 45
           }
         },
         &quot;8&quot;: {
@@ -1729,7 +1895,78 @@
           }
         }
       },
-      &quot;branchMap&quot;: {},
+      &quot;branchMap&quot;: {
+        &quot;0&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 14,
+              &quot;column&quot;: 29
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 14,
+              &quot;column&quot;: 31
+            }
+          },
+          &quot;type&quot;: &quot;cond-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 14,
+                &quot;column&quot;: 29
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 14,
+                &quot;column&quot;: 31
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 14,
+                &quot;column&quot;: 29
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 14,
+                &quot;column&quot;: 41
+              }
+            }
+          ]
+        },
+        &quot;1&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 14,
+              &quot;column&quot;: 26
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 14,
+              &quot;column&quot;: 31
+            }
+          },
+          &quot;type&quot;: &quot;binary-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 14,
+                &quot;column&quot;: 26
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 14,
+                &quot;column&quot;: 31
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 14,
+                &quot;column&quot;: 29
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 14,
+                &quot;column&quot;: 31
+              }
+            }
+          ]
+        }
+      },
       &quot;s&quot;: {
         &quot;0&quot;: 0,
         &quot;1&quot;: 0,
@@ -1745,7 +1982,16 @@
       &quot;f&quot;: {
         &quot;0&quot;: 0
       },
-      &quot;b&quot;: {}
+      &quot;b&quot;: {
+        &quot;0&quot;: [
+          0,
+          0
+        ],
+        &quot;1&quot;: [
+          0,
+          0
+        ]
+      }
     },
     &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;wait.ts&quot;: {
       &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;wait.ts&quot;,

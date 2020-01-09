@@ -3,56 +3,69 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected\n                + Received\n                \n                - foobar\n                + stdout > ::debug::Reading inputs\n                + stdout > cloning repo(https://github.com/undefined) into dir()\n                + stdout > ::debug::Cloned: [object Promise]\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:24:1\n                +     at tryCallTwo (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:45:1)\n                +     at doResolve (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:173:1)\n                +     at new Promise (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:65:1)\n                +     at Function.clone (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:19:1)\n                +     at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:28:1)\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.335.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:4:1)\n                + stderr > (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                + ",
+      "name" : "Error: Exit code: 1\n                stdout > ::debug::Reading inputs\n                stdout > cloning repo(https://github.com/undefined) into dir(). branch(test-dummy)\n                stdout > Throwing unrecognized error: cannot pick working directory for non-bare repository that isn't a '.git' directory\n                stdout > ::error::cannot pick working directory for non-bare repository that isn't a '.git' directory\n                ",
       "children" : [ {
-        "name" : "runs.main has expected output",
-        "uid" : "e1fa75f4be2d46f6",
-        "parentUid" : "a4c3fc1580919dbce4e607fed57ec154",
+        "name" : "can run runs.main and runs.post end-to-end",
+        "uid" : "33e86bd179f10ff2",
+        "parentUid" : "072dd63b385caf59545872077f69dfc1",
         "status" : "failed",
         "time" : {
-          "start" : 1578466855743,
-          "stop" : 1578466855753,
+          "start" : 1578538796423,
+          "stop" : 1578538796550,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "072dd63b385caf59545872077f69dfc1"
+    }, {
+      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"flushed out\"\n                Received: \"this test\"",
+      "children" : [ {
+        "name" : "works with non-existent branch",
+        "uid" : "27de11ef24c9de77",
+        "parentUid" : "6f35061ec80433780c1148827c9d042d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578538798604,
+          "stop" : 1578538798614,
           "duration" : 10
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a4c3fc1580919dbce4e607fed57ec154"
+      "uid" : "6f35061ec80433780c1148827c9d042d"
     }, {
-      "name" : "Error: no reference found for shorthand 'this-branch-will-never-exist'",
+      "name" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not null",
       "children" : [ {
-        "name" : "clone can be called for non-existent branch",
-        "uid" : "8997def15cf7532f",
-        "parentUid" : "4d438b4a7d6d35d4fb79d26314c8f07c",
+        "name" : "works with existing branch",
+        "uid" : "1c782f9e38579a16",
+        "parentUid" : "3630dd38a6218905cc93c56b06b7bf32",
         "status" : "failed",
         "time" : {
-          "start" : 1578466856674,
-          "stop" : 1578466856687,
-          "duration" : 13
+          "start" : 1578538798614,
+          "stop" : 1578538798621,
+          "duration" : 7
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "4d438b4a7d6d35d4fb79d26314c8f07c"
-    }, {
-      "name" : "Error: no reference found for shorthand 'master'",
-      "children" : [ {
+      }, {
         "name" : "clone can be called for existing branch",
-        "uid" : "9005fd5a2e7659d1",
-        "parentUid" : "67b2da59772f620b65bd0983f83e9eab",
+        "uid" : "66e6a0d617d3b272",
+        "parentUid" : "3630dd38a6218905cc93c56b06b7bf32",
         "status" : "failed",
         "time" : {
-          "start" : 1578466856687,
-          "stop" : 1578466856696,
-          "duration" : 9
+          "start" : 1578538799033,
+          "stop" : 1578538799044,
+          "duration" : 11
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "67b2da59772f620b65bd0983f83e9eab"
+      "uid" : "3630dd38a6218905cc93c56b06b7bf32"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

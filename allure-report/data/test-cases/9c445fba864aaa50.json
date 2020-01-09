@@ -1,11 +1,11 @@
 {
-  "uid" : "3a3457c7df43c8cf",
-  "name" : "runs.main exists",
-  "fullName" : "GitHub Actions Test Test script execution [runs.main].runs.main exists",
-  "historyId" : "9935498d9adefa2cf37b529e275f3652",
+  "uid" : "9c445fba864aaa50",
+  "name" : "readInputs is a function",
+  "fullName" : "utils/readInputs.readInputs is a function",
+  "historyId" : "2eddb652dd3e32bd1f498303a4f7bc42",
   "time" : {
-    "start" : 1578466855583,
-    "stop" : 1578466855584,
+    "start" : 1578538799855,
+    "stop" : 1578538799856,
     "duration" : 1
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "GitHub Actions Test Test script execution [runs.main]"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testClass",
-    "value" : "GitHub Actions Test Test script execution [runs.main]"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testMethod",
-    "value" : "runs.main exists"
+    "value" : "readInputs is a function"
   }, {
     "name" : "package",
-    "value" : "GitHub Actions Test Test script execution [runs.main]"
+    "value" : "utils/readInputs"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3a3457c7df43c8cf.json",
+  "source" : "9c445fba864aaa50.json",
   "parameterValues" : [ ]
 }

@@ -1,24 +1,13 @@
 {
-  "total" : 5,
+  "total" : 4,
   "items" : [ {
     "uid" : "f81fa2a12b3baebb98d506696ed598e8",
     "name" : "utils/clone",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 2,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "131cca8a99c008442c8adcbb6db2a39c",
-    "name" : "GitHub Actions Test Test script execution [runs.main]",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
       "unknown" : 0,
       "total" : 5
     }
@@ -26,12 +15,12 @@
     "uid" : "2f8451d780f371a86b24d0bd88373773",
     "name" : "GitHub Actions Test",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 4
+      "total" : 7
     }
   }, {
     "uid" : "4df21f5c08ad9fb68d1e2c17fc3f8726",

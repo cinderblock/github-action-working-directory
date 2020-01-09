@@ -1,8 +1,8 @@
 {
-  "numFailedTestSuites": 2,
-  "numFailedTests": 3,
-  "numPassedTestSuites": 3,
-  "numPassedTests": 12,
+  "numFailedTestSuites": 3,
+  "numFailedTests": 4,
+  "numPassedTestSuites": 2,
+  "numPassedTests": 11,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
@@ -26,18 +26,18 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578466852740,
+  "startTime": 1578538793175,
   "success": false,
   "testResults": [
     {
-      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mGitHub Actions Test › Test script execution [runs.main] › runs.main has expected output\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    \u001b[32m- Expected\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[32m- foobar\u001b[39m\n    \u001b[31m+ stdout > ::debug::Reading inputs\u001b[39m\n    \u001b[31m+ stdout > cloning repo(https://github.com/undefined) into dir()\u001b[39m\n    \u001b[31m+ stdout > ::debug::Cloned: [object Promise]\u001b[39m\n    \u001b[31m+ stderr > (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n    \u001b[31m+     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:24:1\u001b[39m\n    \u001b[31m+     at tryCallTwo (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:45:1)\u001b[39m\n    \u001b[31m+     at doResolve (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:173:1)\u001b[39m\n    \u001b[31m+     at new Promise (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:65:1)\u001b[39m\n    \u001b[31m+     at Function.clone (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:19:1)\u001b[39m\n    \u001b[31m+     at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:28:1)\u001b[39m\n    \u001b[31m+     at Generator.next (<anonymous>)\u001b[39m\n    \u001b[31m+     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:8:1\u001b[39m\n    \u001b[31m+     at new Promise (<anonymous>)\u001b[39m\n    \u001b[31m+     at module.exports.335.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:4:1)\u001b[39m\n    \u001b[31m+ stderr > (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n    \u001b[31m+ (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n    \u001b[31m+ \u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 128 | \u001b[39m        \u001b[36mconst\u001b[39m output \u001b[33m=\u001b[39m await executionResult\u001b[33m.\u001b[39mpromise\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 129 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 130 | \u001b[39m        expect(output)\u001b[33m.\u001b[39mtoBe(\u001b[32m'foobar'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 131 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 132 | \u001b[39m        \u001b[36mif\u001b[39m (which \u001b[33m===\u001b[39m \u001b[32m'main'\u001b[39m) mainDone\u001b[33m.\u001b[39mresolve()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 133 | \u001b[39m      } \u001b[36mcatch\u001b[39m (e) {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:130:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests/end-to-end.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n",
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mGitHub Actions Test › can run runs.main and runs.post end-to-end\u001b[39m\u001b[22m\n\n    Exit code: 1\n    stdout > ::debug::Reading inputs\n    stdout > cloning repo(https://github.com/undefined) into dir(). branch(test-dummy)\n    stdout > Throwing unrecognized error: cannot pick working directory for non-bare repository that isn't a '.git' directory\n    stdout > ::error::cannot pick working directory for non-bare repository that isn't a '.git' directory\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 91 | \u001b[39m      exec\u001b[33m.\u001b[39mon(\u001b[32m'exit'\u001b[39m\u001b[33m,\u001b[39m exitCode \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 92 | \u001b[39m        \u001b[36mif\u001b[39m (exitCode \u001b[33m===\u001b[39m \u001b[35m0\u001b[39m) resolve(messages)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 93 | \u001b[39m        \u001b[36melse\u001b[39m reject(\u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m`Exit code: ${exitCode}\\n${messages}`\u001b[39m))\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                    \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 94 | \u001b[39m      })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 95 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 96 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ChildProcess.<anonymous> (\u001b[2m\u001b[0m\u001b[36mtests/end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:93:21)\u001b[2m\u001b[22m\n",
       "numFailingTests": 1,
-      "numPassingTests": 8,
+      "numPassingTests": 6,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578466855786,
-        "start": 1578466852787
+        "end": 1578538796578,
+        "start": 1578538793232
       },
       "snapshot": {
         "added": 0,
@@ -48,7 +48,7 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.ts",
+      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts",
       "testResults": [
         {
           "ancestorTitles": [
@@ -66,7 +66,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 3,
+          "duration": 4,
           "failureMessages": [],
           "fullName": "GitHub Actions Test can read action.yml",
           "location": null,
@@ -78,7 +78,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 4,
+          "duration": 5,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has valid yaml",
           "location": null,
@@ -100,84 +100,120 @@
         },
         {
           "ancestorTitles": [
-            "GitHub Actions Test",
-            "Test script execution [runs.main]"
+            "GitHub Actions Test"
           ],
-          "duration": 0,
+          "duration": 2,
           "failureMessages": [],
-          "fullName": "GitHub Actions Test Test script execution [runs.main] action.yml has runs.main",
+          "fullName": "GitHub Actions Test action.yml has runs.main and runs.post",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "action.yml has runs.main"
+          "title": "action.yml has runs.main and runs.post"
         },
         {
           "ancestorTitles": [
-            "GitHub Actions Test",
-            "Test script execution [runs.main]"
+            "GitHub Actions Test"
           ],
-          "duration": 1,
+          "duration": 2,
           "failureMessages": [],
-          "fullName": "GitHub Actions Test Test script execution [runs.main] runs.main exists",
+          "fullName": "GitHub Actions Test runs.main and runs.post files exist",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "runs.main exists"
+          "title": "runs.main and runs.post files exist"
         },
         {
           "ancestorTitles": [
-            "GitHub Actions Test",
-            "Test script execution [runs.main]"
+            "GitHub Actions Test"
           ],
-          "duration": 158,
-          "failureMessages": [],
-          "fullName": "GitHub Actions Test Test script execution [runs.main] can run runs.main",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "can run runs.main"
-        },
-        {
-          "ancestorTitles": [
-            "GitHub Actions Test",
-            "Test script execution [runs.main]"
-          ],
-          "duration": 1,
-          "failureMessages": [],
-          "fullName": "GitHub Actions Test Test script execution [runs.main] runs.main runs without error",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "runs.main runs without error"
-        },
-        {
-          "ancestorTitles": [
-            "GitHub Actions Test",
-            "Test script execution [runs.main]"
-          ],
-          "duration": 9,
+          "duration": 126,
           "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n\u001b[32m- Expected\u001b[39m\n\u001b[31m+ Received\u001b[39m\n\n\u001b[32m- foobar\u001b[39m\n\u001b[31m+ stdout > ::debug::Reading inputs\u001b[39m\n\u001b[31m+ stdout > cloning repo(https://github.com/undefined) into dir()\u001b[39m\n\u001b[31m+ stdout > ::debug::Cloned: [object Promise]\u001b[39m\n\u001b[31m+ stderr > (node:3132) UnhandledPromiseRejectionWarning: Error: Callback is required and must be a Function.\u001b[39m\n\u001b[31m+     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:24:1\u001b[39m\n\u001b[31m+     at tryCallTwo (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:45:1)\u001b[39m\n\u001b[31m+     at doResolve (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:173:1)\u001b[39m\n\u001b[31m+     at new Promise (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/core.js:65:1)\u001b[39m\n\u001b[31m+     at Function.clone (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/node_modules/nodegit-promise/lib/node-extensions.js:19:1)\u001b[39m\n\u001b[31m+     at Object.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:28:1)\u001b[39m\n\u001b[31m+     at Generator.next (<anonymous>)\u001b[39m\n\u001b[31m+     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:8:1\u001b[39m\n\u001b[31m+     at new Promise (<anonymous>)\u001b[39m\n\u001b[31m+     at module.exports.335.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/utils/clone.ts:4:1)\u001b[39m\n\u001b[31m+ stderr > (node:3132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n\u001b[31m+ (node:3132) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n\u001b[31m+ \u001b[39m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.ts:130:24\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.ts:5:58)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+            "Error: Exit code: 1\nstdout > ::debug::Reading inputs\nstdout > cloning repo(https://github.com/undefined) into dir(). branch(test-dummy)\nstdout > Throwing unrecognized error: cannot pick working directory for non-bare repository that isn't a '.git' directory\nstdout > ::error::cannot pick working directory for non-bare repository that isn't a '.git' directory\n\n    at ChildProcess.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:93:21)\n    at ChildProcess.emit (events.js:210:5)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)"
           ],
-          "fullName": "GitHub Actions Test Test script execution [runs.main] runs.main has expected output",
+          "fullName": "GitHub Actions Test can run runs.main and runs.post end-to-end",
           "location": null,
           "numPassingAsserts": 0,
           "status": "failed",
-          "title": "runs.main has expected output"
+          "title": "can run runs.main and runs.post end-to-end"
         }
       ],
       "skipped": false,
       "leaks": false
     },
     {
-      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils/clone › clone can be called for non-existent branch\u001b[39m\u001b[22m\n\n    no reference found for shorthand 'this-branch-will-never-exist'\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils/clone › clone can be called for existing branch\u001b[39m\u001b[22m\n\n    no reference found for shorthand 'master'\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n",
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils/clone › works with non-existent branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"\u001b[7mflushed ou\u001b[27mt\"\u001b[39m\n    Received: \u001b[31m\"\u001b[7mthis tes\u001b[27mt\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 | \u001b[39m    expect(result)\u001b[33m.\u001b[39mtoBe(\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 33 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 34 | \u001b[39m    expect(\u001b[32m'this test'\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[32m'flushed out'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                        \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 35 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 37 | \u001b[39m  test(\u001b[32m'works with existing branch'\u001b[39m\u001b[33m,\u001b[39m async () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:34:25\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests/end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils/clone › works with existing branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: not \u001b[32mnull\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 40 | \u001b[39m    \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m await clone({ repoUrl\u001b[33m,\u001b[39m branch\u001b[33m:\u001b[39m \u001b[32m'master'\u001b[39m\u001b[33m,\u001b[39m dir })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 42 | \u001b[39m    expect(result)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 | \u001b[39m    \u001b[36mif\u001b[39m (result \u001b[33m===\u001b[39m \u001b[36mnull\u001b[39m) \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'unreachable'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 44 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 45 | \u001b[39m    \u001b[36mconst\u001b[39m head \u001b[33m=\u001b[39m await result\u001b[33m.\u001b[39mhead()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:42:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests/end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n",
       "numFailingTests": 2,
       "numPassingTests": 1,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578466856706,
-        "start": 1578466855813
+        "end": 1578538798630,
+        "start": 1578538796714
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "utils/clone"
+          ],
+          "duration": 0,
+          "failureMessages": [],
+          "fullName": "utils/clone clone is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "clone is a function"
+        },
+        {
+          "ancestorTitles": [
+            "utils/clone"
+          ],
+          "duration": 10,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mflushed ou\u001b[27mt\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mthis tes\u001b[27mt\"\u001b[39m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:34:25\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:5:58)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "utils/clone works with non-existent branch",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "works with non-existent branch"
+        },
+        {
+          "ancestorTitles": [
+            "utils/clone"
+          ],
+          "duration": 7,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32mnull\u001b[39m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:42:24\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:5:58)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "utils/clone works with existing branch",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "works with existing branch"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils/clone › clone can be called for existing branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: not \u001b[32mnull\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 38 | \u001b[39m    \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m await clone({ repoUrl\u001b[33m,\u001b[39m branch\u001b[33m:\u001b[39m \u001b[32m'master'\u001b[39m\u001b[33m,\u001b[39m dir })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 40 | \u001b[39m    expect(result)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 | \u001b[39m    \u001b[36mif\u001b[39m (result \u001b[33m===\u001b[39m \u001b[36mnull\u001b[39m) \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'unreachable'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 | \u001b[39m    \u001b[36mconst\u001b[39m head \u001b[33m=\u001b[39m await result\u001b[33m.\u001b[39mhead()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/utils.clone.ts\u001b[39m\u001b[0m\u001b[2m:40:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests/utils.clone.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n",
+      "numFailingTests": 1,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578538799049,
+        "start": 1578538798657
       },
       "snapshot": {
         "added": 0,
@@ -206,23 +242,21 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 13,
-          "failureMessages": [
-            "Error: no reference found for shorthand 'this-branch-will-never-exist'"
-          ],
+          "duration": 9,
+          "failureMessages": [],
           "fullName": "utils/clone clone can be called for non-existent branch",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "failed",
+          "status": "passed",
           "title": "clone can be called for non-existent branch"
         },
         {
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 9,
+          "duration": 11,
           "failureMessages": [
-            "Error: no reference found for shorthand 'master'"
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32mnull\u001b[39m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/utils.clone.ts:40:24\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/utils.clone.ts:5:58)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
           ],
           "fullName": "utils/clone clone can be called for existing branch",
           "location": null,
@@ -241,45 +275,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578466857460,
-        "start": 1578466856731
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "/home/runner/work/github-action-working-directory/github-action-working-directory/tests/clone.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "utils/clone"
-          ],
-          "duration": 501,
-          "failureMessages": [],
-          "fullName": "utils/clone clone can be called",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "clone can be called"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1578466859082,
-        "start": 1578466857481
+        "end": 1578538799568,
+        "start": 1578538799085
       },
       "snapshot": {
         "added": 0,
@@ -296,7 +293,7 @@
           "ancestorTitles": [
             "utils/commitAndPush"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/commitAndPush commitAndPush is a function",
           "location": null,
@@ -315,8 +312,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578466859420,
-        "start": 1578466859185
+        "end": 1578538799858,
+        "start": 1578538799594
       },
       "snapshot": {
         "added": 0,
@@ -358,7 +355,7 @@
           },
           "end": {
             "line": 1,
-            "column": 43
+            "column": 58
           }
         },
         "1": {
@@ -374,154 +371,144 @@
         "2": {
           "start": {
             "line": 17,
-            "column": 2
+            "column": 14
           },
           "end": {
-            "line": 19,
-            "column": null
+            "line": 17,
+            "column": 33
           }
         },
         "3": {
           "start": {
-            "line": 18,
-            "column": 4
+            "line": 19,
+            "column": 2
           },
           "end": {
-            "line": 18,
-            "column": 23
+            "line": 19,
+            "column": 70
           }
         },
         "4": {
           "start": {
-            "line": 21,
-            "column": 2
+            "line": 23,
+            "column": 18
           },
           "end": {
-            "line": 21,
-            "column": 53
+            "line": 23,
+            "column": 36
           }
         },
         "5": {
           "start": {
             "line": 25,
-            "column": 21
+            "column": 2
           },
           "end": {
             "line": 25,
-            "column": 52
+            "column": 34
           }
         },
         "6": {
           "start": {
             "line": 27,
-            "column": 2
+            "column": 18
           },
           "end": {
             "line": 27,
-            "column": 42
+            "column": 52
           }
         },
         "7": {
           "start": {
             "line": 29,
-            "column": 2
+            "column": 24
           },
           "end": {
-            "line": 44,
-            "column": null
+            "line": 38,
+            "column": 4
           }
         },
         "8": {
           "start": {
             "line": 30,
-            "column": 16
+            "column": 4
           },
           "end": {
-            "line": 30,
-            "column": 55
+            "line": 33,
+            "column": null
           }
         },
         "9": {
           "start": {
-            "line": 34,
-            "column": 4
+            "line": 31,
+            "column": 6
           },
           "end": {
-            "line": 34,
-            "column": 32
+            "line": 31,
+            "column": 56
           }
         },
         "10": {
           "start": {
-            "line": 36,
-            "column": 4
+            "line": 32,
+            "column": 6
           },
           "end": {
-            "line": 36,
-            "column": 15
+            "line": 32,
+            "column": 14
           }
         },
         "11": {
           "start": {
-            "line": 38,
+            "line": 35,
             "column": 4
           },
           "end": {
-            "line": 38,
-            "column": 39
+            "line": 35,
+            "column": 28
           }
         },
         "12": {
           "start": {
-            "line": 38,
-            "column": 31
+            "line": 37,
+            "column": 4
           },
           "end": {
-            "line": 38,
-            "column": 39
+            "line": 37,
+            "column": 16
           }
         },
         "13": {
           "start": {
-            "line": 39,
-            "column": 4
+            "line": 40,
+            "column": 21
           },
           "end": {
-            "line": 39,
-            "column": 70
+            "line": 40,
+            "column": 40
           }
         },
         "14": {
           "start": {
-            "line": 39,
-            "column": 62
+            "line": 42,
+            "column": 2
           },
           "end": {
-            "line": 39,
-            "column": 70
+            "line": 42,
+            "column": 28
           }
         },
         "15": {
           "start": {
-            "line": 41,
-            "column": 4
+            "line": 44,
+            "column": 2
           },
           "end": {
-            "line": 41,
-            "column": 56
+            "line": 44,
+            "column": 20
           }
         },
         "16": {
-          "start": {
-            "line": 43,
-            "column": 4
-          },
-          "end": {
-            "line": 43,
-            "column": 16
-          }
-        },
-        "17": {
           "start": {
             "line": 11,
             "column": 0
@@ -555,6 +542,29 @@
               "column": null
             }
           }
+        },
+        "1": {
+          "name": "(anonymous_10)",
+          "decl": {
+            "start": {
+              "line": 29,
+              "column": 38
+            },
+            "end": {
+              "line": 29,
+              "column": 39
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 42
+            },
+            "end": {
+              "line": 38,
+              "column": 3
+            }
+          }
         }
       },
       "branchMap": {
@@ -562,33 +572,33 @@
           "loc": {
             "start": {
               "line": 17,
-              "column": 2
+              "column": 14
             },
             "end": {
-              "line": 19,
-              "column": null
+              "line": 17,
+              "column": 19
             }
           },
-          "type": "if",
+          "type": "cond-expr",
           "locations": [
             {
               "start": {
                 "line": 17,
-                "column": 2
+                "column": 14
               },
               "end": {
-                "line": 19,
-                "column": null
+                "line": 17,
+                "column": 19
               }
             },
             {
               "start": {
                 "line": 17,
-                "column": 2
+                "column": 23
               },
               "end": {
-                "line": 19,
-                "column": null
+                "line": 17,
+                "column": 33
               }
             }
           ]
@@ -596,34 +606,34 @@
         "1": {
           "loc": {
             "start": {
-              "line": 38,
-              "column": 4
+              "line": 17,
+              "column": 14
             },
             "end": {
-              "line": 38,
-              "column": 39
+              "line": 17,
+              "column": 23
             }
           },
-          "type": "if",
+          "type": "binary-expr",
           "locations": [
             {
               "start": {
-                "line": 38,
-                "column": 4
+                "line": 17,
+                "column": 14
               },
               "end": {
-                "line": 38,
-                "column": 39
+                "line": 17,
+                "column": 23
               }
             },
             {
               "start": {
-                "line": 38,
-                "column": 4
+                "line": 17,
+                "column": 14
               },
               "end": {
-                "line": 38,
-                "column": 39
+                "line": 17,
+                "column": 23
               }
             }
           ]
@@ -631,72 +641,228 @@
         "2": {
           "loc": {
             "start": {
-              "line": 39,
+              "line": 30,
               "column": 4
             },
             "end": {
-              "line": 39,
-              "column": 70
+              "line": 33,
+              "column": null
             }
           },
           "type": "if",
           "locations": [
             {
               "start": {
-                "line": 39,
+                "line": 30,
                 "column": 4
               },
               "end": {
-                "line": 39,
-                "column": 70
+                "line": 33,
+                "column": null
               }
             },
             {
               "start": {
-                "line": 39,
+                "line": 30,
                 "column": 4
               },
               "end": {
-                "line": 39,
-                "column": 70
+                "line": 33,
+                "column": null
+              }
+            }
+          ]
+        },
+        "3": {
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 9
+            },
+            "end": {
+              "line": 30,
+              "column": 11
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 30,
+                "column": 9
+              },
+              "end": {
+                "line": 30,
+                "column": 11
+              }
+            },
+            {
+              "start": {
+                "line": 30,
+                "column": 9
+              },
+              "end": {
+                "line": 30,
+                "column": 18
+              }
+            }
+          ]
+        },
+        "4": {
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 8
+            },
+            "end": {
+              "line": 30,
+              "column": 11
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 30,
+                "column": 8
+              },
+              "end": {
+                "line": 30,
+                "column": 11
+              }
+            },
+            {
+              "start": {
+                "line": 30,
+                "column": 9
+              },
+              "end": {
+                "line": 30,
+                "column": 11
+              }
+            }
+          ]
+        },
+        "5": {
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 43
+            },
+            "end": {
+              "line": 31,
+              "column": 45
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 31,
+                "column": 43
+              },
+              "end": {
+                "line": 31,
+                "column": 45
+              }
+            },
+            {
+              "start": {
+                "line": 31,
+                "column": 43
+              },
+              "end": {
+                "line": 31,
+                "column": 52
+              }
+            }
+          ]
+        },
+        "6": {
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 42
+            },
+            "end": {
+              "line": 31,
+              "column": 45
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 31,
+                "column": 42
+              },
+              "end": {
+                "line": 31,
+                "column": 45
+              }
+            },
+            {
+              "start": {
+                "line": 31,
+                "column": 43
+              },
+              "end": {
+                "line": 31,
+                "column": 45
               }
             }
           ]
         }
       },
       "s": {
-        "0": 1,
-        "1": 1,
-        "2": 2,
-        "3": 2,
-        "4": 2,
-        "5": 2,
-        "6": 2,
-        "7": 2,
-        "8": 2,
+        "0": 2,
+        "1": 2,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 4,
+        "8": 4,
         "9": 0,
         "10": 0,
-        "11": 2,
-        "12": 2,
-        "13": 0,
-        "14": 0,
-        "15": 0,
-        "16": 0,
-        "17": 1
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 2
       },
       "f": {
-        "0": 2
+        "0": 4,
+        "1": 4
       },
       "b": {
         "0": [
-          2,
-          0
+          0,
+          4
         ],
         "1": [
-          2,
-          0
+          4,
+          4
         ],
         "2": [
+          0,
+          4
+        ],
+        "3": [
+          0,
+          4
+        ],
+        "4": [
+          4,
+          4
+        ],
+        "5": [
+          0,
+          0
+        ],
+        "6": [
           0,
           0
         ]
@@ -1414,7 +1580,7 @@
           },
           "end": {
             "line": 11,
-            "column": 64
+            "column": 70
           }
         },
         "7": {
@@ -1550,7 +1716,7 @@
           },
           "end": {
             "line": 12,
-            "column": 54
+            "column": 60
           }
         },
         "7": {
@@ -1560,7 +1726,7 @@
           },
           "end": {
             "line": 14,
-            "column": 44
+            "column": 45
           }
         },
         "8": {
@@ -1609,7 +1775,78 @@
           }
         }
       },
-      "branchMap": {},
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 29
+            },
+            "end": {
+              "line": 14,
+              "column": 31
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 14,
+                "column": 29
+              },
+              "end": {
+                "line": 14,
+                "column": 31
+              }
+            },
+            {
+              "start": {
+                "line": 14,
+                "column": 29
+              },
+              "end": {
+                "line": 14,
+                "column": 41
+              }
+            }
+          ]
+        },
+        "1": {
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 26
+            },
+            "end": {
+              "line": 14,
+              "column": 31
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 14,
+                "column": 26
+              },
+              "end": {
+                "line": 14,
+                "column": 31
+              }
+            },
+            {
+              "start": {
+                "line": 14,
+                "column": 29
+              },
+              "end": {
+                "line": 14,
+                "column": 31
+              }
+            }
+          ]
+        }
+      },
       "s": {
         "0": 0,
         "1": 0,
@@ -1625,7 +1862,16 @@
       "f": {
         "0": 0
       },
-      "b": {}
+      "b": {
+        "0": [
+          0,
+          0
+        ],
+        "1": [
+          0,
+          0
+        ]
+      }
     },
     "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts": {
       "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts",

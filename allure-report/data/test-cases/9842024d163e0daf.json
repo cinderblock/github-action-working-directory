@@ -1,12 +1,12 @@
 {
-  "uid" : "13feeb4f508d9f1",
-  "name" : "action.yml has valid yaml",
-  "fullName" : "GitHub Actions Test.action.yml has valid yaml",
-  "historyId" : "e369fc5b9eb39c16ef9106ce2f5b0475",
+  "uid" : "9842024d163e0daf",
+  "name" : "runs.main and runs.post files exist",
+  "fullName" : "GitHub Actions Test.runs.main and runs.post files exist",
+  "historyId" : "5a5ac828fae90e9ed476215879d908e5",
   "time" : {
-    "start" : 1578466855578,
-    "stop" : 1578466855582,
-    "duration" : 4
+    "start" : 1578538796421,
+    "stop" : 1578538796423,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,7 +23,7 @@
     "value" : "GitHub Actions Test"
   }, {
     "name" : "testMethod",
-    "value" : "action.yml has valid yaml"
+    "value" : "runs.main and runs.post files exist"
   }, {
     "name" : "package",
     "value" : "GitHub Actions Test"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "13feeb4f508d9f1.json",
+  "source" : "9842024d163e0daf.json",
   "parameterValues" : [ ]
 }

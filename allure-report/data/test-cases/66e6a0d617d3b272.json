@@ -1,18 +1,18 @@
 {
-  "uid" : "9005fd5a2e7659d1",
+  "uid" : "66e6a0d617d3b272",
   "name" : "clone can be called for existing branch",
   "fullName" : "utils/clone.clone can be called for existing branch",
   "historyId" : "4d75ecf2373db3c697197d257e5b9a68",
   "time" : {
-    "start" : 1578466856687,
-    "stop" : 1578466856696,
-    "duration" : 9
+    "start" : 1578538799033,
+    "stop" : 1578538799044,
+    "duration" : 11
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "failed",
-  "statusMessage" : "Error: no reference found for shorthand 'master'",
-  "statusTrace" : "Error: no reference found for shorthand 'master'",
+  "statusMessage" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not null",
+  "statusTrace" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not null\n                    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/utils.clone.ts:40:24\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/utils.clone.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -47,6 +47,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "9005fd5a2e7659d1.json",
+  "source" : "66e6a0d617d3b272.json",
   "parameterValues" : [ ]
 }

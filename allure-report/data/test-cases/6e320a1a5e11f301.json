@@ -1,18 +1,16 @@
 {
-  "uid" : "8997def15cf7532f",
+  "uid" : "6e320a1a5e11f301",
   "name" : "clone can be called for non-existent branch",
   "fullName" : "utils/clone.clone can be called for non-existent branch",
   "historyId" : "1e4ce0ccabc41d0bbea39f0f89ec8311",
   "time" : {
-    "start" : 1578466856674,
-    "stop" : 1578466856687,
-    "duration" : 13
+    "start" : 1578538799024,
+    "stop" : 1578538799033,
+    "duration" : 9
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "failed",
-  "statusMessage" : "Error: no reference found for shorthand 'this-branch-will-never-exist'",
-  "statusTrace" : "Error: no reference found for shorthand 'this-branch-will-never-exist'",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -40,13 +38,9 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8997def15cf7532f.json",
+  "source" : "6e320a1a5e11f301.json",
   "parameterValues" : [ ]
 }
