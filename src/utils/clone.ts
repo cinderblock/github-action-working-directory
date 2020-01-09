@@ -1,4 +1,4 @@
-import { Clone, Repository } from 'nodegit';
+import { Clone, Repository, CloneOptions } from 'nodegit';
 import * as core from '@actions/core';
 
 type Options = {
@@ -20,9 +20,11 @@ export async function clone({
 
   // TODO: Handle empty repoUrl. Find main remote of current repo
 
-  const promise = Clone.clone(repoUrl, dir, {
-    checkoutBranch: branch,
-  });
+  const options = new CloneOptions();
+
+  options.checkoutBranch = branch;
+
+  const promise = Clone.clone(repoUrl, dir, options);
 
   const handleMissing = promise.catch(e => {
     if (e?.message !== `reference 'refs/remotes/origin/${branch}' not found`) {
