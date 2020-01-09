@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "orta.vscode-jest",
     "esbenp.prettier-vscode",
     "editorconfig.editorconfig",
     "streetsidesoftware.code-spell-checker"
