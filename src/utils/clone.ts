@@ -24,6 +24,7 @@ export async function clone({
     checkoutBranch: branch,
   }).catch(e => {
     if (e?.message !== `reference 'refs/remotes/origin/${branch}' not found`) {
+      dbg(`Throwing unrecognized error: ${e?.message}`);
       throw e;
     }
 
