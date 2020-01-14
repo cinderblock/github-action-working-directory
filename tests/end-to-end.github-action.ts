@@ -64,7 +64,7 @@ describe('GitHub Actions Test', () => {
     const action = load(contents.toString());
 
     const mainFile = action?.runs?.main;
-    const postFile = action?.runs?.main;
+    const postFile = action?.runs?.post;
 
     expect(typeof mainFile).toBe('string');
     expect(typeof postFile).toBe('string');
