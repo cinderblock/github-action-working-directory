@@ -2,6 +2,7 @@ import { promises, existsSync } from 'fs';
 import { posix } from 'path';
 import { load } from 'js-yaml';
 import { fork } from 'child_process';
+import { EOL } from 'os';
 
 const { readFile } = promises;
 const { join } = posix;
@@ -72,7 +73,7 @@ describe('GitHub Actions Test', () => {
     const mainFileFullPath = `${runtimePath}${mainFile}`;
     const postFileFullPath = `${runtimePath}${postFile}`;
 
-    await new Promise((resolve, reject) => {
+    const mainOutput = await new Promise((resolve, reject) => {
       let messages = '';
 
       const exec = fork(mainFileFullPath, [], {
@@ -89,14 +90,18 @@ describe('GitHub Actions Test', () => {
       exec.on('error', reject);
 
       exec.on('exit', exitCode => {
-        if (exitCode === 0) resolve(messages);
-        else reject(new Error(`Exit code: ${exitCode}\n${messages}`));
+        expect(exitCode).toBe(0);
+        resolve(messages);
       });
     });
 
-    // TODO: Make some changes?
+    expect(mainOutput).toBe(
+      ['::debug::Reading inputs', '::debug::Cloned: undefined']
+        .map(l => `stdout > ${l}${EOL}`)
+        .join(''),
+    );
 
-    await new Promise((resolve, reject) => {
+    const postOutput = await new Promise((resolve, reject) => {
       let messages = '';
 
       const exec = fork(postFileFullPath, [], {
@@ -113,9 +118,14 @@ describe('GitHub Actions Test', () => {
       exec.on('error', reject);
 
       exec.on('exit', exitCode => {
-        if (exitCode === 0) resolve(messages);
-        else reject(new Error(`Exit code: ${exitCode}\n${messages}`));
+        // eslint-disable-next-line no-console
+        if (exitCode) console.log(messages);
+
+        expect(exitCode).toBe(0);
+        resolve(messages);
       });
     });
+
+    expect(postOutput).toBe('');
   });
 });
