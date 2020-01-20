@@ -1,12 +1,12 @@
 {
-  "uid" : "6e320a1a5e11f301",
-  "name" : "clone can be called for non-existent branch",
-  "fullName" : "utils/clone.clone can be called for non-existent branch",
-  "historyId" : "1e4ce0ccabc41d0bbea39f0f89ec8311",
+  "uid" : "5416aa518973c813",
+  "name" : "commitAndPush is a function",
+  "fullName" : "utils/commitAndPush.commitAndPush is a function",
+  "historyId" : "1c92945c02479b69f198fc478ced2471",
   "time" : {
-    "start" : 1578538799024,
-    "stop" : 1578538799033,
-    "duration" : 9
+    "start" : 1579557364756,
+    "stop" : 1579557364757,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/clone"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "testClass",
-    "value" : "utils/clone"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "testMethod",
-    "value" : "clone can be called for non-existent branch"
+    "value" : "commitAndPush is a function"
   }, {
     "name" : "package",
-    "value" : "utils/clone"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6e320a1a5e11f301.json",
+  "source" : "5416aa518973c813.json",
   "parameterValues" : [ ]
 }

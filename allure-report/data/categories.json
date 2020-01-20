@@ -6,13 +6,13 @@
       "name" : "Error: Exit code: 1\n                stdout > ::debug::Reading inputs\n                stdout > cloning repo(https://github.com/undefined) into dir(). branch(test-dummy)\n                stdout > Throwing unrecognized error: cannot pick working directory for non-bare repository that isn't a '.git' directory\n                stdout > ::error::cannot pick working directory for non-bare repository that isn't a '.git' directory\n                ",
       "children" : [ {
         "name" : "can run runs.main and runs.post end-to-end",
-        "uid" : "33e86bd179f10ff2",
+        "uid" : "ed13fe6719819f98",
         "parentUid" : "072dd63b385caf59545872077f69dfc1",
         "status" : "failed",
         "time" : {
-          "start" : 1578538796423,
-          "stop" : 1578538796550,
-          "duration" : 127
+          "start" : 1579557359631,
+          "stop" : 1579557359741,
+          "duration" : 110
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"flushed out\"\n                Received: \"this test\"",
       "children" : [ {
         "name" : "works with non-existent branch",
-        "uid" : "27de11ef24c9de77",
+        "uid" : "9464cd4a7d6ef9dc",
         "parentUid" : "6f35061ec80433780c1148827c9d042d",
         "status" : "failed",
         "time" : {
-          "start" : 1578538798604,
-          "stop" : 1578538798614,
-          "duration" : 10
+          "start" : 1579557360672,
+          "stop" : 1579557360683,
+          "duration" : 11
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,26 +40,26 @@
       "name" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not null",
       "children" : [ {
         "name" : "works with existing branch",
-        "uid" : "1c782f9e38579a16",
+        "uid" : "bbb641a77ed5db9e",
         "parentUid" : "3630dd38a6218905cc93c56b06b7bf32",
         "status" : "failed",
         "time" : {
-          "start" : 1578538798614,
-          "stop" : 1578538798621,
-          "duration" : 7
+          "start" : 1579557360684,
+          "stop" : 1579557360689,
+          "duration" : 5
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "clone can be called for existing branch",
-        "uid" : "66e6a0d617d3b272",
+        "uid" : "fe1a8fafdbb8c1b4",
         "parentUid" : "3630dd38a6218905cc93c56b06b7bf32",
         "status" : "failed",
         "time" : {
-          "start" : 1578538799033,
-          "stop" : 1578538799044,
-          "duration" : 11
+          "start" : 1579557364313,
+          "stop" : 1579557364316,
+          "duration" : 3
         },
         "flaky" : false,
         "newFailed" : false,

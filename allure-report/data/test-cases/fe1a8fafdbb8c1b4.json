@@ -1,12 +1,12 @@
 {
-  "uid" : "66e6a0d617d3b272",
+  "uid" : "fe1a8fafdbb8c1b4",
   "name" : "clone can be called for existing branch",
   "fullName" : "utils/clone.clone can be called for existing branch",
   "historyId" : "4d75ecf2373db3c697197d257e5b9a68",
   "time" : {
-    "start" : 1578538799033,
-    "stop" : 1578538799044,
-    "duration" : 11
+    "start" : 1579557364313,
+    "stop" : 1579557364316,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -47,6 +47,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "66e6a0d617d3b272.json",
+  "source" : "fe1a8fafdbb8c1b4.json",
   "parameterValues" : [ ]
 }

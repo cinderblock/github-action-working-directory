@@ -1,12 +1,12 @@
 {
-  "uid" : "27de11ef24c9de77",
+  "uid" : "9464cd4a7d6ef9dc",
   "name" : "works with non-existent branch",
   "fullName" : "utils/clone.works with non-existent branch",
   "historyId" : "99475aea3405f15070fbd456aafc0a83",
   "time" : {
-    "start" : 1578538798604,
-    "stop" : 1578538798614,
-    "duration" : 10
+    "start" : 1579557360672,
+    "stop" : 1579557360683,
+    "duration" : 11
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -47,6 +47,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "27de11ef24c9de77.json",
+  "source" : "9464cd4a7d6ef9dc.json",
   "parameterValues" : [ ]
 }

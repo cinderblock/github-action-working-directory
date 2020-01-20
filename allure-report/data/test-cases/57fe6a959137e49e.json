@@ -1,11 +1,11 @@
 {
-  "uid" : "9733f16235296922",
-  "name" : "commitAndPush is a function",
-  "fullName" : "utils/commitAndPush.commitAndPush is a function",
-  "historyId" : "1c92945c02479b69f198fc478ced2471",
+  "uid" : "57fe6a959137e49e",
+  "name" : "clone is a function",
+  "fullName" : "utils/clone.clone is a function",
+  "historyId" : "5b02bd65b5fb82a918ecb9e05487e5dc",
   "time" : {
-    "start" : 1578538799565,
-    "stop" : 1578538799566,
+    "start" : 1579557360671,
+    "stop" : 1579557360672,
     "duration" : 1
   },
   "description" : "",
@@ -17,30 +17,28 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/commitAndPush"
+    "value" : "utils/clone"
   }, {
     "name" : "testClass",
-    "value" : "utils/commitAndPush"
+    "value" : "utils/clone"
   }, {
     "name" : "testMethod",
-    "value" : "commitAndPush is a function"
+    "value" : "clone is a function"
   }, {
     "name" : "package",
-    "value" : "utils/commitAndPush"
+    "value" : "utils/clone"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9733f16235296922.json",
+  "source" : "57fe6a959137e49e.json",
   "parameterValues" : [ ]
 }
