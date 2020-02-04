@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "245714f33552aa99",
+      "uid" : "e7a415470db323f8",
       "status" : "passed",
       "time" : {
-        "start" : 1580855905885,
-        "stop" : 1580855905888,
-        "duration" : 3
+        "start" : 1580856134803,
+        "stop" : 1580856134807,
+        "duration" : 4
       }
     } ]
   },
@@ -28,11 +28,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6ecc08a35be9fd18",
+      "uid" : "e5c00ca9524b99",
       "status" : "passed",
       "time" : {
-        "start" : 1580855907261,
-        "stop" : 1580855907264,
+        "start" : 1580856136302,
+        "stop" : 1580856136305,
         "duration" : 3
       }
     } ]
@@ -47,13 +47,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f40024d24869d9d6",
+      "uid" : "950792e8f7e02cdb",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
       "time" : {
-        "start" : 1580855905904,
-        "stop" : 1580855905965,
-        "duration" : 61
+        "start" : 1580856134813,
+        "stop" : 1580856134880,
+        "duration" : 67
       }
     } ]
   },
@@ -67,11 +67,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5e2e1e4214fea839",
+      "uid" : "f10bd40d8e2002fc",
       "status" : "passed",
       "time" : {
-        "start" : 1580855905881,
-        "stop" : 1580855905884,
+        "start" : 1580856134800,
+        "stop" : 1580856134803,
         "duration" : 3
       }
     } ]
@@ -86,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6212db1eadb4aa94",
+      "uid" : "98ef5b7eaadbeec2",
       "status" : "passed",
       "time" : {
-        "start" : 1580855905879,
-        "stop" : 1580855905881,
-        "duration" : 2
+        "start" : 1580856134797,
+        "stop" : 1580856134800,
+        "duration" : 3
       }
     } ]
   },
@@ -105,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d68e7be5135c1b25",
+      "uid" : "fee968c94fc37ffd",
       "status" : "passed",
       "time" : {
-        "start" : 1580855905892,
-        "stop" : 1580855905904,
-        "duration" : 12
+        "start" : 1580856134811,
+        "stop" : 1580856134813,
+        "duration" : 2
       }
     } ]
   },
@@ -124,11 +124,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "893748986e8d5ade",
+      "uid" : "2a2a111ffb7301bb",
       "status" : "passed",
       "time" : {
-        "start" : 1580855905888,
-        "stop" : 1580855905890,
+        "start" : 1580856134807,
+        "stop" : 1580856134809,
         "duration" : 2
       }
     } ]
@@ -143,11 +143,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f9eff785d19813b3",
+      "uid" : "93ccb7ad858f2f8b",
       "status" : "passed",
       "time" : {
-        "start" : 1580855907525,
-        "stop" : 1580855907527,
+        "start" : 1580856136593,
+        "stop" : 1580856136595,
         "duration" : 2
       }
     } ]
@@ -162,12 +162,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4aab4060c8bd0488",
+      "uid" : "317f8a2b86f571f3",
       "status" : "passed",
       "time" : {
-        "start" : 1580855905890,
-        "stop" : 1580855905891,
-        "duration" : 1
+        "start" : 1580856134809,
+        "stop" : 1580856134811,
+        "duration" : 2
       }
     } ]
   }

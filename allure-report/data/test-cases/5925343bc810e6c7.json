@@ -1,5 +1,5 @@
 {
-  "uid" : "d68e7be5135c1b25",
+  "uid" : "5925343bc810e6c7",
   "name" : "runs.main and runs.post files exist",
   "fullName" : "GitHub Actions Test runs.main and runs.post files exist",
   "historyId" : "GitHub Actions Test runs.main and runs.post files exist",
@@ -22,14 +22,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d68e7be5135c1b25.json",
+  "source" : "5925343bc810e6c7.json",
   "parameterValues" : [ ]
 }

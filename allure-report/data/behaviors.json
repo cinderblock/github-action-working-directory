@@ -2,25 +2,25 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "action.yml exists",
-    "uid" : "6212db1eadb4aa94",
+    "uid" : "98ef5b7eaadbeec2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580855905879,
-      "stop" : 1580855905881,
-      "duration" : 2
+      "start" : 1580856134797,
+      "stop" : 1580856134800,
+      "duration" : 3
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can read action.yml",
-    "uid" : "5e2e1e4214fea839",
+    "uid" : "f10bd40d8e2002fc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580855905881,
-      "stop" : 1580855905884,
+      "start" : 1580856134800,
+      "stop" : 1580856134803,
       "duration" : 3
     },
     "flaky" : false,
@@ -28,25 +28,25 @@
     "parameters" : [ ]
   }, {
     "name" : "action.yml has valid yaml",
-    "uid" : "245714f33552aa99",
+    "uid" : "e7a415470db323f8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580855905885,
-      "stop" : 1580855905888,
-      "duration" : 3
+      "start" : 1580856134803,
+      "stop" : 1580856134807,
+      "duration" : 4
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "action.yml has correct runs.using",
-    "uid" : "893748986e8d5ade",
+    "uid" : "2a2a111ffb7301bb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580855905888,
-      "stop" : 1580855905890,
+      "start" : 1580856134807,
+      "stop" : 1580856134809,
       "duration" : 2
     },
     "flaky" : false,
@@ -54,51 +54,51 @@
     "parameters" : [ ]
   }, {
     "name" : "action.yml has runs.main and runs.post",
-    "uid" : "4aab4060c8bd0488",
+    "uid" : "317f8a2b86f571f3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580855905890,
-      "stop" : 1580855905891,
-      "duration" : 1
+      "start" : 1580856134809,
+      "stop" : 1580856134811,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "runs.main and runs.post files exist",
-    "uid" : "d68e7be5135c1b25",
+    "uid" : "fee968c94fc37ffd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580855905892,
-      "stop" : 1580855905904,
-      "duration" : 12
+      "start" : 1580856134811,
+      "stop" : 1580856134813,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can run runs.main and runs.post end-to-end",
-    "uid" : "f40024d24869d9d6",
+    "uid" : "950792e8f7e02cdb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1580855905904,
-      "stop" : 1580855905965,
-      "duration" : 61
+      "start" : 1580856134813,
+      "stop" : 1580856134880,
+      "duration" : 67
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "commitAndPush is a function",
-    "uid" : "6ecc08a35be9fd18",
+    "uid" : "e5c00ca9524b99",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580855907261,
-      "stop" : 1580855907264,
+      "start" : 1580856136302,
+      "stop" : 1580856136305,
       "duration" : 3
     },
     "flaky" : false,
@@ -106,12 +106,12 @@
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "f9eff785d19813b3",
+    "uid" : "93ccb7ad858f2f8b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580855907525,
-      "stop" : 1580855907527,
+      "start" : 1580856136593,
+      "stop" : 1580856136595,
       "duration" : 2
     },
     "flaky" : false,

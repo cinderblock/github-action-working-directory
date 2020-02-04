@@ -1,5 +1,5 @@
 {
-  "uid" : "893748986e8d5ade",
+  "uid" : "ceab1eff3d8f1b95",
   "name" : "action.yml has correct runs.using",
   "fullName" : "GitHub Actions Test action.yml has correct runs.using",
   "historyId" : "GitHub Actions Test action.yml has correct runs.using",
@@ -22,14 +22,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "893748986e8d5ade.json",
+  "source" : "ceab1eff3d8f1b95.json",
   "parameterValues" : [ ]
 }
