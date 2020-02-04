@@ -198,6 +198,9 @@ jobs:
         with:
           filter: (.git|node_modules)/**
 
+      - name: Copy historical report to results
+        run: cp --recursive --force public/allure-report/history allure-results/
+
       # Publish to gh-pages
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v2
