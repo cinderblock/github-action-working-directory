@@ -1,12 +1,12 @@
 {
-  "uid" : "317f8a2b86f571f3",
+  "uid" : "c15793a860ea92fc",
   "name" : "action.yml has runs.main and runs.post",
   "fullName" : "GitHub Actions Test action.yml has runs.main and runs.post",
   "historyId" : "GitHub Actions Test action.yml has runs.main and runs.post",
   "time" : {
-    "start" : 1580856134809,
-    "stop" : 1580856134811,
-    "duration" : 2
+    "start" : 1580858068151,
+    "stop" : 1580858068152,
+    "duration" : 1
   },
   "status" : "passed",
   "flaky" : false,
@@ -27,7 +27,15 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "a3f40e7dbd566b51",
+      "uid" : "7fcfd335d3c980ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134809,
+        "stop" : 1580856134811,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "16eefca0b3700b6f",
       "status" : "passed",
       "time" : {
         "start" : 1580855905890,
@@ -36,8 +44,27 @@
       }
     } ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "317f8a2b86f571f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580856134809,
+          "stop" : 1580856134811,
+          "duration" : 2
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "317f8a2b86f571f3.json",
+  "source" : "c15793a860ea92fc.json",
   "parameterValues" : [ ]
 }

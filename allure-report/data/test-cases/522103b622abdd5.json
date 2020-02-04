@@ -1,11 +1,11 @@
 {
-  "uid" : "ceab1eff3d8f1b95",
+  "uid" : "522103b622abdd5",
   "name" : "action.yml has correct runs.using",
   "fullName" : "GitHub Actions Test action.yml has correct runs.using",
   "historyId" : "GitHub Actions Test action.yml has correct runs.using",
   "time" : {
-    "start" : 1580855905888,
-    "stop" : 1580855905890,
+    "start" : 1580856134807,
+    "stop" : 1580856134809,
     "duration" : 2
   },
   "status" : "passed",
@@ -28,6 +28,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ceab1eff3d8f1b95.json",
+  "source" : "522103b622abdd5.json",
   "parameterValues" : [ ]
 }

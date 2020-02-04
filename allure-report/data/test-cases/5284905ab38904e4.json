@@ -1,5 +1,5 @@
 {
-  "uid" : "dda6770b74404284",
+  "uid" : "5284905ab38904e4",
   "name" : "action.yml has valid yaml",
   "fullName" : "GitHub Actions Test action.yml has valid yaml",
   "historyId" : "GitHub Actions Test action.yml has valid yaml",
@@ -28,6 +28,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dda6770b74404284.json",
+  "source" : "5284905ab38904e4.json",
   "parameterValues" : [ ]
 }
