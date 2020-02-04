@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1580810761439' stop='1580810761542'>
+    <name>GitHub Actions Test</name>
+    <title>GitHub Actions Test</title>
+    <test-cases>
+        <test-case start='1580810761440' status='passed' stop='1580810761442'>
+            <name>action.yml exists</name>
+            <title>action.yml exists</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1580810761442' status='passed' stop='1580810761446'>
+            <name>can read action.yml</name>
+            <title>can read action.yml</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1580810761446' status='passed' stop='1580810761450'>
+            <name>action.yml has valid yaml</name>
+            <title>action.yml has valid yaml</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1580810761450' status='passed' stop='1580810761452'>
+            <name>action.yml has correct runs.using</name>
+            <title>action.yml has correct runs.using</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1580810761452' status='passed' stop='1580810761453'>
+            <name>action.yml has runs.main and runs.post</name>
+            <title>action.yml has runs.main and runs.post</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1580810761453' status='passed' stop='1580810761455'>
+            <name>runs.main and runs.post files exist</name>
+            <title>runs.main and runs.post files exist</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1580810761455' status='failed' stop='1580810761542'>
+            <name>can run runs.main and runs.post end-to-end</name>
+            <title>can run runs.main and runs.post end-to-end</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: 0
+                Received: 1</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: 0
+                Received: 1
+                    at ChildProcess.&lt;anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:93:26)
+                    at ChildProcess.emit (events.js:223:5)
+                    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
