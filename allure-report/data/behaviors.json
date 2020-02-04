@@ -2,12 +2,12 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "action.yml exists",
-    "uid" : "f0bfbeb1690955bc",
+    "uid" : "ef1c16be939c36e4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580858068139,
-      "stop" : 1580858068141,
+      "start" : 1580858456363,
+      "stop" : 1580858456365,
       "duration" : 2
     },
     "flaky" : false,
@@ -15,12 +15,12 @@
     "parameters" : [ ]
   }, {
     "name" : "can read action.yml",
-    "uid" : "7a5ec68ec638243c",
+    "uid" : "ef49af36e6d7664b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580858068141,
-      "stop" : 1580858068144,
+      "start" : 1580858456365,
+      "stop" : 1580858456368,
       "duration" : 3
     },
     "flaky" : false,
@@ -28,12 +28,12 @@
     "parameters" : [ ]
   }, {
     "name" : "action.yml has valid yaml",
-    "uid" : "fc4c8eec10c57f7b",
+    "uid" : "e131004f8280c287",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580858068145,
-      "stop" : 1580858068149,
+      "start" : 1580858456368,
+      "stop" : 1580858456372,
       "duration" : 4
     },
     "flaky" : false,
@@ -41,25 +41,25 @@
     "parameters" : [ ]
   }, {
     "name" : "action.yml has correct runs.using",
-    "uid" : "b4db8cc9df61ab38",
+    "uid" : "7f01684c4a022fe4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580858068149,
-      "stop" : 1580858068150,
-      "duration" : 1
+      "start" : 1580858456372,
+      "stop" : 1580858456374,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "action.yml has runs.main and runs.post",
-    "uid" : "c15793a860ea92fc",
+    "uid" : "bb42f01dab54988a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580858068151,
-      "stop" : 1580858068152,
+      "start" : 1580858456374,
+      "stop" : 1580858456375,
       "duration" : 1
     },
     "flaky" : false,
@@ -67,51 +67,51 @@
     "parameters" : [ ]
   }, {
     "name" : "runs.main and runs.post files exist",
-    "uid" : "be22e2ee7c427cec",
+    "uid" : "e7a3d9b61426d207",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580858068152,
-      "stop" : 1580858068154,
-      "duration" : 2
+      "start" : 1580858456376,
+      "stop" : 1580858456377,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can run runs.main and runs.post end-to-end",
-    "uid" : "a85a76ca884eabd4",
+    "uid" : "b6574b7fe8ba5d6b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1580858068154,
-      "stop" : 1580858068227,
-      "duration" : 73
+      "start" : 1580858456377,
+      "stop" : 1580858456454,
+      "duration" : 77
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "commitAndPush is a function",
-    "uid" : "62cd3017553e7820",
+    "uid" : "626b98c24dfa4210",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580858069633,
-      "stop" : 1580858069636,
-      "duration" : 3
+      "start" : 1580858457771,
+      "stop" : 1580858457773,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "223ca5a3dbe30b8d",
+    "uid" : "39b160b0de5b0202",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580858069919,
-      "stop" : 1580858069921,
+      "start" : 1580858458050,
+      "stop" : 1580858458052,
       "duration" : 2
     },
     "flaky" : false,
