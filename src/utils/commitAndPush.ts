@@ -38,11 +38,13 @@ export async function commitAndPush({
   await spawn(
     'git',
     { cwd: dir },
+    '-c',
+    `user.name='${name}'`,
+    '-c',
+    `user.email='${email}'`,
     'commit',
     '--message',
     message,
-    '--author',
-    `${name} <${email}>`,
   );
 
   dbg('Pushing');
