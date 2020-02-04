@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1580808141148,
+  "startTime": 1580808531115,
   "success": false,
   "testResults": [
     {
@@ -37,8 +37,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580808143405,
-        "start": 1580808141191
+        "end": 1580808533699,
+        "start": 1580808531166
       },
       "skipped": false,
       "snapshot": {
@@ -56,7 +56,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml exists",
           "location": null,
@@ -68,7 +68,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "GitHub Actions Test can read action.yml",
           "location": null,
@@ -80,7 +80,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 4,
+          "duration": 5,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has valid yaml",
           "location": null,
@@ -104,7 +104,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 1,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has runs.main and runs.post",
           "location": null,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 61,
+          "duration": 70,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at ChildProcess.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:93:26)\n    at ChildProcess.emit (events.js:223:5)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)"
           ],
@@ -213,8 +213,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580808144675,
-        "start": 1580808143976
+        "end": 1580808535227,
+        "start": 1580808534396
       },
       "skipped": false,
       "snapshot": {
@@ -251,8 +251,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580808144954,
-        "start": 1580808144702
+        "end": 1580808535559,
+        "start": 1580808535250
       },
       "skipped": false,
       "snapshot": {
@@ -353,27 +353,27 @@
             "column": 2
           },
           "end": {
-            "line": 46,
+            "line": 48,
             "column": 4
           }
         },
         "7": {
           "start": {
-            "line": 48,
+            "line": 50,
             "column": 2
           },
           "end": {
-            "line": 48,
+            "line": 50,
             "column": 17
           }
         },
         "8": {
           "start": {
-            "line": 50,
+            "line": 52,
             "column": 2
           },
           "end": {
-            "line": 50,
+            "line": 52,
             "column": 61
           }
         },
@@ -407,7 +407,7 @@
               "column": 10
             },
             "end": {
-              "line": 51,
+              "line": 53,
               "column": null
             }
           }

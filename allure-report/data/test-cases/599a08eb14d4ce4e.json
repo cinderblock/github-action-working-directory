@@ -1,12 +1,12 @@
 {
-  "uid" : "8d28d0d81d8f0b5c",
-  "name" : "runs.main and runs.post files exist",
-  "fullName" : "GitHub Actions Test.runs.main and runs.post files exist",
-  "historyId" : "5a5ac828fae90e9ed476215879d908e5",
+  "uid" : "599a08eb14d4ce4e",
+  "name" : "commitAndPush is a function",
+  "fullName" : "utils/commitAndPush.commitAndPush is a function",
+  "historyId" : "1c92945c02479b69f198fc478ced2471",
   "time" : {
-    "start" : 1580808143313,
-    "stop" : 1580808143315,
-    "duration" : 2
+    "start" : 1580808535220,
+    "stop" : 1580808535223,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "GitHub Actions Test"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "testClass",
-    "value" : "GitHub Actions Test"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "testMethod",
-    "value" : "runs.main and runs.post files exist"
+    "value" : "commitAndPush is a function"
   }, {
     "name" : "package",
-    "value" : "GitHub Actions Test"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8d28d0d81d8f0b5c.json",
+  "source" : "599a08eb14d4ce4e.json",
   "parameterValues" : [ ]
 }
