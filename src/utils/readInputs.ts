@@ -17,7 +17,7 @@ export function readInputs(): Inputs {
 
   const repo =
     core.getInput('repo') ||
-    `https://github.com/${process.env.GITHUB_REPOSITORY}`;
+    `https://x-access-token:${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}`;
 
   const dir = core.getInput('working-directory');
 
