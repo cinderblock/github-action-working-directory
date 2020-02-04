@@ -1,3 +1,7 @@
+/* eslint-disable jsdoc/match-description */
+/* eslint-disable jsdoc/require-param-type */
+/* eslint-disable jsdoc/require-returns-type */
+
 import {
   spawn as nodeSpawn,
   exec as nodeExec,
