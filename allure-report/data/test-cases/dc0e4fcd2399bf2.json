@@ -1,11 +1,11 @@
 {
-  "uid" : "b0f1215a41ed380a",
-  "name" : "action.yml exists",
-  "fullName" : "GitHub Actions Test.action.yml exists",
-  "historyId" : "6ef67f031739a1e28838bcac52e719",
+  "uid" : "dc0e4fcd2399bf2",
+  "name" : "action.yml has valid yaml",
+  "fullName" : "GitHub Actions Test.action.yml has valid yaml",
+  "historyId" : "e369fc5b9eb39c16ef9106ce2f5b0475",
   "time" : {
-    "start" : 1580808807553,
-    "stop" : 1580808807557,
+    "start" : 1580810761446,
+    "stop" : 1580810761450,
     "duration" : 4
   },
   "description" : "",
@@ -23,7 +23,7 @@
     "value" : "GitHub Actions Test"
   }, {
     "name" : "testMethod",
-    "value" : "action.yml exists"
+    "value" : "action.yml has valid yaml"
   }, {
     "name" : "package",
     "value" : "GitHub Actions Test"
@@ -38,17 +38,25 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "a91773d6111d3f3",
+      "uid" : "3151b5551c14928b",
       "status" : "passed",
       "time" : {
-        "start" : 1580808533580,
-        "stop" : 1580808533583,
-        "duration" : 3
+        "start" : 1580808807561,
+        "stop" : 1580808807566,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "51847aa43383269a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808533586,
+        "stop" : 1580808533591,
+        "duration" : 5
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b0f1215a41ed380a.json",
+  "source" : "dc0e4fcd2399bf2.json",
   "parameterValues" : [ ]
 }

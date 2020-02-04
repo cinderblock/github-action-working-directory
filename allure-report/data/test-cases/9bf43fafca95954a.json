@@ -1,5 +1,5 @@
 {
-  "uid" : "e839b511f57d44ad",
+  "uid" : "9bf43fafca95954a",
   "name" : "action.yml has runs.main and runs.post",
   "fullName" : "GitHub Actions Test.action.yml has runs.main and runs.post",
   "historyId" : "660c72a1c3df0d5eeb4d9f081fef05eb",
@@ -39,6 +39,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e839b511f57d44ad.json",
+  "source" : "9bf43fafca95954a.json",
   "parameterValues" : [ ]
 }

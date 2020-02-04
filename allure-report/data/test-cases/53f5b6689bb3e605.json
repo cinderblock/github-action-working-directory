@@ -1,11 +1,11 @@
 {
-  "uid" : "9df1be526ad63716",
+  "uid" : "53f5b6689bb3e605",
   "name" : "commitAndPush is a function",
   "fullName" : "utils/commitAndPush.commitAndPush is a function",
   "historyId" : "1c92945c02479b69f198fc478ced2471",
   "time" : {
-    "start" : 1580808809932,
-    "stop" : 1580808809934,
+    "start" : 1580810763222,
+    "stop" : 1580810763224,
     "duration" : 2
   },
   "description" : "",
@@ -38,7 +38,15 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "1a309ce5efaf2bec",
+      "uid" : "662f83d8f4e3cd36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808809932,
+        "stop" : 1580808809934,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a9b8f2e7ce25c1da",
       "status" : "passed",
       "time" : {
         "start" : 1580808535220,
@@ -49,6 +57,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9df1be526ad63716.json",
+  "source" : "53f5b6689bb3e605.json",
   "parameterValues" : [ ]
 }

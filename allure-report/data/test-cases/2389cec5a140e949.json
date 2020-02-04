@@ -1,12 +1,12 @@
 {
-  "uid" : "8ee95a368acb7014",
+  "uid" : "2389cec5a140e949",
   "name" : "can run runs.main and runs.post end-to-end",
   "fullName" : "GitHub Actions Test.can run runs.main and runs.post end-to-end",
   "historyId" : "aab39a24d41767fdf2f98931deb32f7",
   "time" : {
-    "start" : 1580808807572,
-    "stop" : 1580808807658,
-    "duration" : 86
+    "start" : 1580810761455,
+    "stop" : 1580810761542,
+    "duration" : 87
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -40,7 +40,16 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "705463096ca243f",
+      "uid" : "9e4c9b668712c5bf",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 0\n                Received: 1",
+      "time" : {
+        "start" : 1580808807572,
+        "stop" : 1580808807658,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "736c8cbea536a689",
       "status" : "failed",
       "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 0\n                Received: 1",
       "time" : {
@@ -56,6 +65,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "8ee95a368acb7014.json",
+  "source" : "2389cec5a140e949.json",
   "parameterValues" : [ ]
 }

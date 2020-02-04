@@ -1,5 +1,5 @@
 {
-  "uid" : "5c73ad35f5257285",
+  "uid" : "3151b5551c14928b",
   "name" : "action.yml has valid yaml",
   "fullName" : "GitHub Actions Test.action.yml has valid yaml",
   "historyId" : "e369fc5b9eb39c16ef9106ce2f5b0475",
@@ -33,22 +33,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "1ebf44aabb0c39c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580808533586,
-        "stop" : 1580808533591,
-        "duration" : 5
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5c73ad35f5257285.json",
+  "source" : "3151b5551c14928b.json",
   "parameterValues" : [ ]
 }

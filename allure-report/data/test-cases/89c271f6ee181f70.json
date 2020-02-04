@@ -1,0 +1,44 @@
+{
+  "uid" : "89c271f6ee181f70",
+  "name" : "runs.main and runs.post files exist",
+  "fullName" : "GitHub Actions Test.runs.main and runs.post files exist",
+  "historyId" : "5a5ac828fae90e9ed476215879d908e5",
+  "time" : {
+    "start" : 1580808533594,
+    "stop" : 1580808533596,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "testClass",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "runs.main and runs.post files exist"
+  }, {
+    "name" : "package",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89c271f6ee181f70.json",
+  "parameterValues" : [ ]
+}
