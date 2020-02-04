@@ -1,5 +1,8 @@
-import { Clone, Repository, CloneOptions, Fetch } from 'nodegit';
-import * as core from '@actions/core';
+import core from '@actions/core';
+import { spawn } from './spawn';
+import { promises } from 'fs';
+
+const { mkdir } = promises;
 
 type Options = {
   repoUrl: string;
@@ -13,35 +16,28 @@ export async function clone({
   dir,
   branch,
   debug,
-}: Options): Promise<Repository | null> {
+}: Options): Promise<void> {
   const dbg = debug ?? core.debug;
 
-  dbg(`Creating repo in dir(${dir})`);
+  dbg(`Cloning repo into dir(${dir})`);
 
-  dbg(`Fetching repo(${repoUrl}) into dir(${dir})`);
+  await spawn(
+    'git',
+    'clone',
+    '--single-branch',
+    '--branch',
+    branch,
+    '--',
+    repoUrl,
+    dir,
+  ).catch(async () => {
+    dbg(`Branch ${branch} missing. Creating an orphan`);
 
-  // TODO: Handle empty repoUrl. Find main remote of current repo
-
-  const options = new FetchOptions();
-
-  options.checkoutBranch = branch;
-
-  const promise = new Fetch(repoUrl, dir, options);
-
-  const handleMissing = promise.catch(e => {
-    if (e?.message !== `reference 'refs/remotes/origin/${branch}' not found`) {
-      dbg(`Throwing unrecognized error: ${e?.message}`);
-      throw e;
-    }
-
-    dbg(`Branch not found`);
-
-    return null;
+    await mkdir(dir, { recursive: true });
+    await spawn('git', { cwd: dir }, 'init');
+    await spawn('git', { cwd: dir }, 'remote', 'add', 'origin', repoUrl);
+    await spawn('git', { cwd: dir }, 'checkout', '--orphan', branch);
   });
 
-  const repository = await handleMissing;
-
   dbg(`Branch checked out`);
-
-  return repository;
 }

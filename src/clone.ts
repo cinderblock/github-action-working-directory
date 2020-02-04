@@ -9,9 +9,9 @@ async function run(): Promise<void> {
 
     const debug = console.log.bind(0);
 
-    const ref = await clone({ branch, repoUrl, dir, debug });
+    await clone({ branch, repoUrl, dir, debug });
 
-    core.debug(`Cloned: ${ref?.toString()}`);
+    core.debug(`Cloned`);
   } catch (error) {
     core.setFailed(error.message);
   }

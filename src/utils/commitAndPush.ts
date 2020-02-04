@@ -1,5 +1,5 @@
-import NodeGit from 'nodegit';
-import * as core from '@actions/core';
+import core from '@actions/core';
+import { spawn } from './spawn';
 
 type Options = {
   branch: string;
@@ -26,67 +26,26 @@ export async function commitAndPush({
   name,
   email,
   debug,
-}: Options): Promise<NodeGit.Oid> {
-  if (debug === undefined) {
-    debug = core.debug;
-  }
+}: Options): Promise<void> {
+  const dbg = debug ?? core.debug;
 
-  debug('open repo');
-  const repository = await NodeGit.Repository.open(`${dir}/.git`);
+  dbg('Adding all files');
 
-  // TODO: Support time/offset/signature buffer
-  const author = NodeGit.Signature.now(name, email);
+  await spawn('git', { cwd: dir }, 'add', '.');
 
-  debug(`Author: ${author.toString()}`);
+  dbg('Committing');
 
-  const committer = author;
-
-  debug(`Committer: ${committer.toString()}`);
-
-  debug('refresh index');
-  const index = await repository.refreshIndex();
-
-  debug('index add all');
-
-  const debugFixed = debug;
-
-  const indexAddRes = await index.addAll(
-    branch,
-    undefined,
-    (path: string, patternMatch: string) => {
-      debugFixed(`index add: ${{ path, patternMatch }}`);
-      return 0;
-    },
-  );
-
-  // TODO: check `unchanged`
-
-  debug(`index add result: ${indexAddRes}`);
-
-  debug('index write');
-  index.write();
-
-  debug('index write tree');
-  const tree = await index.writeTree();
-
-  const workingBranch = await repository.getBranch(branch);
-
-  const parents = [workingBranch.target()];
-
-  const commit = await repository.createCommit(
-    branch,
-    author,
-    committer,
+  await spawn(
+    'git',
+    { cwd: dir },
+    'commit',
+    '--message',
     message,
-    tree,
-    parents,
+    '--author',
+    `${name} <${email}>`,
   );
 
-  debug(`Latest commit: ${commit.tostrS()} ${tree.tostrS()}`);
+  dbg('Pushing');
 
-  const remote = await repository.getRemote('origin');
-
-  await remote.push([branch]);
-
-  return commit;
+  await spawn('git', { cwd: dir }, 'push', 'origin', branch);
 }
