@@ -139,7 +139,7 @@ jobs:
           INPUT_WORKING-DIRECTORY: /tmp/fake-clone
           INPUT_REPO: '.'
 
-  bootstrap-coverage-reports:
+  coverage-reports:
     name: Self Test - Generate Coverage
     runs-on: ubuntu-latest
     steps:
