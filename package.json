@@ -24,7 +24,7 @@
     "format-check": "npm run format -- --check",
     "clean": "rm -rf dist public allure-results",
     "test": "jest",
-    "allure": "allure generate --clean --report-dir public/allure-report",
+    "allure": "allure generate allure-results --report-dir public/allure-report",
     "finalize-coverage-reports": "npm run allure && touch public/.nojekyll",
     "prepare": "npm run build",
     "all": "npm install && npm run format-check && npm run lint && npm run spellcheck && npm test && npm run finalize-coverage-reports"
