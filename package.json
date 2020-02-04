@@ -34,33 +34,31 @@
     "url": "git+https://github.com/cinderblock/github-action-working-directory.git"
   },
   "dependencies": {
-    "@actions/core": "^1.2.0",
-    "@actions/io": "^1.0.1",
-    "@types/js-yaml": "^3.12.1",
-    "nodegit": "^0.26.3"
+    "@actions/core": "^1.2.2",
+    "@actions/io": "^1.0.2",
+    "@types/js-yaml": "^3.12.2"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.25",
-    "@types/node": "^13.1.4",
-    "@types/nodegit": "^0.26.0",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
     "@types/rmfr": "^2.0.0",
-    "@typescript-eslint/parser": "^2.14.0",
+    "@typescript-eslint/parser": "^2.19.0",
     "@zeit/ncc": "^0.21.0",
     "allure-commandline": "^2.13.0",
-    "cspell": "^4.0.44",
+    "cspell": "^4.0.46",
     "eslint": "^6.8.0",
     "eslint-plugin-github": "^3.4.0",
-    "eslint-plugin-jest": "^23.3.0",
-    "jest": "^24.9.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "jest": "^25.1.0",
     "jest-allure": "^0.1.1",
-    "jest-circus": "^24.9.0",
+    "jest-circus": "^25.1.0",
     "jest-github-reporter": "^0.3.4",
     "jest-html-reporters": "^1.2.1",
     "jest-stare": "^1.26.0",
     "js-yaml": "^3.13.1",
     "prettier": "^1.19.1",
     "rmfr": "^2.0.0",
-    "ts-jest": "^24.2.0",
-    "typescript": "^3.7.4"
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
   }
 }
