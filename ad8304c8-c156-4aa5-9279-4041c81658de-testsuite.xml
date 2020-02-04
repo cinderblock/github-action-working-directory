@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1580811413573' stop='1580811413575'>
+    <name>utils/readInputs</name>
+    <title>utils/readInputs</title>
+    <test-cases>
+        <test-case start='1580811413573' status='passed' stop='1580811413575'>
+            <name>readInputs is a function</name>
+            <title>readInputs is a function</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
