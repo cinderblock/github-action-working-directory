@@ -6,13 +6,13 @@
       "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 0\n                Received: 1",
       "children" : [ {
         "name" : "can run runs.main and runs.post end-to-end",
-        "uid" : "2a62dd91e255e15a",
+        "uid" : "58fc87035881c9be",
         "parentUid" : "80daffd35f35e7906d39e6d1eb3c542c",
         "status" : "failed",
         "time" : {
-          "start" : 1580811412014,
-          "stop" : 1580811412079,
-          "duration" : 65
+          "start" : 1580811565540,
+          "stop" : 1580811565599,
+          "duration" : 59
         },
         "flaky" : false,
         "newFailed" : false,

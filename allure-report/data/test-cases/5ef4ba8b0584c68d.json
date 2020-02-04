@@ -1,0 +1,44 @@
+{
+  "uid" : "5ef4ba8b0584c68d",
+  "name" : "action.yml has runs.main and runs.post",
+  "fullName" : "GitHub Actions Test.action.yml has runs.main and runs.post",
+  "historyId" : "660c72a1c3df0d5eeb4d9f081fef05eb",
+  "time" : {
+    "start" : 1580810761452,
+    "stop" : 1580810761453,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "testClass",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "action.yml has runs.main and runs.post"
+  }, {
+    "name" : "package",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ef4ba8b0584c68d.json",
+  "parameterValues" : [ ]
+}

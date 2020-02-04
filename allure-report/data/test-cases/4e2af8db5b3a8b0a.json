@@ -1,0 +1,78 @@
+{
+  "uid" : "4e2af8db5b3a8b0a",
+  "name" : "commitAndPush is a function",
+  "fullName" : "utils/commitAndPush.commitAndPush is a function",
+  "historyId" : "1c92945c02479b69f198fc478ced2471",
+  "time" : {
+    "start" : 1580811566864,
+    "stop" : 1580811566873,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "utils/commitAndPush"
+  }, {
+    "name" : "testClass",
+    "value" : "utils/commitAndPush"
+  }, {
+    "name" : "testMethod",
+    "value" : "commitAndPush is a function"
+  }, {
+    "name" : "package",
+    "value" : "utils/commitAndPush"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "10cde8157a002195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580811413309,
+        "stop" : 1580811413310,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2c9ac1388d005d1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580810763222,
+        "stop" : 1580810763224,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "37bc404fa64fa6fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808809932,
+        "stop" : 1580808809934,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "b8cc8fb7817cd556",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808535220,
+        "stop" : 1580808535223,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e2af8db5b3a8b0a.json",
+  "parameterValues" : [ ]
+}

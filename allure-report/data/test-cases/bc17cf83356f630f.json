@@ -1,0 +1,78 @@
+{
+  "uid" : "bc17cf83356f630f",
+  "name" : "readInputs is a function",
+  "fullName" : "utils/readInputs.readInputs is a function",
+  "historyId" : "2eddb652dd3e32bd1f498303a4f7bc42",
+  "time" : {
+    "start" : 1580811567136,
+    "stop" : 1580811567138,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "utils/readInputs"
+  }, {
+    "name" : "testClass",
+    "value" : "utils/readInputs"
+  }, {
+    "name" : "testMethod",
+    "value" : "readInputs is a function"
+  }, {
+    "name" : "package",
+    "value" : "utils/readInputs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "259a7e383049abba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580811413573,
+        "stop" : 1580811413575,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8224fa2e544439fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580810763585,
+        "stop" : 1580810763588,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "b1a9ed200ec867db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808810301,
+        "stop" : 1580808810303,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5e0fbedec3f67147",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808535552,
+        "stop" : 1580808535554,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc17cf83356f630f.json",
+  "parameterValues" : [ ]
+}

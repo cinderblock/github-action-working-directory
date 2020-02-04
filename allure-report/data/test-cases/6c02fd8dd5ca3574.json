@@ -1,0 +1,78 @@
+{
+  "uid" : "6c02fd8dd5ca3574",
+  "name" : "action.yml has runs.main and runs.post",
+  "fullName" : "GitHub Actions Test.action.yml has runs.main and runs.post",
+  "historyId" : "660c72a1c3df0d5eeb4d9f081fef05eb",
+  "time" : {
+    "start" : 1580811565537,
+    "stop" : 1580811565538,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "testClass",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "action.yml has runs.main and runs.post"
+  }, {
+    "name" : "package",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e0ce2269171c6227",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580811412010,
+        "stop" : 1580811412012,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5ef4ba8b0584c68d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580810761452,
+        "stop" : 1580810761453,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a257e7ba27e07bed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808807568,
+        "stop" : 1580808807570,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c1c8d87522a51f12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808533592,
+        "stop" : 1580808533594,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c02fd8dd5ca3574.json",
+  "parameterValues" : [ ]
+}
