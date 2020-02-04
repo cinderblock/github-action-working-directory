@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  -  2\n                + Received  + 13\n                \n                - stdout > ::debug::Reading inputs\n                - stdout > ::debug::Cloned: undefined\n                + stderr > (node:3891) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'setFailed' of undefined\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:28:1\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.985.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:4:1)\n                +     at run (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:20:1)\n                +     at Object.985 (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:32:1)\n                +     at __webpack_require__ (/webpack/bootstrap:19:1)\n                +     at startup (/webpack/bootstrap:34:1)\n                +     at /webpack/bootstrap:38:1\n                + stderr > (node:3891) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + stderr > (node:3891) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                  ↵",
+      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 0\n                Received: 1",
       "children" : [ {
         "name" : "can run runs.main and runs.post end-to-end",
-        "uid" : "16c28aeee10283fe",
-        "parentUid" : "803c3de8c5723cf09b88f6ac2cc34c5e",
+        "uid" : "2082ad160308ef9c",
+        "parentUid" : "80daffd35f35e7906d39e6d1eb3c542c",
         "status" : "failed",
         "time" : {
-          "start" : 1580807480489,
-          "stop" : 1580807480581,
-          "duration" : 92
+          "start" : 1580807818457,
+          "stop" : 1580807818530,
+          "duration" : 73
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "803c3de8c5723cf09b88f6ac2cc34c5e"
+      "uid" : "80daffd35f35e7906d39e6d1eb3c542c"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

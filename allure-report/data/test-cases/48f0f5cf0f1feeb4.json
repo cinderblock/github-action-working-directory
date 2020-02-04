@@ -1,11 +1,11 @@
 {
-  "uid" : "4d1a083930780ba2",
-  "name" : "commitAndPush is a function",
-  "fullName" : "utils/commitAndPush.commitAndPush is a function",
-  "historyId" : "1c92945c02479b69f198fc478ced2471",
+  "uid" : "48f0f5cf0f1feeb4",
+  "name" : "readInputs is a function",
+  "fullName" : "utils/readInputs.readInputs is a function",
+  "historyId" : "2eddb652dd3e32bd1f498303a4f7bc42",
   "time" : {
-    "start" : 1580807482568,
-    "stop" : 1580807482570,
+    "start" : 1580807820391,
+    "stop" : 1580807820393,
     "duration" : 2
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/commitAndPush"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testClass",
-    "value" : "utils/commitAndPush"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testMethod",
-    "value" : "commitAndPush is a function"
+    "value" : "readInputs is a function"
   }, {
     "name" : "package",
-    "value" : "utils/commitAndPush"
+    "value" : "utils/readInputs"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4d1a083930780ba2.json",
+  "source" : "48f0f5cf0f1feeb4.json",
   "parameterValues" : [ ]
 }

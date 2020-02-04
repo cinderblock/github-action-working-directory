@@ -9,11 +9,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4d1a083930780ba2",
+      "uid" : "d934cc3e1a4e4b29",
       "status" : "passed",
       "time" : {
-        "start" : 1580807482568,
-        "stop" : 1580807482570,
+        "start" : 1580807820065,
+        "stop" : 1580807820067,
         "duration" : 2
       }
     } ]
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "80646f7b5aa71948",
+      "uid" : "a490d270ada7765b",
       "status" : "passed",
       "time" : {
-        "start" : 1580807480486,
-        "stop" : 1580807480487,
-        "duration" : 1
+        "start" : 1580807818454,
+        "stop" : 1580807818456,
+        "duration" : 2
       }
     } ]
   },
@@ -47,11 +47,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e348e4fcd809366",
+      "uid" : "2a8cbb25311ed6cf",
       "status" : "passed",
       "time" : {
-        "start" : 1580807480475,
-        "stop" : 1580807480477,
+        "start" : 1580807818443,
+        "stop" : 1580807818445,
         "duration" : 2
       }
     } ]
@@ -66,11 +66,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c2c236a4a2cb313",
+      "uid" : "48f0f5cf0f1feeb4",
       "status" : "passed",
       "time" : {
-        "start" : 1580807482885,
-        "stop" : 1580807482887,
+        "start" : 1580807820391,
+        "stop" : 1580807820393,
         "duration" : 2
       }
     } ]
@@ -85,12 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a120edb67298a0be",
+      "uid" : "f11b473025004e65",
       "status" : "passed",
       "time" : {
-        "start" : 1580807480487,
-        "stop" : 1580807480489,
-        "duration" : 2
+        "start" : 1580807818456,
+        "stop" : 1580807818457,
+        "duration" : 1
       }
     } ]
   },
@@ -104,11 +104,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "35d4a9316c62879f",
+      "uid" : "b7f4f13a1d9d1fe1",
       "status" : "passed",
       "time" : {
-        "start" : 1580807480477,
-        "stop" : 1580807480480,
+        "start" : 1580807818445,
+        "stop" : 1580807818448,
         "duration" : 3
       }
     } ]
@@ -123,13 +123,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "16c28aeee10283fe",
+      "uid" : "2082ad160308ef9c",
       "status" : "failed",
-      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  -  2\n                + Received  + 13\n                \n                - stdout > ::debug::Reading inputs\n                - stdout > ::debug::Cloned: undefined\n                + stderr > (node:3891) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'setFailed' of undefined\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:28:1\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.985.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:4:1)\n                +     at run (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:20:1)\n                +     at Object.985 (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:32:1)\n                +     at __webpack_require__ (/webpack/bootstrap:19:1)\n                +     at startup (/webpack/bootstrap:34:1)\n                +     at /webpack/bootstrap:38:1\n                + stderr > (node:3891) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + stderr > (node:3891) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                  ↵",
+      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 0\n                Received: 1",
       "time" : {
-        "start" : 1580807480489,
-        "stop" : 1580807480581,
-        "duration" : 92
+        "start" : 1580807818457,
+        "stop" : 1580807818530,
+        "duration" : 73
       }
     } ]
   },
@@ -143,11 +143,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1b1b918eb4c00bf2",
+      "uid" : "141bcfc9a9f6e6f0",
       "status" : "passed",
       "time" : {
-        "start" : 1580807480484,
-        "stop" : 1580807480486,
+        "start" : 1580807818452,
+        "stop" : 1580807818454,
         "duration" : 2
       }
     } ]
@@ -162,11 +162,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c04e1b3fac29eedb",
+      "uid" : "65ebed1217939612",
       "status" : "passed",
       "time" : {
-        "start" : 1580807480480,
-        "stop" : 1580807480484,
+        "start" : 1580807818448,
+        "stop" : 1580807818452,
         "duration" : 4
       }
     } ]

@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1580807476246,
+  "startTime": 1580807815825,
   "success": false,
   "testResults": [
     {
@@ -37,8 +37,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580807480622,
-        "start": 1580807476298
+        "end": 1580807818565,
+        "start": 1580807815880
       },
       "skipped": false,
       "snapshot": {
@@ -56,7 +56,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml exists",
           "location": null,
@@ -116,7 +116,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "GitHub Actions Test runs.main and runs.post files exist",
           "location": null,
@@ -128,9 +128,9 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 92,
+          "duration": 73,
           "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n\u001b[32m- Expected  -  2\u001b[39m\n\u001b[31m+ Received  + 13\u001b[39m\n\n\u001b[32m- std\u001b[7mout > ::debug::Reading inputs\u001b[27m\u001b[39m\n\u001b[32m- stdout > ::debug::Cloned: undefined\u001b[39m\n\u001b[31m+ std\u001b[7merr > (node:3891) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'setFailed' of undefined\u001b[27m\u001b[39m\n\u001b[31m+     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:28:1\u001b[39m\n\u001b[31m+     at Generator.next (<anonymous>)\u001b[39m\n\u001b[31m+     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:8:1\u001b[39m\n\u001b[31m+     at new Promise (<anonymous>)\u001b[39m\n\u001b[31m+     at module.exports.985.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:4:1)\u001b[39m\n\u001b[31m+     at run (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:20:1)\u001b[39m\n\u001b[31m+     at Object.985 (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:32:1)\u001b[39m\n\u001b[31m+     at __webpack_require__ (/webpack/bootstrap:19:1)\u001b[39m\n\u001b[31m+     at startup (/webpack/bootstrap:34:1)\u001b[39m\n\u001b[31m+     at /webpack/bootstrap:38:1\u001b[39m\n\u001b[31m+ stderr > (node:3891) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n\u001b[31m+ stderr > (node:3891) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n\u001b[2m  ↵\u001b[22m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:98:24\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:5:58)\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)"
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at ChildProcess.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:93:26)\n    at ChildProcess.emit (events.js:223:5)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)"
           ],
           "fullName": "GitHub Actions Test can run runs.main and runs.post end-to-end",
           "location": null,
@@ -139,7 +139,7 @@
           "title": "can run runs.main and runs.post end-to-end"
         }
       ],
-      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mGitHub Actions Test › can run runs.main and runs.post end-to-end\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    \u001b[32m- Expected  -  2\u001b[39m\n    \u001b[31m+ Received  + 13\u001b[39m\n\n    \u001b[32m- std\u001b[7mout > ::debug::Reading inputs\u001b[27m\u001b[39m\n    \u001b[32m- stdout > ::debug::Cloned: undefined\u001b[39m\n    \u001b[31m+ std\u001b[7merr > (node:3891) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'setFailed' of undefined\u001b[27m\u001b[39m\n    \u001b[31m+     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:28:1\u001b[39m\n    \u001b[31m+     at Generator.next (<anonymous>)\u001b[39m\n    \u001b[31m+     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:8:1\u001b[39m\n    \u001b[31m+     at new Promise (<anonymous>)\u001b[39m\n    \u001b[31m+     at module.exports.985.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:4:1)\u001b[39m\n    \u001b[31m+     at run (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:20:1)\u001b[39m\n    \u001b[31m+     at Object.985 (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:32:1)\u001b[39m\n    \u001b[31m+     at __webpack_require__ (/webpack/bootstrap:19:1)\u001b[39m\n    \u001b[31m+     at startup (/webpack/bootstrap:34:1)\u001b[39m\n    \u001b[31m+     at /webpack/bootstrap:38:1\u001b[39m\n    \u001b[31m+ stderr > (node:3891) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n    \u001b[31m+ stderr > (node:3891) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n    \u001b[2m  ↵\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  96 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  97 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m  98 | \u001b[39m    expect(mainOutput)\u001b[33m.\u001b[39mtoBe(\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  99 | \u001b[39m      [\u001b[32m'::debug::Reading inputs'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'::debug::Cloned: undefined'\u001b[39m]\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 100 | \u001b[39m        \u001b[33m.\u001b[39mmap(l \u001b[33m=>\u001b[39m \u001b[32m`stdout > ${l}${EOL}`\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 101 | \u001b[39m        \u001b[33m.\u001b[39mjoin(\u001b[32m''\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:98:24\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[22m\u001b[2m\u001b[22m\n"
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mGitHub Actions Test › can run runs.main and runs.post end-to-end\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m0\u001b[39m\n    Received: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 91 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 92 | \u001b[39m      exec\u001b[33m.\u001b[39mon(\u001b[32m'exit'\u001b[39m\u001b[33m,\u001b[39m exitCode \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 93 | \u001b[39m        expect(exitCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 94 | \u001b[39m        resolve(messages)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 95 | \u001b[39m      })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 96 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ChildProcess.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:93:26)\u001b[22m\u001b[2m\u001b[22m\n"
     },
     {
       "displayName": "",
@@ -213,8 +213,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580807482575,
-        "start": 1580807481721
+        "end": 1580807820072,
+        "start": 1580807819218
       },
       "skipped": false,
       "snapshot": {
@@ -251,8 +251,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580807482891,
-        "start": 1580807482598
+        "end": 1580807820398,
+        "start": 1580807820101
       },
       "skipped": false,
       "snapshot": {
@@ -294,7 +294,7 @@
           },
           "end": {
             "line": 1,
-            "column": 33
+            "column": 38
           }
         },
         "1": {
@@ -516,201 +516,201 @@
       "statementMap": {
         "0": {
           "start": {
-            "line": 1,
+            "line": 5,
             "column": 0
           },
           "end": {
-            "line": 1,
+            "line": 5,
             "column": null
           }
         },
         "1": {
           "start": {
-            "line": 8,
+            "line": 12,
             "column": 0
           },
           "end": {
-            "line": 8,
+            "line": 12,
             "column": 33
           }
         },
         "2": {
           "start": {
-            "line": 10,
+            "line": 14,
             "column": 21
           },
           "end": {
-            "line": 10,
+            "line": 14,
             "column": 32
           }
         },
         "3": {
           "start": {
-            "line": 77,
+            "line": 81,
             "column": 32
           },
           "end": {
-            "line": 77,
+            "line": 81,
             "column": 52
           }
         },
         "4": {
           "start": {
-            "line": 80,
+            "line": 84,
             "column": 4
           },
           "end": {
-            "line": 85,
+            "line": 89,
             "column": null
           }
         },
         "5": {
           "start": {
-            "line": 88,
+            "line": 92,
             "column": 14
           },
           "end": {
-            "line": 96,
+            "line": 100,
             "column": 30
           }
         },
         "6": {
           "start": {
-            "line": 89,
+            "line": 93,
             "column": 4
           },
           "end": {
-            "line": 95,
+            "line": 99,
             "column": 7
           }
         },
         "7": {
           "start": {
-            "line": 90,
+            "line": 94,
             "column": 6
           },
           "end": {
-            "line": 94,
+            "line": 98,
             "column": null
           }
         },
         "8": {
           "start": {
-            "line": 91,
+            "line": 95,
             "column": 8
           },
           "end": {
-            "line": 91,
+            "line": 95,
             "column": 52
           }
         },
         "9": {
           "start": {
-            "line": 93,
+            "line": 97,
             "column": 8
           },
           "end": {
-            "line": 93,
+            "line": 97,
             "column": 18
           }
         },
         "10": {
           "start": {
-            "line": 98,
+            "line": 102,
             "column": 2
           },
           "end": {
-            "line": 98,
+            "line": 102,
             "column": 19
           }
         },
         "11": {
           "start": {
-            "line": 100,
+            "line": 104,
             "column": 2
           },
           "end": {
-            "line": 100,
+            "line": 104,
             "column": 13
           }
         },
         "12": {
           "start": {
-            "line": 71,
+            "line": 75,
             "column": 0
           },
           "end": {
-            "line": 71,
+            "line": 75,
             "column": 16
           }
         },
         "13": {
           "start": {
-            "line": 103,
+            "line": 107,
             "column": 14
           },
           "end": {
-            "line": 103,
+            "line": 107,
             "column": 33
           }
         },
         "14": {
           "start": {
-            "line": 124,
+            "line": 128,
             "column": 2
           },
           "end": {
-            "line": 126,
+            "line": 130,
             "column": null
           }
         },
         "15": {
           "start": {
-            "line": 125,
+            "line": 129,
             "column": 4
           },
           "end": {
-            "line": 125,
+            "line": 129,
             "column": 26
           }
         },
         "16": {
           "start": {
-            "line": 128,
+            "line": 132,
             "column": 2
           },
           "end": {
-            "line": 128,
+            "line": 132,
             "column": 43
           }
         },
         "17": {
           "start": {
-            "line": 128,
+            "line": 132,
             "column": 22
           },
           "end": {
-            "line": 128,
+            "line": 132,
             "column": 43
           }
         },
         "18": {
           "start": {
-            "line": 130,
+            "line": 134,
             "column": 2
           },
           "end": {
-            "line": 130,
+            "line": 134,
             "column": 35
           }
         },
         "19": {
           "start": {
-            "line": 117,
+            "line": 121,
             "column": 0
           },
           "end": {
-            "line": 117,
+            "line": 121,
             "column": 16
           }
         }
@@ -720,21 +720,21 @@
           "name": "spawn",
           "decl": {
             "start": {
-              "line": 71,
+              "line": 75,
               "column": 16
             },
             "end": {
-              "line": 71,
+              "line": 75,
               "column": 21
             }
           },
           "loc": {
             "start": {
-              "line": 74,
+              "line": 78,
               "column": 19
             },
             "end": {
-              "line": 101,
+              "line": 105,
               "column": 1
             }
           }
@@ -743,21 +743,21 @@
           "name": "(anonymous_1)",
           "decl": {
             "start": {
-              "line": 88,
+              "line": 92,
               "column": 26
             },
             "end": {
-              "line": 88,
+              "line": 92,
               "column": 27
             }
           },
           "loc": {
             "start": {
-              "line": 88,
+              "line": 92,
               "column": 46
             },
             "end": {
-              "line": 96,
+              "line": 100,
               "column": 3
             }
           }
@@ -766,21 +766,21 @@
           "name": "(anonymous_2)",
           "decl": {
             "start": {
-              "line": 89,
+              "line": 93,
               "column": 20
             },
             "end": {
-              "line": 89,
+              "line": 93,
               "column": 28
             }
           },
           "loc": {
             "start": {
-              "line": 89,
+              "line": 93,
               "column": 31
             },
             "end": {
-              "line": 95,
+              "line": 99,
               "column": 5
             }
           }
@@ -789,21 +789,21 @@
           "name": "exec",
           "decl": {
             "start": {
-              "line": 117,
+              "line": 121,
               "column": 16
             },
             "end": {
-              "line": 117,
+              "line": 121,
               "column": 20
             }
           },
           "loc": {
             "start": {
-              "line": 119,
+              "line": 123,
               "column": 36
             },
             "end": {
-              "line": 131,
+              "line": 135,
               "column": 1
             }
           }
@@ -813,11 +813,11 @@
         "0": {
           "loc": {
             "start": {
-              "line": 81,
+              "line": 85,
               "column": 8
             },
             "end": {
-              "line": 81,
+              "line": 85,
               "column": 53
             }
           },
@@ -825,21 +825,21 @@
           "locations": [
             {
               "start": {
-                "line": 81,
+                "line": 85,
                 "column": 8
               },
               "end": {
-                "line": 81,
+                "line": 85,
                 "column": 53
               }
             },
             {
               "start": {
-                "line": 82,
+                "line": 86,
                 "column": 8
               },
               "end": {
-                "line": 85,
+                "line": 89,
                 "column": null
               }
             }
@@ -848,11 +848,11 @@
         "1": {
           "loc": {
             "start": {
-              "line": 85,
+              "line": 89,
               "column": 26
             },
             "end": {
-              "line": 85,
+              "line": 89,
               "column": 63
             }
           },
@@ -860,21 +860,21 @@
           "locations": [
             {
               "start": {
-                "line": 85,
+                "line": 89,
                 "column": 26
               },
               "end": {
-                "line": 85,
+                "line": 89,
                 "column": 63
               }
             },
             {
               "start": {
-                "line": 85,
+                "line": 89,
                 "column": 65
               },
               "end": {
-                "line": 85,
+                "line": 89,
                 "column": 70
               }
             }
@@ -883,11 +883,11 @@
         "2": {
           "loc": {
             "start": {
-              "line": 90,
+              "line": 94,
               "column": 6
             },
             "end": {
-              "line": 94,
+              "line": 98,
               "column": null
             }
           },
@@ -895,21 +895,21 @@
           "locations": [
             {
               "start": {
-                "line": 90,
+                "line": 94,
                 "column": 6
               },
               "end": {
-                "line": 94,
+                "line": 98,
                 "column": null
               }
             },
             {
               "start": {
-                "line": 90,
+                "line": 94,
                 "column": 6
               },
               "end": {
-                "line": 94,
+                "line": 98,
                 "column": null
               }
             }
@@ -918,11 +918,11 @@
         "3": {
           "loc": {
             "start": {
-              "line": 119,
+              "line": 123,
               "column": 32
             },
             "end": {
-              "line": 119,
+              "line": 123,
               "column": 36
             }
           },
@@ -930,11 +930,11 @@
           "locations": [
             {
               "start": {
-                "line": 119,
+                "line": 123,
                 "column": 32
               },
               "end": {
-                "line": 119,
+                "line": 123,
                 "column": 36
               }
             }
@@ -943,11 +943,11 @@
         "4": {
           "loc": {
             "start": {
-              "line": 124,
+              "line": 128,
               "column": 2
             },
             "end": {
-              "line": 126,
+              "line": 130,
               "column": null
             }
           },
@@ -955,21 +955,21 @@
           "locations": [
             {
               "start": {
-                "line": 124,
+                "line": 128,
                 "column": 2
               },
               "end": {
-                "line": 126,
+                "line": 130,
                 "column": null
               }
             },
             {
               "start": {
-                "line": 124,
+                "line": 128,
                 "column": 2
               },
               "end": {
-                "line": 126,
+                "line": 130,
                 "column": null
               }
             }
@@ -978,11 +978,11 @@
         "5": {
           "loc": {
             "start": {
-              "line": 128,
+              "line": 132,
               "column": 2
             },
             "end": {
-              "line": 128,
+              "line": 132,
               "column": 43
             }
           },
@@ -990,21 +990,21 @@
           "locations": [
             {
               "start": {
-                "line": 128,
+                "line": 132,
                 "column": 2
               },
               "end": {
-                "line": 128,
+                "line": 132,
                 "column": 43
               }
             },
             {
               "start": {
-                "line": 128,
+                "line": 132,
                 "column": 2
               },
               "end": {
-                "line": 128,
+                "line": 132,
                 "column": 43
               }
             }
@@ -1075,7 +1075,7 @@
           },
           "end": {
             "line": 1,
-            "column": 33
+            "column": 38
           }
         },
         "1": {
@@ -1285,7 +1285,7 @@
           },
           "end": {
             "line": 2,
-            "column": 33
+            "column": 38
           }
         },
         "1": {
@@ -1314,7 +1314,7 @@
             "column": 2
           },
           "end": {
-            "line": 17,
+            "line": 18,
             "column": null
           }
         },
@@ -1370,11 +1370,21 @@
         },
         "9": {
           "start": {
-            "line": 20,
+            "line": 17,
+            "column": 4
+          },
+          "end": {
+            "line": 17,
+            "column": 25
+          }
+        },
+        "10": {
+          "start": {
+            "line": 21,
             "column": 0
           },
           "end": {
-            "line": 20,
+            "line": 21,
             "column": 6
           }
         }
@@ -1398,7 +1408,7 @@
               "column": 18
             },
             "end": {
-              "line": 18,
+              "line": 19,
               "column": null
             }
           }
@@ -1415,7 +1425,8 @@
         "6": 0,
         "7": 0,
         "8": 0,
-        "9": 0
+        "9": 0,
+        "10": 0
       },
       "f": {
         "0": 0
@@ -1432,7 +1443,7 @@
           },
           "end": {
             "line": 1,
-            "column": 33
+            "column": 38
           }
         },
         "1": {
@@ -1980,7 +1991,7 @@
           },
           "end": {
             "line": 2,
-            "column": 33
+            "column": 38
           }
         },
         "1": {
@@ -2009,7 +2020,7 @@
             "column": 2
           },
           "end": {
-            "line": 14,
+            "line": 15,
             "column": null
           }
         },
@@ -2055,11 +2066,21 @@
         },
         "8": {
           "start": {
-            "line": 17,
+            "line": 14,
+            "column": 4
+          },
+          "end": {
+            "line": 14,
+            "column": 25
+          }
+        },
+        "9": {
+          "start": {
+            "line": 18,
             "column": 0
           },
           "end": {
-            "line": 17,
+            "line": 18,
             "column": 6
           }
         }
@@ -2083,7 +2104,7 @@
               "column": 18
             },
             "end": {
-              "line": 15,
+              "line": 16,
               "column": null
             }
           }
@@ -2099,7 +2120,8 @@
         "5": 0,
         "6": 0,
         "7": 0,
-        "8": 0
+        "8": 0,
+        "9": 0
       },
       "f": {
         "0": 0

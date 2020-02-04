@@ -1,89 +1,89 @@
 [ {
-  "uid" : "1b1b918eb4c00bf2",
-  "name" : "action.yml has correct runs.using",
-  "time" : {
-    "start" : 1580807480484,
-    "stop" : 1580807480486,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "35d4a9316c62879f",
-  "name" : "can read action.yml",
-  "time" : {
-    "start" : 1580807480477,
-    "stop" : 1580807480480,
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a120edb67298a0be",
-  "name" : "runs.main and runs.post files exist",
-  "time" : {
-    "start" : 1580807480487,
-    "stop" : 1580807480489,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "16c28aeee10283fe",
-  "name" : "can run runs.main and runs.post end-to-end",
-  "time" : {
-    "start" : 1580807480489,
-    "stop" : 1580807480581,
-    "duration" : 92
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "80646f7b5aa71948",
-  "name" : "action.yml has runs.main and runs.post",
-  "time" : {
-    "start" : 1580807480486,
-    "stop" : 1580807480487,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c04e1b3fac29eedb",
+  "uid" : "65ebed1217939612",
   "name" : "action.yml has valid yaml",
   "time" : {
-    "start" : 1580807480480,
-    "stop" : 1580807480484,
+    "start" : 1580807818448,
+    "stop" : 1580807818452,
     "duration" : 4
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4d1a083930780ba2",
-  "name" : "commitAndPush is a function",
+  "uid" : "f11b473025004e65",
+  "name" : "runs.main and runs.post files exist",
   "time" : {
-    "start" : 1580807482568,
-    "stop" : 1580807482570,
+    "start" : 1580807818456,
+    "stop" : 1580807818457,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7f4f13a1d9d1fe1",
+  "name" : "can read action.yml",
+  "time" : {
+    "start" : 1580807818445,
+    "stop" : 1580807818448,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a490d270ada7765b",
+  "name" : "action.yml has runs.main and runs.post",
+  "time" : {
+    "start" : 1580807818454,
+    "stop" : 1580807818456,
     "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4e348e4fcd809366",
-  "name" : "action.yml exists",
+  "uid" : "141bcfc9a9f6e6f0",
+  "name" : "action.yml has correct runs.using",
   "time" : {
-    "start" : 1580807480475,
-    "stop" : 1580807480477,
+    "start" : 1580807818452,
+    "stop" : 1580807818454,
     "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2c2c236a4a2cb313",
+  "uid" : "48f0f5cf0f1feeb4",
   "name" : "readInputs is a function",
   "time" : {
-    "start" : 1580807482885,
-    "stop" : 1580807482887,
+    "start" : 1580807820391,
+    "stop" : 1580807820393,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a8cbb25311ed6cf",
+  "name" : "action.yml exists",
+  "time" : {
+    "start" : 1580807818443,
+    "stop" : 1580807818445,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2082ad160308ef9c",
+  "name" : "can run runs.main and runs.post end-to-end",
+  "time" : {
+    "start" : 1580807818457,
+    "stop" : 1580807818530,
+    "duration" : 73
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d934cc3e1a4e4b29",
+  "name" : "commitAndPush is a function",
+  "time" : {
+    "start" : 1580807820065,
+    "stop" : 1580807820067,
     "duration" : 2
   },
   "status" : "passed",
