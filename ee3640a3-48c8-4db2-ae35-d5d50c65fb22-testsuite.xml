@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1580811566863' stop='1580811566873'>
+    <name>utils/commitAndPush</name>
+    <title>utils/commitAndPush</title>
+    <test-cases>
+        <test-case start='1580811566864' status='passed' stop='1580811566873'>
+            <name>commitAndPush is a function</name>
+            <title>commitAndPush is a function</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
