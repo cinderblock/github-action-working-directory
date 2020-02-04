@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1580807815825,
+  "startTime": 1580808141148,
   "success": false,
   "testResults": [
     {
@@ -37,8 +37,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580807818565,
-        "start": 1580807815880
+        "end": 1580808143405,
+        "start": 1580808141191
       },
       "skipped": false,
       "snapshot": {
@@ -56,7 +56,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml exists",
           "location": null,
@@ -68,7 +68,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Test can read action.yml",
           "location": null,
@@ -92,7 +92,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has correct runs.using",
           "location": null,
@@ -116,7 +116,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 1,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Test runs.main and runs.post files exist",
           "location": null,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 73,
+          "duration": 61,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at ChildProcess.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:93:26)\n    at ChildProcess.emit (events.js:223:5)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)"
           ],
@@ -213,8 +213,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580807820072,
-        "start": 1580807819218
+        "end": 1580808144675,
+        "start": 1580808143976
       },
       "skipped": false,
       "snapshot": {
@@ -251,8 +251,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580807820398,
-        "start": 1580807820101
+        "end": 1580808144954,
+        "start": 1580808144702
       },
       "skipped": false,
       "snapshot": {
@@ -560,77 +560,77 @@
             "column": 4
           },
           "end": {
-            "line": 89,
+            "line": 91,
             "column": null
           }
         },
         "5": {
           "start": {
-            "line": 92,
+            "line": 94,
             "column": 14
           },
           "end": {
-            "line": 100,
+            "line": 102,
             "column": 30
           }
         },
         "6": {
           "start": {
-            "line": 93,
+            "line": 95,
             "column": 4
           },
           "end": {
-            "line": 99,
+            "line": 101,
             "column": 7
           }
         },
         "7": {
           "start": {
-            "line": 94,
+            "line": 96,
             "column": 6
           },
           "end": {
-            "line": 98,
+            "line": 100,
             "column": null
           }
         },
         "8": {
           "start": {
-            "line": 95,
+            "line": 97,
             "column": 8
           },
           "end": {
-            "line": 95,
+            "line": 97,
             "column": 52
           }
         },
         "9": {
           "start": {
-            "line": 97,
+            "line": 99,
             "column": 8
           },
           "end": {
-            "line": 97,
+            "line": 99,
             "column": 18
           }
         },
         "10": {
           "start": {
-            "line": 102,
+            "line": 104,
             "column": 2
           },
           "end": {
-            "line": 102,
+            "line": 104,
             "column": 19
           }
         },
         "11": {
           "start": {
-            "line": 104,
+            "line": 106,
             "column": 2
           },
           "end": {
-            "line": 104,
+            "line": 106,
             "column": 13
           }
         },
@@ -646,71 +646,71 @@
         },
         "13": {
           "start": {
-            "line": 107,
+            "line": 109,
             "column": 14
           },
           "end": {
-            "line": 107,
+            "line": 109,
             "column": 33
           }
         },
         "14": {
           "start": {
-            "line": 128,
+            "line": 130,
             "column": 2
           },
           "end": {
-            "line": 130,
+            "line": 132,
             "column": null
           }
         },
         "15": {
           "start": {
-            "line": 129,
+            "line": 131,
             "column": 4
           },
           "end": {
-            "line": 129,
+            "line": 131,
             "column": 26
           }
         },
         "16": {
           "start": {
-            "line": 132,
+            "line": 134,
             "column": 2
           },
           "end": {
-            "line": 132,
+            "line": 134,
             "column": 43
           }
         },
         "17": {
           "start": {
-            "line": 132,
+            "line": 134,
             "column": 22
           },
           "end": {
-            "line": 132,
+            "line": 134,
             "column": 43
           }
         },
         "18": {
           "start": {
-            "line": 134,
+            "line": 136,
             "column": 2
           },
           "end": {
-            "line": 134,
+            "line": 136,
             "column": 35
           }
         },
         "19": {
           "start": {
-            "line": 121,
+            "line": 123,
             "column": 0
           },
           "end": {
-            "line": 121,
+            "line": 123,
             "column": 16
           }
         }
@@ -734,7 +734,7 @@
               "column": 19
             },
             "end": {
-              "line": 105,
+              "line": 107,
               "column": 1
             }
           }
@@ -743,21 +743,21 @@
           "name": "(anonymous_1)",
           "decl": {
             "start": {
-              "line": 92,
+              "line": 94,
               "column": 26
             },
             "end": {
-              "line": 92,
+              "line": 94,
               "column": 27
             }
           },
           "loc": {
             "start": {
-              "line": 92,
+              "line": 94,
               "column": 46
             },
             "end": {
-              "line": 100,
+              "line": 102,
               "column": 3
             }
           }
@@ -766,21 +766,21 @@
           "name": "(anonymous_2)",
           "decl": {
             "start": {
-              "line": 93,
+              "line": 95,
               "column": 20
             },
             "end": {
-              "line": 93,
+              "line": 95,
               "column": 28
             }
           },
           "loc": {
             "start": {
-              "line": 93,
+              "line": 95,
               "column": 31
             },
             "end": {
-              "line": 99,
+              "line": 101,
               "column": 5
             }
           }
@@ -789,21 +789,21 @@
           "name": "exec",
           "decl": {
             "start": {
-              "line": 121,
+              "line": 123,
               "column": 16
             },
             "end": {
-              "line": 121,
+              "line": 123,
               "column": 20
             }
           },
           "loc": {
             "start": {
-              "line": 123,
+              "line": 125,
               "column": 36
             },
             "end": {
-              "line": 135,
+              "line": 137,
               "column": 1
             }
           }
@@ -839,7 +839,7 @@
                 "column": 8
               },
               "end": {
-                "line": 89,
+                "line": 91,
                 "column": null
               }
             }
@@ -848,34 +848,34 @@
         "1": {
           "loc": {
             "start": {
-              "line": 89,
-              "column": 26
+              "line": 90,
+              "column": 13
             },
             "end": {
-              "line": 89,
-              "column": 63
+              "line": 90,
+              "column": null
             }
           },
           "type": "cond-expr",
           "locations": [
             {
               "start": {
-                "line": 89,
-                "column": 26
+                "line": 90,
+                "column": 13
               },
               "end": {
-                "line": 89,
-                "column": 63
+                "line": 90,
+                "column": null
               }
             },
             {
               "start": {
-                "line": 89,
-                "column": 65
+                "line": 91,
+                "column": 13
               },
               "end": {
-                "line": 89,
-                "column": 70
+                "line": 91,
+                "column": 38
               }
             }
           ]
@@ -883,11 +883,11 @@
         "2": {
           "loc": {
             "start": {
-              "line": 94,
+              "line": 96,
               "column": 6
             },
             "end": {
-              "line": 98,
+              "line": 100,
               "column": null
             }
           },
@@ -895,21 +895,21 @@
           "locations": [
             {
               "start": {
-                "line": 94,
+                "line": 96,
                 "column": 6
               },
               "end": {
-                "line": 98,
+                "line": 100,
                 "column": null
               }
             },
             {
               "start": {
-                "line": 94,
+                "line": 96,
                 "column": 6
               },
               "end": {
-                "line": 98,
+                "line": 100,
                 "column": null
               }
             }
@@ -918,11 +918,11 @@
         "3": {
           "loc": {
             "start": {
-              "line": 123,
+              "line": 125,
               "column": 32
             },
             "end": {
-              "line": 123,
+              "line": 125,
               "column": 36
             }
           },
@@ -930,11 +930,11 @@
           "locations": [
             {
               "start": {
-                "line": 123,
+                "line": 125,
                 "column": 32
               },
               "end": {
-                "line": 123,
+                "line": 125,
                 "column": 36
               }
             }
@@ -943,11 +943,11 @@
         "4": {
           "loc": {
             "start": {
-              "line": 128,
+              "line": 130,
               "column": 2
             },
             "end": {
-              "line": 130,
+              "line": 132,
               "column": null
             }
           },
@@ -955,21 +955,21 @@
           "locations": [
             {
               "start": {
-                "line": 128,
+                "line": 130,
                 "column": 2
               },
               "end": {
-                "line": 130,
+                "line": 132,
                 "column": null
               }
             },
             {
               "start": {
-                "line": 128,
+                "line": 130,
                 "column": 2
               },
               "end": {
-                "line": 130,
+                "line": 132,
                 "column": null
               }
             }
@@ -978,11 +978,11 @@
         "5": {
           "loc": {
             "start": {
-              "line": 132,
+              "line": 134,
               "column": 2
             },
             "end": {
-              "line": 132,
+              "line": 134,
               "column": 43
             }
           },
@@ -990,21 +990,21 @@
           "locations": [
             {
               "start": {
-                "line": 132,
+                "line": 134,
                 "column": 2
               },
               "end": {
-                "line": 132,
+                "line": 134,
                 "column": 43
               }
             },
             {
               "start": {
-                "line": 132,
+                "line": 134,
                 "column": 2
               },
               "end": {
-                "line": 132,
+                "line": 134,
                 "column": 43
               }
             }

@@ -1,65 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "action.yml exists",
-    "uid" : "2a8cbb25311ed6cf",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1580807818443,
-      "stop" : 1580807818445,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "can run runs.main and runs.post end-to-end",
-    "uid" : "2082ad160308ef9c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1580807818457,
-      "stop" : 1580807818530,
-      "duration" : 73
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "action.yml has correct runs.using",
-    "uid" : "141bcfc9a9f6e6f0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1580807818452,
-      "stop" : 1580807818454,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "readInputs is a function",
-    "uid" : "48f0f5cf0f1feeb4",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1580807820391,
-      "stop" : 1580807820393,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "commitAndPush is a function",
-    "uid" : "d934cc3e1a4e4b29",
+    "uid" : "ca0a466dbad1c5a1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1580807820065,
-      "stop" : 1580807820067,
+      "start" : 1580808144669,
+      "stop" : 1580808144671,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "runs.main and runs.post files exist",
+    "uid" : "8d28d0d81d8f0b5c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580808143313,
+      "stop" : 1580808143315,
       "duration" : 2
     },
     "flaky" : false,
@@ -67,25 +28,38 @@
     "parameters" : [ ]
   }, {
     "name" : "can read action.yml",
-    "uid" : "b7f4f13a1d9d1fe1",
+    "uid" : "97f88fdefada6210",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1580807818445,
-      "stop" : 1580807818448,
-      "duration" : 3
+      "start" : 1580808143305,
+      "stop" : 1580808143307,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "runs.main and runs.post files exist",
-    "uid" : "f11b473025004e65",
+    "name" : "readInputs is a function",
+    "uid" : "e75410b0d0797f1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1580807818456,
-      "stop" : 1580807818457,
+      "start" : 1580808144948,
+      "stop" : 1580808144950,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "action.yml has runs.main and runs.post",
+    "uid" : "5fc8f89d81339077",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580808143312,
+      "stop" : 1580808143313,
       "duration" : 1
     },
     "flaky" : false,
@@ -93,26 +67,52 @@
     "parameters" : [ ]
   }, {
     "name" : "action.yml has valid yaml",
-    "uid" : "65ebed1217939612",
+    "uid" : "f400bd9eea6acc56",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1580807818448,
-      "stop" : 1580807818452,
+      "start" : 1580808143307,
+      "stop" : 1580808143311,
       "duration" : 4
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "action.yml has runs.main and runs.post",
-    "uid" : "a490d270ada7765b",
+    "name" : "action.yml has correct runs.using",
+    "uid" : "81066dffc1e247c0",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1580807818454,
-      "stop" : 1580807818456,
+      "start" : 1580808143311,
+      "stop" : 1580808143312,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "action.yml exists",
+    "uid" : "2640947dc355dd82",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580808143303,
+      "stop" : 1580808143305,
       "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can run runs.main and runs.post end-to-end",
+    "uid" : "ebec94fda8649ddd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1580808143315,
+      "stop" : 1580808143376,
+      "duration" : 61
     },
     "flaky" : false,
     "newFailed" : false,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1580807821149" clover="3.2.0">
-  <project timestamp="1580807821149" name="All files">
+<coverage generated="1580808145500" clover="3.2.0">
+  <project timestamp="1580808145500" name="All files">
     <metrics statements="81" coveredstatements="11" conditionals="25" coveredconditionals="0" methods="13" coveredmethods="0" elements="119" coveredelements="11" complexity="0" loc="81" ncloc="81" packages="2" files="7" classes="7"/>
     <package name="src">
       <metrics statements="21" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -88,19 +88,19 @@
         <line num="75" count="1" type="stmt"/>
         <line num="81" count="0" type="stmt"/>
         <line num="84" count="0" type="stmt"/>
-        <line num="92" count="0" type="stmt"/>
-        <line num="93" count="0" type="stmt"/>
-        <line num="94" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="94" count="0" type="stmt"/>
         <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="97" count="0" type="stmt"/>
-        <line num="102" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
         <line num="104" count="0" type="stmt"/>
-        <line num="107" count="1" type="stmt"/>
-        <line num="121" count="1" type="stmt"/>
-        <line num="128" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="129" count="0" type="stmt"/>
-        <line num="132" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="134" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="130" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="134" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="136" count="0" type="stmt"/>
       </file>
       <file name="wait.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts">
         <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
