@@ -172,7 +172,7 @@ jobs:
         # This step will copy coverage reports (and others) to the specified historical branch
         # and use it to generate some pretty charts
         with:
-          branch: allure-results/${{ github.ref }}
+          branch: allure2-results/${{ github.ref }}
           working-directory: allure-results
 
       - name: ---- Files after loading allure results
