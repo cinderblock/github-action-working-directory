@@ -14,6 +14,7 @@ async function run(): Promise<void> {
     core.debug(`Cloned`);
   } catch (error) {
     core.setFailed(error.message);
+    process.exitCode = 1;
   }
 }
 

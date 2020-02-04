@@ -11,6 +11,7 @@ async function run(): Promise<void> {
     await commitAndPush({ dir, branch, message, name, email, debug });
   } catch (error) {
     core.setFailed(error.message);
+    process.exitCode = 1;
   }
 }
 
