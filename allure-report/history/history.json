@@ -9,109 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5416aa518973c813",
+      "uid" : "4d1a083930780ba2",
       "status" : "passed",
       "time" : {
-        "start" : 1579557364756,
-        "stop" : 1579557364757,
-        "duration" : 1
-      }
-    } ]
-  },
-  "99475aea3405f15070fbd456aafc0a83" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9464cd4a7d6ef9dc",
-      "status" : "failed",
-      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"flushed out\"\n                Received: \"this test\"",
-      "time" : {
-        "start" : 1579557360672,
-        "stop" : 1579557360683,
-        "duration" : 11
-      }
-    } ]
-  },
-  "282a460dc76a6cb16289bdd5fe31407d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fce3336fe12e0d8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579557359619,
-        "stop" : 1579557359623,
-        "duration" : 4
-      }
-    } ]
-  },
-  "aab39a24d41767fdf2f98931deb32f7" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ed13fe6719819f98",
-      "status" : "failed",
-      "statusDetails" : "Error: Exit code: 1\n                stdout > ::debug::Reading inputs\n                stdout > cloning repo(https://github.com/undefined) into dir(). branch(test-dummy)\n                stdout > Throwing unrecognized error: cannot pick working directory for non-bare repository that isn't a '.git' directory\n                stdout > ::error::cannot pick working directory for non-bare repository that isn't a '.git' directory\n                ",
-      "time" : {
-        "start" : 1579557359631,
-        "stop" : 1579557359741,
-        "duration" : 110
-      }
-    } ]
-  },
-  "51a8d76dd8b9b525f41670eb8de5460e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b9275a8ec3b4e47f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579557359627,
-        "stop" : 1579557359628,
-        "duration" : 1
-      }
-    } ]
-  },
-  "e369fc5b9eb39c16ef9106ce2f5b0475" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d5eefcadc62024fa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579557359623,
-        "stop" : 1579557359626,
-        "duration" : 3
+        "start" : 1580807482568,
+        "stop" : 1580807482570,
+        "duration" : 2
       }
     } ]
   },
@@ -125,11 +28,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36230c2454f3482",
+      "uid" : "80646f7b5aa71948",
       "status" : "passed",
       "time" : {
-        "start" : 1579557359628,
-        "stop" : 1579557359629,
+        "start" : 1580807480486,
+        "stop" : 1580807480487,
         "duration" : 1
       }
     } ]
@@ -144,108 +47,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9e4b393ba2774d3a",
+      "uid" : "4e348e4fcd809366",
       "status" : "passed",
       "time" : {
-        "start" : 1579557359616,
-        "stop" : 1579557359619,
-        "duration" : 3
-      }
-    } ]
-  },
-  "4d75ecf2373db3c697197d257e5b9a68" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fe1a8fafdbb8c1b4",
-      "status" : "failed",
-      "statusDetails" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not null",
-      "time" : {
-        "start" : 1579557364313,
-        "stop" : 1579557364316,
-        "duration" : 3
-      }
-    } ]
-  },
-  "41a0c4778c2632bcf53d762dcb9190f1" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "bbb641a77ed5db9e",
-      "status" : "failed",
-      "statusDetails" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not null",
-      "time" : {
-        "start" : 1579557360684,
-        "stop" : 1579557360689,
-        "duration" : 5
-      }
-    } ]
-  },
-  "1e4ce0ccabc41d0bbea39f0f89ec8311" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c9ed9e1f52be0661",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579557364309,
-        "stop" : 1579557364313,
-        "duration" : 4
-      }
-    } ]
-  },
-  "5b02bd65b5fb82a918ecb9e05487e5dc" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6d550c0909368c5f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579557364309,
-        "stop" : 1579557364309,
-        "duration" : 0
-      }
-    } ]
-  },
-  "5a5ac828fae90e9ed476215879d908e5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "63c516354548d1ab",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579557359629,
-        "stop" : 1579557359631,
+        "start" : 1580807480475,
+        "stop" : 1580807480477,
         "duration" : 2
       }
     } ]
@@ -260,12 +66,108 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82dd52de599a2b26",
+      "uid" : "2c2c236a4a2cb313",
       "status" : "passed",
       "time" : {
-        "start" : 1579557365021,
-        "stop" : 1579557365022,
-        "duration" : 1
+        "start" : 1580807482885,
+        "stop" : 1580807482887,
+        "duration" : 2
+      }
+    } ]
+  },
+  "5a5ac828fae90e9ed476215879d908e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a120edb67298a0be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580807480487,
+        "stop" : 1580807480489,
+        "duration" : 2
+      }
+    } ]
+  },
+  "282a460dc76a6cb16289bdd5fe31407d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35d4a9316c62879f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580807480477,
+        "stop" : 1580807480480,
+        "duration" : 3
+      }
+    } ]
+  },
+  "aab39a24d41767fdf2f98931deb32f7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16c28aeee10283fe",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  -  2\n                + Received  + 13\n                \n                - stdout > ::debug::Reading inputs\n                - stdout > ::debug::Cloned: undefined\n                + stderr > (node:3891) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'setFailed' of undefined\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:28:1\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.985.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:4:1)\n                +     at run (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:20:1)\n                +     at Object.985 (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:32:1)\n                +     at __webpack_require__ (/webpack/bootstrap:19:1)\n                +     at startup (/webpack/bootstrap:34:1)\n                +     at /webpack/bootstrap:38:1\n                + stderr > (node:3891) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + stderr > (node:3891) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                  ↵",
+      "time" : {
+        "start" : 1580807480489,
+        "stop" : 1580807480581,
+        "duration" : 92
+      }
+    } ]
+  },
+  "51a8d76dd8b9b525f41670eb8de5460e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b1b918eb4c00bf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580807480484,
+        "stop" : 1580807480486,
+        "duration" : 2
+      }
+    } ]
+  },
+  "e369fc5b9eb39c16ef9106ce2f5b0475" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c04e1b3fac29eedb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580807480480,
+        "stop" : 1580807480484,
+        "duration" : 4
       }
     } ]
   }

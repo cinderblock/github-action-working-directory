@@ -1,12 +1,12 @@
 {
-  "uid" : "c9ed9e1f52be0661",
-  "name" : "clone can be called for non-existent branch",
-  "fullName" : "utils/clone.clone can be called for non-existent branch",
-  "historyId" : "1e4ce0ccabc41d0bbea39f0f89ec8311",
+  "uid" : "a120edb67298a0be",
+  "name" : "runs.main and runs.post files exist",
+  "fullName" : "GitHub Actions Test.runs.main and runs.post files exist",
+  "historyId" : "5a5ac828fae90e9ed476215879d908e5",
   "time" : {
-    "start" : 1579557364309,
-    "stop" : 1579557364313,
-    "duration" : 4
+    "start" : 1580807480487,
+    "stop" : 1580807480489,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/clone"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "testClass",
-    "value" : "utils/clone"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "testMethod",
-    "value" : "clone can be called for non-existent branch"
+    "value" : "runs.main and runs.post files exist"
   }, {
     "name" : "package",
-    "value" : "utils/clone"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c9ed9e1f52be0661.json",
+  "source" : "a120edb67298a0be.json",
   "parameterValues" : [ ]
 }

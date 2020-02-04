@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579557365689" clover="3.2.0">
-  <project timestamp="1579557365689" name="All files">
-    <metrics statements="83" coveredstatements="20" conditionals="24" coveredconditionals="7" methods="10" coveredmethods="2" elements="117" coveredelements="29" complexity="0" loc="83" ncloc="83" packages="2" files="6" classes="6"/>
+<coverage generated="1580807483856" clover="3.2.0">
+  <project timestamp="1580807483856" name="All files">
+    <metrics statements="79" coveredstatements="11" conditionals="25" coveredconditionals="0" methods="13" coveredmethods="0" elements="117" coveredelements="11" complexity="0" loc="79" ncloc="79" packages="2" files="7" classes="7"/>
     <package name="src">
-      <metrics statements="19" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="19" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="clone.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/clone.ts">
-        <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
@@ -13,7 +13,7 @@
         <line num="8" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="14" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="14" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
       </file>
@@ -31,59 +31,37 @@
       </file>
     </package>
     <package name="src.utils">
-      <metrics statements="64" coveredstatements="20" conditionals="20" coveredconditionals="7" methods="8" coveredmethods="2"/>
+      <metrics statements="60" coveredstatements="11" conditionals="25" coveredconditionals="0" methods="11" coveredmethods="0"/>
       <file name="clone.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/clone.ts">
-        <metrics statements="17" coveredstatements="15" conditionals="14" coveredconditionals="7" methods="2" coveredmethods="2"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="17" count="4" type="cond" truecount="3" falsecount="1"/>
-        <line num="19" count="4" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
-        <line num="25" count="4" type="stmt"/>
-        <line num="27" count="4" type="stmt"/>
-        <line num="29" count="4" type="stmt"/>
-        <line num="30" count="4" type="cond" truecount="4" falsecount="2"/>
-        <line num="31" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="35" count="4" type="stmt"/>
-        <line num="37" count="4" type="stmt"/>
-        <line num="40" count="4" type="stmt"/>
-        <line num="42" count="4" type="stmt"/>
-        <line num="44" count="4" type="stmt"/>
+        <metrics statements="15" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
       </file>
       <file name="commitAndPush.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/commitAndPush.ts">
-        <metrics statements="30" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="10" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
-        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="31" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="32" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="57" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="70" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="74" count="0" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="85" count="0" type="stmt"/>
-        <line num="87" count="0" type="stmt"/>
-        <line num="89" count="0" type="stmt"/>
-        <line num="91" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
       </file>
       <file name="readInputs.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/readInputs.ts">
         <metrics statements="12" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -100,12 +78,33 @@
         <line num="32" count="0" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
       </file>
+      <file name="spawn.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/spawn.ts">
+        <metrics statements="19" coveredstatements="6" conditionals="11" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="117" count="1" type="stmt"/>
+        <line num="124" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="128" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="130" count="0" type="stmt"/>
+      </file>
       <file name="wait.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts">
-        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="7" count="0" type="stmt"/>
       </file>
     </package>

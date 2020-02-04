@@ -1,141 +1,91 @@
 [ {
-  "uid" : "bbb641a77ed5db9e",
-  "name" : "works with existing branch",
+  "uid" : "2c2c236a4a2cb313",
+  "name" : "readInputs is a function",
   "time" : {
-    "start" : 1579557360684,
-    "stop" : 1579557360689,
-    "duration" : 5
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5416aa518973c813",
-  "name" : "commitAndPush is a function",
-  "time" : {
-    "start" : 1579557364756,
-    "stop" : 1579557364757,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fe1a8fafdbb8c1b4",
-  "name" : "clone can be called for existing branch",
-  "time" : {
-    "start" : 1579557364313,
-    "stop" : 1579557364316,
-    "duration" : 3
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "fce3336fe12e0d8",
-  "name" : "can read action.yml",
-  "time" : {
-    "start" : 1579557359619,
-    "stop" : 1579557359623,
-    "duration" : 4
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9464cd4a7d6ef9dc",
-  "name" : "works with non-existent branch",
-  "time" : {
-    "start" : 1579557360672,
-    "stop" : 1579557360683,
-    "duration" : 11
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b9275a8ec3b4e47f",
-  "name" : "action.yml has correct runs.using",
-  "time" : {
-    "start" : 1579557359627,
-    "stop" : 1579557359628,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e4b393ba2774d3a",
-  "name" : "action.yml exists",
-  "time" : {
-    "start" : 1579557359616,
-    "stop" : 1579557359619,
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5eefcadc62024fa",
-  "name" : "action.yml has valid yaml",
-  "time" : {
-    "start" : 1579557359623,
-    "stop" : 1579557359626,
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "63c516354548d1ab",
-  "name" : "runs.main and runs.post files exist",
-  "time" : {
-    "start" : 1579557359629,
-    "stop" : 1579557359631,
+    "start" : 1580807482885,
+    "stop" : 1580807482887,
     "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "82dd52de599a2b26",
-  "name" : "readInputs is a function",
-  "time" : {
-    "start" : 1579557365021,
-    "stop" : 1579557365022,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "36230c2454f3482",
+  "uid" : "80646f7b5aa71948",
   "name" : "action.yml has runs.main and runs.post",
   "time" : {
-    "start" : 1579557359628,
-    "stop" : 1579557359629,
+    "start" : 1580807480486,
+    "stop" : 1580807480487,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c9ed9e1f52be0661",
-  "name" : "clone can be called for non-existent branch",
+  "uid" : "4d1a083930780ba2",
+  "name" : "commitAndPush is a function",
   "time" : {
-    "start" : 1579557364309,
-    "stop" : 1579557364313,
+    "start" : 1580807482568,
+    "stop" : 1580807482570,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35d4a9316c62879f",
+  "name" : "can read action.yml",
+  "time" : {
+    "start" : 1580807480477,
+    "stop" : 1580807480480,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e348e4fcd809366",
+  "name" : "action.yml exists",
+  "time" : {
+    "start" : 1580807480475,
+    "stop" : 1580807480477,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16c28aeee10283fe",
+  "name" : "can run runs.main and runs.post end-to-end",
+  "time" : {
+    "start" : 1580807480489,
+    "stop" : 1580807480581,
+    "duration" : 92
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b1b918eb4c00bf2",
+  "name" : "action.yml has correct runs.using",
+  "time" : {
+    "start" : 1580807480484,
+    "stop" : 1580807480486,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c04e1b3fac29eedb",
+  "name" : "action.yml has valid yaml",
+  "time" : {
+    "start" : 1580807480480,
+    "stop" : 1580807480484,
     "duration" : 4
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6d550c0909368c5f",
-  "name" : "clone is a function",
+  "uid" : "a120edb67298a0be",
+  "name" : "runs.main and runs.post files exist",
   "time" : {
-    "start" : 1579557364309,
-    "stop" : 1579557364309,
-    "duration" : 0
+    "start" : 1580807480487,
+    "stop" : 1580807480489,
+    "duration" : 2
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ed13fe6719819f98",
-  "name" : "can run runs.main and runs.post end-to-end",
-  "time" : {
-    "start" : 1579557359631,
-    "stop" : 1579557359741,
-    "duration" : 110
-  },
-  "status" : "failed",
   "severity" : "normal"
 } ]

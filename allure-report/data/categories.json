@@ -3,69 +3,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Error: Exit code: 1\n                stdout > ::debug::Reading inputs\n                stdout > cloning repo(https://github.com/undefined) into dir(). branch(test-dummy)\n                stdout > Throwing unrecognized error: cannot pick working directory for non-bare repository that isn't a '.git' directory\n                stdout > ::error::cannot pick working directory for non-bare repository that isn't a '.git' directory\n                ",
+      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  -  2\n                + Received  + 13\n                \n                - stdout > ::debug::Reading inputs\n                - stdout > ::debug::Cloned: undefined\n                + stderr > (node:3891) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'setFailed' of undefined\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:28:1\n                +     at Generator.next (<anonymous>)\n                +     at /home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:8:1\n                +     at new Promise (<anonymous>)\n                +     at module.exports.985.__awaiter (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:4:1)\n                +     at run (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:20:1)\n                +     at Object.985 (/home/runner/work/github-action-working-directory/github-action-working-directory/dist/src/clone.ts:32:1)\n                +     at __webpack_require__ (/webpack/bootstrap:19:1)\n                +     at startup (/webpack/bootstrap:34:1)\n                +     at /webpack/bootstrap:38:1\n                + stderr > (node:3891) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\n                + stderr > (node:3891) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\n                  ↵",
       "children" : [ {
         "name" : "can run runs.main and runs.post end-to-end",
-        "uid" : "ed13fe6719819f98",
-        "parentUid" : "072dd63b385caf59545872077f69dfc1",
+        "uid" : "16c28aeee10283fe",
+        "parentUid" : "803c3de8c5723cf09b88f6ac2cc34c5e",
         "status" : "failed",
         "time" : {
-          "start" : 1579557359631,
-          "stop" : 1579557359741,
-          "duration" : 110
+          "start" : 1580807480489,
+          "stop" : 1580807480581,
+          "duration" : 92
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "072dd63b385caf59545872077f69dfc1"
-    }, {
-      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"flushed out\"\n                Received: \"this test\"",
-      "children" : [ {
-        "name" : "works with non-existent branch",
-        "uid" : "9464cd4a7d6ef9dc",
-        "parentUid" : "6f35061ec80433780c1148827c9d042d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1579557360672,
-          "stop" : 1579557360683,
-          "duration" : 11
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6f35061ec80433780c1148827c9d042d"
-    }, {
-      "name" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not null",
-      "children" : [ {
-        "name" : "works with existing branch",
-        "uid" : "bbb641a77ed5db9e",
-        "parentUid" : "3630dd38a6218905cc93c56b06b7bf32",
-        "status" : "failed",
-        "time" : {
-          "start" : 1579557360684,
-          "stop" : 1579557360689,
-          "duration" : 5
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clone can be called for existing branch",
-        "uid" : "fe1a8fafdbb8c1b4",
-        "parentUid" : "3630dd38a6218905cc93c56b06b7bf32",
-        "status" : "failed",
-        "time" : {
-          "start" : 1579557364313,
-          "stop" : 1579557364316,
-          "duration" : 3
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3630dd38a6218905cc93c56b06b7bf32"
+      "uid" : "803c3de8c5723cf09b88f6ac2cc34c5e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

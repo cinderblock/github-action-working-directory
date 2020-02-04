@@ -4,64 +4,64 @@
     "name" : "GitHub Actions Test",
     "children" : [ {
       "name" : "action.yml exists",
-      "uid" : "9e4b393ba2774d3a",
+      "uid" : "4e348e4fcd809366",
       "parentUid" : "88a153eb362caa28fe489c6b27bdb53a",
       "status" : "passed",
       "time" : {
-        "start" : 1579557359616,
-        "stop" : 1579557359619,
-        "duration" : 3
+        "start" : 1580807480475,
+        "stop" : 1580807480477,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "can read action.yml",
-      "uid" : "fce3336fe12e0d8",
+      "uid" : "35d4a9316c62879f",
       "parentUid" : "88a153eb362caa28fe489c6b27bdb53a",
       "status" : "passed",
       "time" : {
-        "start" : 1579557359619,
-        "stop" : 1579557359623,
-        "duration" : 4
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "action.yml has valid yaml",
-      "uid" : "d5eefcadc62024fa",
-      "parentUid" : "88a153eb362caa28fe489c6b27bdb53a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579557359623,
-        "stop" : 1579557359626,
+        "start" : 1580807480477,
+        "stop" : 1580807480480,
         "duration" : 3
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "action.yml has correct runs.using",
-      "uid" : "b9275a8ec3b4e47f",
+      "name" : "action.yml has valid yaml",
+      "uid" : "c04e1b3fac29eedb",
       "parentUid" : "88a153eb362caa28fe489c6b27bdb53a",
       "status" : "passed",
       "time" : {
-        "start" : 1579557359627,
-        "stop" : 1579557359628,
-        "duration" : 1
+        "start" : 1580807480480,
+        "stop" : 1580807480484,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "action.yml has correct runs.using",
+      "uid" : "1b1b918eb4c00bf2",
+      "parentUid" : "88a153eb362caa28fe489c6b27bdb53a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580807480484,
+        "stop" : 1580807480486,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "action.yml has runs.main and runs.post",
-      "uid" : "36230c2454f3482",
+      "uid" : "80646f7b5aa71948",
       "parentUid" : "88a153eb362caa28fe489c6b27bdb53a",
       "status" : "passed",
       "time" : {
-        "start" : 1579557359628,
-        "stop" : 1579557359629,
+        "start" : 1580807480486,
+        "stop" : 1580807480487,
         "duration" : 1
       },
       "flaky" : false,
@@ -69,12 +69,12 @@
       "parameters" : [ ]
     }, {
       "name" : "runs.main and runs.post files exist",
-      "uid" : "63c516354548d1ab",
+      "uid" : "a120edb67298a0be",
       "parentUid" : "88a153eb362caa28fe489c6b27bdb53a",
       "status" : "passed",
       "time" : {
-        "start" : 1579557359629,
-        "stop" : 1579557359631,
+        "start" : 1580807480487,
+        "stop" : 1580807480489,
         "duration" : 2
       },
       "flaky" : false,
@@ -82,13 +82,13 @@
       "parameters" : [ ]
     }, {
       "name" : "can run runs.main and runs.post end-to-end",
-      "uid" : "ed13fe6719819f98",
+      "uid" : "16c28aeee10283fe",
       "parentUid" : "88a153eb362caa28fe489c6b27bdb53a",
       "status" : "failed",
       "time" : {
-        "start" : 1579557359631,
-        "stop" : 1579557359741,
-        "duration" : 110
+        "start" : 1580807480489,
+        "stop" : 1580807480581,
+        "duration" : 92
       },
       "flaky" : false,
       "newFailed" : false,
@@ -96,85 +96,16 @@
     } ],
     "uid" : "88a153eb362caa28fe489c6b27bdb53a"
   }, {
-    "name" : "utils/clone",
-    "children" : [ {
-      "name" : "works with non-existent branch",
-      "uid" : "9464cd4a7d6ef9dc",
-      "parentUid" : "37c045d3a6106d96434f446f0e273c01",
-      "status" : "failed",
-      "time" : {
-        "start" : 1579557360672,
-        "stop" : 1579557360683,
-        "duration" : 11
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "works with existing branch",
-      "uid" : "bbb641a77ed5db9e",
-      "parentUid" : "37c045d3a6106d96434f446f0e273c01",
-      "status" : "failed",
-      "time" : {
-        "start" : 1579557360684,
-        "stop" : 1579557360689,
-        "duration" : 5
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "clone can be called for non-existent branch",
-      "uid" : "c9ed9e1f52be0661",
-      "parentUid" : "37c045d3a6106d96434f446f0e273c01",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579557364309,
-        "stop" : 1579557364313,
-        "duration" : 4
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "clone is a function",
-      "uid" : "6d550c0909368c5f",
-      "parentUid" : "37c045d3a6106d96434f446f0e273c01",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579557364309,
-        "stop" : 1579557364309,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "clone can be called for existing branch",
-      "uid" : "fe1a8fafdbb8c1b4",
-      "parentUid" : "37c045d3a6106d96434f446f0e273c01",
-      "status" : "failed",
-      "time" : {
-        "start" : 1579557364313,
-        "stop" : 1579557364316,
-        "duration" : 3
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "37c045d3a6106d96434f446f0e273c01"
-  }, {
     "name" : "utils/commitAndPush",
     "children" : [ {
       "name" : "commitAndPush is a function",
-      "uid" : "5416aa518973c813",
+      "uid" : "4d1a083930780ba2",
       "parentUid" : "d9eeff670a73e426157470a090feed7e",
       "status" : "passed",
       "time" : {
-        "start" : 1579557364756,
-        "stop" : 1579557364757,
-        "duration" : 1
+        "start" : 1580807482568,
+        "stop" : 1580807482570,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,
@@ -185,13 +116,13 @@
     "name" : "utils/readInputs",
     "children" : [ {
       "name" : "readInputs is a function",
-      "uid" : "82dd52de599a2b26",
+      "uid" : "2c2c236a4a2cb313",
       "parentUid" : "964808988d55a468f43cd6276d57dd26",
       "status" : "passed",
       "time" : {
-        "start" : 1579557365021,
-        "stop" : 1579557365022,
-        "duration" : 1
+        "start" : 1580807482885,
+        "stop" : 1580807482887,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,

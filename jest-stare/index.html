@@ -88,7 +88,7 @@
                 <canvas id="tests-canvas" width="100" height="100"></canvas>
                 <h2>Tests</h2>
                 <div class="list-group">
-                    <p id="tests-results" class="list-group-item list-group-item-action">11 passed, 15 total</p>
+                    <p id="tests-results" class="list-group-item list-group-item-action">8 passed, 9 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -120,15 +120,15 @@
 }</div>
         <div class="d-none" id="test-results">{
   &quot;numFailedTestSuites&quot;: 3,
-  &quot;numFailedTests&quot;: 4,
+  &quot;numFailedTests&quot;: 1,
   &quot;numPassedTestSuites&quot;: 2,
-  &quot;numPassedTests&quot;: 11,
+  &quot;numPassedTests&quot;: 8,
   &quot;numPendingTestSuites&quot;: 0,
   &quot;numPendingTests&quot;: 0,
-  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 2,
   &quot;numTodoTests&quot;: 0,
   &quot;numTotalTestSuites&quot;: 5,
-  &quot;numTotalTests&quot;: 15,
+  &quot;numTotalTests&quot;: 9,
   &quot;openHandles&quot;: [],
   &quot;snapshot&quot;: {
     &quot;added&quot;: 0,
@@ -146,19 +146,21 @@
     &quot;unmatched&quot;: 0,
     &quot;updated&quot;: 0
   },
-  &quot;startTime&quot;: 1579557356911,
+  &quot;startTime&quot;: 1580807476246,
   &quot;success&quot;: false,
   &quot;testResults&quot;: [
     {
-      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mGitHub Actions Test › can run runs.main and runs.post end-to-end\u001b[39m\u001b[22m\n\n    Exit code: 1\n    stdout &gt; ::debug::Reading inputs\n    stdout &gt; cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir(). branch(test-dummy)\n    stdout &gt; Throwing unrecognized error: cannot pick working directory for non-bare repository that isn&#39;t a &#39;.git&#39; directory\n    stdout &gt; ::error::cannot pick working directory for non-bare repository that isn&#39;t a &#39;.git&#39; directory\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 91 | \u001b[39m      exec\u001b[33m.\u001b[39mon(\u001b[32m&#39;exit&#39;\u001b[39m\u001b[33m,\u001b[39m exitCode \u001b[33m&#x3D;&gt;\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 92 | \u001b[39m        \u001b[36mif\u001b[39m (exitCode \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[35m0\u001b[39m) resolve(messages)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 93 | \u001b[39m        \u001b[36melse\u001b[39m reject(\u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m&#x60;Exit code: ${exitCode}\\n${messages}&#x60;\u001b[39m))\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                    \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 94 | \u001b[39m      })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 95 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 96 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ChildProcess.&lt;anonymous&gt; (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:93:21)\u001b[2m\u001b[22m\n&quot;,
+      &quot;leaks&quot;: false,
       &quot;numFailingTests&quot;: 1,
       &quot;numPassingTests&quot;: 6,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1579557359783,
-        &quot;start&quot;: 1579557356959
+        &quot;end&quot;: 1580807480622,
+        &quot;start&quot;: 1580807476298
       },
+      &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
         &quot;fileDeleted&quot;: false,
@@ -186,7 +188,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 4,
+          &quot;duration&quot;: 3,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test can read action.yml&quot;,
           &quot;location&quot;: null,
@@ -198,7 +200,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 3,
+          &quot;duration&quot;: 4,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test action.yml has valid yaml&quot;,
           &quot;location&quot;: null,
@@ -210,7 +212,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 1,
+          &quot;duration&quot;: 2,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test action.yml has correct runs.using&quot;,
           &quot;location&quot;: null,
@@ -246,9 +248,9 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 110,
+          &quot;duration&quot;: 92,
           &quot;failureMessages&quot;: [
-            &quot;Error: Exit code: 1\nstdout &gt; ::debug::Reading inputs\nstdout &gt; cloning repo(https:&#x2F;&#x2F;github.com&#x2F;undefined) into dir(). branch(test-dummy)\nstdout &gt; Throwing unrecognized error: cannot pick working directory for non-bare repository that isn&#39;t a &#39;.git&#39; directory\nstdout &gt; ::error::cannot pick working directory for non-bare repository that isn&#39;t a &#39;.git&#39; directory\n\n    at ChildProcess.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.github-action.ts:93:21)\n    at ChildProcess.emit (events.js:210:5)\n    at Process.ChildProcess._handle.onexit (internal&#x2F;child_process.js:272:12)&quot;
+            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n\u001b[32m- Expected  -  2\u001b[39m\n\u001b[31m+ Received  + 13\u001b[39m\n\n\u001b[32m- std\u001b[7mout &gt; ::debug::Reading inputs\u001b[27m\u001b[39m\n\u001b[32m- stdout &gt; ::debug::Cloned: undefined\u001b[39m\n\u001b[31m+ std\u001b[7merr &gt; (node:3891) UnhandledPromiseRejectionWarning: TypeError: Cannot read property &#39;setFailed&#39; of undefined\u001b[27m\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:28:1\u001b[39m\n\u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:8:1\u001b[39m\n\u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n\u001b[31m+     at module.exports.985.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:4:1)\u001b[39m\n\u001b[31m+     at run (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:20:1)\u001b[39m\n\u001b[31m+     at Object.985 (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:32:1)\u001b[39m\n\u001b[31m+     at __webpack_require__ (&#x2F;webpack&#x2F;bootstrap:19:1)\u001b[39m\n\u001b[31m+     at startup (&#x2F;webpack&#x2F;bootstrap:34:1)\u001b[39m\n\u001b[31m+     at &#x2F;webpack&#x2F;bootstrap:38:1\u001b[39m\n\u001b[31m+ stderr &gt; (node:3891) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n\u001b[31m+ stderr &gt; (node:3891) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n\u001b[2m  ↵\u001b[22m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.github-action.ts:98:24\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.github-action.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:94:5)&quot;
           ],
           &quot;fullName&quot;: &quot;GitHub Actions Test can run runs.main and runs.post end-to-end&quot;,
           &quot;location&quot;: null,
@@ -257,147 +259,84 @@
           &quot;title&quot;: &quot;can run runs.main and runs.post end-to-end&quot;
         }
       ],
-      &quot;skipped&quot;: false,
-      &quot;leaks&quot;: false
+      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mGitHub Actions Test › can run runs.main and runs.post end-to-end\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    \u001b[32m- Expected  -  2\u001b[39m\n    \u001b[31m+ Received  + 13\u001b[39m\n\n    \u001b[32m- std\u001b[7mout &gt; ::debug::Reading inputs\u001b[27m\u001b[39m\n    \u001b[32m- stdout &gt; ::debug::Cloned: undefined\u001b[39m\n    \u001b[31m+ std\u001b[7merr &gt; (node:3891) UnhandledPromiseRejectionWarning: TypeError: Cannot read property &#39;setFailed&#39; of undefined\u001b[27m\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:28:1\u001b[39m\n    \u001b[31m+     at Generator.next (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:8:1\u001b[39m\n    \u001b[31m+     at new Promise (&lt;anonymous&gt;)\u001b[39m\n    \u001b[31m+     at module.exports.985.__awaiter (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:4:1)\u001b[39m\n    \u001b[31m+     at run (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:20:1)\u001b[39m\n    \u001b[31m+     at Object.985 (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;dist&#x2F;src&#x2F;clone.ts:32:1)\u001b[39m\n    \u001b[31m+     at __webpack_require__ (&#x2F;webpack&#x2F;bootstrap:19:1)\u001b[39m\n    \u001b[31m+     at startup (&#x2F;webpack&#x2F;bootstrap:34:1)\u001b[39m\n    \u001b[31m+     at &#x2F;webpack&#x2F;bootstrap:38:1\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3891) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)\u001b[39m\n    \u001b[31m+ stderr &gt; (node:3891) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\u001b[39m\n    \u001b[2m  ↵\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  96 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  97 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[22m\u001b[2m\u001b[39m\u001b[90m  98 | \u001b[39m    expect(mainOutput)\u001b[33m.\u001b[39mtoBe(\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  99 | \u001b[39m      [\u001b[32m&#39;::debug::Reading inputs&#39;\u001b[39m\u001b[33m,\u001b[39m \u001b[32m&#39;::debug::Cloned: undefined&#39;\u001b[39m]\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 100 | \u001b[39m        \u001b[33m.\u001b[39mmap(l \u001b[33m&#x3D;&gt;\u001b[39m \u001b[32m&#x60;stdout &gt; ${l}${EOL}&#x60;\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 101 | \u001b[39m        \u001b[33m.\u001b[39mjoin(\u001b[32m&#39;&#39;\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:98:24\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[22m\u001b[2m\u001b[22m\n&quot;
     },
     {
-      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › works with non-existent branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\&quot;\u001b[7mflushed ou\u001b[27mt\&quot;\u001b[39m\n    Received: \u001b[31m\&quot;\u001b[7mthis tes\u001b[27mt\&quot;\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 | \u001b[39m    expect(result)\u001b[33m.\u001b[39mtoBe(\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 33 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 34 | \u001b[39m    expect(\u001b[32m&#39;this test&#39;\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[32m&#39;flushed out&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                        \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 35 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 37 | \u001b[39m  test(\u001b[32m&#39;works with existing branch&#39;\u001b[39m\u001b[33m,\u001b[39m async () \u001b[33m&#x3D;&gt;\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:34:25\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › works with existing branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: not \u001b[32mnull\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 40 | \u001b[39m    \u001b[36mconst\u001b[39m result \u001b[33m&#x3D;\u001b[39m await clone({ repoUrl\u001b[33m,\u001b[39m branch\u001b[33m:\u001b[39m \u001b[32m&#39;master&#39;\u001b[39m\u001b[33m,\u001b[39m dir })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 42 | \u001b[39m    expect(result)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 | \u001b[39m    \u001b[36mif\u001b[39m (result \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[36mnull\u001b[39m) \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m&#39;unreachable&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 44 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 45 | \u001b[39m    \u001b[36mconst\u001b[39m head \u001b[33m&#x3D;\u001b[39m await result\u001b[33m.\u001b[39mhead()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:42:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n&quot;,
-      &quot;numFailingTests&quot;: 2,
-      &quot;numPassingTests&quot;: 1,
+      &quot;displayName&quot;: &quot;&quot;,
+      &quot;failureMessage&quot;: &quot;  \u001b[1m● \u001b[22mTest suite failed to run\n\n    TypeScript diagnostics (customize using &#x60;[jest-config].globals.ts-jest.diagnostics&#x60; option):\n    \u001b[96mtests&#x2F;end-to-end.node.ts\u001b[0m:\u001b[93m45\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty &#39;head&#39; does not exist on type &#39;void&#39;.\n\n    \u001b[7m45\u001b[0m     const head &#x3D; await result.head();\n    \u001b[7m  \u001b[0m \u001b[91m                              ~~~~\u001b[0m\n&quot;,
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 0,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1579557360698,
-        &quot;start&quot;: 1579557359808
+        &quot;end&quot;: 0,
+        &quot;start&quot;: 0
       },
+      &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
         &quot;fileDeleted&quot;: false,
         &quot;matched&quot;: 0,
         &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
         &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0,
-        &quot;uncheckedKeys&quot;: []
+        &quot;updated&quot;: 0
+      },
+      &quot;testExecError&quot;: {
+        &quot;diagnosticText&quot;: &quot;\u001b[96mtests&#x2F;end-to-end.node.ts\u001b[0m:\u001b[93m45\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty &#39;head&#39; does not exist on type &#39;void&#39;.\n\n\u001b[7m45\u001b[0m     const head &#x3D; await result.head();\n\u001b[7m  \u001b[0m \u001b[91m                              ~~~~\u001b[0m\n&quot;,
+        &quot;diagnosticCodes&quot;: [
+          2339
+        ]
       },
       &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts&quot;,
-      &quot;testResults&quot;: [
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;utils&#x2F;clone&quot;
-          ],
-          &quot;duration&quot;: 1,
-          &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;utils&#x2F;clone clone is a function&quot;,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;clone is a function&quot;
-        },
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;utils&#x2F;clone&quot;
-          ],
-          &quot;duration&quot;: 11,
-          &quot;failureMessages&quot;: [
-            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: \u001b[32m\&quot;\u001b[7mflushed ou\u001b[27mt\&quot;\u001b[39m\nReceived: \u001b[31m\&quot;\u001b[7mthis tes\u001b[27mt\&quot;\u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:34:25\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
-          ],
-          &quot;fullName&quot;: &quot;utils&#x2F;clone works with non-existent branch&quot;,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;failed&quot;,
-          &quot;title&quot;: &quot;works with non-existent branch&quot;
-        },
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;utils&#x2F;clone&quot;
-          ],
-          &quot;duration&quot;: 5,
-          &quot;failureMessages&quot;: [
-            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: not \u001b[32mnull\u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:42:24\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
-          ],
-          &quot;fullName&quot;: &quot;utils&#x2F;clone works with existing branch&quot;,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;failed&quot;,
-          &quot;title&quot;: &quot;works with existing branch&quot;
-        }
-      ],
-      &quot;skipped&quot;: false,
-      &quot;leaks&quot;: false
+      &quot;testResults&quot;: []
     },
     {
-      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mutils&#x2F;clone › clone can be called for existing branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: not \u001b[32mnull\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 38 | \u001b[39m    \u001b[36mconst\u001b[39m result \u001b[33m&#x3D;\u001b[39m await clone({ repoUrl\u001b[33m,\u001b[39m branch\u001b[33m:\u001b[39m \u001b[32m&#39;master&#39;\u001b[39m\u001b[33m,\u001b[39m dir })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[2m\u001b[39m\u001b[90m 40 | \u001b[39m    expect(result)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 | \u001b[39m    \u001b[36mif\u001b[39m (result \u001b[33m&#x3D;&#x3D;&#x3D;\u001b[39m \u001b[36mnull\u001b[39m) \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m&#39;unreachable&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 | \u001b[39m    \u001b[36mconst\u001b[39m head \u001b[33m&#x3D;\u001b[39m await result\u001b[33m.\u001b[39mhead()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests&#x2F;utils.clone.ts\u001b[39m\u001b[0m\u001b[2m:40:24\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2m\u001b[0m\u001b[36mtests&#x2F;utils.clone.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[2m\u001b[22m\n&quot;,
-      &quot;numFailingTests&quot;: 1,
-      &quot;numPassingTests&quot;: 2,
+      &quot;displayName&quot;: &quot;&quot;,
+      &quot;failureMessage&quot;: &quot;  \u001b[1m● \u001b[22mTest suite failed to run\n\n    TypeScript diagnostics (customize using &#x60;[jest-config].globals.ts-jest.diagnostics&#x60; option):\n    \u001b[96mtests&#x2F;utils.clone.ts\u001b[0m:\u001b[93m43\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty &#39;head&#39; does not exist on type &#39;void&#39;.\n\n    \u001b[7m43\u001b[0m     const head &#x3D; await result.head();\n    \u001b[7m  \u001b[0m \u001b[91m                              ~~~~\u001b[0m\n&quot;,
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 0,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1579557364320,
-        &quot;start&quot;: 1579557360741
+        &quot;end&quot;: 0,
+        &quot;start&quot;: 0
       },
+      &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
         &quot;fileDeleted&quot;: false,
         &quot;matched&quot;: 0,
         &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
         &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0,
-        &quot;uncheckedKeys&quot;: []
+        &quot;updated&quot;: 0
+      },
+      &quot;testExecError&quot;: {
+        &quot;diagnosticText&quot;: &quot;\u001b[96mtests&#x2F;utils.clone.ts\u001b[0m:\u001b[93m43\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty &#39;head&#39; does not exist on type &#39;void&#39;.\n\n\u001b[7m43\u001b[0m     const head &#x3D; await result.head();\n\u001b[7m  \u001b[0m \u001b[91m                              ~~~~\u001b[0m\n&quot;,
+        &quot;diagnosticCodes&quot;: [
+          2339
+        ]
       },
       &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;utils.clone.ts&quot;,
-      &quot;testResults&quot;: [
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;utils&#x2F;clone&quot;
-          ],
-          &quot;duration&quot;: 0,
-          &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;utils&#x2F;clone clone is a function&quot;,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;clone is a function&quot;
-        },
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;utils&#x2F;clone&quot;
-          ],
-          &quot;duration&quot;: 4,
-          &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called for non-existent branch&quot;,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;clone can be called for non-existent branch&quot;
-        },
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;utils&#x2F;clone&quot;
-          ],
-          &quot;duration&quot;: 3,
-          &quot;failureMessages&quot;: [
-            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: not \u001b[32mnull\u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;utils.clone.ts:40:24\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;utils.clone.ts:5:58)\n    at processTicksAndRejections (internal&#x2F;process&#x2F;task_queues.js:93:5)&quot;
-          ],
-          &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called for existing branch&quot;,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;failed&quot;,
-          &quot;title&quot;: &quot;clone can be called for existing branch&quot;
-        }
-      ],
-      &quot;skipped&quot;: false,
-      &quot;leaks&quot;: false
+      &quot;testResults&quot;: []
     },
     {
-      &quot;failureMessage&quot;: null,
+      &quot;leaks&quot;: false,
       &quot;numFailingTests&quot;: 0,
       &quot;numPassingTests&quot;: 1,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1579557364758,
-        &quot;start&quot;: 1579557364342
+        &quot;end&quot;: 1580807482575,
+        &quot;start&quot;: 1580807481721
       },
+      &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
         &quot;fileDeleted&quot;: false,
@@ -413,7 +352,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;commitAndPush&quot;
           ],
-          &quot;duration&quot;: 1,
+          &quot;duration&quot;: 2,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;utils&#x2F;commitAndPush commitAndPush is a function&quot;,
           &quot;location&quot;: null,
@@ -422,19 +361,20 @@
           &quot;title&quot;: &quot;commitAndPush is a function&quot;
         }
       ],
-      &quot;skipped&quot;: false,
-      &quot;leaks&quot;: false
+      &quot;failureMessage&quot;: null
     },
     {
-      &quot;failureMessage&quot;: null,
+      &quot;leaks&quot;: false,
       &quot;numFailingTests&quot;: 0,
       &quot;numPassingTests&quot;: 1,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1579557365024,
-        &quot;start&quot;: 1579557364793
+        &quot;end&quot;: 1580807482891,
+        &quot;start&quot;: 1580807482598
       },
+      &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
         &quot;added&quot;: 0,
         &quot;fileDeleted&quot;: false,
@@ -450,7 +390,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;readInputs&quot;
           ],
-          &quot;duration&quot;: 1,
+          &quot;duration&quot;: 2,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;utils&#x2F;readInputs readInputs is a function&quot;,
           &quot;location&quot;: null,
@@ -459,535 +399,11 @@
           &quot;title&quot;: &quot;readInputs is a function&quot;
         }
       ],
-      &quot;skipped&quot;: false,
-      &quot;leaks&quot;: false
+      &quot;failureMessage&quot;: null
     }
   ],
   &quot;wasInterrupted&quot;: false,
   &quot;coverageMap&quot;: {
-    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;clone.ts&quot;: {
-      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;clone.ts&quot;,
-      &quot;statementMap&quot;: {
-        &quot;0&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 1,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 1,
-            &quot;column&quot;: 58
-          }
-        },
-        &quot;1&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 2,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 2,
-            &quot;column&quot;: 38
-          }
-        },
-        &quot;2&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 17,
-            &quot;column&quot;: 14
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 17,
-            &quot;column&quot;: 33
-          }
-        },
-        &quot;3&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 19,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 19,
-            &quot;column&quot;: 70
-          }
-        },
-        &quot;4&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 23,
-            &quot;column&quot;: 18
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 23,
-            &quot;column&quot;: 36
-          }
-        },
-        &quot;5&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 25,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 25,
-            &quot;column&quot;: 34
-          }
-        },
-        &quot;6&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 27,
-            &quot;column&quot;: 18
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 27,
-            &quot;column&quot;: 52
-          }
-        },
-        &quot;7&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 29,
-            &quot;column&quot;: 24
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 38,
-            &quot;column&quot;: 4
-          }
-        },
-        &quot;8&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 30,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 33,
-            &quot;column&quot;: null
-          }
-        },
-        &quot;9&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 31,
-            &quot;column&quot;: 6
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 31,
-            &quot;column&quot;: 56
-          }
-        },
-        &quot;10&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 32,
-            &quot;column&quot;: 6
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 32,
-            &quot;column&quot;: 14
-          }
-        },
-        &quot;11&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 35,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 35,
-            &quot;column&quot;: 28
-          }
-        },
-        &quot;12&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 37,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 37,
-            &quot;column&quot;: 16
-          }
-        },
-        &quot;13&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 40,
-            &quot;column&quot;: 21
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 40,
-            &quot;column&quot;: 40
-          }
-        },
-        &quot;14&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 42,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 42,
-            &quot;column&quot;: 28
-          }
-        },
-        &quot;15&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 44,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 44,
-            &quot;column&quot;: 20
-          }
-        },
-        &quot;16&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 0
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 22
-          }
-        }
-      },
-      &quot;fnMap&quot;: {
-        &quot;0&quot;: {
-          &quot;name&quot;: &quot;clone&quot;,
-          &quot;decl&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 11,
-              &quot;column&quot;: 22
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 11,
-              &quot;column&quot;: 27
-            }
-          },
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 16,
-              &quot;column&quot;: 10
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 45,
-              &quot;column&quot;: null
-            }
-          }
-        },
-        &quot;1&quot;: {
-          &quot;name&quot;: &quot;(anonymous_10)&quot;,
-          &quot;decl&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 29,
-              &quot;column&quot;: 38
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 29,
-              &quot;column&quot;: 39
-            }
-          },
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 29,
-              &quot;column&quot;: 42
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 38,
-              &quot;column&quot;: 3
-            }
-          }
-        }
-      },
-      &quot;branchMap&quot;: {
-        &quot;0&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 17,
-              &quot;column&quot;: 14
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 17,
-              &quot;column&quot;: 19
-            }
-          },
-          &quot;type&quot;: &quot;cond-expr&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 14
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 19
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 23
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 33
-              }
-            }
-          ]
-        },
-        &quot;1&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 17,
-              &quot;column&quot;: 14
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 17,
-              &quot;column&quot;: 23
-            }
-          },
-          &quot;type&quot;: &quot;binary-expr&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 14
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 23
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 14
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 17,
-                &quot;column&quot;: 23
-              }
-            }
-          ]
-        },
-        &quot;2&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 30,
-              &quot;column&quot;: 4
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 33,
-              &quot;column&quot;: null
-            }
-          },
-          &quot;type&quot;: &quot;if&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 4
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 33,
-                &quot;column&quot;: null
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 4
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 33,
-                &quot;column&quot;: null
-              }
-            }
-          ]
-        },
-        &quot;3&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 30,
-              &quot;column&quot;: 9
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 30,
-              &quot;column&quot;: 11
-            }
-          },
-          &quot;type&quot;: &quot;cond-expr&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 9
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 11
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 9
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 18
-              }
-            }
-          ]
-        },
-        &quot;4&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 30,
-              &quot;column&quot;: 8
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 30,
-              &quot;column&quot;: 11
-            }
-          },
-          &quot;type&quot;: &quot;binary-expr&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 8
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 11
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 9
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 30,
-                &quot;column&quot;: 11
-              }
-            }
-          ]
-        },
-        &quot;5&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 31,
-              &quot;column&quot;: 43
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 31,
-              &quot;column&quot;: 45
-            }
-          },
-          &quot;type&quot;: &quot;cond-expr&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 31,
-                &quot;column&quot;: 43
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 31,
-                &quot;column&quot;: 45
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 31,
-                &quot;column&quot;: 43
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 31,
-                &quot;column&quot;: 52
-              }
-            }
-          ]
-        },
-        &quot;6&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 31,
-              &quot;column&quot;: 42
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 31,
-              &quot;column&quot;: 45
-            }
-          },
-          &quot;type&quot;: &quot;binary-expr&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 31,
-                &quot;column&quot;: 42
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 31,
-                &quot;column&quot;: 45
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 31,
-                &quot;column&quot;: 43
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 31,
-                &quot;column&quot;: 45
-              }
-            }
-          ]
-        }
-      },
-      &quot;s&quot;: {
-        &quot;0&quot;: 2,
-        &quot;1&quot;: 2,
-        &quot;2&quot;: 4,
-        &quot;3&quot;: 4,
-        &quot;4&quot;: 4,
-        &quot;5&quot;: 4,
-        &quot;6&quot;: 4,
-        &quot;7&quot;: 4,
-        &quot;8&quot;: 4,
-        &quot;9&quot;: 0,
-        &quot;10&quot;: 0,
-        &quot;11&quot;: 4,
-        &quot;12&quot;: 4,
-        &quot;13&quot;: 4,
-        &quot;14&quot;: 4,
-        &quot;15&quot;: 4,
-        &quot;16&quot;: 2
-      },
-      &quot;f&quot;: {
-        &quot;0&quot;: 4,
-        &quot;1&quot;: 4
-      },
-      &quot;b&quot;: {
-        &quot;0&quot;: [
-          0,
-          4
-        ],
-        &quot;1&quot;: [
-          4,
-          4
-        ],
-        &quot;2&quot;: [
-          0,
-          4
-        ],
-        &quot;3&quot;: [
-          0,
-          4
-        ],
-        &quot;4&quot;: [
-          4,
-          4
-        ],
-        &quot;5&quot;: [
-          0,
-          0
-        ],
-        &quot;6&quot;: [
-          0,
-          0
-        ]
-      }
-    },
     &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;commitAndPush.ts&quot;: {
       &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;commitAndPush.ts&quot;,
       &quot;statementMap&quot;: {
@@ -998,7 +414,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 1,
-            &quot;column&quot;: 30
+            &quot;column&quot;: 33
           }
         },
         &quot;1&quot;: {
@@ -1008,27 +424,27 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 2,
-            &quot;column&quot;: 38
+            &quot;column&quot;: 32
           }
         },
         &quot;2&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 30,
-            &quot;column&quot;: 2
+            &quot;column&quot;: 14
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 32,
-            &quot;column&quot;: null
+            &quot;line&quot;: 30,
+            &quot;column&quot;: 33
           }
         },
         &quot;3&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 31,
-            &quot;column&quot;: 4
+            &quot;line&quot;: 32,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 31,
-            &quot;column&quot;: 23
+            &quot;line&quot;: 32,
+            &quot;column&quot;: 26
           }
         },
         &quot;4&quot;: {
@@ -1038,250 +454,50 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 34,
-            &quot;column&quot;: 21
+            &quot;column&quot;: 47
           }
         },
         &quot;5&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 35,
-            &quot;column&quot;: 21
+            &quot;line&quot;: 36,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 35,
-            &quot;column&quot;: 65
+            &quot;line&quot;: 36,
+            &quot;column&quot;: 20
           }
         },
         &quot;6&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 38,
-            &quot;column&quot;: 17
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 38,
-            &quot;column&quot;: 51
+            &quot;line&quot;: 46,
+            &quot;column&quot;: 4
           }
         },
         &quot;7&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 40,
+            &quot;line&quot;: 48,
             &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 40,
-            &quot;column&quot;: 40
+            &quot;line&quot;: 48,
+            &quot;column&quot;: 17
           }
         },
         &quot;8&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 42,
-            &quot;column&quot;: 20
+            &quot;line&quot;: 50,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 42,
-            &quot;column&quot;: 26
+            &quot;line&quot;: 50,
+            &quot;column&quot;: 61
           }
         },
         &quot;9&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 44,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 44,
-            &quot;column&quot;: 46
-          }
-        },
-        &quot;10&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 46,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 46,
-            &quot;column&quot;: 25
-          }
-        },
-        &quot;11&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 47,
-            &quot;column&quot;: 16
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 47,
-            &quot;column&quot;: 47
-          }
-        },
-        &quot;12&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 49,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 49,
-            &quot;column&quot;: 25
-          }
-        },
-        &quot;13&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 51,
-            &quot;column&quot;: 21
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 51,
-            &quot;column&quot;: 26
-          }
-        },
-        &quot;14&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 53,
-            &quot;column&quot;: 22
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 59,
-            &quot;column&quot;: null
-          }
-        },
-        &quot;15&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 57,
-            &quot;column&quot;: 6
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 57,
-            &quot;column&quot;: 57
-          }
-        },
-        &quot;16&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 58,
-            &quot;column&quot;: 6
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 58,
-            &quot;column&quot;: 15
-          }
-        },
-        &quot;17&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 64,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 64,
-            &quot;column&quot;: 44
-          }
-        },
-        &quot;18&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 66,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 66,
-            &quot;column&quot;: 23
-          }
-        },
-        &quot;19&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 67,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 67,
-            &quot;column&quot;: 16
-          }
-        },
-        &quot;20&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 69,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 69,
-            &quot;column&quot;: 28
-          }
-        },
-        &quot;21&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 70,
-            &quot;column&quot;: 15
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 70,
-            &quot;column&quot;: 38
-          }
-        },
-        &quot;22&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 72,
-            &quot;column&quot;: 24
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 72,
-            &quot;column&quot;: 58
-          }
-        },
-        &quot;23&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 74,
-            &quot;column&quot;: 18
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 74,
-            &quot;column&quot;: 42
-          }
-        },
-        &quot;24&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 76,
-            &quot;column&quot;: 17
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 82,
-            &quot;column&quot;: null
-          }
-        },
-        &quot;25&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 85,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 85,
-            &quot;column&quot;: 62
-          }
-        },
-        &quot;26&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 87,
-            &quot;column&quot;: 17
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 87,
-            &quot;column&quot;: 53
-          }
-        },
-        &quot;27&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 89,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 89,
-            &quot;column&quot;: 30
-          }
-        },
-        &quot;28&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 91,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 91,
-            &quot;column&quot;: 16
-          }
-        },
-        &quot;29&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 22,
             &quot;column&quot;: 0
@@ -1311,31 +527,8 @@
               &quot;column&quot;: 10
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 92,
+              &quot;line&quot;: 51,
               &quot;column&quot;: null
-            }
-          }
-        },
-        &quot;1&quot;: {
-          &quot;name&quot;: &quot;(anonymous_11)&quot;,
-          &quot;decl&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 56,
-              &quot;column&quot;: 4
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 56,
-              &quot;column&quot;: 5
-            }
-          },
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 56,
-              &quot;column&quot;: 43
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 59,
-              &quot;column&quot;: 5
             }
           }
         }
@@ -1345,33 +538,68 @@
           &quot;loc&quot;: {
             &quot;start&quot;: {
               &quot;line&quot;: 30,
-              &quot;column&quot;: 2
+              &quot;column&quot;: 14
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 32,
-              &quot;column&quot;: null
+              &quot;line&quot;: 30,
+              &quot;column&quot;: 19
             }
           },
-          &quot;type&quot;: &quot;if&quot;,
+          &quot;type&quot;: &quot;cond-expr&quot;,
           &quot;locations&quot;: [
             {
               &quot;start&quot;: {
                 &quot;line&quot;: 30,
-                &quot;column&quot;: 2
+                &quot;column&quot;: 14
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 32,
-                &quot;column&quot;: null
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 19
               }
             },
             {
               &quot;start&quot;: {
                 &quot;line&quot;: 30,
-                &quot;column&quot;: 2
+                &quot;column&quot;: 23
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 32,
-                &quot;column&quot;: null
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 33
+              }
+            }
+          ]
+        },
+        &quot;1&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 30,
+              &quot;column&quot;: 14
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 30,
+              &quot;column&quot;: 23
+            }
+          },
+          &quot;type&quot;: &quot;binary-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 14
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 23
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 14
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 30,
+                &quot;column&quot;: 23
               }
             }
           ]
@@ -1387,34 +615,571 @@
         &quot;6&quot;: 0,
         &quot;7&quot;: 0,
         &quot;8&quot;: 0,
+        &quot;9&quot;: 1
+      },
+      &quot;f&quot;: {
+        &quot;0&quot;: 0
+      },
+      &quot;b&quot;: {
+        &quot;0&quot;: [
+          0,
+          0
+        ],
+        &quot;1&quot;: [
+          0,
+          0
+        ]
+      }
+    },
+    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;spawn.ts&quot;: {
+      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;spawn.ts&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 1,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 1,
+            &quot;column&quot;: null
+          }
+        },
+        &quot;1&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 33
+          }
+        },
+        &quot;2&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 10,
+            &quot;column&quot;: 21
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 10,
+            &quot;column&quot;: 32
+          }
+        },
+        &quot;3&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 77,
+            &quot;column&quot;: 32
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 77,
+            &quot;column&quot;: 52
+          }
+        },
+        &quot;4&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 80,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 85,
+            &quot;column&quot;: null
+          }
+        },
+        &quot;5&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 88,
+            &quot;column&quot;: 14
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 96,
+            &quot;column&quot;: 30
+          }
+        },
+        &quot;6&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 89,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 95,
+            &quot;column&quot;: 7
+          }
+        },
+        &quot;7&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 90,
+            &quot;column&quot;: 6
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 94,
+            &quot;column&quot;: null
+          }
+        },
+        &quot;8&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 91,
+            &quot;column&quot;: 8
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 91,
+            &quot;column&quot;: 52
+          }
+        },
+        &quot;9&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 93,
+            &quot;column&quot;: 8
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 93,
+            &quot;column&quot;: 18
+          }
+        },
+        &quot;10&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 98,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 98,
+            &quot;column&quot;: 19
+          }
+        },
+        &quot;11&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 100,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 100,
+            &quot;column&quot;: 13
+          }
+        },
+        &quot;12&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 71,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 71,
+            &quot;column&quot;: 16
+          }
+        },
+        &quot;13&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 103,
+            &quot;column&quot;: 14
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 103,
+            &quot;column&quot;: 33
+          }
+        },
+        &quot;14&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 124,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 126,
+            &quot;column&quot;: null
+          }
+        },
+        &quot;15&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 125,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 125,
+            &quot;column&quot;: 26
+          }
+        },
+        &quot;16&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 128,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 128,
+            &quot;column&quot;: 43
+          }
+        },
+        &quot;17&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 128,
+            &quot;column&quot;: 22
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 128,
+            &quot;column&quot;: 43
+          }
+        },
+        &quot;18&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 130,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 130,
+            &quot;column&quot;: 35
+          }
+        },
+        &quot;19&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 117,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 117,
+            &quot;column&quot;: 16
+          }
+        }
+      },
+      &quot;fnMap&quot;: {
+        &quot;0&quot;: {
+          &quot;name&quot;: &quot;spawn&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 71,
+              &quot;column&quot;: 16
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 71,
+              &quot;column&quot;: 21
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 74,
+              &quot;column&quot;: 19
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 101,
+              &quot;column&quot;: 1
+            }
+          }
+        },
+        &quot;1&quot;: {
+          &quot;name&quot;: &quot;(anonymous_1)&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 88,
+              &quot;column&quot;: 26
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 88,
+              &quot;column&quot;: 27
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 88,
+              &quot;column&quot;: 46
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 96,
+              &quot;column&quot;: 3
+            }
+          }
+        },
+        &quot;2&quot;: {
+          &quot;name&quot;: &quot;(anonymous_2)&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 89,
+              &quot;column&quot;: 20
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 89,
+              &quot;column&quot;: 28
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 89,
+              &quot;column&quot;: 31
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 95,
+              &quot;column&quot;: 5
+            }
+          }
+        },
+        &quot;3&quot;: {
+          &quot;name&quot;: &quot;exec&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 117,
+              &quot;column&quot;: 16
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 117,
+              &quot;column&quot;: 20
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 119,
+              &quot;column&quot;: 36
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 131,
+              &quot;column&quot;: 1
+            }
+          }
+        }
+      },
+      &quot;branchMap&quot;: {
+        &quot;0&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 81,
+              &quot;column&quot;: 8
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 81,
+              &quot;column&quot;: 53
+            }
+          },
+          &quot;type&quot;: &quot;cond-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 81,
+                &quot;column&quot;: 8
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 81,
+                &quot;column&quot;: 53
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 82,
+                &quot;column&quot;: 8
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 85,
+                &quot;column&quot;: null
+              }
+            }
+          ]
+        },
+        &quot;1&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 85,
+              &quot;column&quot;: 26
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 85,
+              &quot;column&quot;: 63
+            }
+          },
+          &quot;type&quot;: &quot;cond-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 85,
+                &quot;column&quot;: 26
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 85,
+                &quot;column&quot;: 63
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 85,
+                &quot;column&quot;: 65
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 85,
+                &quot;column&quot;: 70
+              }
+            }
+          ]
+        },
+        &quot;2&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 90,
+              &quot;column&quot;: 6
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 94,
+              &quot;column&quot;: null
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 90,
+                &quot;column&quot;: 6
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 94,
+                &quot;column&quot;: null
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 90,
+                &quot;column&quot;: 6
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 94,
+                &quot;column&quot;: null
+              }
+            }
+          ]
+        },
+        &quot;3&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 119,
+              &quot;column&quot;: 32
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 119,
+              &quot;column&quot;: 36
+            }
+          },
+          &quot;type&quot;: &quot;default-arg&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 119,
+                &quot;column&quot;: 32
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 119,
+                &quot;column&quot;: 36
+              }
+            }
+          ]
+        },
+        &quot;4&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 124,
+              &quot;column&quot;: 2
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 126,
+              &quot;column&quot;: null
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 124,
+                &quot;column&quot;: 2
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 126,
+                &quot;column&quot;: null
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 124,
+                &quot;column&quot;: 2
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 126,
+                &quot;column&quot;: null
+              }
+            }
+          ]
+        },
+        &quot;5&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 128,
+              &quot;column&quot;: 2
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 128,
+              &quot;column&quot;: 43
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 128,
+                &quot;column&quot;: 2
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 128,
+                &quot;column&quot;: 43
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 128,
+                &quot;column&quot;: 2
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 128,
+                &quot;column&quot;: 43
+              }
+            }
+          ]
+        }
+      },
+      &quot;s&quot;: {
+        &quot;0&quot;: 1,
+        &quot;1&quot;: 1,
+        &quot;2&quot;: 1,
+        &quot;3&quot;: 0,
+        &quot;4&quot;: 0,
+        &quot;5&quot;: 0,
+        &quot;6&quot;: 0,
+        &quot;7&quot;: 0,
+        &quot;8&quot;: 0,
         &quot;9&quot;: 0,
         &quot;10&quot;: 0,
         &quot;11&quot;: 0,
-        &quot;12&quot;: 0,
-        &quot;13&quot;: 0,
+        &quot;12&quot;: 1,
+        &quot;13&quot;: 1,
         &quot;14&quot;: 0,
         &quot;15&quot;: 0,
         &quot;16&quot;: 0,
         &quot;17&quot;: 0,
         &quot;18&quot;: 0,
-        &quot;19&quot;: 0,
-        &quot;20&quot;: 0,
-        &quot;21&quot;: 0,
-        &quot;22&quot;: 0,
-        &quot;23&quot;: 0,
-        &quot;24&quot;: 0,
-        &quot;25&quot;: 0,
-        &quot;26&quot;: 0,
-        &quot;27&quot;: 0,
-        &quot;28&quot;: 0,
-        &quot;29&quot;: 1
+        &quot;19&quot;: 1
       },
       &quot;f&quot;: {
         &quot;0&quot;: 0,
-        &quot;1&quot;: 0
+        &quot;1&quot;: 0,
+        &quot;2&quot;: 0,
+        &quot;3&quot;: 0
       },
       &quot;b&quot;: {
         &quot;0&quot;: [
+          0,
+          0
+        ],
+        &quot;1&quot;: [
+          0,
+          0
+        ],
+        &quot;2&quot;: [
+          0,
+          0
+        ],
+        &quot;3&quot;: [
+          0
+        ],
+        &quot;4&quot;: [
+          0,
+          0
+        ],
+        &quot;5&quot;: [
           0,
           0
         ]
@@ -1430,7 +1195,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 1,
-            &quot;column&quot;: 38
+            &quot;column&quot;: 33
           }
         },
         &quot;1&quot;: {
@@ -1460,7 +1225,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 20,
-            &quot;column&quot;: 57
+            &quot;column&quot;: 100
           }
         },
         &quot;4&quot;: {
@@ -1600,7 +1365,7 @@
               },
               &quot;end&quot;: {
                 &quot;line&quot;: 20,
-                &quot;column&quot;: 57
+                &quot;column&quot;: 100
               }
             }
           ]
@@ -1640,7 +1405,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 2,
-            &quot;column&quot;: 38
+            &quot;column&quot;: 33
           }
         },
         &quot;1&quot;: {
@@ -1696,11 +1461,11 @@
         &quot;6&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 12,
-            &quot;column&quot;: 16
+            &quot;column&quot;: 4
           },
           &quot;end&quot;: {
             &quot;line&quot;: 12,
-            &quot;column&quot;: 60
+            &quot;column&quot;: 49
           }
         },
         &quot;7&quot;: {
@@ -1710,7 +1475,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 14,
-            &quot;column&quot;: 45
+            &quot;column&quot;: 25
           }
         },
         &quot;8&quot;: {
@@ -1759,38 +1524,281 @@
           }
         }
       },
+      &quot;branchMap&quot;: {},
+      &quot;s&quot;: {
+        &quot;0&quot;: 0,
+        &quot;1&quot;: 0,
+        &quot;2&quot;: 0,
+        &quot;3&quot;: 0,
+        &quot;4&quot;: 0,
+        &quot;5&quot;: 0,
+        &quot;6&quot;: 0,
+        &quot;7&quot;: 0,
+        &quot;8&quot;: 0,
+        &quot;9&quot;: 0
+      },
+      &quot;f&quot;: {
+        &quot;0&quot;: 0
+      },
+      &quot;b&quot;: {}
+    },
+    &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;clone.ts&quot;: {
+      &quot;path&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;src&#x2F;utils&#x2F;clone.ts&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 1,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 1,
+            &quot;column&quot;: 33
+          }
+        },
+        &quot;1&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 32
+          }
+        },
+        &quot;2&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 3,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 3,
+            &quot;column&quot;: 30
+          }
+        },
+        &quot;3&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 5,
+            &quot;column&quot;: 18
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 5,
+            &quot;column&quot;: 26
+          }
+        },
+        &quot;4&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 20,
+            &quot;column&quot;: 14
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 20,
+            &quot;column&quot;: 33
+          }
+        },
+        &quot;5&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 22,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 22,
+            &quot;column&quot;: 39
+          }
+        },
+        &quot;6&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 24,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 40,
+            &quot;column&quot;: 5
+          }
+        },
+        &quot;7&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 33,
+            &quot;column&quot;: 21
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 40,
+            &quot;column&quot;: 4
+          }
+        },
+        &quot;8&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 34,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 34,
+            &quot;column&quot;: 56
+          }
+        },
+        &quot;9&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 36,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 36,
+            &quot;column&quot;: 42
+          }
+        },
+        &quot;10&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 37,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 37,
+            &quot;column&quot;: 45
+          }
+        },
+        &quot;11&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 38,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 38,
+            &quot;column&quot;: 73
+          }
+        },
+        &quot;12&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 39,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 39,
+            &quot;column&quot;: 69
+          }
+        },
+        &quot;13&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 42,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 42,
+            &quot;column&quot;: 28
+          }
+        },
+        &quot;14&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 14,
+            &quot;column&quot;: 0
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 14,
+            &quot;column&quot;: 22
+          }
+        }
+      },
+      &quot;fnMap&quot;: {
+        &quot;0&quot;: {
+          &quot;name&quot;: &quot;clone&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 14,
+              &quot;column&quot;: 22
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 14,
+              &quot;column&quot;: 27
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 19,
+              &quot;column&quot;: 10
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 43,
+              &quot;column&quot;: null
+            }
+          }
+        },
+        &quot;1&quot;: {
+          &quot;name&quot;: &quot;(anonymous_10)&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 33,
+              &quot;column&quot;: 10
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 33,
+              &quot;column&quot;: 19
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 33,
+              &quot;column&quot;: 21
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 40,
+              &quot;column&quot;: 4
+            }
+          }
+        },
+        &quot;2&quot;: {
+          &quot;name&quot;: &quot;(anonymous_11)&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 33,
+              &quot;column&quot;: 21
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 33,
+              &quot;column&quot;: null
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 33,
+              &quot;column&quot;: 21
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 40,
+              &quot;column&quot;: 3
+            }
+          }
+        }
+      },
       &quot;branchMap&quot;: {
         &quot;0&quot;: {
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 14,
-              &quot;column&quot;: 29
+              &quot;line&quot;: 20,
+              &quot;column&quot;: 14
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 14,
-              &quot;column&quot;: 31
+              &quot;line&quot;: 20,
+              &quot;column&quot;: 19
             }
           },
           &quot;type&quot;: &quot;cond-expr&quot;,
           &quot;locations&quot;: [
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 29
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 14
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 31
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 19
               }
             },
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 29
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 23
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 41
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 33
               }
             }
           ]
@@ -1798,34 +1806,34 @@
         &quot;1&quot;: {
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 14,
-              &quot;column&quot;: 26
+              &quot;line&quot;: 20,
+              &quot;column&quot;: 14
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 14,
-              &quot;column&quot;: 31
+              &quot;line&quot;: 20,
+              &quot;column&quot;: 23
             }
           },
           &quot;type&quot;: &quot;binary-expr&quot;,
           &quot;locations&quot;: [
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 26
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 14
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 31
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 23
               }
             },
             {
               &quot;start&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 29
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 14
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 31
+                &quot;line&quot;: 20,
+                &quot;column&quot;: 23
               }
             }
           ]
@@ -1841,10 +1849,17 @@
         &quot;6&quot;: 0,
         &quot;7&quot;: 0,
         &quot;8&quot;: 0,
-        &quot;9&quot;: 0
+        &quot;9&quot;: 0,
+        &quot;10&quot;: 0,
+        &quot;11&quot;: 0,
+        &quot;12&quot;: 0,
+        &quot;13&quot;: 0,
+        &quot;14&quot;: 0
       },
       &quot;f&quot;: {
-        &quot;0&quot;: 0
+        &quot;0&quot;: 0,
+        &quot;1&quot;: 0,
+        &quot;2&quot;: 0
       },
       &quot;b&quot;: {
         &quot;0&quot;: [
@@ -1862,62 +1877,72 @@
       &quot;statementMap&quot;: {
         &quot;0&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 2,
+            &quot;line&quot;: 3,
             &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 8,
-            &quot;column&quot;: 5
+            &quot;line&quot;: 3,
+            &quot;column&quot;: 71
           }
         },
         &quot;1&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 3,
-            &quot;column&quot;: 4
+            &quot;column&quot;: 27
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 5,
-            &quot;column&quot;: null
+            &quot;line&quot;: 3,
+            &quot;column&quot;: 71
           }
         },
         &quot;2&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 6
+            &quot;line&quot;: 5,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 51
+            &quot;line&quot;: 5,
+            &quot;column&quot;: 74
           }
         },
         &quot;3&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 7,
-            &quot;column&quot;: 4
+            &quot;line&quot;: 5,
+            &quot;column&quot;: 24
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 7,
-            &quot;column&quot;: 53
+            &quot;line&quot;: 5,
+            &quot;column&quot;: 74
           }
         },
         &quot;4&quot;: {
           &quot;start&quot;: {
             &quot;line&quot;: 7,
-            &quot;column&quot;: 21
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
             &quot;line&quot;: 7,
-            &quot;column&quot;: 37
+            &quot;column&quot;: 67
           }
         },
         &quot;5&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 1,
+            &quot;line&quot;: 7,
+            &quot;column&quot;: 32
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 7,
+            &quot;column&quot;: 65
+          }
+        },
+        &quot;6&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 2,
             &quot;column&quot;: 0
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 1,
-            &quot;column&quot;: 22
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 16
           }
         }
       },
@@ -1926,68 +1951,45 @@
           &quot;name&quot;: &quot;wait&quot;,
           &quot;decl&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 1,
-              &quot;column&quot;: 22
+              &quot;line&quot;: 2,
+              &quot;column&quot;: 16
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 1,
-              &quot;column&quot;: 26
+              &quot;line&quot;: 2,
+              &quot;column&quot;: 20
             }
           },
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 1,
-              &quot;column&quot;: 47
+              &quot;line&quot;: 2,
+              &quot;column&quot;: 41
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 9,
-              &quot;column&quot;: null
+              &quot;line&quot;: 8,
+              &quot;column&quot;: 1
             }
           }
         },
         &quot;1&quot;: {
-          &quot;name&quot;: &quot;(anonymous_9)&quot;,
+          &quot;name&quot;: &quot;(anonymous_1)&quot;,
           &quot;decl&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 2,
+              &quot;line&quot;: 7,
               &quot;column&quot;: 21
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 2,
+              &quot;line&quot;: 7,
               &quot;column&quot;: 28
             }
           },
           &quot;loc&quot;: {
             &quot;start&quot;: {
-              &quot;line&quot;: 2,
-              &quot;column&quot;: 31
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 8,
-              &quot;column&quot;: 3
-            }
-          }
-        },
-        &quot;2&quot;: {
-          &quot;name&quot;: &quot;(anonymous_10)&quot;,
-          &quot;decl&quot;: {
-            &quot;start&quot;: {
               &quot;line&quot;: 7,
-              &quot;column&quot;: 15
+              &quot;column&quot;: 32
             },
             &quot;end&quot;: {
               &quot;line&quot;: 7,
-              &quot;column&quot;: 18
-            }
-          },
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 7,
-              &quot;column&quot;: 21
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 7,
-              &quot;column&quot;: 37
+              &quot;column&quot;: 65
             }
           }
         }
@@ -1997,11 +1999,11 @@
           &quot;loc&quot;: {
             &quot;start&quot;: {
               &quot;line&quot;: 3,
-              &quot;column&quot;: 4
+              &quot;column&quot;: 2
             },
             &quot;end&quot;: {
-              &quot;line&quot;: 5,
-              &quot;column&quot;: null
+              &quot;line&quot;: 3,
+              &quot;column&quot;: 71
             }
           },
           &quot;type&quot;: &quot;if&quot;,
@@ -2009,21 +2011,56 @@
             {
               &quot;start&quot;: {
                 &quot;line&quot;: 3,
-                &quot;column&quot;: 4
+                &quot;column&quot;: 2
               },
               &quot;end&quot;: {
-                &quot;line&quot;: 5,
-                &quot;column&quot;: null
+                &quot;line&quot;: 3,
+                &quot;column&quot;: 71
               }
             },
             {
               &quot;start&quot;: {
                 &quot;line&quot;: 3,
-                &quot;column&quot;: 4
+                &quot;column&quot;: 2
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 3,
+                &quot;column&quot;: 71
+              }
+            }
+          ]
+        },
+        &quot;1&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 5,
+              &quot;column&quot;: 2
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 5,
+              &quot;column&quot;: 74
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 5,
+                &quot;column&quot;: 2
               },
               &quot;end&quot;: {
                 &quot;line&quot;: 5,
-                &quot;column&quot;: null
+                &quot;column&quot;: 74
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 5,
+                &quot;column&quot;: 2
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 5,
+                &quot;column&quot;: 74
               }
             }
           ]
@@ -2035,15 +2072,19 @@
         &quot;2&quot;: 0,
         &quot;3&quot;: 0,
         &quot;4&quot;: 0,
-        &quot;5&quot;: 0
+        &quot;5&quot;: 0,
+        &quot;6&quot;: 0
       },
       &quot;f&quot;: {
         &quot;0&quot;: 0,
-        &quot;1&quot;: 0,
-        &quot;2&quot;: 0
+        &quot;1&quot;: 0
       },
       &quot;b&quot;: {
         &quot;0&quot;: [
+          0,
+          0
+        ],
+        &quot;1&quot;: [
           0,
           0
         ]
@@ -2059,7 +2100,7 @@
           },
           &quot;end&quot;: {
             &quot;line&quot;: 2,
-            &quot;column&quot;: 38
+            &quot;column&quot;: 33
           }
         },
         &quot;1&quot;: {
@@ -2195,30 +2236,33 @@
     &quot;src&#x2F;**&#x2F;*.ts&quot;
   ],
   &quot;coverageDirectory&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;public&#x2F;coverage&quot;,
+  &quot;coverageProvider&quot;: &quot;babel&quot;,
   &quot;coverageReporters&quot;: [
     &quot;json&quot;,
     &quot;text&quot;,
     &quot;lcov&quot;,
     &quot;clover&quot;
   ],
-  &quot;coverageThreshold&quot;: null,
   &quot;detectLeaks&quot;: false,
   &quot;detectOpenHandles&quot;: false,
   &quot;errorOnDeprecated&quot;: false,
   &quot;expand&quot;: false,
-  &quot;filter&quot;: null,
-  &quot;globalSetup&quot;: null,
-  &quot;globalTeardown&quot;: null,
+  &quot;findRelatedTests&quot;: false,
+  &quot;forceExit&quot;: false,
   &quot;json&quot;: false,
+  &quot;lastCommit&quot;: false,
   &quot;listTests&quot;: false,
+  &quot;logHeapUsage&quot;: false,
   &quot;maxConcurrency&quot;: 5,
   &quot;maxWorkers&quot;: 1,
   &quot;noStackTrace&quot;: false,
   &quot;nonFlagArgs&quot;: [],
   &quot;notify&quot;: false,
   &quot;notifyMode&quot;: &quot;failure-change&quot;,
+  &quot;onlyChanged&quot;: false,
+  &quot;onlyFailures&quot;: false,
   &quot;passWithNoTests&quot;: false,
-  &quot;projects&quot;: null,
+  &quot;projects&quot;: [],
   &quot;reporters&quot;: [
     [
       &quot;default&quot;,
@@ -2250,12 +2294,12 @@
   &quot;skipFilter&quot;: false,
   &quot;testFailureExitCode&quot;: 1,
   &quot;testPathPattern&quot;: &quot;&quot;,
-  &quot;testResultsProcessor&quot;: null,
   &quot;testSequencer&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;node_modules&#x2F;@jest&#x2F;test-sequencer&#x2F;build&#x2F;index.js&quot;,
   &quot;updateSnapshot&quot;: &quot;new&quot;,
   &quot;useStderr&quot;: false,
   &quot;verbose&quot;: true,
   &quot;watch&quot;: false,
+  &quot;watchAll&quot;: false,
   &quot;watchman&quot;: true
 }</div>
 

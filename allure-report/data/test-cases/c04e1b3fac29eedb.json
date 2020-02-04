@@ -1,12 +1,12 @@
 {
-  "uid" : "d5eefcadc62024fa",
+  "uid" : "c04e1b3fac29eedb",
   "name" : "action.yml has valid yaml",
   "fullName" : "GitHub Actions Test.action.yml has valid yaml",
   "historyId" : "e369fc5b9eb39c16ef9106ce2f5b0475",
   "time" : {
-    "start" : 1579557359623,
-    "stop" : 1579557359626,
-    "duration" : 3
+    "start" : 1580807480480,
+    "stop" : 1580807480484,
+    "duration" : 4
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d5eefcadc62024fa.json",
+  "source" : "c04e1b3fac29eedb.json",
   "parameterValues" : [ ]
 }
