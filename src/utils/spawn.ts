@@ -86,7 +86,9 @@ export function spawn(
       : nodeSpawn(
           command,
           args,
-          first === true ? { ...defOpts, shell: defaultShell } : first,
+          first === true
+            ? { ...defOpts, shell: defaultShell }
+            : { ...defOpts, ...first },
         );
 
   const ret = new Promise((resolve, reject) => {
