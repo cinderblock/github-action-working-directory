@@ -7,6 +7,7 @@ package-lock.json
 
 # No linters configured
 jest.config.js
+jest.allure2.js
 *.md
 *.yml
 *.json
