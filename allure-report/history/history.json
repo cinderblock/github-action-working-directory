@@ -1,5 +1,5 @@
 {
-  "1c92945c02479b69f198fc478ced2471" : {
+  "GitHub Actions Test action.yml has valid yaml" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,111 +9,35 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e2af8db5b3a8b0a",
+      "uid" : "245714f33552aa99",
       "status" : "passed",
       "time" : {
-        "start" : 1580811566864,
-        "stop" : 1580811566873,
-        "duration" : 9
-      }
-    } ]
-  },
-  "660c72a1c3df0d5eeb4d9f081fef05eb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6c02fd8dd5ca3574",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580811565537,
-        "stop" : 1580811565538,
-        "duration" : 1
-      }
-    } ]
-  },
-  "6ef67f031739a1e28838bcac52e719" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "61a88e8855cc2600",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580811565529,
-        "stop" : 1580811565530,
-        "duration" : 1
-      }
-    } ]
-  },
-  "5a5ac828fae90e9ed476215879d908e5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4458fe700d8a2408",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580811565539,
-        "stop" : 1580811565540,
-        "duration" : 1
-      }
-    } ]
-  },
-  "2eddb652dd3e32bd1f498303a4f7bc42" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "bc17cf83356f630f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580811567136,
-        "stop" : 1580811567138,
-        "duration" : 2
-      }
-    } ]
-  },
-  "282a460dc76a6cb16289bdd5fe31407d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b7c7e710910b309f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580811565530,
-        "stop" : 1580811565533,
+        "start" : 1580855905885,
+        "stop" : 1580855905888,
         "duration" : 3
       }
     } ]
   },
-  "aab39a24d41767fdf2f98931deb32f7" : {
+  "utils/commitAndPush commitAndPush is a function" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ecc08a35be9fd18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855907261,
+        "stop" : 1580855907264,
+        "duration" : 3
+      }
+    } ]
+  },
+  "GitHub Actions Test can run runs.main and runs.post end-to-end" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -123,17 +47,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "58fc87035881c9be",
+      "uid" : "f40024d24869d9d6",
       "status" : "failed",
-      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 0\n                Received: 1",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
       "time" : {
-        "start" : 1580811565540,
-        "stop" : 1580811565599,
-        "duration" : 59
+        "start" : 1580855905904,
+        "stop" : 1580855905965,
+        "duration" : 61
       }
     } ]
   },
-  "51a8d76dd8b9b525f41670eb8de5460e" : {
+  "GitHub Actions Test can read action.yml" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -143,31 +67,107 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dfd3f52b6575ffb0",
+      "uid" : "5e2e1e4214fea839",
       "status" : "passed",
       "time" : {
-        "start" : 1580811565536,
-        "stop" : 1580811565537,
-        "duration" : 1
-      }
-    } ]
-  },
-  "e369fc5b9eb39c16ef9106ce2f5b0475" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7dd57992c8230386",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580811565533,
-        "stop" : 1580811565536,
+        "start" : 1580855905881,
+        "stop" : 1580855905884,
         "duration" : 3
+      }
+    } ]
+  },
+  "GitHub Actions Test action.yml exists" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6212db1eadb4aa94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855905879,
+        "stop" : 1580855905881,
+        "duration" : 2
+      }
+    } ]
+  },
+  "GitHub Actions Test runs.main and runs.post files exist" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d68e7be5135c1b25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855905892,
+        "stop" : 1580855905904,
+        "duration" : 12
+      }
+    } ]
+  },
+  "GitHub Actions Test action.yml has correct runs.using" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "893748986e8d5ade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855905888,
+        "stop" : 1580855905890,
+        "duration" : 2
+      }
+    } ]
+  },
+  "utils/readInputs readInputs is a function" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9eff785d19813b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855907525,
+        "stop" : 1580855907527,
+        "duration" : 2
+      }
+    } ]
+  },
+  "GitHub Actions Test action.yml has runs.main and runs.post" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4aab4060c8bd0488",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855905890,
+        "stop" : 1580855905891,
+        "duration" : 1
       }
     } ]
   }
