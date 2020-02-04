@@ -167,6 +167,8 @@ jobs:
         # Test with self
       - name: Use self as action to test and store historic coverage reports
         uses: ./dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # This step will copy coverage reports (and others) to the specified historical branch
         # and use it to generate some pretty charts
         with:
