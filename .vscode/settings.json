@@ -3,7 +3,6 @@
 
   "files.insertFinalNewline": false,
 
-  // Use eslint's FixOnSave instead
   "[javascript]": {
     "editor.formatOnSave": false
   },
