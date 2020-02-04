@@ -1,0 +1,174 @@
+{
+  "GitHub Actions Test action.yml has valid yaml" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7a415470db323f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134803,
+        "stop" : 1580856134807,
+        "duration" : 4
+      }
+    } ]
+  },
+  "utils/commitAndPush commitAndPush is a function" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5c00ca9524b99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856136302,
+        "stop" : 1580856136305,
+        "duration" : 3
+      }
+    } ]
+  },
+  "GitHub Actions Test can run runs.main and runs.post end-to-end" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "950792e8f7e02cdb",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
+      "time" : {
+        "start" : 1580856134813,
+        "stop" : 1580856134880,
+        "duration" : 67
+      }
+    } ]
+  },
+  "GitHub Actions Test can read action.yml" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f10bd40d8e2002fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134800,
+        "stop" : 1580856134803,
+        "duration" : 3
+      }
+    } ]
+  },
+  "GitHub Actions Test action.yml exists" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98ef5b7eaadbeec2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134797,
+        "stop" : 1580856134800,
+        "duration" : 3
+      }
+    } ]
+  },
+  "GitHub Actions Test runs.main and runs.post files exist" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fee968c94fc37ffd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134811,
+        "stop" : 1580856134813,
+        "duration" : 2
+      }
+    } ]
+  },
+  "GitHub Actions Test action.yml has correct runs.using" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a2a111ffb7301bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134807,
+        "stop" : 1580856134809,
+        "duration" : 2
+      }
+    } ]
+  },
+  "utils/readInputs readInputs is a function" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93ccb7ad858f2f8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856136593,
+        "stop" : 1580856136595,
+        "duration" : 2
+      }
+    } ]
+  },
+  "GitHub Actions Test action.yml has runs.main and runs.post" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "317f8a2b86f571f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134809,
+        "stop" : 1580856134811,
+        "duration" : 2
+      }
+    } ]
+  }
+}
