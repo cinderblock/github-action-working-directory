@@ -2,6 +2,8 @@
 
 GitHub Action that clones a repo into a working directory, lets you modify it, and then commits the changes back to the repository.
 
+Use Your GitHub repository (just one branch) as a simple database!
+
 [![cinderblock/github-action-working-directory status](https://github.com/cinderblock/github-action-working-directory/workflows/Main/badge.svg?branch=master)](https://github.com/cinderblock/github-action-working-directory/actions?query=branch%3Amaster)
 
 ### Other Reporters
@@ -18,11 +20,6 @@ GitHub Action that clones a repo into a working directory, lets you modify it, a
 GitHub Actions `action.yml` has an under-documented feature of `post` runs.
 This is run at the end of all other steps automatically.
 We can use that post step to commit any changes back to the original repo that we checkout.
-
-### Limitation
-
-Currently only works on linux because of built node native module dependency.
-We welcome pull requests that would let us publish native bindings for all platforms.
 
 ## Usage
 
@@ -50,6 +47,8 @@ jobs:
 ```
 
 Multiple concurrent working directories are supported.
+
+For an example, look for `# Test with self` in [`main.yml` workflow](.github/workflows/main.yml#L167-176) file.
 
 ## Development
 
