@@ -1,5 +1,5 @@
 {
-  "uid" : "473a7b513a673152",
+  "uid" : "705463096ca243f",
   "name" : "can run runs.main and runs.post end-to-end",
   "fullName" : "GitHub Actions Test.can run runs.main and runs.post end-to-end",
   "historyId" : "aab39a24d41767fdf2f98931deb32f7",
@@ -35,18 +35,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "473a7b513a673152.json",
+  "source" : "705463096ca243f.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "7a24a6902b3f4bbe",
-  "name" : "action.yml has runs.main and runs.post",
-  "fullName" : "GitHub Actions Test.action.yml has runs.main and runs.post",
-  "historyId" : "660c72a1c3df0d5eeb4d9f081fef05eb",
+  "uid" : "522ec00901f0df85",
+  "name" : "can read action.yml",
+  "fullName" : "GitHub Actions Test.can read action.yml",
+  "historyId" : "282a460dc76a6cb16289bdd5fe31407d",
   "time" : {
-    "start" : 1580808533592,
-    "stop" : 1580808533594,
-    "duration" : 2
+    "start" : 1580808533583,
+    "stop" : 1580808533586,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,7 +23,7 @@
     "value" : "GitHub Actions Test"
   }, {
     "name" : "testMethod",
-    "value" : "action.yml has runs.main and runs.post"
+    "value" : "can read action.yml"
   }, {
     "name" : "package",
     "value" : "GitHub Actions Test"
@@ -33,14 +33,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7a24a6902b3f4bbe.json",
+  "source" : "522ec00901f0df85.json",
   "parameterValues" : [ ]
 }
