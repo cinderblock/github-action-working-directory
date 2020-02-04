@@ -1,0 +1,44 @@
+{
+  "uid" : "e989543a8dddb721",
+  "name" : "commitAndPush is a function",
+  "fullName" : "utils/commitAndPush.commitAndPush is a function",
+  "historyId" : "1c92945c02479b69f198fc478ced2471",
+  "time" : {
+    "start" : 1580808809932,
+    "stop" : 1580808809934,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "utils/commitAndPush"
+  }, {
+    "name" : "testClass",
+    "value" : "utils/commitAndPush"
+  }, {
+    "name" : "testMethod",
+    "value" : "commitAndPush is a function"
+  }, {
+    "name" : "package",
+    "value" : "utils/commitAndPush"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e989543a8dddb721.json",
+  "parameterValues" : [ ]
+}

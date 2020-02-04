@@ -1,12 +1,12 @@
 {
-  "uid" : "c6a9d9cd524fd528",
+  "uid" : "bb4ffc5882994c06",
   "name" : "readInputs is a function",
   "fullName" : "utils/readInputs.readInputs is a function",
   "historyId" : "2eddb652dd3e32bd1f498303a4f7bc42",
   "time" : {
-    "start" : 1580810763585,
-    "stop" : 1580810763588,
-    "duration" : 3
+    "start" : 1580811413573,
+    "stop" : 1580811413575,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -38,7 +38,15 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "f9af5be40c273fb8",
+      "uid" : "80f72badc32e30f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580810763585,
+        "stop" : 1580810763588,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "4b3e43d4eb42f090",
       "status" : "passed",
       "time" : {
         "start" : 1580808810301,
@@ -46,7 +54,7 @@
         "duration" : 2
       }
     }, {
-      "uid" : "1afcb9a82d7690d8",
+      "uid" : "f61471478f2a02b7",
       "status" : "passed",
       "time" : {
         "start" : 1580808535552,
@@ -57,6 +65,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c6a9d9cd524fd528.json",
+  "source" : "bb4ffc5882994c06.json",
   "parameterValues" : [ ]
 }

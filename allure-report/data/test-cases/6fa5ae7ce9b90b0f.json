@@ -1,12 +1,12 @@
 {
-  "uid" : "f83b27a230745050",
+  "uid" : "6fa5ae7ce9b90b0f",
   "name" : "action.yml exists",
   "fullName" : "GitHub Actions Test.action.yml exists",
   "historyId" : "6ef67f031739a1e28838bcac52e719",
   "time" : {
-    "start" : 1580808533580,
-    "stop" : 1580808533583,
-    "duration" : 3
+    "start" : 1580811412001,
+    "stop" : 1580811412003,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -33,12 +33,38 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e1bd35a8e49f1007",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580810761440,
+        "stop" : 1580810761442,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9604506ea6fbdfa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808807553,
+        "stop" : 1580808807557,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "3bfd3de4aa205076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580808533580,
+        "stop" : 1580808533583,
+        "duration" : 3
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f83b27a230745050.json",
+  "source" : "6fa5ae7ce9b90b0f.json",
   "parameterValues" : [ ]
 }

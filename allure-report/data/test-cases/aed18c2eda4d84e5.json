@@ -1,11 +1,11 @@
 {
-  "uid" : "c533e46b81997135",
-  "name" : "action.yml has correct runs.using",
-  "fullName" : "GitHub Actions Test.action.yml has correct runs.using",
-  "historyId" : "51a8d76dd8b9b525f41670eb8de5460e",
+  "uid" : "aed18c2eda4d84e5",
+  "name" : "commitAndPush is a function",
+  "fullName" : "utils/commitAndPush.commitAndPush is a function",
+  "historyId" : "1c92945c02479b69f198fc478ced2471",
   "time" : {
-    "start" : 1580808807566,
-    "stop" : 1580808807568,
+    "start" : 1580810763222,
+    "stop" : 1580810763224,
     "duration" : 2
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "GitHub Actions Test"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "testClass",
-    "value" : "GitHub Actions Test"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "testMethod",
-    "value" : "action.yml has correct runs.using"
+    "value" : "commitAndPush is a function"
   }, {
     "name" : "package",
-    "value" : "GitHub Actions Test"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -39,6 +39,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c533e46b81997135.json",
+  "source" : "aed18c2eda4d84e5.json",
   "parameterValues" : [ ]
 }
