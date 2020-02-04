@@ -1,9 +1,8 @@
-export async function wait(milliseconds: number): Promise<string> {
-  return new Promise(resolve => {
-    if (isNaN(milliseconds)) {
-      throw new Error('milliseconds not a number');
-    }
+// eslint-disable-next-line @typescript-eslint/promise-function-async
+export function wait(milliseconds: number): Promise<void> {
+  if (isNaN(milliseconds)) throw new Error('argument is not a number');
 
-    setTimeout(() => resolve('done!'), milliseconds);
-  });
+  if (milliseconds < 0) throw new RangeError('cannot wait negative time');
+
+  return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
