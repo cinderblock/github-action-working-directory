@@ -217,7 +217,7 @@ jobs:
 
   publish:
     name: Publish - GitHub Action
-    if: github.event_name == 'push' && github.ref == 'refs/heads/release'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     needs: [check-format, check-lint, check-spelling, check-tests]
     runs-on: ubuntu-latest
     steps:
