@@ -48,7 +48,7 @@ jobs:
 
 Multiple concurrent working directories are supported.
 
-For an example, look for `# Test with self` in [`main.yml` workflow](.github/workflows/main.yml#L167-176) file.
+For an example, look for `# Test with self` in [`main.yml` workflow](.github/workflows/main.yml#L167-L176) file.
 
 ## Development
 
