@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "7d89a1d6e91c98cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916497,
+        "stop" : 1580863916500,
+        "duration" : 3
+      }
+    }, {
       "uid" : "fc4c8eec10c57f7b",
       "status" : "passed",
       "time" : {
@@ -31,11 +39,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "9a6f792dd2b3b959",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863917723,
+        "stop" : 1580863917725,
+        "duration" : 2
+      }
+    }, {
       "uid" : "62cd3017553e7820",
       "status" : "passed",
       "time" : {
@@ -55,14 +71,23 @@
   },
   "GitHub Actions Test can run runs.main and runs.post end-to-end" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "51953d3c76ceef2d",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
+      "time" : {
+        "start" : 1580863916514,
+        "stop" : 1580863916567,
+        "duration" : 53
+      }
+    }, {
       "uid" : "a85a76ca884eabd4",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
@@ -87,11 +112,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "f4a7c2e67c7345e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916494,
+        "stop" : 1580863916497,
+        "duration" : 3
+      }
+    }, {
       "uid" : "7a5ec68ec638243c",
       "status" : "passed",
       "time" : {
@@ -114,11 +147,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "3ea61a664799b98e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916492,
+        "stop" : 1580863916494,
+        "duration" : 2
+      }
+    }, {
       "uid" : "f0bfbeb1690955bc",
       "status" : "passed",
       "time" : {
@@ -141,11 +182,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "10813e71f15e0ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916512,
+        "stop" : 1580863916513,
+        "duration" : 1
+      }
+    }, {
       "uid" : "be22e2ee7c427cec",
       "status" : "passed",
       "time" : {
@@ -168,11 +217,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "89745e6b5958bf0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916500,
+        "stop" : 1580863916501,
+        "duration" : 1
+      }
+    }, {
       "uid" : "b4db8cc9df61ab38",
       "status" : "passed",
       "time" : {
@@ -195,11 +252,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "8bfa7dd41364026e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863917942,
+        "stop" : 1580863917944,
+        "duration" : 2
+      }
+    }, {
       "uid" : "223ca5a3dbe30b8d",
       "status" : "passed",
       "time" : {
@@ -222,11 +287,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "95dd0118bfedc919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916502,
+        "stop" : 1580863916512,
+        "duration" : 10
+      }
+    }, {
       "uid" : "c15793a860ea92fc",
       "status" : "passed",
       "time" : {
