@@ -1,12 +1,12 @@
 {
-  "uid" : "ef1c16be939c36e4",
-  "name" : "action.yml exists",
-  "fullName" : "GitHub Actions Test action.yml exists",
-  "historyId" : "GitHub Actions Test action.yml exists",
+  "uid" : "6ceefeffe5437d2",
+  "name" : "can read action.yml",
+  "fullName" : "GitHub Actions Test can read action.yml",
+  "historyId" : "GitHub Actions Test can read action.yml",
   "time" : {
-    "start" : 1580858456363,
-    "stop" : 1580858456365,
-    "duration" : 2
+    "start" : 1580856134800,
+    "stop" : 1580856134803,
+    "duration" : 3
   },
   "status" : "passed",
   "flaky" : false,
@@ -22,14 +22,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ef1c16be939c36e4.json",
+  "source" : "6ceefeffe5437d2.json",
   "parameterValues" : [ ]
 }
