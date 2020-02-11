@@ -1,11 +1,11 @@
 {
-  "uid" : "7aa2c826ac02f146",
+  "uid" : "ba25f30fa4d3aa29",
   "name" : "commitAndPush is a function",
   "fullName" : "utils/commitAndPush commitAndPush is a function",
   "historyId" : "utils/commitAndPush commitAndPush is a function",
   "time" : {
-    "start" : 1580858069633,
-    "stop" : 1580858069636,
+    "start" : 1581384501354,
+    "stop" : 1581384501357,
     "duration" : 3
   },
   "status" : "passed",
@@ -22,12 +22,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7aa2c826ac02f146.json",
+  "source" : "ba25f30fa4d3aa29.json",
   "parameterValues" : [ ]
 }

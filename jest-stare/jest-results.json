@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1580863914633,
+  "startTime": 1581384497431,
   "success": false,
   "testResults": [
     {
@@ -37,8 +37,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580863916585,
-        "start": 1580863914670
+        "end": 1581384499938,
+        "start": 1581384497487
       },
       "skipped": false,
       "snapshot": {
@@ -56,7 +56,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml exists",
           "location": null,
@@ -80,7 +80,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 3,
+          "duration": 4,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has valid yaml",
           "location": null,
@@ -104,7 +104,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 10,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has runs.main and runs.post",
           "location": null,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 53,
+          "duration": 72,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at ChildProcess.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:93:26)\n    at ChildProcess.emit (events.js:223:5)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)"
           ],
@@ -213,8 +213,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580863917725,
-        "start": 1580863917076
+        "end": 1581384501357,
+        "start": 1581384500529
       },
       "skipped": false,
       "snapshot": {
@@ -251,8 +251,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1580863917945,
-        "start": 1580863917743
+        "end": 1581384501660,
+        "start": 1581384501381
       },
       "skipped": false,
       "snapshot": {
@@ -270,7 +270,7 @@
           "ancestorTitles": [
             "utils/readInputs"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "utils/readInputs readInputs is a function",
           "location": null,
@@ -1275,8 +1275,8 @@
         ]
       }
     },
-    "/home/runner/work/github-action-working-directory/github-action-working-directory/src/clone.ts": {
-      "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/clone.ts",
+    "/home/runner/work/github-action-working-directory/github-action-working-directory/src/commit.ts": {
+      "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/commit.ts",
       "statementMap": {
         "0": {
           "start": {
@@ -1305,7 +1305,7 @@
           },
           "end": {
             "line": 4,
-            "column": 38
+            "column": 54
           }
         },
         "3": {
@@ -1314,77 +1314,67 @@
             "column": 2
           },
           "end": {
-            "line": 18,
+            "line": 15,
             "column": null
           }
         },
         "4": {
           "start": {
             "line": 8,
-            "column": 43
+            "column": 50
           },
           "end": {
             "line": 8,
-            "column": 55
+            "column": 62
           }
         },
         "5": {
           "start": {
-            "line": 10,
-            "column": 18
+            "line": 9,
+            "column": 22
           },
           "end": {
-            "line": 10,
-            "column": 37
+            "line": 9,
+            "column": 26
           }
         },
         "6": {
           "start": {
-            "line": 12,
+            "line": 11,
             "column": 4
           },
           "end": {
-            "line": 12,
-            "column": 49
+            "line": 11,
+            "column": 70
           }
         },
         "7": {
           "start": {
-            "line": 14,
+            "line": 13,
             "column": 4
           },
           "end": {
-            "line": 14,
-            "column": 25
+            "line": 13,
+            "column": 34
           }
         },
         "8": {
           "start": {
-            "line": 16,
+            "line": 14,
             "column": 4
           },
           "end": {
-            "line": 16,
-            "column": 34
+            "line": 14,
+            "column": 25
           }
         },
         "9": {
           "start": {
-            "line": 17,
-            "column": 4
-          },
-          "end": {
-            "line": 17,
-            "column": 25
-          }
-        },
-        "10": {
-          "start": {
-            "line": 21,
+            "line": 18,
             "column": 0
           },
           "end": {
-            "line": 21,
+            "line": 18,
             "column": 6
           }
         }
@@ -1408,7 +1398,7 @@
               "column": 18
             },
             "end": {
-              "line": 19,
+              "line": 16,
               "column": null
             }
           }
@@ -1425,13 +1415,230 @@
         "6": 0,
         "7": 0,
         "8": 0,
-        "9": 0,
-        "10": 0
+        "9": 0
       },
       "f": {
         "0": 0
       },
       "b": {}
+    },
+    "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts": {
+      "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 3,
+            "column": 2
+          },
+          "end": {
+            "line": 3,
+            "column": 71
+          }
+        },
+        "1": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 71
+          }
+        },
+        "2": {
+          "start": {
+            "line": 5,
+            "column": 2
+          },
+          "end": {
+            "line": 5,
+            "column": 74
+          }
+        },
+        "3": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 74
+          }
+        },
+        "4": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 7,
+            "column": 67
+          }
+        },
+        "5": {
+          "start": {
+            "line": 7,
+            "column": 32
+          },
+          "end": {
+            "line": 7,
+            "column": 65
+          }
+        },
+        "6": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 16
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "wait",
+          "decl": {
+            "start": {
+              "line": 2,
+              "column": 16
+            },
+            "end": {
+              "line": 2,
+              "column": 20
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 41
+            },
+            "end": {
+              "line": 8,
+              "column": 1
+            }
+          }
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": {
+            "start": {
+              "line": 7,
+              "column": 21
+            },
+            "end": {
+              "line": 7,
+              "column": 28
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 32
+            },
+            "end": {
+              "line": 7,
+              "column": 65
+            }
+          }
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 2
+            },
+            "end": {
+              "line": 3,
+              "column": 71
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 3,
+                "column": 2
+              },
+              "end": {
+                "line": 3,
+                "column": 71
+              }
+            },
+            {
+              "start": {
+                "line": 3,
+                "column": 2
+              },
+              "end": {
+                "line": 3,
+                "column": 71
+              }
+            }
+          ]
+        },
+        "1": {
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2
+            },
+            "end": {
+              "line": 5,
+              "column": 74
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 5,
+                "column": 2
+              },
+              "end": {
+                "line": 5,
+                "column": 74
+              }
+            },
+            {
+              "start": {
+                "line": 5,
+                "column": 2
+              },
+              "end": {
+                "line": 5,
+                "column": 74
+              }
+            }
+          ]
+        }
+      },
+      "s": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "f": {
+        "0": 0,
+        "1": 0
+      },
+      "b": {
+        "0": [
+          0,
+          0
+        ],
+        "1": [
+          0,
+          0
+        ]
+      }
     },
     "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/clone.ts": {
       "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/clone.ts",
@@ -1763,226 +1970,8 @@
         ]
       }
     },
-    "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts": {
-      "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 3,
-            "column": 2
-          },
-          "end": {
-            "line": 3,
-            "column": 71
-          }
-        },
-        "1": {
-          "start": {
-            "line": 3,
-            "column": 27
-          },
-          "end": {
-            "line": 3,
-            "column": 71
-          }
-        },
-        "2": {
-          "start": {
-            "line": 5,
-            "column": 2
-          },
-          "end": {
-            "line": 5,
-            "column": 74
-          }
-        },
-        "3": {
-          "start": {
-            "line": 5,
-            "column": 24
-          },
-          "end": {
-            "line": 5,
-            "column": 74
-          }
-        },
-        "4": {
-          "start": {
-            "line": 7,
-            "column": 2
-          },
-          "end": {
-            "line": 7,
-            "column": 67
-          }
-        },
-        "5": {
-          "start": {
-            "line": 7,
-            "column": 32
-          },
-          "end": {
-            "line": 7,
-            "column": 65
-          }
-        },
-        "6": {
-          "start": {
-            "line": 2,
-            "column": 0
-          },
-          "end": {
-            "line": 2,
-            "column": 16
-          }
-        }
-      },
-      "fnMap": {
-        "0": {
-          "name": "wait",
-          "decl": {
-            "start": {
-              "line": 2,
-              "column": 16
-            },
-            "end": {
-              "line": 2,
-              "column": 20
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 41
-            },
-            "end": {
-              "line": 8,
-              "column": 1
-            }
-          }
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": {
-            "start": {
-              "line": 7,
-              "column": 21
-            },
-            "end": {
-              "line": 7,
-              "column": 28
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 7,
-              "column": 32
-            },
-            "end": {
-              "line": 7,
-              "column": 65
-            }
-          }
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 2
-            },
-            "end": {
-              "line": 3,
-              "column": 71
-            }
-          },
-          "type": "if",
-          "locations": [
-            {
-              "start": {
-                "line": 3,
-                "column": 2
-              },
-              "end": {
-                "line": 3,
-                "column": 71
-              }
-            },
-            {
-              "start": {
-                "line": 3,
-                "column": 2
-              },
-              "end": {
-                "line": 3,
-                "column": 71
-              }
-            }
-          ]
-        },
-        "1": {
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2
-            },
-            "end": {
-              "line": 5,
-              "column": 74
-            }
-          },
-          "type": "if",
-          "locations": [
-            {
-              "start": {
-                "line": 5,
-                "column": 2
-              },
-              "end": {
-                "line": 5,
-                "column": 74
-              }
-            },
-            {
-              "start": {
-                "line": 5,
-                "column": 2
-              },
-              "end": {
-                "line": 5,
-                "column": 74
-              }
-            }
-          ]
-        }
-      },
-      "s": {
-        "0": 0,
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0
-      },
-      "f": {
-        "0": 0,
-        "1": 0
-      },
-      "b": {
-        "0": [
-          0,
-          0
-        ],
-        "1": [
-          0,
-          0
-        ]
-      }
-    },
-    "/home/runner/work/github-action-working-directory/github-action-working-directory/src/commit.ts": {
-      "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/commit.ts",
+    "/home/runner/work/github-action-working-directory/github-action-working-directory/src/clone.ts": {
+      "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/clone.ts",
       "statementMap": {
         "0": {
           "start": {
@@ -2011,7 +2000,7 @@
           },
           "end": {
             "line": 4,
-            "column": 54
+            "column": 38
           }
         },
         "3": {
@@ -2020,51 +2009,41 @@
             "column": 2
           },
           "end": {
-            "line": 15,
+            "line": 18,
             "column": null
           }
         },
         "4": {
           "start": {
             "line": 8,
-            "column": 50
+            "column": 43
           },
           "end": {
             "line": 8,
-            "column": 62
+            "column": 55
           }
         },
         "5": {
           "start": {
-            "line": 9,
-            "column": 22
+            "line": 10,
+            "column": 18
           },
           "end": {
-            "line": 9,
-            "column": 26
+            "line": 10,
+            "column": 37
           }
         },
         "6": {
           "start": {
-            "line": 11,
+            "line": 12,
             "column": 4
           },
           "end": {
-            "line": 11,
-            "column": 70
+            "line": 12,
+            "column": 49
           }
         },
         "7": {
-          "start": {
-            "line": 13,
-            "column": 4
-          },
-          "end": {
-            "line": 13,
-            "column": 34
-          }
-        },
-        "8": {
           "start": {
             "line": 14,
             "column": 4
@@ -2074,13 +2053,33 @@
             "column": 25
           }
         },
+        "8": {
+          "start": {
+            "line": 16,
+            "column": 4
+          },
+          "end": {
+            "line": 16,
+            "column": 34
+          }
+        },
         "9": {
           "start": {
-            "line": 18,
+            "line": 17,
+            "column": 4
+          },
+          "end": {
+            "line": 17,
+            "column": 25
+          }
+        },
+        "10": {
+          "start": {
+            "line": 21,
             "column": 0
           },
           "end": {
-            "line": 18,
+            "line": 21,
             "column": 6
           }
         }
@@ -2104,7 +2103,7 @@
               "column": 18
             },
             "end": {
-              "line": 16,
+              "line": 19,
               "column": null
             }
           }
@@ -2121,7 +2120,8 @@
         "6": 0,
         "7": 0,
         "8": 0,
-        "9": 0
+        "9": 0,
+        "10": 0
       },
       "f": {
         "0": 0

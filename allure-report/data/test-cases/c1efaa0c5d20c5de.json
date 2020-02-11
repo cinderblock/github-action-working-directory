@@ -1,12 +1,12 @@
 {
-  "uid" : "32c31cd1c19b0180",
-  "name" : "runs.main and runs.post files exist",
-  "fullName" : "GitHub Actions Test runs.main and runs.post files exist",
-  "historyId" : "GitHub Actions Test runs.main and runs.post files exist",
+  "uid" : "c1efaa0c5d20c5de",
+  "name" : "action.yml has valid yaml",
+  "fullName" : "GitHub Actions Test action.yml has valid yaml",
+  "historyId" : "GitHub Actions Test action.yml has valid yaml",
   "time" : {
-    "start" : 1580856134811,
-    "stop" : 1580856134813,
-    "duration" : 2
+    "start" : 1581384499815,
+    "stop" : 1581384499819,
+    "duration" : 4
   },
   "status" : "passed",
   "flaky" : false,
@@ -22,12 +22,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "32c31cd1c19b0180.json",
+  "source" : "c1efaa0c5d20c5de.json",
   "parameterValues" : [ ]
 }

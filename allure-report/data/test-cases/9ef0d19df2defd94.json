@@ -1,11 +1,11 @@
 {
-  "uid" : "af32135c150d97e8",
+  "uid" : "9ef0d19df2defd94",
   "name" : "action.yml has runs.main and runs.post",
   "fullName" : "GitHub Actions Test action.yml has runs.main and runs.post",
   "historyId" : "GitHub Actions Test action.yml has runs.main and runs.post",
   "time" : {
-    "start" : 1580858068151,
-    "stop" : 1580858068152,
+    "start" : 1581384499822,
+    "stop" : 1581384499823,
     "duration" : 1
   },
   "status" : "passed",
@@ -22,12 +22,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "af32135c150d97e8.json",
+  "source" : "9ef0d19df2defd94.json",
   "parameterValues" : [ ]
 }
