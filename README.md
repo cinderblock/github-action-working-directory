@@ -31,7 +31,9 @@ jobs:
     runs-on: ubuntu-latest # Anything should work
     steps:
       - name: Checkout Working Directory
-        uses: cinderblock/github-action-working-directory
+        uses: cinderblock/github-action-working-directory@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repo: '' # Current
           branch: working-dir/${{ github.ref }}
