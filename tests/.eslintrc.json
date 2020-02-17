@@ -1,6 +1,6 @@
 {
   "parserOptions": {
-    "project": "./tests/tsconfig.json"
+    "project": "tests/tsconfig.json"
   },
   "rules": {
     "no-console": "error"
