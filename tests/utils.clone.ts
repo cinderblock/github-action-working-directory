@@ -1,6 +1,9 @@
 import { clone } from '../src/utils/clone';
 import rmfr from 'rmfr';
 import { testTempDir } from './utils/testTempDir';
+import { promises } from 'fs';
+
+const { access } = promises;
 
 describe('utils/clone', () => {
   test('clone is a function', () => {
@@ -23,27 +26,30 @@ describe('utils/clone', () => {
   test('clone can be called for non-existent branch', async () => {
     const dir = `${parentDir}/clone-non-existent`;
 
-    const result = await clone({
+    await clone({
       repoUrl,
       branch: 'this-branch-will-never-exist',
       dir,
     });
 
-    expect(result).toBe(null);
+    const dirExists = await access(dir).then(
+      () => true,
+      () => false,
+    );
+
+    expect(dirExists).toBe(true);
   });
 
   test('clone can be called for existing branch', async () => {
     const dir = `${parentDir}/clone-existing`;
 
-    const result = await clone({ repoUrl, branch: 'master', dir });
+    await clone({ repoUrl, branch: 'master', dir });
 
-    expect(result).not.toBe(null);
-    if (result === null) throw new Error('unreachable');
+    const dirExists = await access(dir).then(
+      () => true,
+      () => false,
+    );
 
-    const head = await result.head();
-
-    expect(head.isValid()).toBe(true);
-
-    expect(!!head.isBranch()).toBe(true);
+    expect(dirExists).toBe(true);
   });
 });
