@@ -12,23 +12,6 @@ GitHub Actions `action.yml` has an under-documented feature of `post` runs.
 This is run at the end of all other steps automatically.
 We can use that post step to commit any changes back to the original repo that we checkout.
 
-### Test Reports
-
-#### Allure 2
-
-We use our own action to store historical data for Allure 2.
-
-[![Allure 2 Report](https://cinderblock.github.io/github-action-working-directory/allure-report.png)](https://cinderblock.github.io/github-action-working-directory/allure-report)
-
-#### Other Reporters
-
-We also generate these various views of the coverage reports.
-These do not store historical data and are not good examples.
-
-- [jest-stare Test report](https://cinderblock.github.io/github-action-working-directory/jest-stare)
-- [jest-html-reporters Test report](https://cinderblock.github.io/github-action-working-directory/jest-html-reporters)
-- [lcov Coverage report](https://cinderblock.github.io/github-action-working-directory/coverage/lcov-report)
-
 ## Usage
 
 In your GitHub Actions, add a config like this:
@@ -59,6 +42,26 @@ jobs:
 Multiple concurrent working directories are supported.
 
 For an example, look for `# Test with self` in [`main.yml` workflow](.github/workflows/main.yml#L167-L176) file.
+We use our own action to store historical data for Allure 2.
+
+## Test Reports
+
+### Allure 2
+
+_Include historical trends_
+[![Allure 2 Report](https://cinderblock.github.io/github-action-working-directory/allure-report.png)](https://cinderblock.github.io/github-action-working-directory/allure-report)
+
+### jest-stare Test report
+
+[![jest-stare Test report](https://cinderblock.github.io/github-action-working-directory/jest-stare.png)](https://cinderblock.github.io/github-action-working-directory/jest-stare)
+
+### jest-html-reporters Test report
+
+[![jest-html-reporters Test report](https://cinderblock.github.io/github-action-working-directory/jest-html-reporters.png)](https://cinderblock.github.io/github-action-working-directory/jest-html-reporters)
+
+### lcov Coverage report
+
+[![lcov Coverage report](https://cinderblock.github.io/github-action-working-directory/coverage/lcov-report.png)](https://cinderblock.github.io/github-action-working-directory/coverage/lcov-report)
 
 ## Development
 
