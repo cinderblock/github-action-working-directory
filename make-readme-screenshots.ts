@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer';
+import puppeteer, { BrowserOptions } from 'puppeteer';
 
 async function delay(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -6,14 +6,28 @@ async function delay(ms: number): Promise<void> {
 
 export async function makeScreenshots(): Promise<void> {
   await Promise.all([
-    makeScreenshot({ dir: 'allure-report', screenshotDelay: 750 }),
-    makeScreenshot({ dir: 'jest-stare', screenshotDelay: 750 }),
-    makeScreenshot({ file: 'jest-html-reporters', screenshotDelay: 1500 }),
-    makeScreenshot({ dir: 'coverage/lcov-report' }),
+    makeScreenshot({
+      dir: 'allure-report',
+      screenshotDelay: 750,
+    }),
+    makeScreenshot({
+      dir: 'jest-stare',
+      screenshotDelay: 750,
+      defaultViewport: { width: 800 },
+    }),
+    makeScreenshot({
+      file: 'jest-html-reporters',
+      screenshotDelay: 1500,
+    }),
+    makeScreenshot({
+      dir: 'coverage/lcov-report',
+      defaultViewport: { width: 800, height: 300 },
+    }),
   ]);
 }
 
 type Options = {
+  defaultViewport?: BrowserOptions['defaultViewport'];
   screenshotDelay?: number;
   file?: string;
   dir?: string;
@@ -21,7 +35,7 @@ type Options = {
 
 export async function makeScreenshot(opts: Options): Promise<void> {
   const browser = await puppeteer.launch({
-    defaultViewport: { width: 1200, height: 600 },
+    defaultViewport: { width: 1200, height: 600, ...opts.defaultViewport },
     args: ['--disable-web-security'],
   });
 
