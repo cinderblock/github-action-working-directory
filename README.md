@@ -65,7 +65,8 @@ _Include historical trends_
 
 ## Development
 
-Setup everything
+Setup everything.
+We use `npm`.
 
 ```bash
 npm run all
@@ -75,11 +76,4 @@ Run the tests :heavy_check_mark:
 
 ```bash
 npm test
-
- PASS  ./main.js
-  ✓ throws invalid number (3ms)
-  ✓ wait 500 ms (504ms)
-  ✓ test runs (95ms)
-
-...
 ```
