@@ -8,12 +8,12 @@ export async function makeScreenshots(): Promise<void> {
   await Promise.all([
     makeScreenshot({
       dir: 'allure-report',
-      screenshotDelay: 750,
+      screenshotDelay: 850,
     }),
     makeScreenshot({
       dir: 'jest-stare',
-      screenshotDelay: 750,
-      defaultViewport: { width: 800 },
+      screenshotDelay: 850,
+      defaultViewport: { width: 992, height: 754 },
     }),
     makeScreenshot({
       file: 'jest-html-reporters',
