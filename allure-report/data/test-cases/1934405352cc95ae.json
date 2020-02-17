@@ -1,0 +1,166 @@
+{
+  "uid" : "1934405352cc95ae",
+  "name" : "commitAndPush is a function",
+  "fullName" : "utils/commitAndPush commitAndPush is a function",
+  "historyId" : "utils/commitAndPush commitAndPush is a function",
+  "time" : {
+    "start" : 1581937168108,
+    "stop" : 1581937168110,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "utils/commitAndPush"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7600b127ea284151",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935657837,
+        "stop" : 1581935657839,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "828c9bb20ef65955",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935261035,
+        "stop" : 1581935261037,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9a68979f82698973",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934565200,
+        "stop" : 1581934565202,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "297099e00b9e1061",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581933094080,
+        "stop" : 1581933094082,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "80065cdc3ce60cb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581932814346,
+        "stop" : 1581932814348,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3067f822ac16fb87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581927493085,
+        "stop" : 1581927493087,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8262ddf1b14fcf0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863917723,
+        "stop" : 1580863917725,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "56f08a02fcba1bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580858069633,
+        "stop" : 1580858069636,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "d90ed49497224859",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856136302,
+        "stop" : 1580856136305,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "213dec02064cc1a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855907261,
+        "stop" : 1580855907264,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "33654d03ae453c91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581935657837,
+          "stop" : 1581935657839,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "586318b4ba1b00f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581935261035,
+          "stop" : 1581935261037,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "271450b78d9c15cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581934565200,
+          "stop" : 1581934565202,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "6d0e20c68f35f907",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581933094080,
+          "stop" : 1581933094082,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "1c817619c1a8157",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581932814346,
+          "stop" : 1581932814348,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1934405352cc95ae.json",
+  "parameterValues" : [ ]
+}
