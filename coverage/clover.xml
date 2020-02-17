@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1581384502491" clover="3.2.0">
-  <project timestamp="1581384502491" name="All files">
-    <metrics statements="81" coveredstatements="11" conditionals="25" coveredconditionals="0" methods="13" coveredmethods="0" elements="119" coveredelements="11" complexity="0" loc="81" ncloc="81" packages="2" files="7" classes="7"/>
+<coverage generated="1581927493872" clover="3.2.0">
+  <project timestamp="1581927493872" name="All files">
+    <metrics statements="81" coveredstatements="35" conditionals="25" coveredconditionals="8" methods="13" coveredmethods="6" elements="119" coveredelements="49" complexity="0" loc="81" ncloc="81" packages="2" files="7" classes="7"/>
     <package name="src">
       <metrics statements="21" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="clone.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/clone.ts">
@@ -33,24 +33,24 @@
       </file>
     </package>
     <package name="src.utils">
-      <metrics statements="60" coveredstatements="11" conditionals="25" coveredconditionals="0" methods="11" coveredmethods="0"/>
+      <metrics statements="60" coveredstatements="35" conditionals="25" coveredconditionals="8" methods="11" coveredmethods="6"/>
       <file name="clone.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/clone.ts">
-        <metrics statements="15" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="20" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
+        <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
       </file>
       <file name="commitAndPush.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/commitAndPush.ts">
         <metrics statements="10" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -81,22 +81,22 @@
         <line num="42" count="0" type="stmt"/>
       </file>
       <file name="spawn.ts" path="/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/spawn.ts">
-        <metrics statements="19" coveredstatements="6" conditionals="11" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="75" count="1" type="stmt"/>
-        <line num="81" count="0" type="stmt"/>
-        <line num="84" count="0" type="stmt"/>
-        <line num="94" count="0" type="stmt"/>
-        <line num="95" count="0" type="stmt"/>
-        <line num="96" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="97" count="0" type="stmt"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="104" count="0" type="stmt"/>
-        <line num="106" count="0" type="stmt"/>
-        <line num="109" count="1" type="stmt"/>
-        <line num="123" count="1" type="stmt"/>
+        <metrics statements="19" coveredstatements="15" conditionals="11" coveredconditionals="5" methods="4" coveredmethods="3"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="81" count="8" type="stmt"/>
+        <line num="84" count="8" type="stmt"/>
+        <line num="94" count="8" type="stmt"/>
+        <line num="95" count="8" type="stmt"/>
+        <line num="96" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="97" count="2" type="stmt"/>
+        <line num="99" count="6" type="stmt"/>
+        <line num="104" count="8" type="stmt"/>
+        <line num="106" count="8" type="stmt"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="123" count="2" type="stmt"/>
         <line num="130" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="131" count="0" type="stmt"/>
         <line num="134" count="0" type="cond" truecount="0" falsecount="2"/>

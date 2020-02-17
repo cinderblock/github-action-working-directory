@@ -1,90 +1,120 @@
 [ {
-  "uid" : "c1efaa0c5d20c5de",
+  "uid" : "d091ff9463d43017",
+  "name" : "action.yml has runs.main and runs.post",
+  "time" : {
+    "start" : 1581927491220,
+    "stop" : 1581927491222,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99d71f599d755c61",
   "name" : "action.yml has valid yaml",
   "time" : {
-    "start" : 1581384499815,
-    "stop" : 1581384499819,
+    "start" : 1581927491214,
+    "stop" : 1581927491218,
     "duration" : 4
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7b19b6218da212f8",
-  "name" : "action.yml has correct runs.using",
+  "uid" : "3dfe935b1814c192",
+  "name" : "readInputs is a function",
   "time" : {
-    "start" : 1581384499820,
-    "stop" : 1581384499821,
-    "duration" : 1
+    "start" : 1581927493355,
+    "stop" : 1581927493357,
+    "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ba25f30fa4d3aa29",
+  "uid" : "c2b5117db78af7aa",
+  "name" : "action.yml exists",
+  "time" : {
+    "start" : 1581927491208,
+    "stop" : 1581927491210,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0717376dc5a054d",
+  "name" : "clone can be called for existing branch",
+  "time" : {
+    "start" : 1581927492618,
+    "stop" : 1581927492667,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65a8d9efac2d07dc",
   "name" : "commitAndPush is a function",
   "time" : {
-    "start" : 1581384501354,
-    "stop" : 1581384501357,
-    "duration" : 3
+    "start" : 1581927493085,
+    "stop" : 1581927493087,
+    "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "507b66f265dcfcb9",
-  "name" : "can read action.yml",
-  "time" : {
-    "start" : 1581384499812,
-    "stop" : 1581384499815,
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9ef0d19df2defd94",
-  "name" : "action.yml has runs.main and runs.post",
-  "time" : {
-    "start" : 1581384499822,
-    "stop" : 1581384499823,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4dbf2fcdaa67c186",
+  "uid" : "1697e89f02312de8",
   "name" : "can run runs.main and runs.post end-to-end",
   "time" : {
-    "start" : 1581384499825,
-    "stop" : 1581384499897,
-    "duration" : 72
+    "start" : 1581927491238,
+    "stop" : 1581927491309,
+    "duration" : 71
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "5ef5807abbd01ff6",
-  "name" : "readInputs is a function",
+  "uid" : "9b8485906aeee790",
+  "name" : "clone is a function",
   "time" : {
-    "start" : 1581384501656,
-    "stop" : 1581384501659,
+    "start" : 1581927492562,
+    "stop" : 1581927492564,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1778529ed3811525",
+  "name" : "can read action.yml",
+  "time" : {
+    "start" : 1581927491211,
+    "stop" : 1581927491214,
     "duration" : 3
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e908fbaaf2b0b5f",
+  "uid" : "5a088c4d764eb673",
   "name" : "runs.main and runs.post files exist",
   "time" : {
-    "start" : 1581384499824,
-    "stop" : 1581384499825,
-    "duration" : 1
+    "start" : 1581927491223,
+    "stop" : 1581927491238,
+    "duration" : 15
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c3c46c72bbfdcd4e",
-  "name" : "action.yml exists",
+  "uid" : "f36bf56ccad6cdb3",
+  "name" : "clone can be called for non-existent branch",
   "time" : {
-    "start" : 1581384499809,
-    "stop" : 1581384499811,
-    "duration" : 2
+    "start" : 1581927492564,
+    "stop" : 1581927492617,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee3e1b06d9fbdd88",
+  "name" : "action.yml has correct runs.using",
+  "time" : {
+    "start" : 1581927491219,
+    "stop" : 1581927491220,
+    "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"

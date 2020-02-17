@@ -1,12 +1,12 @@
 {
-  "uid" : "4dbf2fcdaa67c186",
+  "uid" : "85c12d698cd63e68",
   "name" : "can run runs.main and runs.post end-to-end",
   "fullName" : "GitHub Actions Test can run runs.main and runs.post end-to-end",
   "historyId" : "GitHub Actions Test can run runs.main and runs.post end-to-end",
   "time" : {
-    "start" : 1581384499825,
-    "stop" : 1581384499897,
-    "duration" : 72
+    "start" : 1580856134813,
+    "stop" : 1580856134880,
+    "duration" : 67
   },
   "status" : "failed",
   "statusMessage" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
@@ -24,18 +24,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4dbf2fcdaa67c186.json",
+  "source" : "85c12d698cd63e68.json",
   "parameterValues" : [ ]
 }

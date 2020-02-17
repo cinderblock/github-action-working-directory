@@ -1,0 +1,102 @@
+{
+  "uid" : "c2b5117db78af7aa",
+  "name" : "action.yml exists",
+  "fullName" : "GitHub Actions Test action.yml exists",
+  "historyId" : "GitHub Actions Test action.yml exists",
+  "time" : {
+    "start" : 1581927491208,
+    "stop" : 1581927491210,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3918a2bb874cd23e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916492,
+        "stop" : 1580863916494,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a74fbbc3bd70f187",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580858068139,
+        "stop" : 1580858068141,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "2fbb39b27fd35959",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134797,
+        "stop" : 1580856134800,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "8a6acca34be7ed97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855905879,
+        "stop" : 1580855905881,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3ea61a664799b98e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580863916492,
+          "stop" : 1580863916494,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "f0bfbeb1690955bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580858068139,
+          "stop" : 1580858068141,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "98ef5b7eaadbeec2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580856134797,
+          "stop" : 1580856134800,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c2b5117db78af7aa.json",
+  "parameterValues" : [ ]
+}

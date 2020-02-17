@@ -1,5 +1,5 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
     "uid" : "2f8451d780f371a86b24d0bd88373773",
     "name" : "GitHub Actions Test",
@@ -10,6 +10,17 @@
       "passed" : 6,
       "unknown" : 0,
       "total" : 7
+    }
+  }, {
+    "uid" : "f81fa2a12b3baebb98d506696ed598e8",
+    "name" : "utils/clone",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
     }
   }, {
     "uid" : "4df21f5c08ad9fb68d1e2c17fc3f8726",
