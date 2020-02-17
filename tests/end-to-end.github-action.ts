@@ -3,6 +3,7 @@ import { posix } from 'path';
 import { load } from 'js-yaml';
 import { fork } from 'child_process';
 import { EOL } from 'os';
+import { testTempDir } from './utils/testTempDir';
 
 const { readFile } = promises;
 const { join } = posix;
@@ -90,6 +91,7 @@ describe('GitHub Actions Test', () => {
       exec.on('error', reject);
 
       exec.on('exit', exitCode => {
+        expect(messages).toBe('');
         expect(exitCode).toBe(0);
         resolve(messages);
       });

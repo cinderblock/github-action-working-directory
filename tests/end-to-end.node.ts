@@ -1,6 +1,9 @@
 import { clone } from '../src/utils/clone';
 import rmfr from 'rmfr';
 import { testTempDir } from './utils/testTempDir';
+import { promises } from 'fs';
+
+const { access } = promises;
 
 describe('utils/clone', () => {
   test('clone is a function', () => {
@@ -29,7 +32,14 @@ describe('utils/clone', () => {
       dir,
     });
 
-    expect(result).toBe(null);
+    expect(result).toBe(undefined);
+
+    const dirExists = await access(dir).then(
+      () => true,
+      () => false,
+    );
+
+    expect(dirExists).toBe(true);
 
     expect('this test').toBe('flushed out');
   });
@@ -39,14 +49,14 @@ describe('utils/clone', () => {
 
     const result = await clone({ repoUrl, branch: 'master', dir });
 
-    expect(result).not.toBe(null);
-    if (result === null) throw new Error('unreachable');
+    expect(result).toBe(undefined);
 
-    const head = await result.head();
+    const dirExists = await access(dir).then(
+      () => true,
+      () => false,
+    );
 
-    expect(head.isValid()).toBe(true);
-
-    expect(!!head.isBranch()).toBe(true);
+    expect(dirExists).toBe(true);
 
     expect('this test').toBe('flushed out');
   });
