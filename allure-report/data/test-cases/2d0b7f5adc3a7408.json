@@ -1,0 +1,33 @@
+{
+  "uid" : "2d0b7f5adc3a7408",
+  "name" : "action.yml exists",
+  "fullName" : "GitHub Actions Test action.yml exists",
+  "historyId" : "GitHub Actions Test action.yml exists",
+  "time" : {
+    "start" : 1581933092269,
+    "stop" : 1581933092271,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d0b7f5adc3a7408.json",
+  "parameterValues" : [ ]
+}

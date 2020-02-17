@@ -1,0 +1,35 @@
+{
+  "uid" : "cf672175731ac388",
+  "name" : "can run runs.main and runs.post end-to-end",
+  "fullName" : "GitHub Actions Test can run runs.main and runs.post end-to-end",
+  "historyId" : "GitHub Actions Test can run runs.main and runs.post end-to-end",
+  "time" : {
+    "start" : 1580855905904,
+    "stop" : 1580855905965,
+    "duration" : 61
+  },
+  "status" : "failed",
+  "statusMessage" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
+  "statusTrace" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m\n    at ChildProcess.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:93:26)\n    at ChildProcess.emit (events.js:223:5)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf672175731ac388.json",
+  "parameterValues" : [ ]
+}
