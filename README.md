@@ -48,7 +48,7 @@ We use our own action to store historical data for Allure 2.
 
 ### Allure 2
 
-_Include historical trends_
+_Includes historical trends because of this action!_
 [![Allure 2 Report](https://cinderblock.github.io/github-action-working-directory/allure-report.png)](https://cinderblock.github.io/github-action-working-directory/allure-report)
 
 ### jest-stare Test report
