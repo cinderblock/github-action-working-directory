@@ -46,22 +46,22 @@ We use our own action to store historical data for Allure 2.
 
 ## Test Reports
 
-### Allure 2
+### Allure 2 Test Report
 
 _Includes historical trends because of this action!_
 [![Allure 2 Report](https://cinderblock.github.io/github-action-working-directory/allure-report.png)](https://cinderblock.github.io/github-action-working-directory/allure-report)
 
-### jest-stare Test report
+### Jest-stare Test Report
 
-[![jest-stare Test report](https://cinderblock.github.io/github-action-working-directory/jest-stare.png)](https://cinderblock.github.io/github-action-working-directory/jest-stare)
+[![jest-stare test report page](https://cinderblock.github.io/github-action-working-directory/jest-stare.png)](https://cinderblock.github.io/github-action-working-directory/jest-stare)
 
-### jest-html-reporters Test report
+### Jest-html-reporters Test Report
 
-[![jest-html-reporters Test report](https://cinderblock.github.io/github-action-working-directory/jest-html-reporters.png)](https://cinderblock.github.io/github-action-working-directory/jest-html-reporters)
+[![jest-html-reporters test report page](https://cinderblock.github.io/github-action-working-directory/jest-html-reporters.png)](https://cinderblock.github.io/github-action-working-directory/jest-html-reporters)
 
-### lcov Coverage report
+### Lcov Coverage Report
 
-[![lcov Coverage report](https://cinderblock.github.io/github-action-working-directory/coverage/lcov-report.png)](https://cinderblock.github.io/github-action-working-directory/coverage/lcov-report)
+[![lcov coverage  page](https://cinderblock.github.io/github-action-working-directory/coverage/lcov-report.png)](https://cinderblock.github.io/github-action-working-directory/coverage/lcov-report)
 
 ## Development
 
