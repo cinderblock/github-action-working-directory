@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "3c29aa146480b659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258885,
+        "stop" : 1581935258889,
+        "duration" : 4
+      }
+    }, {
       "uid" : "243616ff46d2a80b",
       "status" : "passed",
       "time" : {
@@ -40,14 +48,6 @@
         "stop" : 1581927491218,
         "duration" : 4
       }
-    }, {
-      "uid" : "7d89a1d6e91c98cb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580863916497,
-        "stop" : 1580863916500,
-        "duration" : 3
-      }
     } ]
   },
   "utils/clone clone can be called for existing branch" : {
@@ -55,11 +55,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "ba33b5f6c1cf6b7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935260594,
+        "stop" : 1581935260645,
+        "duration" : 51
+      }
+    }, {
       "uid" : "e3ea1c0356a02308",
       "status" : "passed",
       "time" : {
@@ -95,14 +103,23 @@
   },
   "GitHub Actions Test can run runs.main and runs.post end-to-end" : {
     "statistic" : {
-      "failed" : 7,
+      "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "b98f54ed3bcc569e",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
+      "time" : {
+        "start" : 1581935258895,
+        "stop" : 1581935258970,
+        "duration" : 75
+      }
+    }, {
       "uid" : "79c657671d7fc4ae",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
@@ -138,15 +155,6 @@
         "stop" : 1581927491309,
         "duration" : 71
       }
-    }, {
-      "uid" : "51953d3c76ceef2d",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
-      "time" : {
-        "start" : 1580863916514,
-        "stop" : 1580863916567,
-        "duration" : 53
-      }
     } ]
   },
   "GitHub Actions Test can read action.yml" : {
@@ -154,11 +162,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "6dff0dd675fab521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258882,
+        "stop" : 1581935258885,
+        "duration" : 3
+      }
+    }, {
       "uid" : "11b386fb9eeafcf5",
       "status" : "passed",
       "time" : {
@@ -190,14 +206,6 @@
         "stop" : 1581927491214,
         "duration" : 3
       }
-    }, {
-      "uid" : "f4a7c2e67c7345e5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580863916494,
-        "stop" : 1580863916497,
-        "duration" : 3
-      }
     } ]
   },
   "GitHub Actions Test action.yml exists" : {
@@ -205,11 +213,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "887327d9c963cf5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258879,
+        "stop" : 1581935258881,
+        "duration" : 2
+      }
+    }, {
       "uid" : "2163755fea1dad8a",
       "status" : "passed",
       "time" : {
@@ -241,14 +257,6 @@
         "stop" : 1581927491210,
         "duration" : 2
       }
-    }, {
-      "uid" : "3ea61a664799b98e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580863916492,
-        "stop" : 1580863916494,
-        "duration" : 2
-      }
     } ]
   },
   "utils/clone clone is a function" : {
@@ -256,11 +264,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "723c5f7d587235ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935260540,
+        "stop" : 1581935260542,
+        "duration" : 2
+      }
+    }, {
       "uid" : "ab5b077117d354d7",
       "status" : "passed",
       "time" : {
@@ -299,11 +315,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "cd674932225bdd74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935260543,
+        "stop" : 1581935260594,
+        "duration" : 51
+      }
+    }, {
       "uid" : "b3cee18265051840",
       "status" : "passed",
       "time" : {
@@ -342,11 +366,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "586318b4ba1b00f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935261035,
+        "stop" : 1581935261037,
+        "duration" : 2
+      }
+    }, {
       "uid" : "271450b78d9c15cf",
       "status" : "passed",
       "time" : {
@@ -378,13 +410,25 @@
         "stop" : 1581927493087,
         "duration" : 2
       }
-    }, {
-      "uid" : "9a6f792dd2b3b959",
-      "status" : "passed",
+    } ]
+  },
+  "utils/clone works with existing branch" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e98ff30eaca3bd7",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
       "time" : {
-        "start" : 1580863917723,
-        "stop" : 1580863917725,
-        "duration" : 2
+        "start" : 1581935260139,
+        "stop" : 1581935260190,
+        "duration" : 51
       }
     } ]
   },
@@ -393,11 +437,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "9a4489c96b3ed0cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258893,
+        "stop" : 1581935258895,
+        "duration" : 2
+      }
+    }, {
       "uid" : "c89678b6496dafa5",
       "status" : "passed",
       "time" : {
@@ -429,14 +481,6 @@
         "stop" : 1581927491238,
         "duration" : 15
       }
-    }, {
-      "uid" : "10813e71f15e0ce",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580863916512,
-        "stop" : 1580863916513,
-        "duration" : 1
-      }
     } ]
   },
   "GitHub Actions Test action.yml has correct runs.using" : {
@@ -444,11 +488,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8043755855484f42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258890,
+        "stop" : 1581935258891,
+        "duration" : 1
+      }
+    }, {
       "uid" : "6b399bff3badf60e",
       "status" : "passed",
       "time" : {
@@ -480,14 +532,6 @@
         "stop" : 1581927491220,
         "duration" : 1
       }
-    }, {
-      "uid" : "89745e6b5958bf0e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580863916500,
-        "stop" : 1580863916501,
-        "duration" : 1
-      }
     } ]
   },
   "utils/readInputs readInputs is a function" : {
@@ -495,11 +539,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "cbffd03972ccfddd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935261324,
+        "stop" : 1581935261327,
+        "duration" : 3
+      }
+    }, {
       "uid" : "8c2f5c2295148b94",
       "status" : "passed",
       "time" : {
@@ -531,13 +583,25 @@
         "stop" : 1581927493357,
         "duration" : 2
       }
-    }, {
-      "uid" : "8bfa7dd41364026e",
-      "status" : "passed",
+    } ]
+  },
+  "utils/clone works with non-existent branch" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "676a115871e7fa75",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
       "time" : {
-        "start" : 1580863917942,
-        "stop" : 1580863917944,
-        "duration" : 2
+        "start" : 1581935260078,
+        "stop" : 1581935260139,
+        "duration" : 61
       }
     } ]
   },
@@ -546,11 +610,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "e524652d076a530b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258891,
+        "stop" : 1581935258893,
+        "duration" : 2
+      }
+    }, {
       "uid" : "6f6989f254c148de",
       "status" : "passed",
       "time" : {
@@ -581,14 +653,6 @@
         "start" : 1581927491220,
         "stop" : 1581927491222,
         "duration" : 2
-      }
-    }, {
-      "uid" : "95dd0118bfedc919",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580863916502,
-        "stop" : 1580863916512,
-        "duration" : 10
       }
     } ]
   }

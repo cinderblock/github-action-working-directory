@@ -88,7 +88,7 @@
                 <canvas id="tests-canvas" width="100" height="100"></canvas>
                 <h2>Tests</h2>
                 <div class="list-group">
-                    <p id="tests-results" class="list-group-item list-group-item-action">11 passed, 12 total</p>
+                    <p id="tests-results" class="list-group-item list-group-item-action">12 passed, 15 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -120,15 +120,15 @@
 }</div>
         <div class="d-none" id="test-results">{
   &quot;numFailedTestSuites&quot;: 2,
-  &quot;numFailedTests&quot;: 1,
+  &quot;numFailedTests&quot;: 3,
   &quot;numPassedTestSuites&quot;: 3,
-  &quot;numPassedTests&quot;: 11,
+  &quot;numPassedTests&quot;: 12,
   &quot;numPendingTestSuites&quot;: 0,
   &quot;numPendingTests&quot;: 0,
-  &quot;numRuntimeErrorTestSuites&quot;: 1,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
   &quot;numTodoTests&quot;: 0,
   &quot;numTotalTestSuites&quot;: 5,
-  &quot;numTotalTests&quot;: 12,
+  &quot;numTotalTests&quot;: 15,
   &quot;openHandles&quot;: [],
   &quot;snapshot&quot;: {
     &quot;added&quot;: 0,
@@ -146,7 +146,7 @@
     &quot;unmatched&quot;: 0,
     &quot;updated&quot;: 0
   },
-  &quot;startTime&quot;: 1581934560889,
+  &quot;startTime&quot;: 1581935256411,
   &quot;success&quot;: false,
   &quot;testResults&quot;: [
     {
@@ -157,8 +157,8 @@
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1581934563396,
-        &quot;start&quot;: 1581934560940
+        &quot;end&quot;: 1581935258996,
+        &quot;start&quot;: 1581935256464
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -200,7 +200,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 5,
+          &quot;duration&quot;: 4,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test action.yml has valid yaml&quot;,
           &quot;location&quot;: null,
@@ -236,7 +236,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 1,
+          &quot;duration&quot;: 2,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GitHub Actions Test runs.main and runs.post files exist&quot;,
           &quot;location&quot;: null,
@@ -248,9 +248,9 @@
           &quot;ancestorTitles&quot;: [
             &quot;GitHub Actions Test&quot;
           ],
-          &quot;duration&quot;: 78,
+          &quot;duration&quot;: 75,
           &quot;failureMessages&quot;: [
-            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at ChildProcess.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.github-action.ts:93:26)\n    at ChildProcess.emit (events.js:223:5)\n    at Process.ChildProcess._handle.onexit (internal&#x2F;child_process.js:272:12)&quot;
+            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: \u001b[32m\&quot;\&quot;\u001b[39m\nReceived: \u001b[31m\&quot;stdout &gt; ::debug::Reading inputs\u001b[39m\n\u001b[31mstdout &gt; Cloning repo into dir()\u001b[39m\n\u001b[31mstderr &gt; fatal: could not create work tree dir &#39;&#39;: No such file or directory\u001b[39m\n\u001b[31mstdout &gt; Branch test-dummy missing. Creating an orphan\u001b[39m\n\u001b[31mstdout &gt; ::error::ENOENT: no such file or directory, mkdir\u001b[39m\n\u001b[31m\&quot;\u001b[39m\n    at ChildProcess.&lt;anonymous&gt; (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.github-action.ts:94:26)\n    at ChildProcess.emit (events.js:223:5)\n    at Process.ChildProcess._handle.onexit (internal&#x2F;child_process.js:272:12)&quot;
           ],
           &quot;fullName&quot;: &quot;GitHub Actions Test can run runs.main and runs.post end-to-end&quot;,
           &quot;location&quot;: null,
@@ -259,20 +259,18 @@
           &quot;title&quot;: &quot;can run runs.main and runs.post end-to-end&quot;
         }
       ],
-      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mGitHub Actions Test › can run runs.main and runs.post end-to-end\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: \u001b[32m0\u001b[39m\n    Received: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 91 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 92 | \u001b[39m      exec\u001b[33m.\u001b[39mon(\u001b[32m&#39;exit&#39;\u001b[39m\u001b[33m,\u001b[39m exitCode \u001b[33m&#x3D;&gt;\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[22m\u001b[2m\u001b[39m\u001b[90m 93 | \u001b[39m        expect(exitCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 94 | \u001b[39m        resolve(messages)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 95 | \u001b[39m      })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 96 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ChildProcess.&lt;anonymous&gt; (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:93:26)\u001b[22m\u001b[2m\u001b[22m\n&quot;
+      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mGitHub Actions Test › can run runs.main and runs.post end-to-end\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\&quot;\&quot;\u001b[39m\n    Received: \u001b[31m\&quot;stdout &gt; ::debug::Reading inputs\u001b[39m\n    \u001b[31mstdout &gt; Cloning repo into dir()\u001b[39m\n    \u001b[31mstderr &gt; fatal: could not create work tree dir &#39;&#39;: No such file or directory\u001b[39m\n    \u001b[31mstdout &gt; Branch test-dummy missing. Creating an orphan\u001b[39m\n    \u001b[31mstdout &gt; ::error::ENOENT: no such file or directory, mkdir\u001b[39m\n    \u001b[31m\&quot;\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 92 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 93 | \u001b[39m      exec\u001b[33m.\u001b[39mon(\u001b[32m&#39;exit&#39;\u001b[39m\u001b[33m,\u001b[39m exitCode \u001b[33m&#x3D;&gt;\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[22m\u001b[2m\u001b[39m\u001b[90m 94 | \u001b[39m        expect(messages)\u001b[33m.\u001b[39mtoBe(\u001b[32m&#39;&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 95 | \u001b[39m        expect(exitCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 96 | \u001b[39m        resolve(messages)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 97 | \u001b[39m      })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ChildProcess.&lt;anonymous&gt; (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.github-action.ts\u001b[39m\u001b[0m\u001b[2m:94:26)\u001b[22m\u001b[2m\u001b[22m\n&quot;
     },
     {
-      &quot;displayName&quot;: &quot;&quot;,
-      &quot;failureMessage&quot;: &quot;  \u001b[1m● \u001b[22mTest suite failed to run\n\n    TypeScript diagnostics (customize using &#x60;[jest-config].globals.ts-jest.diagnostics&#x60; option):\n    \u001b[96mtests&#x2F;end-to-end.node.ts\u001b[0m:\u001b[93m45\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty &#39;head&#39; does not exist on type &#39;void&#39;.\n\n    \u001b[7m45\u001b[0m     const head &#x3D; await result.head();\n    \u001b[7m  \u001b[0m \u001b[91m                              ~~~~\u001b[0m\n&quot;,
       &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 0,
+      &quot;numFailingTests&quot;: 2,
+      &quot;numPassingTests&quot;: 1,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 0,
-        &quot;start&quot;: 0
+        &quot;end&quot;: 1581935260199,
+        &quot;start&quot;: 1581935259024
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -280,18 +278,54 @@
         &quot;fileDeleted&quot;: false,
         &quot;matched&quot;: 0,
         &quot;unchecked&quot;: 0,
-        &quot;uncheckedKeys&quot;: [],
         &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0
-      },
-      &quot;testExecError&quot;: {
-        &quot;diagnosticText&quot;: &quot;\u001b[96mtests&#x2F;end-to-end.node.ts\u001b[0m:\u001b[93m45\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty &#39;head&#39; does not exist on type &#39;void&#39;.\n\n\u001b[7m45\u001b[0m     const head &#x3D; await result.head();\n\u001b[7m  \u001b[0m \u001b[91m                              ~~~~\u001b[0m\n&quot;,
-        &quot;diagnosticCodes&quot;: [
-          2339
-        ]
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
       },
       &quot;testFilePath&quot;: &quot;&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts&quot;,
-      &quot;testResults&quot;: []
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;clone&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;utils&#x2F;clone clone is a function&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;clone is a function&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;clone&quot;
+          ],
+          &quot;duration&quot;: 61,
+          &quot;failureMessages&quot;: [
+            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: \u001b[32m\&quot;\u001b[7mflushed ou\u001b[27mt\&quot;\u001b[39m\nReceived: \u001b[31m\&quot;\u001b[7mthis tes\u001b[27mt\&quot;\u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:44:25\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:5:58)&quot;
+          ],
+          &quot;fullName&quot;: &quot;utils&#x2F;clone works with non-existent branch&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;works with non-existent branch&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;utils&#x2F;clone&quot;
+          ],
+          &quot;duration&quot;: 51,
+          &quot;failureMessages&quot;: [
+            &quot;Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\nExpected: \u001b[32m\&quot;\u001b[7mflushed ou\u001b[27mt\&quot;\u001b[39m\nReceived: \u001b[31m\&quot;\u001b[7mthis tes\u001b[27mt\&quot;\u001b[39m\n    at &#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:61:25\n    at Generator.next (&lt;anonymous&gt;)\n    at fulfilled (&#x2F;home&#x2F;runner&#x2F;work&#x2F;github-action-working-directory&#x2F;github-action-working-directory&#x2F;tests&#x2F;end-to-end.node.ts:5:58)&quot;
+          ],
+          &quot;fullName&quot;: &quot;utils&#x2F;clone works with existing branch&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;works with existing branch&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mutils&#x2F;clone › works with non-existent branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\&quot;\u001b[7mflushed ou\u001b[27mt\&quot;\u001b[39m\n    Received: \u001b[31m\&quot;\u001b[7mthis tes\u001b[27mt\&quot;\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 | \u001b[39m    expect(dirExists)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[22m\u001b[2m\u001b[39m\u001b[90m 44 | \u001b[39m    expect(\u001b[32m&#39;this test&#39;\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[32m&#39;flushed out&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 45 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 46 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 47 | \u001b[39m  test(\u001b[32m&#39;works with existing branch&#39;\u001b[39m\u001b[33m,\u001b[39m async () \u001b[33m&#x3D;&gt;\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:44:25\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mutils&#x2F;clone › works with existing branch\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) &#x2F;&#x2F; Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\&quot;\u001b[7mflushed ou\u001b[27mt\&quot;\u001b[39m\n    Received: \u001b[31m\&quot;\u001b[7mthis tes\u001b[27mt\&quot;\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 59 | \u001b[39m    expect(dirExists)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 60 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m&gt;\u001b[22m\u001b[2m\u001b[39m\u001b[90m 61 | \u001b[39m    expect(\u001b[32m&#39;this test&#39;\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[32m&#39;flushed out&#39;\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 62 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 63 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 64 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:61:25\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests&#x2F;end-to-end.node.ts\u001b[39m\u001b[0m\u001b[2m:5:58)\u001b[22m\u001b[2m\u001b[22m\n&quot;
     },
     {
       &quot;leaks&quot;: false,
@@ -301,8 +335,8 @@
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1581934564801,
-        &quot;start&quot;: 1581934563804
+        &quot;end&quot;: 1581935260651,
+        &quot;start&quot;: 1581935260226
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -344,7 +378,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;clone&quot;
           ],
-          &quot;duration&quot;: 47,
+          &quot;duration&quot;: 51,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;utils&#x2F;clone clone can be called for existing branch&quot;,
           &quot;location&quot;: null,
@@ -363,8 +397,8 @@
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1581934565203,
-        &quot;start&quot;: 1581934564827
+        &quot;end&quot;: 1581935261038,
+        &quot;start&quot;: 1581935260677
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -382,7 +416,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;utils&#x2F;commitAndPush&quot;
           ],
-          &quot;duration&quot;: 3,
+          &quot;duration&quot;: 2,
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;utils&#x2F;commitAndPush commitAndPush is a function&quot;,
           &quot;location&quot;: null,
@@ -401,8 +435,8 @@
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1581934565480,
-        &quot;start&quot;: 1581934565226
+        &quot;end&quot;: 1581935261328,
+        &quot;start&quot;: 1581935261061
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -732,35 +766,35 @@
         }
       },
       &quot;s&quot;: {
-        &quot;0&quot;: 1,
-        &quot;1&quot;: 1,
-        &quot;2&quot;: 1,
-        &quot;3&quot;: 1,
-        &quot;4&quot;: 2,
-        &quot;5&quot;: 2,
-        &quot;6&quot;: 2,
-        &quot;7&quot;: 2,
-        &quot;8&quot;: 2,
-        &quot;9&quot;: 2,
-        &quot;10&quot;: 2,
-        &quot;11&quot;: 2,
-        &quot;12&quot;: 2,
-        &quot;13&quot;: 2,
-        &quot;14&quot;: 1
-      },
-      &quot;f&quot;: {
         &quot;0&quot;: 2,
         &quot;1&quot;: 2,
-        &quot;2&quot;: 2
+        &quot;2&quot;: 2,
+        &quot;3&quot;: 2,
+        &quot;4&quot;: 4,
+        &quot;5&quot;: 4,
+        &quot;6&quot;: 4,
+        &quot;7&quot;: 4,
+        &quot;8&quot;: 4,
+        &quot;9&quot;: 4,
+        &quot;10&quot;: 4,
+        &quot;11&quot;: 4,
+        &quot;12&quot;: 4,
+        &quot;13&quot;: 4,
+        &quot;14&quot;: 2
+      },
+      &quot;f&quot;: {
+        &quot;0&quot;: 4,
+        &quot;1&quot;: 4,
+        &quot;2&quot;: 4
       },
       &quot;b&quot;: {
         &quot;0&quot;: [
           0,
-          2
+          4
         ],
         &quot;1&quot;: [
-          2,
-          2
+          4,
+          4
         ]
       }
     },
@@ -1265,45 +1299,45 @@
         }
       },
       &quot;s&quot;: {
-        &quot;0&quot;: 2,
-        &quot;1&quot;: 2,
-        &quot;2&quot;: 2,
-        &quot;3&quot;: 8,
-        &quot;4&quot;: 8,
-        &quot;5&quot;: 8,
-        &quot;6&quot;: 8,
-        &quot;7&quot;: 8,
-        &quot;8&quot;: 2,
-        &quot;9&quot;: 6,
-        &quot;10&quot;: 8,
-        &quot;11&quot;: 8,
-        &quot;12&quot;: 2,
-        &quot;13&quot;: 2,
+        &quot;0&quot;: 3,
+        &quot;1&quot;: 3,
+        &quot;2&quot;: 3,
+        &quot;3&quot;: 16,
+        &quot;4&quot;: 16,
+        &quot;5&quot;: 16,
+        &quot;6&quot;: 16,
+        &quot;7&quot;: 16,
+        &quot;8&quot;: 4,
+        &quot;9&quot;: 12,
+        &quot;10&quot;: 16,
+        &quot;11&quot;: 16,
+        &quot;12&quot;: 3,
+        &quot;13&quot;: 3,
         &quot;14&quot;: 0,
         &quot;15&quot;: 0,
         &quot;16&quot;: 0,
         &quot;17&quot;: 0,
         &quot;18&quot;: 0,
-        &quot;19&quot;: 2
+        &quot;19&quot;: 3
       },
       &quot;f&quot;: {
-        &quot;0&quot;: 8,
-        &quot;1&quot;: 8,
-        &quot;2&quot;: 8,
+        &quot;0&quot;: 16,
+        &quot;1&quot;: 16,
+        &quot;2&quot;: 16,
         &quot;3&quot;: 0
       },
       &quot;b&quot;: {
         &quot;0&quot;: [
-          2,
-          6
+          4,
+          12
         ],
         &quot;1&quot;: [
           0,
-          6
+          12
         ],
         &quot;2&quot;: [
-          2,
-          6
+          4,
+          12
         ],
         &quot;3&quot;: [
           0

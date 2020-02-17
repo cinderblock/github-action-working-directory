@@ -1,0 +1,33 @@
+{
+  "uid" : "c5a26ab6aefa45e5",
+  "name" : "readInputs is a function",
+  "fullName" : "utils/readInputs readInputs is a function",
+  "historyId" : "utils/readInputs readInputs is a function",
+  "time" : {
+    "start" : 1581934565477,
+    "stop" : 1581934565480,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "utils/readInputs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5a26ab6aefa45e5.json",
+  "parameterValues" : [ ]
+}

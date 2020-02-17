@@ -1,0 +1,33 @@
+{
+  "uid" : "90c3a9e6aed9653e",
+  "name" : "runs.main and runs.post files exist",
+  "fullName" : "GitHub Actions Test runs.main and runs.post files exist",
+  "historyId" : "GitHub Actions Test runs.main and runs.post files exist",
+  "time" : {
+    "start" : 1580855905892,
+    "stop" : 1580855905904,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90c3a9e6aed9653e.json",
+  "parameterValues" : [ ]
+}

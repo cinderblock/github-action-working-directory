@@ -3,22 +3,52 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
+      "name" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
       "children" : [ {
         "name" : "can run runs.main and runs.post end-to-end",
-        "uid" : "79c657671d7fc4ae",
-        "parentUid" : "d894d4b240dda8f12b3409405d7495d3",
+        "uid" : "b98f54ed3bcc569e",
+        "parentUid" : "b0b88caacfe1e4e21e6078662d54ff6a",
         "status" : "failed",
         "time" : {
-          "start" : 1581934563288,
-          "stop" : 1581934563367,
-          "duration" : 79
+          "start" : 1581935258895,
+          "stop" : 1581935258970,
+          "duration" : 75
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d894d4b240dda8f12b3409405d7495d3"
+      "uid" : "b0b88caacfe1e4e21e6078662d54ff6a"
+    }, {
+      "name" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "children" : [ {
+        "name" : "works with non-existent branch",
+        "uid" : "676a115871e7fa75",
+        "parentUid" : "07c20b53b8833c4bb4e2759e3c117984",
+        "status" : "failed",
+        "time" : {
+          "start" : 1581935260078,
+          "stop" : 1581935260139,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "works with existing branch",
+        "uid" : "e98ff30eaca3bd7",
+        "parentUid" : "07c20b53b8833c4bb4e2759e3c117984",
+        "status" : "failed",
+        "time" : {
+          "start" : 1581935260139,
+          "stop" : 1581935260190,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07c20b53b8833c4bb4e2759e3c117984"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

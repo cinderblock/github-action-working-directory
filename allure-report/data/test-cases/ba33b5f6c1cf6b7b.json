@@ -1,0 +1,130 @@
+{
+  "uid" : "ba33b5f6c1cf6b7b",
+  "name" : "clone can be called for existing branch",
+  "fullName" : "utils/clone clone can be called for existing branch",
+  "historyId" : "utils/clone clone can be called for existing branch",
+  "time" : {
+    "start" : 1581935260594,
+    "stop" : 1581935260645,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "utils/clone"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a77eed3c84816e3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934564749,
+        "stop" : 1581934564796,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "ec6a017dbd3bbd5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581933093654,
+        "stop" : 1581933093697,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "5c27fefec86ac274",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581932813975,
+        "stop" : 1581932814013,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "4b968c6ad177bd39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581927492618,
+        "stop" : 1581927492667,
+        "duration" : 49
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "e3ea1c0356a02308",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581934564749,
+          "stop" : 1581934564796,
+          "duration" : 47
+        }
+      }, {
+        "uid" : "22d1b22c7eae558c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581933093654,
+          "stop" : 1581933093697,
+          "duration" : 43
+        }
+      }, {
+        "uid" : "2626b15c1f9a7f8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581932813975,
+          "stop" : 1581932814013,
+          "duration" : 38
+        }
+      }, {
+        "uid" : "a0717376dc5a054d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581927492618,
+          "stop" : 1581927492667,
+          "duration" : 49
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ba33b5f6c1cf6b7b.json",
+  "parameterValues" : [ ]
+}
