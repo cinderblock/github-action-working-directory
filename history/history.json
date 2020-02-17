@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "243616ff46d2a80b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563278,
+        "stop" : 1581934563282,
+        "duration" : 4
+      }
+    }, {
       "uid" : "1ee6a9378f6220cc",
       "status" : "passed",
       "time" : {
@@ -40,14 +48,6 @@
         "stop" : 1580863916500,
         "duration" : 3
       }
-    }, {
-      "uid" : "fc4c8eec10c57f7b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580858068145,
-        "stop" : 1580858068149,
-        "duration" : 4
-      }
     } ]
   },
   "utils/clone clone can be called for existing branch" : {
@@ -55,11 +55,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "e3ea1c0356a02308",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934564749,
+        "stop" : 1581934564796,
+        "duration" : 47
+      }
+    }, {
       "uid" : "22d1b22c7eae558c",
       "status" : "passed",
       "time" : {
@@ -87,14 +95,23 @@
   },
   "GitHub Actions Test can run runs.main and runs.post end-to-end" : {
     "statistic" : {
-      "failed" : 6,
+      "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "79c657671d7fc4ae",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
+      "time" : {
+        "start" : 1581934563288,
+        "stop" : 1581934563367,
+        "duration" : 79
+      }
+    }, {
       "uid" : "24acc738c8937453",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
@@ -130,15 +147,6 @@
         "stop" : 1580863916567,
         "duration" : 53
       }
-    }, {
-      "uid" : "a85a76ca884eabd4",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
-      "time" : {
-        "start" : 1580858068154,
-        "stop" : 1580858068227,
-        "duration" : 73
-      }
     } ]
   },
   "GitHub Actions Test can read action.yml" : {
@@ -146,11 +154,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "11b386fb9eeafcf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563274,
+        "stop" : 1581934563277,
+        "duration" : 3
+      }
+    }, {
       "uid" : "e943e96f41778956",
       "status" : "passed",
       "time" : {
@@ -182,14 +198,6 @@
         "stop" : 1580863916497,
         "duration" : 3
       }
-    }, {
-      "uid" : "7a5ec68ec638243c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580858068141,
-        "stop" : 1580858068144,
-        "duration" : 3
-      }
     } ]
   },
   "GitHub Actions Test action.yml exists" : {
@@ -197,11 +205,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "2163755fea1dad8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563271,
+        "stop" : 1581934563274,
+        "duration" : 3
+      }
+    }, {
       "uid" : "efcb7bb376110d4a",
       "status" : "passed",
       "time" : {
@@ -233,14 +249,6 @@
         "stop" : 1580863916494,
         "duration" : 2
       }
-    }, {
-      "uid" : "f0bfbeb1690955bc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580858068139,
-        "stop" : 1580858068141,
-        "duration" : 2
-      }
     } ]
   },
   "utils/clone clone is a function" : {
@@ -248,11 +256,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "ab5b077117d354d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934564693,
+        "stop" : 1581934564696,
+        "duration" : 3
+      }
+    }, {
       "uid" : "d91d946d3691e3f9",
       "status" : "passed",
       "time" : {
@@ -283,11 +299,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "b3cee18265051840",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934564696,
+        "stop" : 1581934564748,
+        "duration" : 52
+      }
+    }, {
       "uid" : "2d490eb5af517684",
       "status" : "passed",
       "time" : {
@@ -318,11 +342,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "271450b78d9c15cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934565200,
+        "stop" : 1581934565202,
+        "duration" : 2
+      }
+    }, {
       "uid" : "6d0e20c68f35f907",
       "status" : "passed",
       "time" : {
@@ -354,14 +386,6 @@
         "stop" : 1580863917725,
         "duration" : 2
       }
-    }, {
-      "uid" : "62cd3017553e7820",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580858069633,
-        "stop" : 1580858069636,
-        "duration" : 3
-      }
     } ]
   },
   "GitHub Actions Test runs.main and runs.post files exist" : {
@@ -369,11 +393,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "c89678b6496dafa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563286,
+        "stop" : 1581934563287,
+        "duration" : 1
+      }
+    }, {
       "uid" : "f4e298f50e180509",
       "status" : "passed",
       "time" : {
@@ -405,14 +437,6 @@
         "stop" : 1580863916513,
         "duration" : 1
       }
-    }, {
-      "uid" : "be22e2ee7c427cec",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580858068152,
-        "stop" : 1580858068154,
-        "duration" : 2
-      }
     } ]
   },
   "GitHub Actions Test action.yml has correct runs.using" : {
@@ -420,11 +444,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "6b399bff3badf60e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563282,
+        "stop" : 1581934563284,
+        "duration" : 2
+      }
+    }, {
       "uid" : "a1ca2cecbea6d970",
       "status" : "passed",
       "time" : {
@@ -456,14 +488,6 @@
         "stop" : 1580863916501,
         "duration" : 1
       }
-    }, {
-      "uid" : "b4db8cc9df61ab38",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580858068149,
-        "stop" : 1580858068150,
-        "duration" : 1
-      }
     } ]
   },
   "utils/readInputs readInputs is a function" : {
@@ -471,11 +495,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "8c2f5c2295148b94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934565477,
+        "stop" : 1581934565480,
+        "duration" : 3
+      }
+    }, {
       "uid" : "e3b64bba81084512",
       "status" : "passed",
       "time" : {
@@ -507,14 +539,6 @@
         "stop" : 1580863917944,
         "duration" : 2
       }
-    }, {
-      "uid" : "223ca5a3dbe30b8d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580858069919,
-        "stop" : 1580858069921,
-        "duration" : 2
-      }
     } ]
   },
   "GitHub Actions Test action.yml has runs.main and runs.post" : {
@@ -522,11 +546,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "6f6989f254c148de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563284,
+        "stop" : 1581934563286,
+        "duration" : 2
+      }
+    }, {
       "uid" : "7843d7b6f27a0f9f",
       "status" : "passed",
       "time" : {
@@ -557,14 +589,6 @@
         "start" : 1580863916502,
         "stop" : 1580863916512,
         "duration" : 10
-      }
-    }, {
-      "uid" : "c15793a860ea92fc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1580858068151,
-        "stop" : 1580858068152,
-        "duration" : 1
       }
     } ]
   }
