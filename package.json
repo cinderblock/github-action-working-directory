@@ -29,6 +29,9 @@
     "prepare": "npm run build",
     "all": "npm install && npm run format-check && npm run lint && npm run spellcheck && npm test && npm run finalize-coverage-reports"
   },
+  "engines": {
+    "yarn": "use npm..."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cinderblock/github-action-working-directory.git"
