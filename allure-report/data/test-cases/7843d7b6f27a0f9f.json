@@ -1,0 +1,134 @@
+{
+  "uid" : "7843d7b6f27a0f9f",
+  "name" : "action.yml has runs.main and runs.post",
+  "fullName" : "GitHub Actions Test action.yml has runs.main and runs.post",
+  "historyId" : "GitHub Actions Test action.yml has runs.main and runs.post",
+  "time" : {
+    "start" : 1581933092281,
+    "stop" : 1581933092283,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a941e8123b626c55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581932812780,
+        "stop" : 1581932812782,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8ac85dade95c2597",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581927491220,
+        "stop" : 1581927491222,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "977e247b59aecae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916502,
+        "stop" : 1580863916512,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "432508da21ccb357",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580858068151,
+        "stop" : 1580858068152,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2e46c8d3909234fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134809,
+        "stop" : 1580856134811,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "ebc82c9aa58419f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855905890,
+        "stop" : 1580855905891,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "fded0dccfa4042ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581932812780,
+          "stop" : 1581932812782,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d091ff9463d43017",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581927491220,
+          "stop" : 1581927491222,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "95dd0118bfedc919",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580863916502,
+          "stop" : 1580863916512,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "c15793a860ea92fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580858068151,
+          "stop" : 1580858068152,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "317f8a2b86f571f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580856134809,
+          "stop" : 1580856134811,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7843d7b6f27a0f9f.json",
+  "parameterValues" : [ ]
+}
