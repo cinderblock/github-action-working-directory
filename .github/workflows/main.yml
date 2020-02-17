@@ -193,12 +193,16 @@ jobs:
       - name: Generate Allure Report
         run: npm run finalize-coverage-reports
 
+      - name: Disable Jekyll
+        working-directory: public
+        run: touch .nojekyll
+
       - name: ---- Files after Allure gen
         uses: cinderblock/github-action-debug-list-files@v1
         with:
           filter: (.git|node_modules)/**
 
-      - name: Copy historical report to results
+      - name: Copy report history to results which will be saved for next run
         run: cp --recursive --force public/allure-report/history allure-results/
 
       # Publish to gh-pages

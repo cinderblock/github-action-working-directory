@@ -25,7 +25,8 @@
     "clean": "rm -rf dist public allure-results",
     "test": "jest",
     "allure": "allure --verbose generate ./allure-results --clean --report-dir public/allure-report",
-    "finalize-coverage-reports": "npm run allure && touch public/.nojekyll",
+    "finalize-coverage-reports": "npm run allure && npm run make-readme-screenshots",
+    "make-readme-screenshots": "ts-node make-readme-screenshots",
     "prepare": "npm run build",
     "all": "npm install && npm run format-check && npm run lint && npm run spellcheck && npm test && npm run finalize-coverage-reports"
   },
@@ -44,6 +45,7 @@
   "devDependencies": {
     "@types/jest": "^25.1.1",
     "@types/node": "^13.7.0",
+    "@types/puppeteer": "^2.0.0",
     "@types/rmfr": "^2.0.0",
     "@typescript-eslint/parser": "^2.19.0",
     "@zeit/ncc": "^0.21.0",
@@ -61,8 +63,10 @@
     "jest-stare": "^1.26.0",
     "js-yaml": "^3.13.1",
     "prettier": "^1.19.1",
+    "puppeteer": "^2.1.1",
     "rmfr": "^2.0.0",
     "ts-jest": "^25.2.0",
+    "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   }
 }
