@@ -79,7 +79,7 @@ describe('GitHub Actions Test', () => {
       const exec = fork(mainFileFullPath, [], {
         env: {
           INPUT_BRANCH: 'test-dummy',
-          'INPUT_working-directory': 'test-dummy',
+          'INPUT_working-directory': testTempDir('e2e-gh-actions'),
         },
         silent: true,
       });
