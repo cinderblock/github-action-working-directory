@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1581927488966,
+  "startTime": 1581932810818,
   "success": false,
   "testResults": [
     {
@@ -37,8 +37,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1581927491332,
-        "start": 1581927489014
+        "end": 1581932812873,
+        "start": 1581932810861
       },
       "skipped": false,
       "snapshot": {
@@ -56,7 +56,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml exists",
           "location": null,
@@ -80,7 +80,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 4,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has valid yaml",
           "location": null,
@@ -92,7 +92,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has correct runs.using",
           "location": null,
@@ -116,7 +116,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 16,
+          "duration": 13,
           "failureMessages": [],
           "fullName": "GitHub Actions Test runs.main and runs.post files exist",
           "location": null,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 71,
+          "duration": 59,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at ChildProcess.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:93:26)\n    at ChildProcess.emit (events.js:223:5)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)"
           ],
@@ -181,8 +181,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1581927492673,
-        "start": 1581927491679
+        "end": 1581932814018,
+        "start": 1581932813198
       },
       "skipped": false,
       "snapshot": {
@@ -212,7 +212,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 53,
+          "duration": 45,
           "failureMessages": [],
           "fullName": "utils/clone clone can be called for non-existent branch",
           "location": null,
@@ -224,7 +224,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 49,
+          "duration": 38,
           "failureMessages": [],
           "fullName": "utils/clone clone can be called for existing branch",
           "location": null,
@@ -243,8 +243,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1581927493088,
-        "start": 1581927492698
+        "end": 1581932814348,
+        "start": 1581932814046
       },
       "skipped": false,
       "snapshot": {
@@ -262,7 +262,7 @@
           "ancestorTitles": [
             "utils/commitAndPush"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "utils/commitAndPush commitAndPush is a function",
           "location": null,
@@ -281,8 +281,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1581927493358,
-        "start": 1581927493110
+        "end": 1581932814584,
+        "start": 1581932814369
       },
       "skipped": false,
       "snapshot": {

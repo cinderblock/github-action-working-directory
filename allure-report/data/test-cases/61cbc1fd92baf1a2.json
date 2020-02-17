@@ -1,0 +1,118 @@
+{
+  "uid" : "61cbc1fd92baf1a2",
+  "name" : "action.yml has correct runs.using",
+  "fullName" : "GitHub Actions Test action.yml has correct runs.using",
+  "historyId" : "GitHub Actions Test action.yml has correct runs.using",
+  "time" : {
+    "start" : 1581932812779,
+    "stop" : 1581932812780,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "72c696a56da78e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581927491219,
+        "stop" : 1581927491220,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5f2465db12fa5657",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916500,
+        "stop" : 1580863916501,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4abac4a2397f3199",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580858068149,
+        "stop" : 1580858068150,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7d5d18201478e95d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134807,
+        "stop" : 1580856134809,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "94bbe5a61ff22137",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855905888,
+        "stop" : 1580855905890,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "ee3e1b06d9fbdd88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581927491219,
+          "stop" : 1581927491220,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "89745e6b5958bf0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580863916500,
+          "stop" : 1580863916501,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b4db8cc9df61ab38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580858068149,
+          "stop" : 1580858068150,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2a2a111ffb7301bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580856134807,
+          "stop" : 1580856134809,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "61cbc1fd92baf1a2.json",
+  "parameterValues" : [ ]
+}
