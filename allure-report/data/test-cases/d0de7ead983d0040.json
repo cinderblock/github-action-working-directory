@@ -1,12 +1,12 @@
 {
-  "uid" : "c7c79e42e8c51c78",
-  "name" : "action.yml has valid yaml",
-  "fullName" : "GitHub Actions Test action.yml has valid yaml",
-  "historyId" : "GitHub Actions Test action.yml has valid yaml",
+  "uid" : "d0de7ead983d0040",
+  "name" : "commitAndPush is a function",
+  "fullName" : "utils/commitAndPush commitAndPush is a function",
+  "historyId" : "utils/commitAndPush commitAndPush is a function",
   "time" : {
-    "start" : 1584219014231,
-    "stop" : 1584219014234,
-    "duration" : 3
+    "start" : 1584219035166,
+    "stop" : 1584219035168,
+    "duration" : 2
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,7 +15,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "parentSuite",
-    "value" : "GitHub Actions Test"
+    "value" : "utils/commitAndPush"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -30,6 +30,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c7c79e42e8c51c78.json",
+  "source" : "d0de7ead983d0040.json",
   "parameterValues" : [ ]
 }

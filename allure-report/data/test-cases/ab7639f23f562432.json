@@ -1,11 +1,11 @@
 {
-  "uid" : "5d859988051b7bdb",
-  "name" : "commitAndPush is a function",
-  "fullName" : "utils/commitAndPush commitAndPush is a function",
-  "historyId" : "utils/commitAndPush commitAndPush is a function",
+  "uid" : "ab7639f23f562432",
+  "name" : "runs.main and runs.post files exist",
+  "fullName" : "GitHub Actions Test runs.main and runs.post files exist",
+  "historyId" : "GitHub Actions Test runs.main and runs.post files exist",
   "time" : {
-    "start" : 1584219015795,
-    "stop" : 1584219015797,
+    "start" : 1584219032939,
+    "stop" : 1584219032941,
     "duration" : 2
   },
   "status" : "passed",
@@ -15,7 +15,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "parentSuite",
-    "value" : "utils/commitAndPush"
+    "value" : "GitHub Actions Test"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -30,6 +30,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5d859988051b7bdb.json",
+  "source" : "ab7639f23f562432.json",
   "parameterValues" : [ ]
 }
