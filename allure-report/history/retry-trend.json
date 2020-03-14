@@ -1,51 +1,6 @@
 [ {
   "data" : {
     "run" : 14,
-    "retry" : 115
-  }
-}, {
-  "data" : {
-    "run" : 14,
-    "retry" : 100
-  }
-}, {
-  "data" : {
-    "run" : 14,
-    "retry" : 85
-  }
-}, {
-  "data" : {
-    "run" : 12,
-    "retry" : 72
-  }
-}, {
-  "data" : {
-    "run" : 12,
-    "retry" : 60
-  }
-}, {
-  "data" : {
-    "run" : 12,
-    "retry" : 48
-  }
-}, {
-  "data" : {
-    "run" : 12,
-    "retry" : 36
-  }
-}, {
-  "data" : {
-    "run" : 9,
-    "retry" : 27
-  }
-}, {
-  "data" : {
-    "run" : 9,
-    "retry" : 18
-  }
-}, {
-  "data" : {
-    "run" : 9,
-    "retry" : 9
+    "retry" : 1
   }
 } ]
