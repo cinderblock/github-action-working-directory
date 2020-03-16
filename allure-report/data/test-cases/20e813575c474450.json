@@ -1,0 +1,126 @@
+{
+  "uid" : "20e813575c474450",
+  "name" : "works with existing branch",
+  "fullName" : "utils/clone works with existing branch",
+  "historyId" : "utils/clone works with existing branch",
+  "time" : {
+    "start" : 1584320057373,
+    "stop" : 1584320057423,
+    "duration" : 50
+  },
+  "status" : "failed",
+  "statusMessage" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+  "statusTrace" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:61:25\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "utils/clone"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bac54071d00ae109",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1581937167253,
+        "stop" : 1581937167304,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "e67912a4abf660f1",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1581935657155,
+        "stop" : 1581935657192,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "15cd30eddf93f724",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1581935260139,
+        "stop" : 1581935260190,
+        "duration" : 51
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "39fbb204ff373a3f",
+        "status" : "failed",
+        "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+        "time" : {
+          "start" : 1581937167253,
+          "stop" : 1581937167304,
+          "duration" : 51
+        }
+      }, {
+        "uid" : "67c9e0f53bc048f5",
+        "status" : "failed",
+        "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+        "time" : {
+          "start" : 1581935657155,
+          "stop" : 1581935657192,
+          "duration" : 37
+        }
+      }, {
+        "uid" : "e98ff30eaca3bd7",
+        "status" : "failed",
+        "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+        "time" : {
+          "start" : 1581935260139,
+          "stop" : 1581935260190,
+          "duration" : 51
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "20e813575c474450.json",
+  "parameterValues" : [ ]
+}

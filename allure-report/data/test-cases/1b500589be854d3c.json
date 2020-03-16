@@ -1,0 +1,174 @@
+{
+  "uid" : "1b500589be854d3c",
+  "name" : "readInputs is a function",
+  "fullName" : "utils/readInputs readInputs is a function",
+  "historyId" : "utils/readInputs readInputs is a function",
+  "time" : {
+    "start" : 1584320058502,
+    "stop" : 1584320058504,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "utils/readInputs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "344437fe14e65c76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937168382,
+        "stop" : 1581937168384,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "2b13d6a14a258b63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935658064,
+        "stop" : 1581935658065,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a69e9e1922e07f02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935261324,
+        "stop" : 1581935261327,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "4353430fab995f65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934565477,
+        "stop" : 1581934565480,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "b3f842e3119ecd32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581933094363,
+        "stop" : 1581933094366,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "3137ed9acaa80676",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581932814582,
+        "stop" : 1581932814583,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b656614c47735a1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581927493355,
+        "stop" : 1581927493357,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7fe761cc278ff9ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863917942,
+        "stop" : 1580863917944,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a90fee5ddb3f034e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580858069919,
+        "stop" : 1580858069921,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a8d488871959fd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856136593,
+        "stop" : 1580856136595,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d0a863b9dd444571",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855907525,
+        "stop" : 1580855907527,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "31e657510869ec22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581937168382,
+          "stop" : 1581937168384,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "f2bcda6a28113f77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581935658064,
+          "stop" : 1581935658065,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cbffd03972ccfddd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581935261324,
+          "stop" : 1581935261327,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "8c2f5c2295148b94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581934565477,
+          "stop" : 1581934565480,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "e3b64bba81084512",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581933094363,
+          "stop" : 1581933094366,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b500589be854d3c.json",
+  "parameterValues" : [ ]
+}

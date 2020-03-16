@@ -4,17 +4,49 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 1
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "55afa7169b765251",
+      "uid" : "2cbd8946e5c904a6",
       "status" : "passed",
       "time" : {
-        "start" : 1584219032931,
-        "stop" : 1584219032936,
-        "duration" : 5
+        "start" : 1584320056198,
+        "stop" : 1584320056202,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "dfb41f2d7d4c2eef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937166110,
+        "stop" : 1581937166114,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "82b6f16e5a6fdcb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935656200,
+        "stop" : 1581935656202,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3c29aa146480b659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258885,
+        "stop" : 1581935258889,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "243616ff46d2a80b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563278,
+        "stop" : 1581934563282,
+        "duration" : 4
       }
     } ]
   },
@@ -23,37 +55,105 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 1
+      "total" : 8
     },
     "items" : [ {
-      "uid" : "eceeba7312cb9d99",
+      "uid" : "30572c6c2aef24cb",
       "status" : "passed",
       "time" : {
-        "start" : 1584219034679,
-        "stop" : 1584219034732,
-        "duration" : 53
+        "start" : 1584320057818,
+        "stop" : 1584320057868,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "89a6b258937c741d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937167682,
+        "stop" : 1581937167728,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "23a8fee9f68beef4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935657511,
+        "stop" : 1581935657546,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "ba33b5f6c1cf6b7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935260594,
+        "stop" : 1581935260645,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "e3ea1c0356a02308",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934564749,
+        "stop" : 1581934564796,
+        "duration" : 47
       }
     } ]
   },
   "GitHub Actions Test can run runs.main and runs.post end-to-end" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 11,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "85eb91dcd8f73cae",
+      "uid" : "c22f19d17958f721",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
       "time" : {
-        "start" : 1584219032941,
-        "stop" : 1584219033022,
-        "duration" : 81
+        "start" : 1584320056208,
+        "stop" : 1584320056279,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "1e6c2e4e77dab729",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
+      "time" : {
+        "start" : 1581937166120,
+        "stop" : 1581937166189,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "e30feca64ddd368d",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
+      "time" : {
+        "start" : 1581935656206,
+        "stop" : 1581935656263,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "b98f54ed3bcc569e",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
+      "time" : {
+        "start" : 1581935258895,
+        "stop" : 1581935258970,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "79c657671d7fc4ae",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
+      "time" : {
+        "start" : 1581934563288,
+        "stop" : 1581934563367,
+        "duration" : 79
       }
     } ]
   },
@@ -62,17 +162,49 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 1
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "349368fd9f65b2a2",
+      "uid" : "1752f77df2209c03",
       "status" : "passed",
       "time" : {
-        "start" : 1584219032927,
-        "stop" : 1584219032931,
-        "duration" : 4
+        "start" : 1584320056195,
+        "stop" : 1584320056198,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "c7a3c734296c876f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937166107,
+        "stop" : 1581937166110,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "6669ad434ab513df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935656197,
+        "stop" : 1581935656199,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "6dff0dd675fab521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258882,
+        "stop" : 1581935258885,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "11b386fb9eeafcf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563274,
+        "stop" : 1581934563277,
+        "duration" : 3
       }
     } ]
   },
@@ -81,16 +213,48 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 1
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "2c54e44020d81212",
+      "uid" : "511fd40deabfe3f8",
       "status" : "passed",
       "time" : {
-        "start" : 1584219032924,
-        "stop" : 1584219032927,
+        "start" : 1584320056192,
+        "stop" : 1584320056194,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "ac30a1cdbe05f605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937166104,
+        "stop" : 1581937166106,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "60afe7ca8d075454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935656194,
+        "stop" : 1581935656197,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "887327d9c963cf5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258879,
+        "stop" : 1581935258881,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "2163755fea1dad8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563271,
+        "stop" : 1581934563274,
         "duration" : 3
       }
     } ]
@@ -100,17 +264,49 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 1
+      "total" : 8
     },
     "items" : [ {
-      "uid" : "86f6661f2091c340",
+      "uid" : "f0375e9953d50d24",
       "status" : "passed",
       "time" : {
-        "start" : 1584219034622,
-        "stop" : 1584219034624,
+        "start" : 1584320057763,
+        "stop" : 1584320057764,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3ee482c2bdd7615d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937167630,
+        "stop" : 1581937167632,
         "duration" : 2
+      }
+    }, {
+      "uid" : "c37eac39803ca67a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935657466,
+        "stop" : 1581935657467,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "723c5f7d587235ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935260540,
+        "stop" : 1581935260542,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "ab5b077117d354d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934564693,
+        "stop" : 1581934564696,
+        "duration" : 3
       }
     } ]
   },
@@ -119,17 +315,49 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 1
+      "total" : 8
     },
     "items" : [ {
-      "uid" : "6c53ba35d39f85d9",
+      "uid" : "fb9c7d5f04a46b9d",
       "status" : "passed",
       "time" : {
-        "start" : 1584219034625,
-        "stop" : 1584219034678,
-        "duration" : 53
+        "start" : 1584320057765,
+        "stop" : 1584320057817,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "8606768df3e33fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937167632,
+        "stop" : 1581937167682,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "4920a8c08bb75b9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935657468,
+        "stop" : 1581935657511,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "cd674932225bdd74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935260543,
+        "stop" : 1581935260594,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "b3cee18265051840",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934564696,
+        "stop" : 1581934564748,
+        "duration" : 52
       }
     } ]
   },
@@ -138,17 +366,96 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 1
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "d0de7ead983d0040",
+      "uid" : "9ace130ceba762ee",
       "status" : "passed",
       "time" : {
-        "start" : 1584219035166,
-        "stop" : 1584219035168,
+        "start" : 1584320058230,
+        "stop" : 1584320058232,
         "duration" : 2
+      }
+    }, {
+      "uid" : "1934405352cc95ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937168108,
+        "stop" : 1581937168110,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "33654d03ae453c91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935657837,
+        "stop" : 1581935657839,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "586318b4ba1b00f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935261035,
+        "stop" : 1581935261037,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "271450b78d9c15cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934565200,
+        "stop" : 1581934565202,
+        "duration" : 2
+      }
+    } ]
+  },
+  "utils/clone works with existing branch" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "20e813575c474450",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1584320057373,
+        "stop" : 1584320057423,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "39fbb204ff373a3f",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1581937167253,
+        "stop" : 1581937167304,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "67c9e0f53bc048f5",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1581935657155,
+        "stop" : 1581935657192,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "e98ff30eaca3bd7",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1581935260139,
+        "stop" : 1581935260190,
+        "duration" : 51
       }
     } ]
   },
@@ -157,37 +464,49 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 1
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "ab7639f23f562432",
+      "uid" : "d14344512b8f317c",
       "status" : "passed",
       "time" : {
-        "start" : 1584219032939,
-        "stop" : 1584219032941,
+        "start" : 1584320056206,
+        "stop" : 1584320056207,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "89947311c37616cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937166118,
+        "stop" : 1581937166119,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e0cdca0cdeb12e61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935656205,
+        "stop" : 1581935656206,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9a4489c96b3ed0cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258893,
+        "stop" : 1581935258895,
         "duration" : 2
       }
-    } ]
-  },
-  "utils/clone works with existing branch" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "84ef0f6fb6a4870f",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+    }, {
+      "uid" : "c89678b6496dafa5",
+      "status" : "passed",
       "time" : {
-        "start" : 1584219034181,
-        "stop" : 1584219034228,
-        "duration" : 47
+        "start" : 1581934563286,
+        "stop" : 1581934563287,
+        "duration" : 1
       }
     } ]
   },
@@ -196,17 +515,49 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 1
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "18ab10388a2a4fa7",
+      "uid" : "5a49791464c3c4cf",
       "status" : "passed",
       "time" : {
-        "start" : 1584219032936,
-        "stop" : 1584219032937,
+        "start" : 1584320056202,
+        "stop" : 1584320056204,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "40fb7cabda2a7794",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937166114,
+        "stop" : 1581937166116,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c7793856a2a9e707",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935656203,
+        "stop" : 1581935656204,
         "duration" : 1
+      }
+    }, {
+      "uid" : "8043755855484f42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258890,
+        "stop" : 1581935258891,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6b399bff3badf60e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563282,
+        "stop" : 1581934563284,
+        "duration" : 2
       }
     } ]
   },
@@ -215,37 +566,96 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 1
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "afc8e35264cd2c7c",
+      "uid" : "1b500589be854d3c",
       "status" : "passed",
       "time" : {
-        "start" : 1584219035478,
-        "stop" : 1584219035481,
+        "start" : 1584320058502,
+        "stop" : 1584320058504,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "31e657510869ec22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937168382,
+        "stop" : 1581937168384,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f2bcda6a28113f77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935658064,
+        "stop" : 1581935658065,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cbffd03972ccfddd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935261324,
+        "stop" : 1581935261327,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "8c2f5c2295148b94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934565477,
+        "stop" : 1581934565480,
         "duration" : 3
       }
     } ]
   },
   "utils/clone works with non-existent branch" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     },
     "items" : [ {
-      "uid" : "f3016c61e818b79",
+      "uid" : "653895a602ae6b60",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
       "time" : {
-        "start" : 1584219034128,
-        "stop" : 1584219034180,
-        "duration" : 52
+        "start" : 1584320057318,
+        "stop" : 1584320057372,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "1c9c5fd55535351d",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1581937167195,
+        "stop" : 1581937167252,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "ddeb7a5ead08ab66",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1581935657107,
+        "stop" : 1581935657155,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "676a115871e7fa75",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1581935260078,
+        "stop" : 1581935260139,
+        "duration" : 61
       }
     } ]
   },
@@ -254,17 +664,49 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 1
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "5cf549bc7922ecee",
+      "uid" : "fc6888edc14298f5",
       "status" : "passed",
       "time" : {
-        "start" : 1584219032938,
-        "stop" : 1584219032939,
+        "start" : 1584320056204,
+        "stop" : 1584320056206,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a747a8a6f74939ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937166116,
+        "stop" : 1581937166118,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "e2a2d4e82cbd3e3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935656204,
+        "stop" : 1581935656205,
         "duration" : 1
+      }
+    }, {
+      "uid" : "e524652d076a530b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258891,
+        "stop" : 1581935258893,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "6f6989f254c148de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563284,
+        "stop" : 1581934563286,
+        "duration" : 2
       }
     } ]
   }

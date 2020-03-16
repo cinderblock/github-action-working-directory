@@ -1,0 +1,174 @@
+{
+  "uid" : "d14344512b8f317c",
+  "name" : "runs.main and runs.post files exist",
+  "fullName" : "GitHub Actions Test runs.main and runs.post files exist",
+  "historyId" : "GitHub Actions Test runs.main and runs.post files exist",
+  "time" : {
+    "start" : 1584320056206,
+    "stop" : 1584320056207,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2d58aa92a71e61fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937166118,
+        "stop" : 1581937166119,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ed595fed7396d1bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935656205,
+        "stop" : 1581935656206,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f78109927d7d2bad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258893,
+        "stop" : 1581935258895,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "e376b271c0cac258",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563286,
+        "stop" : 1581934563287,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "763bec4aa4f67933",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581933092283,
+        "stop" : 1581933092284,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cbcc5e24e9b2681e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581932812782,
+        "stop" : 1581932812795,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "181a024ba4907aa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581927491223,
+        "stop" : 1581927491238,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "c89b4516ce6aa638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916512,
+        "stop" : 1580863916513,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e3b6a2af0931c94c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580858068152,
+        "stop" : 1580858068154,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "53797cede8420a8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134811,
+        "stop" : 1580856134813,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "6aba57140dc03ddc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855905892,
+        "stop" : 1580855905904,
+        "duration" : 12
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "89947311c37616cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581937166118,
+          "stop" : 1581937166119,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e0cdca0cdeb12e61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581935656205,
+          "stop" : 1581935656206,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9a4489c96b3ed0cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581935258893,
+          "stop" : 1581935258895,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "c89678b6496dafa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581934563286,
+          "stop" : 1581934563287,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f4e298f50e180509",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581933092283,
+          "stop" : 1581933092284,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d14344512b8f317c.json",
+  "parameterValues" : [ ]
+}
