@@ -4,49 +4,17 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 11
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "2cbd8946e5c904a6",
+      "uid" : "a8354f4f18950c32",
       "status" : "passed",
       "time" : {
-        "start" : 1584320056198,
-        "stop" : 1584320056202,
-        "duration" : 4
-      }
-    }, {
-      "uid" : "dfb41f2d7d4c2eef",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937166110,
-        "stop" : 1581937166114,
-        "duration" : 4
-      }
-    }, {
-      "uid" : "82b6f16e5a6fdcb6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935656200,
-        "stop" : 1581935656202,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "3c29aa146480b659",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935258885,
-        "stop" : 1581935258889,
-        "duration" : 4
-      }
-    }, {
-      "uid" : "243616ff46d2a80b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934563278,
-        "stop" : 1581934563282,
-        "duration" : 4
+        "start" : 1588255128729,
+        "stop" : 1588255128732,
+        "duration" : 3
       }
     } ]
   },
@@ -55,105 +23,37 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 8
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "30572c6c2aef24cb",
+      "uid" : "47c6a708e8d4f847",
       "status" : "passed",
       "time" : {
-        "start" : 1584320057818,
-        "stop" : 1584320057868,
-        "duration" : 50
-      }
-    }, {
-      "uid" : "89a6b258937c741d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937167682,
-        "stop" : 1581937167728,
-        "duration" : 46
-      }
-    }, {
-      "uid" : "23a8fee9f68beef4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935657511,
-        "stop" : 1581935657546,
-        "duration" : 35
-      }
-    }, {
-      "uid" : "ba33b5f6c1cf6b7b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935260594,
-        "stop" : 1581935260645,
-        "duration" : 51
-      }
-    }, {
-      "uid" : "e3ea1c0356a02308",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934564749,
-        "stop" : 1581934564796,
-        "duration" : 47
+        "start" : 1588255130333,
+        "stop" : 1588255130385,
+        "duration" : 52
       }
     } ]
   },
   "GitHub Actions Test can run runs.main and runs.post end-to-end" : {
     "statistic" : {
-      "failed" : 11,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 11
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "c22f19d17958f721",
+      "uid" : "9531e98d884098bf",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
       "time" : {
-        "start" : 1584320056208,
-        "stop" : 1584320056279,
-        "duration" : 71
-      }
-    }, {
-      "uid" : "1e6c2e4e77dab729",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
-      "time" : {
-        "start" : 1581937166120,
-        "stop" : 1581937166189,
-        "duration" : 69
-      }
-    }, {
-      "uid" : "e30feca64ddd368d",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
-      "time" : {
-        "start" : 1581935656206,
-        "stop" : 1581935656263,
-        "duration" : 57
-      }
-    }, {
-      "uid" : "b98f54ed3bcc569e",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
-      "time" : {
-        "start" : 1581935258895,
-        "stop" : 1581935258970,
-        "duration" : 75
-      }
-    }, {
-      "uid" : "79c657671d7fc4ae",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m0\u001B[39m\nReceived: \u001B[31m1\u001B[39m",
-      "time" : {
-        "start" : 1581934563288,
-        "stop" : 1581934563367,
-        "duration" : 79
+        "start" : 1588255128738,
+        "stop" : 1588255128805,
+        "duration" : 67
       }
     } ]
   },
@@ -162,48 +62,16 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 11
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1752f77df2209c03",
+      "uid" : "45bf92a7a3585251",
       "status" : "passed",
       "time" : {
-        "start" : 1584320056195,
-        "stop" : 1584320056198,
-        "duration" : 3
-      }
-    }, {
-      "uid" : "c7a3c734296c876f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937166107,
-        "stop" : 1581937166110,
-        "duration" : 3
-      }
-    }, {
-      "uid" : "6669ad434ab513df",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935656197,
-        "stop" : 1581935656199,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "6dff0dd675fab521",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935258882,
-        "stop" : 1581935258885,
-        "duration" : 3
-      }
-    }, {
-      "uid" : "11b386fb9eeafcf5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934563274,
-        "stop" : 1581934563277,
+        "start" : 1588255128725,
+        "stop" : 1588255128728,
         "duration" : 3
       }
     } ]
@@ -213,48 +81,16 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 11
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "511fd40deabfe3f8",
+      "uid" : "47fe4502a035cedb",
       "status" : "passed",
       "time" : {
-        "start" : 1584320056192,
-        "stop" : 1584320056194,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "ac30a1cdbe05f605",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937166104,
-        "stop" : 1581937166106,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "60afe7ca8d075454",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935656194,
-        "stop" : 1581935656197,
-        "duration" : 3
-      }
-    }, {
-      "uid" : "887327d9c963cf5d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935258879,
-        "stop" : 1581935258881,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "2163755fea1dad8a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934563271,
-        "stop" : 1581934563274,
+        "start" : 1588255128722,
+        "stop" : 1588255128725,
         "duration" : 3
       }
     } ]
@@ -264,49 +100,17 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 8
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "f0375e9953d50d24",
+      "uid" : "1111a5ccb1a60c78",
       "status" : "passed",
       "time" : {
-        "start" : 1584320057763,
-        "stop" : 1584320057764,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "3ee482c2bdd7615d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937167630,
-        "stop" : 1581937167632,
+        "start" : 1588255130284,
+        "stop" : 1588255130286,
         "duration" : 2
-      }
-    }, {
-      "uid" : "c37eac39803ca67a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935657466,
-        "stop" : 1581935657467,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "723c5f7d587235ca",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935260540,
-        "stop" : 1581935260542,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "ab5b077117d354d7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934564693,
-        "stop" : 1581934564696,
-        "duration" : 3
       }
     } ]
   },
@@ -315,49 +119,17 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 8
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "fb9c7d5f04a46b9d",
+      "uid" : "992b5d0d7b769641",
       "status" : "passed",
       "time" : {
-        "start" : 1584320057765,
-        "stop" : 1584320057817,
-        "duration" : 52
-      }
-    }, {
-      "uid" : "8606768df3e33fec",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937167632,
-        "stop" : 1581937167682,
-        "duration" : 50
-      }
-    }, {
-      "uid" : "4920a8c08bb75b9b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935657468,
-        "stop" : 1581935657511,
-        "duration" : 43
-      }
-    }, {
-      "uid" : "cd674932225bdd74",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935260543,
-        "stop" : 1581935260594,
-        "duration" : 51
-      }
-    }, {
-      "uid" : "b3cee18265051840",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934564696,
-        "stop" : 1581934564748,
-        "duration" : 52
+        "start" : 1588255130286,
+        "stop" : 1588255130333,
+        "duration" : 47
       }
     } ]
   },
@@ -366,96 +138,17 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 11
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "9ace130ceba762ee",
+      "uid" : "12c370736925ad27",
       "status" : "passed",
       "time" : {
-        "start" : 1584320058230,
-        "stop" : 1584320058232,
+        "start" : 1588255130766,
+        "stop" : 1588255130768,
         "duration" : 2
-      }
-    }, {
-      "uid" : "1934405352cc95ae",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937168108,
-        "stop" : 1581937168110,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "33654d03ae453c91",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935657837,
-        "stop" : 1581935657839,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "586318b4ba1b00f2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935261035,
-        "stop" : 1581935261037,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "271450b78d9c15cf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934565200,
-        "stop" : 1581934565202,
-        "duration" : 2
-      }
-    } ]
-  },
-  "utils/clone works with existing branch" : {
-    "statistic" : {
-      "failed" : 4,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 4
-    },
-    "items" : [ {
-      "uid" : "20e813575c474450",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
-      "time" : {
-        "start" : 1584320057373,
-        "stop" : 1584320057423,
-        "duration" : 50
-      }
-    }, {
-      "uid" : "39fbb204ff373a3f",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
-      "time" : {
-        "start" : 1581937167253,
-        "stop" : 1581937167304,
-        "duration" : 51
-      }
-    }, {
-      "uid" : "67c9e0f53bc048f5",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
-      "time" : {
-        "start" : 1581935657155,
-        "stop" : 1581935657192,
-        "duration" : 37
-      }
-    }, {
-      "uid" : "e98ff30eaca3bd7",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
-      "time" : {
-        "start" : 1581935260139,
-        "stop" : 1581935260190,
-        "duration" : 51
       }
     } ]
   },
@@ -464,49 +157,37 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 11
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "d14344512b8f317c",
+      "uid" : "5544201764193342",
       "status" : "passed",
       "time" : {
-        "start" : 1584320056206,
-        "stop" : 1584320056207,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "89947311c37616cb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937166118,
-        "stop" : 1581937166119,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "e0cdca0cdeb12e61",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935656205,
-        "stop" : 1581935656206,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "9a4489c96b3ed0cd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935258893,
-        "stop" : 1581935258895,
+        "start" : 1588255128736,
+        "stop" : 1588255128738,
         "duration" : 2
       }
-    }, {
-      "uid" : "c89678b6496dafa5",
-      "status" : "passed",
+    } ]
+  },
+  "utils/clone works with existing branch" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "196e4cdd3833a88e",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
       "time" : {
-        "start" : 1581934563286,
-        "stop" : 1581934563287,
-        "duration" : 1
+        "start" : 1588255129903,
+        "stop" : 1588255129946,
+        "duration" : 43
       }
     } ]
   },
@@ -515,49 +196,17 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 11
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "5a49791464c3c4cf",
+      "uid" : "29b2b1d9efe8651f",
       "status" : "passed",
       "time" : {
-        "start" : 1584320056202,
-        "stop" : 1584320056204,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "40fb7cabda2a7794",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937166114,
-        "stop" : 1581937166116,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "c7793856a2a9e707",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935656203,
-        "stop" : 1581935656204,
+        "start" : 1588255128733,
+        "stop" : 1588255128734,
         "duration" : 1
-      }
-    }, {
-      "uid" : "8043755855484f42",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935258890,
-        "stop" : 1581935258891,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "6b399bff3badf60e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934563282,
-        "stop" : 1581934563284,
-        "duration" : 2
       }
     } ]
   },
@@ -566,96 +215,17 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 11
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1b500589be854d3c",
+      "uid" : "b2a554d68ca113bb",
       "status" : "passed",
       "time" : {
-        "start" : 1584320058502,
-        "stop" : 1584320058504,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "31e657510869ec22",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581937168382,
-        "stop" : 1581937168384,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "f2bcda6a28113f77",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935658064,
-        "stop" : 1581935658065,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "cbffd03972ccfddd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935261324,
-        "stop" : 1581935261327,
+        "start" : 1588255131027,
+        "stop" : 1588255131030,
         "duration" : 3
-      }
-    }, {
-      "uid" : "8c2f5c2295148b94",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934565477,
-        "stop" : 1581934565480,
-        "duration" : 3
-      }
-    } ]
-  },
-  "utils/clone works with non-existent branch" : {
-    "statistic" : {
-      "failed" : 4,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 4
-    },
-    "items" : [ {
-      "uid" : "653895a602ae6b60",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
-      "time" : {
-        "start" : 1584320057318,
-        "stop" : 1584320057372,
-        "duration" : 54
-      }
-    }, {
-      "uid" : "1c9c5fd55535351d",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
-      "time" : {
-        "start" : 1581937167195,
-        "stop" : 1581937167252,
-        "duration" : 57
-      }
-    }, {
-      "uid" : "ddeb7a5ead08ab66",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
-      "time" : {
-        "start" : 1581935657107,
-        "stop" : 1581935657155,
-        "duration" : 48
-      }
-    }, {
-      "uid" : "676a115871e7fa75",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
-      "time" : {
-        "start" : 1581935260078,
-        "stop" : 1581935260139,
-        "duration" : 61
       }
     } ]
   },
@@ -664,49 +234,37 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 11
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "fc6888edc14298f5",
+      "uid" : "d5410a91510ad44c",
       "status" : "passed",
       "time" : {
-        "start" : 1584320056204,
-        "stop" : 1584320056206,
+        "start" : 1588255128734,
+        "stop" : 1588255128736,
         "duration" : 2
       }
-    }, {
-      "uid" : "a747a8a6f74939ee",
-      "status" : "passed",
+    } ]
+  },
+  "utils/clone works with non-existent branch" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a73c3b8ad2d97e",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
       "time" : {
-        "start" : 1581937166116,
-        "stop" : 1581937166118,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "e2a2d4e82cbd3e3d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935656204,
-        "stop" : 1581935656205,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "e524652d076a530b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581935258891,
-        "stop" : 1581935258893,
-        "duration" : 2
-      }
-    }, {
-      "uid" : "6f6989f254c148de",
-      "status" : "passed",
-      "time" : {
-        "start" : 1581934563284,
-        "stop" : 1581934563286,
-        "duration" : 2
+        "start" : 1588255129852,
+        "stop" : 1588255129903,
+        "duration" : 51
       }
     } ]
   }

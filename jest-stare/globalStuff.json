@@ -65,7 +65,7 @@
   "testFailureExitCode": 1,
   "testPathPattern": "",
   "testSequencer": "/home/runner/work/github-action-working-directory/github-action-working-directory/node_modules/@jest/test-sequencer/build/index.js",
-  "updateSnapshot": "new",
+  "updateSnapshot": "none",
   "useStderr": false,
   "verbose": true,
   "watch": false,
