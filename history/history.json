@@ -1,0 +1,271 @@
+{
+  "GitHub Actions Test action.yml has valid yaml" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8354f4f18950c32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255128729,
+        "stop" : 1588255128732,
+        "duration" : 3
+      }
+    } ]
+  },
+  "utils/clone clone can be called for existing branch" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47c6a708e8d4f847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255130333,
+        "stop" : 1588255130385,
+        "duration" : 52
+      }
+    } ]
+  },
+  "GitHub Actions Test can run runs.main and runs.post end-to-end" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9531e98d884098bf",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir\u001B[39m\n\u001B[31m\"\u001B[39m",
+      "time" : {
+        "start" : 1588255128738,
+        "stop" : 1588255128805,
+        "duration" : 67
+      }
+    } ]
+  },
+  "GitHub Actions Test can read action.yml" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45bf92a7a3585251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255128725,
+        "stop" : 1588255128728,
+        "duration" : 3
+      }
+    } ]
+  },
+  "GitHub Actions Test action.yml exists" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47fe4502a035cedb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255128722,
+        "stop" : 1588255128725,
+        "duration" : 3
+      }
+    } ]
+  },
+  "utils/clone clone is a function" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1111a5ccb1a60c78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255130284,
+        "stop" : 1588255130286,
+        "duration" : 2
+      }
+    } ]
+  },
+  "utils/clone clone can be called for non-existent branch" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "992b5d0d7b769641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255130286,
+        "stop" : 1588255130333,
+        "duration" : 47
+      }
+    } ]
+  },
+  "utils/commitAndPush commitAndPush is a function" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12c370736925ad27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255130766,
+        "stop" : 1588255130768,
+        "duration" : 2
+      }
+    } ]
+  },
+  "GitHub Actions Test runs.main and runs.post files exist" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5544201764193342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255128736,
+        "stop" : 1588255128738,
+        "duration" : 2
+      }
+    } ]
+  },
+  "utils/clone works with existing branch" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "196e4cdd3833a88e",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1588255129903,
+        "stop" : 1588255129946,
+        "duration" : 43
+      }
+    } ]
+  },
+  "GitHub Actions Test action.yml has correct runs.using" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29b2b1d9efe8651f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255128733,
+        "stop" : 1588255128734,
+        "duration" : 1
+      }
+    } ]
+  },
+  "utils/readInputs readInputs is a function" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2a554d68ca113bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255131027,
+        "stop" : 1588255131030,
+        "duration" : 3
+      }
+    } ]
+  },
+  "GitHub Actions Test action.yml has runs.main and runs.post" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5410a91510ad44c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588255128734,
+        "stop" : 1588255128736,
+        "duration" : 2
+      }
+    } ]
+  },
+  "utils/clone works with non-existent branch" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a73c3b8ad2d97e",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1588255129852,
+        "stop" : 1588255129903,
+        "duration" : 51
+      }
+    } ]
+  }
+}
