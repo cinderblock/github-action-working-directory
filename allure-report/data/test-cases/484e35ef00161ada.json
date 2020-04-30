@@ -1,12 +1,12 @@
 {
-  "uid" : "1111a5ccb1a60c78",
+  "uid" : "484e35ef00161ada",
   "name" : "clone is a function",
   "fullName" : "utils/clone clone is a function",
   "historyId" : "utils/clone clone is a function",
   "time" : {
-    "start" : 1588255130284,
-    "stop" : 1588255130286,
-    "duration" : 2
+    "start" : 1588255143072,
+    "stop" : 1588255143075,
+    "duration" : 3
   },
   "status" : "passed",
   "flaky" : false,
@@ -42,22 +42,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "ed1f9c965a19adb6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1588255129849,
-        "stop" : 1588255129851,
-        "duration" : 2
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1111a5ccb1a60c78.json",
+  "source" : "484e35ef00161ada.json",
   "parameterValues" : [ ]
 }

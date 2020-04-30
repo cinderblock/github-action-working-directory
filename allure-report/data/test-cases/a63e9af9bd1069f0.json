@@ -1,12 +1,12 @@
 {
-  "uid" : "45bf92a7a3585251",
-  "name" : "can read action.yml",
-  "fullName" : "GitHub Actions Test can read action.yml",
-  "historyId" : "GitHub Actions Test can read action.yml",
+  "uid" : "a63e9af9bd1069f0",
+  "name" : "action.yml has runs.main and runs.post",
+  "fullName" : "GitHub Actions Test action.yml has runs.main and runs.post",
+  "historyId" : "GitHub Actions Test action.yml has runs.main and runs.post",
   "time" : {
-    "start" : 1588255128725,
-    "stop" : 1588255128728,
-    "duration" : 3
+    "start" : 1588255141751,
+    "stop" : 1588255141753,
+    "duration" : 2
   },
   "status" : "passed",
   "flaky" : false,
@@ -30,6 +30,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "45bf92a7a3585251.json",
+  "source" : "a63e9af9bd1069f0.json",
   "parameterValues" : [ ]
 }
