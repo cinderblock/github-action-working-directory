@@ -1,12 +1,12 @@
 {
-  "uid" : "d0f061b32eb8a15e",
+  "uid" : "22c1279de895f2cf",
   "name" : "works with existing branch",
   "fullName" : "utils/clone works with existing branch",
   "historyId" : "utils/clone works with existing branch",
   "time" : {
-    "start" : 1595136965389,
-    "stop" : 1595136965437,
-    "duration" : 48
+    "start" : 1595136966948,
+    "stop" : 1595136966991,
+    "duration" : 43
   },
   "status" : "failed",
   "statusMessage" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
@@ -56,6 +56,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "d0f061b32eb8a15e.json",
+  "source" : "22c1279de895f2cf.json",
   "parameterValues" : [ ]
 }

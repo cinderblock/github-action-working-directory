@@ -1,12 +1,12 @@
 {
-  "uid" : "2050b7b1561591ec",
-  "name" : "clone is a function",
-  "fullName" : "utils/clone clone is a function",
-  "historyId" : "utils/clone clone is a function",
+  "uid" : "71ea4fece799791a",
+  "name" : "clone can be called for non-existent branch",
+  "fullName" : "utils/clone clone can be called for non-existent branch",
+  "historyId" : "utils/clone clone can be called for non-existent branch",
   "time" : {
-    "start" : 1595136965327,
-    "stop" : 1595136965329,
-    "duration" : 2
+    "start" : 1595136967335,
+    "stop" : 1595136967380,
+    "duration" : 45
   },
   "status" : "passed",
   "flaky" : false,
@@ -42,12 +42,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2050b7b1561591ec.json",
+  "source" : "71ea4fece799791a.json",
   "parameterValues" : [ ]
 }
