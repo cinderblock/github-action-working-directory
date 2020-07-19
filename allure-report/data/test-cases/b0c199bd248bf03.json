@@ -1,11 +1,11 @@
 {
-  "uid" : "a63e9af9bd1069f0",
+  "uid" : "b0c199bd248bf03",
   "name" : "action.yml has runs.main and runs.post",
   "fullName" : "GitHub Actions Test action.yml has runs.main and runs.post",
   "historyId" : "GitHub Actions Test action.yml has runs.main and runs.post",
   "time" : {
-    "start" : 1588255141751,
-    "stop" : 1588255141753,
+    "start" : 1595136964138,
+    "stop" : 1595136964140,
     "duration" : 2
   },
   "status" : "passed",
@@ -30,6 +30,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a63e9af9bd1069f0.json",
+  "source" : "b0c199bd248bf03.json",
   "parameterValues" : [ ]
 }
