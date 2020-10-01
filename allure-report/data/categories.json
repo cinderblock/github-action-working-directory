@@ -6,12 +6,12 @@
       "name" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir ''\u001B[39m\n\u001B[31m\"\u001B[39m",
       "children" : [ {
         "name" : "can run runs.main and runs.post end-to-end",
-        "uid" : "330e2f214fa7a415",
+        "uid" : "96747909f696740",
         "parentUid" : "96f66c65f7779279334454cc8419a333",
         "status" : "failed",
         "time" : {
-          "start" : 1601573370466,
-          "stop" : 1601573370544,
+          "start" : 1601573388465,
+          "stop" : 1601573388543,
           "duration" : 78
         },
         "flaky" : false,
@@ -23,26 +23,26 @@
       "name" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
       "children" : [ {
         "name" : "works with non-existent branch",
-        "uid" : "ffdeca5f8be19ec4",
+        "uid" : "d4ed1cf746715ea0",
         "parentUid" : "07c20b53b8833c4bb4e2759e3c117984",
         "status" : "failed",
         "time" : {
-          "start" : 1601573371611,
-          "stop" : 1601573371674,
-          "duration" : 63
+          "start" : 1601573389608,
+          "stop" : 1601573389679,
+          "duration" : 71
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "works with existing branch",
-        "uid" : "84a91b2b1971ac8a",
+        "uid" : "965721a9703e0c44",
         "parentUid" : "07c20b53b8833c4bb4e2759e3c117984",
         "status" : "failed",
         "time" : {
-          "start" : 1601573371674,
-          "stop" : 1601573371727,
-          "duration" : 53
+          "start" : 1601573389679,
+          "stop" : 1601573389737,
+          "duration" : 58
         },
         "flaky" : false,
         "newFailed" : false,

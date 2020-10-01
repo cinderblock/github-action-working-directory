@@ -1,12 +1,12 @@
 {
-  "uid" : "e85f1cea4f361762",
+  "uid" : "23e99f3dc231c69c",
   "name" : "readInputs is a function",
   "fullName" : "utils/readInputs readInputs is a function",
   "historyId" : "utils/readInputs readInputs is a function",
   "time" : {
-    "start" : 1601573372817,
-    "stop" : 1601573372819,
-    "duration" : 2
+    "start" : 1601573390877,
+    "stop" : 1601573390880,
+    "duration" : 3
   },
   "status" : "passed",
   "flaky" : false,
@@ -30,6 +30,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e85f1cea4f361762.json",
+  "source" : "23e99f3dc231c69c.json",
   "parameterValues" : [ ]
 }

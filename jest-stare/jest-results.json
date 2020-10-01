@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1601573367899,
+  "startTime": 1601573386051,
   "success": false,
   "testResults": [
     {
@@ -37,8 +37,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1601573370570,
-        "start": 1601573367955
+        "end": 1601573388585,
+        "start": 1601573386105
       },
       "skipped": false,
       "snapshot": {
@@ -56,7 +56,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml exists",
           "location": null,
@@ -68,7 +68,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Test can read action.yml",
           "location": null,
@@ -104,7 +104,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 1,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has runs.main and runs.post",
           "location": null,
@@ -116,7 +116,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 14,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Test runs.main and runs.post files exist",
           "location": null,
@@ -149,8 +149,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1601573371735,
-        "start": 1601573370595
+        "end": 1601573389751,
+        "start": 1601573388609
       },
       "skipped": false,
       "snapshot": {
@@ -180,7 +180,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 63,
+          "duration": 71,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mflushed ou\u001b[27mt\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mthis tes\u001b[27mt\"\u001b[39m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:44:25\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:5:58)"
           ],
@@ -194,7 +194,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 53,
+          "duration": 58,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mflushed ou\u001b[27mt\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mthis tes\u001b[27mt\"\u001b[39m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:61:25\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:5:58)"
           ],
@@ -215,8 +215,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1601573372187,
-        "start": 1601573371762
+        "end": 1601573390212,
+        "start": 1601573389776
       },
       "skipped": false,
       "snapshot": {
@@ -246,7 +246,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 57,
+          "duration": 56,
           "failureMessages": [],
           "fullName": "utils/clone clone can be called for non-existent branch",
           "location": null,
@@ -258,7 +258,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 56,
+          "duration": 54,
           "failureMessages": [],
           "fullName": "utils/clone clone can be called for existing branch",
           "location": null,
@@ -277,8 +277,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1601573372548,
-        "start": 1601573372212
+        "end": 1601573390584,
+        "start": 1601573390236
       },
       "skipped": false,
       "snapshot": {
@@ -296,7 +296,7 @@
           "ancestorTitles": [
             "utils/commitAndPush"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "utils/commitAndPush commitAndPush is a function",
           "location": null,
@@ -315,8 +315,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1601573372820,
-        "start": 1601573372570
+        "end": 1601573390881,
+        "start": 1601573390609
       },
       "skipped": false,
       "snapshot": {
