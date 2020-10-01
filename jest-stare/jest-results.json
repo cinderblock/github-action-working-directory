@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1595136963671,
+  "startTime": 1601573367899,
   "success": false,
   "testResults": [
     {
@@ -37,8 +37,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1595136965923,
-        "start": 1595136963721
+        "end": 1601573370570,
+        "start": 1601573367955
       },
       "skipped": false,
       "snapshot": {
@@ -56,7 +56,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml exists",
           "location": null,
@@ -104,7 +104,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "GitHub Actions Test action.yml has runs.main and runs.post",
           "location": null,
@@ -116,7 +116,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 1,
+          "duration": 14,
           "failureMessages": [],
           "fullName": "GitHub Actions Test runs.main and runs.post files exist",
           "location": null,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "GitHub Actions Test"
           ],
-          "duration": 66,
+          "duration": 78,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\"\u001b[39m\nReceived: \u001b[31m\"stdout > ::debug::Reading inputs\u001b[39m\n\u001b[31mstdout > Cloning repo into dir()\u001b[39m\n\u001b[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001b[39m\n\u001b[31mstdout > Branch test-dummy missing. Creating an orphan\u001b[39m\n\u001b[31mstdout > ::error::ENOENT: no such file or directory, mkdir ''\u001b[39m\n\u001b[31m\"\u001b[39m\n    at ChildProcess.<anonymous> (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.github-action.ts:94:26)\n    at ChildProcess.emit (events.js:315:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)"
           ],
@@ -149,8 +149,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1595136966999,
-        "start": 1595136965949
+        "end": 1601573371735,
+        "start": 1601573370595
       },
       "skipped": false,
       "snapshot": {
@@ -168,7 +168,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 7,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "utils/clone clone is a function",
           "location": null,
@@ -180,7 +180,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 49,
+          "duration": 63,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mflushed ou\u001b[27mt\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mthis tes\u001b[27mt\"\u001b[39m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:44:25\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:5:58)"
           ],
@@ -194,7 +194,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 43,
+          "duration": 53,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mflushed ou\u001b[27mt\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mthis tes\u001b[27mt\"\u001b[39m\n    at /home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:61:25\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/runner/work/github-action-working-directory/github-action-working-directory/tests/end-to-end.node.ts:5:58)"
           ],
@@ -215,8 +215,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1595136967434,
-        "start": 1595136967035
+        "end": 1601573372187,
+        "start": 1601573371762
       },
       "skipped": false,
       "snapshot": {
@@ -246,7 +246,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 45,
+          "duration": 57,
           "failureMessages": [],
           "fullName": "utils/clone clone can be called for non-existent branch",
           "location": null,
@@ -258,7 +258,7 @@
           "ancestorTitles": [
             "utils/clone"
           ],
-          "duration": 41,
+          "duration": 56,
           "failureMessages": [],
           "fullName": "utils/clone clone can be called for existing branch",
           "location": null,
@@ -277,8 +277,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1595136967798,
-        "start": 1595136967457
+        "end": 1601573372548,
+        "start": 1601573372212
       },
       "skipped": false,
       "snapshot": {
@@ -296,7 +296,7 @@
           "ancestorTitles": [
             "utils/commitAndPush"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "utils/commitAndPush commitAndPush is a function",
           "location": null,
@@ -315,8 +315,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1595136968056,
-        "start": 1595136967819
+        "end": 1601573372820,
+        "start": 1601573372570
       },
       "skipped": false,
       "snapshot": {
@@ -334,7 +334,7 @@
           "ancestorTitles": [
             "utils/readInputs"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "utils/readInputs readInputs is a function",
           "location": null,
@@ -1669,6 +1669,153 @@
         ]
       }
     },
+    "/home/runner/work/github-action-working-directory/github-action-working-directory/src/commit.ts": {
+      "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/commit.ts",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 38
+          }
+        },
+        "1": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        },
+        "2": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 54
+          }
+        },
+        "3": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 15,
+            "column": null
+          }
+        },
+        "4": {
+          "start": {
+            "line": 8,
+            "column": 50
+          },
+          "end": {
+            "line": 8,
+            "column": 62
+          }
+        },
+        "5": {
+          "start": {
+            "line": 9,
+            "column": 22
+          },
+          "end": {
+            "line": 9,
+            "column": 26
+          }
+        },
+        "6": {
+          "start": {
+            "line": 11,
+            "column": 4
+          },
+          "end": {
+            "line": 11,
+            "column": 70
+          }
+        },
+        "7": {
+          "start": {
+            "line": 13,
+            "column": 4
+          },
+          "end": {
+            "line": 13,
+            "column": 34
+          }
+        },
+        "8": {
+          "start": {
+            "line": 14,
+            "column": 4
+          },
+          "end": {
+            "line": 14,
+            "column": 25
+          }
+        },
+        "9": {
+          "start": {
+            "line": 18,
+            "column": 0
+          },
+          "end": {
+            "line": 18,
+            "column": 6
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "run",
+          "decl": {
+            "start": {
+              "line": 6,
+              "column": 15
+            },
+            "end": {
+              "line": 6,
+              "column": 18
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 18
+            },
+            "end": {
+              "line": 16,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "f": {
+        "0": 0
+      },
+      "b": {}
+    },
     "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts": {
       "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/utils/wait.ts",
       "statementMap": {
@@ -1886,153 +2033,6 @@
           0
         ]
       }
-    },
-    "/home/runner/work/github-action-working-directory/github-action-working-directory/src/commit.ts": {
-      "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/commit.ts",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 2,
-            "column": 0
-          },
-          "end": {
-            "line": 2,
-            "column": 38
-          }
-        },
-        "1": {
-          "start": {
-            "line": 3,
-            "column": 0
-          },
-          "end": {
-            "line": 3,
-            "column": 48
-          }
-        },
-        "2": {
-          "start": {
-            "line": 4,
-            "column": 0
-          },
-          "end": {
-            "line": 4,
-            "column": 54
-          }
-        },
-        "3": {
-          "start": {
-            "line": 7,
-            "column": 2
-          },
-          "end": {
-            "line": 15,
-            "column": null
-          }
-        },
-        "4": {
-          "start": {
-            "line": 8,
-            "column": 50
-          },
-          "end": {
-            "line": 8,
-            "column": 62
-          }
-        },
-        "5": {
-          "start": {
-            "line": 9,
-            "column": 22
-          },
-          "end": {
-            "line": 9,
-            "column": 26
-          }
-        },
-        "6": {
-          "start": {
-            "line": 11,
-            "column": 4
-          },
-          "end": {
-            "line": 11,
-            "column": 70
-          }
-        },
-        "7": {
-          "start": {
-            "line": 13,
-            "column": 4
-          },
-          "end": {
-            "line": 13,
-            "column": 34
-          }
-        },
-        "8": {
-          "start": {
-            "line": 14,
-            "column": 4
-          },
-          "end": {
-            "line": 14,
-            "column": 25
-          }
-        },
-        "9": {
-          "start": {
-            "line": 18,
-            "column": 0
-          },
-          "end": {
-            "line": 18,
-            "column": 6
-          }
-        }
-      },
-      "fnMap": {
-        "0": {
-          "name": "run",
-          "decl": {
-            "start": {
-              "line": 6,
-              "column": 15
-            },
-            "end": {
-              "line": 6,
-              "column": 18
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 6,
-              "column": 18
-            },
-            "end": {
-              "line": 16,
-              "column": null
-            }
-          }
-        }
-      },
-      "branchMap": {},
-      "s": {
-        "0": 0,
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "f": {
-        "0": 0
-      },
-      "b": {}
     },
     "/home/runner/work/github-action-working-directory/github-action-working-directory/src/clone.ts": {
       "path": "/home/runner/work/github-action-working-directory/github-action-working-directory/src/clone.ts",

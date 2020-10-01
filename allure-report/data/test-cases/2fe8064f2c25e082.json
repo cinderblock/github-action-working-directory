@@ -1,12 +1,12 @@
 {
-  "uid" : "71ea4fece799791a",
-  "name" : "clone can be called for non-existent branch",
-  "fullName" : "utils/clone clone can be called for non-existent branch",
-  "historyId" : "utils/clone clone can be called for non-existent branch",
+  "uid" : "2fe8064f2c25e082",
+  "name" : "clone can be called for existing branch",
+  "fullName" : "utils/clone clone can be called for existing branch",
+  "historyId" : "utils/clone clone can be called for existing branch",
   "time" : {
-    "start" : 1595136967335,
-    "stop" : 1595136967380,
-    "duration" : 45
+    "start" : 1601573372127,
+    "stop" : 1601573372183,
+    "duration" : 56
   },
   "status" : "passed",
   "flaky" : false,
@@ -50,6 +50,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "71ea4fece799791a.json",
+  "source" : "2fe8064f2c25e082.json",
   "parameterValues" : [ ]
 }

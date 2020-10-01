@@ -1,12 +1,12 @@
 {
-  "uid" : "3fdfd8118c88ba4",
+  "uid" : "a53843f5b5f6a203",
   "name" : "clone is a function",
   "fullName" : "utils/clone clone is a function",
   "historyId" : "utils/clone clone is a function",
   "time" : {
-    "start" : 1595136966890,
-    "stop" : 1595136966897,
-    "duration" : 7
+    "start" : 1601573371608,
+    "stop" : 1601573371610,
+    "duration" : 2
   },
   "status" : "passed",
   "flaky" : false,
@@ -48,6 +48,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3fdfd8118c88ba4.json",
+  "source" : "a53843f5b5f6a203.json",
   "parameterValues" : [ ]
 }

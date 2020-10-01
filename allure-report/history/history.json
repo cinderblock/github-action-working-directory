@@ -9,11 +9,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a318ca54b9fe818",
+      "uid" : "33b4a0557be625fc",
       "status" : "passed",
       "time" : {
-        "start" : 1595136965825,
-        "stop" : 1595136965829,
+        "start" : 1601573370444,
+        "stop" : 1601573370448,
         "duration" : 4
       }
     } ]
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "55bc61ec0c81fd8d",
+      "uid" : "330e2f214fa7a415",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir ''\u001B[39m\n\u001B[31m\"\u001B[39m",
       "time" : {
-        "start" : 1595136965833,
-        "stop" : 1595136965900,
-        "duration" : 67
+        "start" : 1601573370466,
+        "stop" : 1601573370544,
+        "duration" : 78
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7030201bc982690a",
+      "uid" : "2fe8064f2c25e082",
       "status" : "passed",
       "time" : {
-        "start" : 1595136967381,
-        "stop" : 1595136967422,
-        "duration" : 41
+        "start" : 1601573372127,
+        "stop" : 1601573372183,
+        "duration" : 56
       }
     } ]
   },
@@ -67,11 +67,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4c30430d7b06bfcc",
+      "uid" : "e7071d0e89f04c9e",
       "status" : "passed",
       "time" : {
-        "start" : 1595136965822,
-        "stop" : 1595136965825,
+        "start" : 1601573370441,
+        "stop" : 1601573370444,
         "duration" : 3
       }
     } ]
@@ -86,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eae35ba1c04a7742",
+      "uid" : "20e939a0903be6c5",
       "status" : "passed",
       "time" : {
-        "start" : 1595136965820,
-        "stop" : 1595136965822,
-        "duration" : 2
+        "start" : 1601573370438,
+        "stop" : 1601573370441,
+        "duration" : 3
       }
     } ]
   },
@@ -105,11 +105,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45de791b98952023",
+      "uid" : "d5975839b70cebed",
       "status" : "passed",
       "time" : {
-        "start" : 1595136967333,
-        "stop" : 1595136967335,
+        "start" : 1601573372066,
+        "stop" : 1601573372068,
         "duration" : 2
       }
     } ]
@@ -124,12 +124,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "71ea4fece799791a",
+      "uid" : "bf695e5e7cd2248f",
       "status" : "passed",
       "time" : {
-        "start" : 1595136967335,
-        "stop" : 1595136967380,
-        "duration" : 45
+        "start" : 1601573372069,
+        "stop" : 1601573372126,
+        "duration" : 57
       }
     } ]
   },
@@ -143,32 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8db929e6f1cb32ad",
+      "uid" : "953ebe4e7d9e26ae",
       "status" : "passed",
       "time" : {
-        "start" : 1595136967795,
-        "stop" : 1595136967797,
+        "start" : 1601573372545,
+        "stop" : 1601573372547,
         "duration" : 2
-      }
-    } ]
-  },
-  "utils/clone works with existing branch" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "22c1279de895f2cf",
-      "status" : "failed",
-      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
-      "time" : {
-        "start" : 1595136966948,
-        "stop" : 1595136966991,
-        "duration" : 43
       }
     } ]
   },
@@ -182,12 +162,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b6505199fb45738c",
+      "uid" : "e3a7d52a7556f9f2",
       "status" : "passed",
       "time" : {
-        "start" : 1595136965832,
-        "stop" : 1595136965833,
-        "duration" : 1
+        "start" : 1601573370453,
+        "stop" : 1601573370466,
+        "duration" : 13
+      }
+    } ]
+  },
+  "utils/clone works with existing branch" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84a91b2b1971ac8a",
+      "status" : "failed",
+      "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
+      "time" : {
+        "start" : 1601573371674,
+        "stop" : 1601573371727,
+        "duration" : 53
       }
     } ]
   },
@@ -201,11 +201,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fd2b255a5a2cd056",
+      "uid" : "e8b9322707cad705",
       "status" : "passed",
       "time" : {
-        "start" : 1595136965829,
-        "stop" : 1595136965830,
+        "start" : 1601573370449,
+        "stop" : 1601573370450,
         "duration" : 1
       }
     } ]
@@ -220,12 +220,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c13bcc4b92559b60",
+      "uid" : "e85f1cea4f361762",
       "status" : "passed",
       "time" : {
-        "start" : 1595136968052,
-        "stop" : 1595136968055,
-        "duration" : 3
+        "start" : 1601573372817,
+        "stop" : 1601573372819,
+        "duration" : 2
       }
     } ]
   },
@@ -239,13 +239,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d8852137509febaf",
+      "uid" : "ffdeca5f8be19ec4",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
       "time" : {
-        "start" : 1595136966898,
-        "stop" : 1595136966947,
-        "duration" : 49
+        "start" : 1601573371611,
+        "stop" : 1601573371674,
+        "duration" : 63
       }
     } ]
   },
@@ -259,12 +259,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b56df585dcf69a0d",
+      "uid" : "5c225e87a8a6595a",
       "status" : "passed",
       "time" : {
-        "start" : 1595136965830,
-        "stop" : 1595136965832,
-        "duration" : 2
+        "start" : 1601573370451,
+        "stop" : 1601573370452,
+        "duration" : 1
       }
     } ]
   }
