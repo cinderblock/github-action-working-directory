@@ -2,51 +2,51 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "action.yml exists",
-    "uid" : "a23658dbb4cabbce",
+    "uid" : "ed28c5489f5307b2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469609413,
-      "stop" : 1602469609415,
-      "duration" : 2
+      "start" : 1602469625919,
+      "stop" : 1602469625922,
+      "duration" : 3
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can read action.yml",
-    "uid" : "b3d36da30965559",
+    "uid" : "17d26d5f716fc712",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469609416,
-      "stop" : 1602469609418,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "action.yml has valid yaml",
-    "uid" : "4fecb1834e997458",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1602469609419,
-      "stop" : 1602469609423,
+      "start" : 1602469625922,
+      "stop" : 1602469625926,
       "duration" : 4
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "action.yml has correct runs.using",
-    "uid" : "7b258c1a7697baaf",
+    "name" : "action.yml has valid yaml",
+    "uid" : "33d8bb361bdb15af",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469609423,
-      "stop" : 1602469609425,
+      "start" : 1602469625926,
+      "stop" : 1602469625931,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "action.yml has correct runs.using",
+    "uid" : "105e5eeff886bb26",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602469625931,
+      "stop" : 1602469625933,
       "duration" : 2
     },
     "flaky" : false,
@@ -54,77 +54,77 @@
     "parameters" : [ ]
   }, {
     "name" : "action.yml has runs.main and runs.post",
-    "uid" : "b591f516c76bc0dc",
+    "uid" : "13bd19b1a8c2becb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469609425,
-      "stop" : 1602469609426,
-      "duration" : 1
+      "start" : 1602469625933,
+      "stop" : 1602469625935,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "runs.main and runs.post files exist",
-    "uid" : "783a9f5fe5f0c2c1",
+    "uid" : "6ce3cea4a92902c4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469609427,
-      "stop" : 1602469609428,
-      "duration" : 1
+      "start" : 1602469625935,
+      "stop" : 1602469625938,
+      "duration" : 3
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can run runs.main and runs.post end-to-end",
-    "uid" : "5e4c5aff793be65a",
+    "uid" : "aa3d7c3820ec095e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1602469609428,
-      "stop" : 1602469609507,
-      "duration" : 79
+      "start" : 1602469625939,
+      "stop" : 1602469626026,
+      "duration" : 87
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "works with non-existent branch",
-    "uid" : "5478b81b760244f",
+    "uid" : "fea2649fe3dd221f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1602469610592,
-      "stop" : 1602469610663,
-      "duration" : 71
+      "start" : 1602469627175,
+      "stop" : 1602469627238,
+      "duration" : 63
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "works with existing branch",
-    "uid" : "3a218beb24ef67cc",
+    "uid" : "67546d241855733c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1602469610664,
-      "stop" : 1602469610718,
-      "duration" : 54
+      "start" : 1602469627238,
+      "stop" : 1602469627299,
+      "duration" : 61
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "clone is a function",
-    "uid" : "9756655cce640e19",
+    "uid" : "3cabe9a54c2c792d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469611073,
-      "stop" : 1602469611075,
+      "start" : 1602469627686,
+      "stop" : 1602469627688,
       "duration" : 2
     },
     "flaky" : false,
@@ -132,52 +132,52 @@
     "parameters" : [ ]
   }, {
     "name" : "clone can be called for non-existent branch",
-    "uid" : "48451b995863bee2",
+    "uid" : "4082fbb5d343f3fa",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469611075,
-      "stop" : 1602469611131,
-      "duration" : 56
+      "start" : 1602469627689,
+      "stop" : 1602469627750,
+      "duration" : 61
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "clone can be called for existing branch",
-    "uid" : "7269160c1e39ad2e",
+    "uid" : "4ac08919cd2a112b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469611131,
-      "stop" : 1602469611183,
-      "duration" : 52
+      "start" : 1602469627751,
+      "stop" : 1602469627801,
+      "duration" : 50
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "commitAndPush is a function",
-    "uid" : "e3a5f81b61c2f73c",
+    "uid" : "b69dc0184fdc4d50",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469611553,
-      "stop" : 1602469611555,
-      "duration" : 2
+      "start" : 1602469628217,
+      "stop" : 1602469628221,
+      "duration" : 4
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "7c5a924e152552ed",
+    "uid" : "fb9524bb1b382af7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602469611836,
-      "stop" : 1602469611838,
-      "duration" : 2
+      "start" : 1602469628525,
+      "stop" : 1602469628528,
+      "duration" : 3
     },
     "flaky" : false,
     "newFailed" : false,
