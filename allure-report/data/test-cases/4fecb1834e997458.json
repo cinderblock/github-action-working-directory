@@ -1,0 +1,182 @@
+{
+  "uid" : "4fecb1834e997458",
+  "name" : "action.yml has valid yaml",
+  "fullName" : "GitHub Actions Test action.yml has valid yaml",
+  "historyId" : "GitHub Actions Test action.yml has valid yaml",
+  "time" : {
+    "start" : 1602469609419,
+    "stop" : 1602469609423,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6bfb0fb17d1d83c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584320056198,
+        "stop" : 1584320056202,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "ff36677ad9ed79a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581937166110,
+        "stop" : 1581937166114,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "6063b52381dd0da1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935656200,
+        "stop" : 1581935656202,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "86a76d995850d62e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581935258885,
+        "stop" : 1581935258889,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "bd6ef2609124e7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581934563278,
+        "stop" : 1581934563282,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "e2dceb5516f5dc06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581933092275,
+        "stop" : 1581933092279,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "54248ef11b406b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581932812775,
+        "stop" : 1581932812778,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "259f5c098bebe1de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581927491214,
+        "stop" : 1581927491218,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "a06739b122677de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580863916497,
+        "stop" : 1580863916500,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "d8e2f3ee5495d27e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580858068145,
+        "stop" : 1580858068149,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "9f7648fa94a8f2ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580856134803,
+        "stop" : 1580856134807,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "10d86a9b420bec79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580855905885,
+        "stop" : 1580855905888,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "2cbd8946e5c904a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584320056198,
+          "stop" : 1584320056202,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "dfb41f2d7d4c2eef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581937166110,
+          "stop" : 1581937166114,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "82b6f16e5a6fdcb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581935656200,
+          "stop" : 1581935656202,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "3c29aa146480b659",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581935258885,
+          "stop" : 1581935258889,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "243616ff46d2a80b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581934563278,
+          "stop" : 1581934563282,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4fecb1834e997458.json",
+  "parameterValues" : [ ]
+}

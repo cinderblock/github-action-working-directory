@@ -1,0 +1,33 @@
+{
+  "uid" : "955d7e3197a858d1",
+  "name" : "action.yml has correct runs.using",
+  "fullName" : "GitHub Actions Test action.yml has correct runs.using",
+  "historyId" : "GitHub Actions Test action.yml has correct runs.using",
+  "time" : {
+    "start" : 1580863916500,
+    "stop" : 1580863916501,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "GitHub Actions Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "955d7e3197a858d1.json",
+  "parameterValues" : [ ]
+}
