@@ -1,0 +1,33 @@
+{
+  "uid" : "2b0b53a9b37d5576",
+  "name" : "commitAndPush is a function",
+  "fullName" : "utils/commitAndPush commitAndPush is a function",
+  "historyId" : "utils/commitAndPush commitAndPush is a function",
+  "time" : {
+    "start" : 1581934565200,
+    "stop" : 1581934565202,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "utils/commitAndPush"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b0b53a9b37d5576.json",
+  "parameterValues" : [ ]
+}

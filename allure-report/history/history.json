@@ -9,12 +9,12 @@
       "total" : 12
     },
     "items" : [ {
-      "uid" : "33d8bb361bdb15af",
+      "uid" : "2ce218071260421d",
       "status" : "passed",
       "time" : {
-        "start" : 1602469625926,
-        "stop" : 1602469625931,
-        "duration" : 5
+        "start" : 1602469637669,
+        "stop" : 1602469637673,
+        "duration" : 4
       }
     }, {
       "uid" : "2cbd8946e5c904a6",
@@ -60,12 +60,12 @@
       "total" : 9
     },
     "items" : [ {
-      "uid" : "4ac08919cd2a112b",
+      "uid" : "a68f0fb1e7172922",
       "status" : "passed",
       "time" : {
-        "start" : 1602469627751,
-        "stop" : 1602469627801,
-        "duration" : 50
+        "start" : 1602469639321,
+        "stop" : 1602469639370,
+        "duration" : 49
       }
     }, {
       "uid" : "30572c6c2aef24cb",
@@ -111,13 +111,13 @@
       "total" : 12
     },
     "items" : [ {
-      "uid" : "aa3d7c3820ec095e",
+      "uid" : "e3ffaee3275fe849",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\"\u001B[39m\nReceived: \u001B[31m\"stdout > ::debug::Reading inputs\u001B[39m\n\u001B[31mstdout > Cloning repo into dir()\u001B[39m\n\u001B[31mstderr > fatal: could not create work tree dir '': No such file or directory\u001B[39m\n\u001B[31mstdout > Branch test-dummy missing. Creating an orphan\u001B[39m\n\u001B[31mstdout > ::error::ENOENT: no such file or directory, mkdir ''\u001B[39m\n\u001B[31m\"\u001B[39m",
       "time" : {
-        "start" : 1602469625939,
-        "stop" : 1602469626026,
-        "duration" : 87
+        "start" : 1602469637678,
+        "stop" : 1602469637748,
+        "duration" : 70
       }
     }, {
       "uid" : "c22f19d17958f721",
@@ -167,12 +167,12 @@
       "total" : 12
     },
     "items" : [ {
-      "uid" : "17d26d5f716fc712",
+      "uid" : "3cd1a21c8f371549",
       "status" : "passed",
       "time" : {
-        "start" : 1602469625922,
-        "stop" : 1602469625926,
-        "duration" : 4
+        "start" : 1602469637665,
+        "stop" : 1602469637668,
+        "duration" : 3
       }
     }, {
       "uid" : "1752f77df2209c03",
@@ -218,12 +218,12 @@
       "total" : 12
     },
     "items" : [ {
-      "uid" : "ed28c5489f5307b2",
+      "uid" : "7289d1b64a7b0a49",
       "status" : "passed",
       "time" : {
-        "start" : 1602469625919,
-        "stop" : 1602469625922,
-        "duration" : 3
+        "start" : 1602469637663,
+        "stop" : 1602469637665,
+        "duration" : 2
       }
     }, {
       "uid" : "511fd40deabfe3f8",
@@ -269,11 +269,11 @@
       "total" : 9
     },
     "items" : [ {
-      "uid" : "3cabe9a54c2c792d",
+      "uid" : "4b44e37f2adac6fc",
       "status" : "passed",
       "time" : {
-        "start" : 1602469627686,
-        "stop" : 1602469627688,
+        "start" : 1602469639264,
+        "stop" : 1602469639266,
         "duration" : 2
       }
     }, {
@@ -320,12 +320,12 @@
       "total" : 9
     },
     "items" : [ {
-      "uid" : "4082fbb5d343f3fa",
+      "uid" : "26d0f5aa75ed56d7",
       "status" : "passed",
       "time" : {
-        "start" : 1602469627689,
-        "stop" : 1602469627750,
-        "duration" : 61
+        "start" : 1602469639266,
+        "stop" : 1602469639321,
+        "duration" : 55
       }
     }, {
       "uid" : "fb9c7d5f04a46b9d",
@@ -371,12 +371,12 @@
       "total" : 12
     },
     "items" : [ {
-      "uid" : "b69dc0184fdc4d50",
+      "uid" : "5d464a39a56838d5",
       "status" : "passed",
       "time" : {
-        "start" : 1602469628217,
-        "stop" : 1602469628221,
-        "duration" : 4
+        "start" : 1602469639749,
+        "stop" : 1602469639752,
+        "duration" : 3
       }
     }, {
       "uid" : "9ace130ceba762ee",
@@ -422,13 +422,13 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "67546d241855733c",
+      "uid" : "86dfcaebbe90ef1b",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
       "time" : {
-        "start" : 1602469627238,
-        "stop" : 1602469627299,
-        "duration" : 61
+        "start" : 1602469638870,
+        "stop" : 1602469638925,
+        "duration" : 55
       }
     }, {
       "uid" : "20e813575c474450",
@@ -478,12 +478,12 @@
       "total" : 12
     },
     "items" : [ {
-      "uid" : "6ce3cea4a92902c4",
+      "uid" : "ab2458da525b1744",
       "status" : "passed",
       "time" : {
-        "start" : 1602469625935,
-        "stop" : 1602469625938,
-        "duration" : 3
+        "start" : 1602469637676,
+        "stop" : 1602469637678,
+        "duration" : 2
       }
     }, {
       "uid" : "d14344512b8f317c",
@@ -529,12 +529,12 @@
       "total" : 12
     },
     "items" : [ {
-      "uid" : "105e5eeff886bb26",
+      "uid" : "a91fd9fbdadaa2bb",
       "status" : "passed",
       "time" : {
-        "start" : 1602469625931,
-        "stop" : 1602469625933,
-        "duration" : 2
+        "start" : 1602469637673,
+        "stop" : 1602469637674,
+        "duration" : 1
       }
     }, {
       "uid" : "5a49791464c3c4cf",
@@ -580,12 +580,12 @@
       "total" : 12
     },
     "items" : [ {
-      "uid" : "fb9524bb1b382af7",
+      "uid" : "47b857c4b140f9ad",
       "status" : "passed",
       "time" : {
-        "start" : 1602469628525,
-        "stop" : 1602469628528,
-        "duration" : 3
+        "start" : 1602469640026,
+        "stop" : 1602469640028,
+        "duration" : 2
       }
     }, {
       "uid" : "1b500589be854d3c",
@@ -631,13 +631,13 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "fea2649fe3dd221f",
+      "uid" : "ccb9319f001530fb",
       "status" : "failed",
       "statusDetails" : "Error: \u001B[2mexpect(\u001B[22m\u001B[31mreceived\u001B[39m\u001B[2m).\u001B[22mtoBe\u001B[2m(\u001B[22m\u001B[32mexpected\u001B[39m\u001B[2m) // Object.is equality\u001B[22m\n\nExpected: \u001B[32m\"\u001B[7mflushed ou\u001B[27mt\"\u001B[39m\nReceived: \u001B[31m\"\u001B[7mthis tes\u001B[27mt\"\u001B[39m",
       "time" : {
-        "start" : 1602469627175,
-        "stop" : 1602469627238,
-        "duration" : 63
+        "start" : 1602469638800,
+        "stop" : 1602469638869,
+        "duration" : 69
       }
     }, {
       "uid" : "653895a602ae6b60",
@@ -687,11 +687,11 @@
       "total" : 12
     },
     "items" : [ {
-      "uid" : "13bd19b1a8c2becb",
+      "uid" : "920b9aaf0e7120c5",
       "status" : "passed",
       "time" : {
-        "start" : 1602469625933,
-        "stop" : 1602469625935,
+        "start" : 1602469637674,
+        "stop" : 1602469637676,
         "duration" : 2
       }
     }, {
