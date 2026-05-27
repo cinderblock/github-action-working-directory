@@ -1,6 +1,6 @@
 import * as core from '@actions/core';
 
-type Inputs = {
+interface Inputs {
   branch: string;
   repo: string;
   dir: string;
@@ -8,36 +8,21 @@ type Inputs = {
   name: string;
   email: string;
   unchanged: string;
-};
+}
 
 export function readInputs(): Inputs {
   core.debug('Reading inputs');
-
   const branch = core.getInput('branch', { required: true });
-
   const repo =
     core.getInput('repo') ||
     `https://x-access-token:${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}`;
-
-  const dir = core.getInput('working-directory');
-
-  const message = core.getInput('commit-message');
-
-  const name = core.getInput('commit-name');
-
-  const email = core.getInput('commit-email');
-
-  const unchanged = core.getInput('commit-unchanged');
-
-  const inputs: Inputs = {
+  return {
     branch,
     repo,
-    dir,
-    message,
-    name,
-    email,
-    unchanged,
+    dir: core.getInput('working-directory'),
+    message: core.getInput('commit-message'),
+    name: core.getInput('commit-name'),
+    email: core.getInput('commit-email'),
+    unchanged: core.getInput('commit-unchanged'),
   };
-
-  return inputs;
 }

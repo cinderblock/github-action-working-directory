@@ -1,21 +1,16 @@
-// Other packages https://github.com/actions/toolkit/blob/master/README.md#packages
 import * as core from '@actions/core';
-import { readInputs } from './utils/readInputs';
-import { clone } from './utils/clone';
+import { readInputs } from './utils/readInputs.js';
+import { clone } from './utils/clone.js';
 
 async function run(): Promise<void> {
   try {
     const { branch, repo: repoUrl, dir } = readInputs();
-
-    const debug = console.log.bind(0);
-
-    await clone({ branch, repoUrl, dir, debug });
-
-    core.debug(`Cloned`);
-  } catch (error) {
-    core.setFailed(error.message);
+    await clone({ branch, repoUrl, dir });
+    core.debug('Cloned');
+  } catch (err) {
+    core.setFailed(err instanceof Error ? err.message : String(err));
     process.exitCode = 1;
   }
 }
 
-run();
+void run();

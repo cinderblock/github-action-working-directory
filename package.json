@@ -1,72 +1,40 @@
 {
   "name": "github-action-working-directory",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "GitHub Action that clones a repo into a working directory at step start and commits any changes back at step end (via main/post hooks).",
+  "private": true,
+  "type": "module",
   "author": "Cameron Tacklind <cameron@tacklind.com>",
   "license": "MIT",
-  "private": true,
-  "description": "GitHub Action that clones a repo into a working directory, lets you modify it, and then commits the changes back to the repository",
   "keywords": [
-    "actions",
-    "node",
+    "github-actions",
     "git",
     "clone",
     "commit",
-    "persistent",
-    "storage",
-    "cache",
-    "push"
+    "working-directory"
   ],
-  "scripts": {
-    "build": "ncc build src/clone.ts --source-map --out dist/clone && ncc build src/commit.ts --source-map --out dist/commit && cp src/action.yml dist/",
-    "lint": "eslint \"**/*\"",
-    "format": "prettier \"**/*\"",
-    "spellcheck": "cspell \"**/*\"",
-    "format-check": "npm run format -- --check",
-    "clean": "rm -rf dist public allure-results",
-    "test": "jest",
-    "allure": "allure --verbose generate ./allure-results --clean --report-dir public/allure-report",
-    "finalize-coverage-reports": "npm run allure && npm run make-readme-screenshots",
-    "make-readme-screenshots": "ts-node make-readme-screenshots",
-    "prepare": "npm run build",
-    "all": "npm install && npm run format-check && npm run lint && npm run spellcheck && npm test && npm run finalize-coverage-reports"
-  },
   "engines": {
-    "yarn": "use npm..."
+    "bun": ">=1.2"
+  },
+  "scripts": {
+    "build:clone": "bun build src/clone.ts --target=node --format=cjs --outfile=dist/clone/index.js",
+    "build:commit": "bun build src/commit.ts --target=node --format=cjs --outfile=dist/commit/index.js",
+    "build": "bun run build:clone && bun run build:commit",
+    "lint": "tsc --noEmit",
+    "test": "bun test src",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cinderblock/github-action-working-directory.git"
   },
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@actions/io": "^1.0.2",
-    "@types/js-yaml": "^3.12.2"
+    "@actions/core": "^1.11.1"
   },
   "devDependencies": {
-    "@types/jest": "^25.1.1",
-    "@types/node": "^13.7.0",
-    "@types/puppeteer": "^2.0.0",
-    "@types/rmfr": "^2.0.0",
-    "@typescript-eslint/parser": "^2.19.0",
-    "@zeit/ncc": "^0.21.0",
-    "allure-commandline": "^2.13.0",
-    "allure-jasmine": "^2.0.0-beta.6",
-    "allure-js-commons": "^2.0.0-beta.6",
-    "cspell": "^4.0.46",
-    "eslint": "^6.8.0",
-    "eslint-plugin-github": "^3.4.0",
-    "eslint-plugin-jest": "^23.6.0",
-    "jest": "^25.1.0",
-    "jest-circus": "^25.1.0",
-    "jest-github-reporter": "^0.3.4",
-    "jest-html-reporters": "^1.2.1",
-    "jest-stare": "^1.26.0",
-    "js-yaml": "^3.13.1",
-    "prettier": "^1.19.1",
-    "puppeteer": "^2.1.1",
-    "rmfr": "^2.0.0",
-    "ts-jest": "^25.2.0",
-    "ts-node": "^8.6.2",
-    "typescript": "^3.7.5"
+    "@types/bun": "^1.2.0",
+    "@types/node": "^22.19.19",
+    "prettier": "^3.5.0",
+    "typescript": "^6.0.3"
   }
 }

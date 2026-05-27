@@ -1,43 +1,31 @@
 import * as core from '@actions/core';
-import { spawn } from './spawn';
-import { promises } from 'fs';
+import { mkdir } from 'node:fs/promises';
+import { spawn } from './spawn.js';
 
-const { mkdir } = promises;
-
-type Options = {
+interface Options {
   repoUrl: string;
   dir: string;
   branch: string;
   debug?: typeof core.debug;
-};
+}
 
+/** Try to clone the repo+branch. If the branch doesn't exist yet on the
+ *  remote, initialize an orphan branch in the working directory instead. */
 export async function clone({
   repoUrl,
   dir,
   branch,
-  debug,
+  debug = core.debug,
 }: Options): Promise<void> {
-  const dbg = debug ?? core.debug;
-
-  dbg(`Cloning repo into dir(${dir})`);
-
-  await spawn(
-    'git',
-    'clone',
-    '--single-branch',
-    '--branch',
-    branch,
-    '--',
-    repoUrl,
-    dir,
-  ).catch(async () => {
-    dbg(`Branch ${branch} missing. Creating an orphan`);
-
+  debug(`Cloning repo into dir(${dir})`);
+  try {
+    await spawn('git', 'clone', '--single-branch', '--branch', branch, '--', repoUrl, dir);
+  } catch {
+    debug(`Branch ${branch} missing. Creating an orphan.`);
     await mkdir(dir, { recursive: true });
     await spawn('git', { cwd: dir }, 'init');
     await spawn('git', { cwd: dir }, 'remote', 'add', 'origin', repoUrl);
     await spawn('git', { cwd: dir }, 'checkout', '--orphan', branch);
-  });
-
-  dbg(`Branch checked out`);
+  }
+  debug('Branch checked out');
 }

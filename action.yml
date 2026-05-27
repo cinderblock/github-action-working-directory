@@ -1,0 +1,37 @@
+# https://docs.github.com/en/actions/sharing-automations/creating-actions/metadata-syntax-for-github-actions
+name: Working Directory
+description: Clone a repo into a working directory, modify it during the step, and commit changes back at the end.
+author: Cameron Tacklind <cameron@tacklind.com>
+
+inputs:
+  branch:
+    required: true
+    description: Which branch to work with.
+  repo:
+    required: false
+    description: Which repository to work with. Defaults to the current repository.
+    default: ''
+  working-directory:
+    required: false
+    description: Which folder to work in.
+  commit-message:
+    required: false
+    description: Commit message to use at the end.
+    default: GitHub Actions
+  commit-name:
+    required: false
+    description: user.name for the commit.
+    default: GitHub Actions
+  commit-email:
+    required: false
+    description: user.email for the commit.
+    default: actions@github.com
+  commit-unchanged:
+    required: false
+    description: If non-empty, create a commit even when no files changed.
+    default: ''
+
+runs:
+  using: 'node20'
+  main: dist/clone/index.js
+  post: dist/commit/index.js

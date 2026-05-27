@@ -1,53 +1,59 @@
 import * as core from '@actions/core';
-import { spawn } from './spawn';
+import { spawn, exec } from './spawn.js';
 
-type Options = {
+interface Options {
   branch: string;
   dir: string;
   message: string;
   name: string;
   email: string;
-
-  // TODO: push to url, not named remote
-  // repoUrl: string;
-
+  /** If true, push an empty commit when nothing changed. Default: skip both
+   *  commit and push when there are no staged changes. */
+  commitUnchanged?: boolean;
   debug?: typeof core.debug;
-};
+}
 
-/**
- * Commit and Push.
- *
- * @param {Options} opts - Commit options.
- */
 export async function commitAndPush({
   branch,
   dir,
   message,
   name,
   email,
-  debug,
+  commitUnchanged = false,
+  debug = core.debug,
 }: Options): Promise<void> {
-  const dbg = debug ?? core.debug;
-
-  dbg('Adding all files');
-
+  debug('Adding all files');
   await spawn('git', { cwd: dir }, 'add', '.');
 
-  dbg('Committing');
+  if (!commitUnchanged && !(await hasStagedChanges(dir))) {
+    debug('No staged changes — skipping commit/push.');
+    return;
+  }
 
-  await spawn(
-    'git',
-    { cwd: dir },
+  debug('Committing');
+  const commitArgs: string[] = [
     '-c',
-    `user.name='${name}'`,
+    `user.name=${name}`,
     '-c',
-    `user.email='${email}'`,
+    `user.email=${email}`,
     'commit',
     '--message',
     message,
-  );
+  ];
+  if (commitUnchanged) commitArgs.push('--allow-empty');
+  await spawn('git', { cwd: dir }, ...commitArgs);
 
-  dbg('Pushing');
-
+  debug('Pushing');
   await spawn('git', { cwd: dir }, 'push', 'origin', branch);
+}
+
+/** True iff `git add .` produced any staged differences. */
+async function hasStagedChanges(dir: string): Promise<boolean> {
+  try {
+    // `git diff --cached --quiet` exits 0 when nothing is staged.
+    await exec(`git -C ${JSON.stringify(dir)} diff --cached --quiet`, null);
+    return false;
+  } catch {
+    return true;
+  }
 }
