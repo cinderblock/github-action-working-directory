@@ -32,6 +32,6 @@ inputs:
     default: ''
 
 runs:
-  using: 'node20'
+  using: 'node24'
   main: dist/clone/index.js
   post: dist/commit/index.js

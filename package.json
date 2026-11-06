@@ -17,8 +17,8 @@
     "bun": ">=1.2"
   },
   "scripts": {
-    "build:clone": "bun build src/clone.ts --target=node --format=cjs --outfile=dist/clone/index.js",
-    "build:commit": "bun build src/commit.ts --target=node --format=cjs --outfile=dist/commit/index.js",
+    "build:clone": "bun build src/clone.ts --target=node --format=esm --outfile=dist/clone/index.js",
+    "build:commit": "bun build src/commit.ts --target=node --format=esm --outfile=dist/commit/index.js",
     "build": "bun run build:clone && bun run build:commit",
     "lint": "tsc --noEmit",
     "test": "bun test src",
@@ -29,12 +29,12 @@
     "url": "git+https://github.com/cinderblock/github-action-working-directory.git"
   },
   "dependencies": {
-    "@actions/core": "^1.11.1"
+    "@actions/core": "^3.0.1"
   },
   "devDependencies": {
     "@types/bun": "^1.2.0",
     "@types/node": "^22.19.19",
     "prettier": "^3.5.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   }
 }

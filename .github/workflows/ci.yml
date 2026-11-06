@@ -18,3 +18,17 @@ jobs:
       - run: bun test src
       - name: Build bundles (sanity-check that source compiles)
         run: bun run build
+
+  # Run the committed bundles the way consumers do (main + post). No files
+  # change, so the post step has nothing to commit and pushes nothing.
+  self-test:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./
+        with:
+          branch: master
+          working-directory: self-test-wd
+      - run: test -f self-test-wd/action.yml
