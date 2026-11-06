@@ -17,8 +17,8 @@
     "bun": ">=1.2"
   },
   "scripts": {
-    "build:clone": "bun build src/clone.ts --target=node --format=cjs --outfile=dist/clone/index.js",
-    "build:commit": "bun build src/commit.ts --target=node --format=cjs --outfile=dist/commit/index.js",
+    "build:clone": "bun build src/clone.ts --target=node --format=esm --outfile=dist/clone/index.js",
+    "build:commit": "bun build src/commit.ts --target=node --format=esm --outfile=dist/commit/index.js",
     "build": "bun run build:clone && bun run build:commit",
     "lint": "tsc --noEmit",
     "test": "bun test src",
