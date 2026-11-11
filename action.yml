@@ -9,11 +9,14 @@ inputs:
     description: Which branch to work with.
   repo:
     required: false
-    description: Which repository to work with. Defaults to the current repository.
+    description: >-
+      Repository to work with, as `owner/name` (authenticated with the
+      GITHUB_TOKEN environment variable) or a full git URL. Defaults to the
+      current repository.
     default: ''
   working-directory:
-    required: false
-    description: Which folder to work in.
+    required: true
+    description: Folder to clone into and work in. It's committed and pushed back at the end of the job.
   commit-message:
     required: false
     description: Commit message to use at the end.

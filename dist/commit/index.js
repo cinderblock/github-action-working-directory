@@ -17935,6 +17935,9 @@ var ExitCode;
   ExitCode[ExitCode["Success"] = 0] = "Success";
   ExitCode[ExitCode["Failure"] = 1] = "Failure";
 })(ExitCode || (ExitCode = {}));
+function setSecret(secret) {
+  issueCommand("add-mask", {}, secret);
+}
 function getInput(name, options) {
   const val = process.env[`INPUT_${name.replace(/ /g, "_").toUpperCase()}`] || "";
   if (options && options.required && !val) {
@@ -17957,14 +17960,26 @@ function error(message, properties = {}) {
 }
 
 // src/utils/readInputs.ts
+function repoUrl(repo, env = process.env) {
+  const slug = repo.trim() || env.GITHUB_REPOSITORY || "";
+  if (!/^[\w.-]+\/[\w.-]+$/.test(slug)) {
+    if (!slug)
+      throw new Error("No repo, and GITHUB_REPOSITORY is not set.");
+    return slug;
+  }
+  const server = new URL(env.GITHUB_SERVER_URL || "https://github.com");
+  const token = env.GITHUB_TOKEN;
+  const auth = token ? `x-access-token:${token}@` : "";
+  return `${server.protocol}//${auth}${server.host}/${slug}.git`;
+}
 function readInputs() {
   debug2("Reading inputs");
-  const branch = getInput("branch", { required: true });
-  const repo = getInput("repo") || `https://x-access-token:${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}`;
+  if (process.env.GITHUB_TOKEN)
+    setSecret(process.env.GITHUB_TOKEN);
   return {
-    branch,
-    repo,
-    dir: getInput("working-directory"),
+    branch: getInput("branch", { required: true }),
+    repo: repoUrl(getInput("repo")),
+    dir: getInput("working-directory", { required: true }),
     message: getInput("commit-message"),
     name: getInput("commit-name"),
     email: getInput("commit-email"),
