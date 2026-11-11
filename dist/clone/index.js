@@ -17440,6 +17440,9 @@ function escapeProperty(s) {
   return toCommandValue(s).replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A").replace(/:/g, "%3A").replace(/,/g, "%2C");
 }
 
+// node_modules/@actions/core/lib/core.js
+import * as os3 from "os";
+
 // node_modules/tunnel/lib/tunnel.js
 var net = __require("net");
 var tls = __require("tls");
@@ -17935,6 +17938,9 @@ var ExitCode;
   ExitCode[ExitCode["Success"] = 0] = "Success";
   ExitCode[ExitCode["Failure"] = 1] = "Failure";
 })(ExitCode || (ExitCode = {}));
+function setSecret(secret) {
+  issueCommand("add-mask", {}, secret);
+}
 function getInput(name, options) {
   const val = process.env[`INPUT_${name.replace(/ /g, "_").toUpperCase()}`] || "";
   if (options && options.required && !val) {
@@ -17955,16 +17961,31 @@ function debug2(message) {
 function error(message, properties = {}) {
   issueCommand("error", toCommandProperties(properties), message instanceof Error ? message.toString() : message);
 }
+function info(message) {
+  process.stdout.write(message + os3.EOL);
+}
 
 // src/utils/readInputs.ts
+function repoUrl(repo, env = process.env) {
+  const slug = repo.trim() || env.GITHUB_REPOSITORY || "";
+  if (!/^[\w.-]+\/[\w.-]+$/.test(slug)) {
+    if (!slug)
+      throw new Error("No repo, and GITHUB_REPOSITORY is not set.");
+    return slug;
+  }
+  const server = new URL(env.GITHUB_SERVER_URL || "https://github.com");
+  const token = env.GITHUB_TOKEN;
+  const auth = token ? `x-access-token:${token}@` : "";
+  return `${server.protocol}//${auth}${server.host}/${slug}.git`;
+}
 function readInputs() {
   debug2("Reading inputs");
-  const branch = getInput("branch", { required: true });
-  const repo = getInput("repo") || `https://x-access-token:${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}`;
+  if (process.env.GITHUB_TOKEN)
+    setSecret(process.env.GITHUB_TOKEN);
   return {
-    branch,
-    repo,
-    dir: getInput("working-directory"),
+    branch: getInput("branch", { required: true }),
+    repo: repoUrl(getInput("repo")),
+    dir: getInput("working-directory", { required: true }),
     message: getInput("commit-message"),
     name: getInput("commit-name"),
     email: getInput("commit-email"),
@@ -17973,6 +17994,7 @@ function readInputs() {
 }
 
 // src/utils/clone.ts
+import { execFile } from "node:child_process";
 import { mkdir as mkdir2 } from "node:fs/promises";
 
 // src/utils/spawn.ts
@@ -18002,21 +18024,39 @@ function spawn(command, first, ...args) {
 var execP = promisify(nodeExec);
 
 // src/utils/clone.ts
+function branchExists(repoUrl, branch) {
+  return new Promise((resolve, reject) => {
+    execFile("git", [
+      "ls-remote",
+      "--exit-code",
+      "--heads",
+      "--",
+      repoUrl,
+      `refs/heads/${branch}`
+    ], (err, _stdout, stderr) => {
+      if (!err)
+        return resolve(true);
+      if (err.code === 2)
+        return resolve(false);
+      reject(new Error(`Can't read the remote: ${stderr.trim() || err.message}`));
+    });
+  });
+}
 async function clone({
   repoUrl,
   dir,
   branch,
   debug = debug2
 }) {
-  debug(`Cloning repo into dir(${dir})`);
-  try {
+  if (await branchExists(repoUrl, branch)) {
+    debug(`Cloning ${branch} into ${dir}`);
     await spawn("git", "clone", "--single-branch", "--branch", branch, "--", repoUrl, dir);
-  } catch {
-    debug(`Branch ${branch} missing. Creating an orphan.`);
+  } else {
+    info(`Branch ${branch} doesn't exist yet; starting it empty in ${dir}.`);
     await mkdir2(dir, { recursive: true });
-    await spawn("git", { cwd: dir }, "init");
+    await spawn("git", { cwd: dir }, "init", "--quiet");
     await spawn("git", { cwd: dir }, "remote", "add", "origin", repoUrl);
-    await spawn("git", { cwd: dir }, "checkout", "--orphan", branch);
+    await spawn("git", { cwd: dir }, "checkout", "--quiet", "--orphan", branch);
   }
   debug("Branch checked out");
 }

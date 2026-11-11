@@ -32,3 +32,41 @@ jobs:
           branch: master
           working-directory: self-test-wd
       - run: test -f self-test-wd/action.yml
+
+  # The whole round trip: the main step starts a throwaway branch, the job
+  # writes a file, and the post step commits and pushes it. The next job
+  # checks the branch has the file, then deletes it. Same-repo runs only:
+  # a fork's token can't push.
+  self-test-push:
+    if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./
+        with:
+          branch: self-test/${{ github.run_id }}-${{ github.run_attempt }}
+          working-directory: self-test-push
+          commit-message: 'self-test ${{ github.run_id }}'
+      - run: echo "${{ github.run_id }}" > self-test-push/stamp.txt
+
+  self-test-push-check:
+    needs: self-test-push
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      BRANCH: self-test/${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ env.BRANCH }}
+          path: pushed
+      - name: The post step pushed the file
+        run: test "$(cat pushed/stamp.txt)" = "${{ github.run_id }}"
+      - name: Delete the throwaway branch
+        if: always()
+        run: git -C pushed push origin --delete "$BRANCH" || true
